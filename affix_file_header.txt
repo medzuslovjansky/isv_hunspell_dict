@@ -1,0 +1,13 @@
+SET UTF-8
+
+TRY ABCDEFGHIJKLMNOPQRSTUVWXYčČžŽěĚšŠabcdefghijklmnopqrstuvwxy
+
+KEY žšertyuiop|asdfghjklě|zčcvbnm
+
+FLAG long
+
+REP 4
+REP e ě
+REP ě e
+REP i y
+REP y i
