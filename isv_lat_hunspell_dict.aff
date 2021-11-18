@@ -1,6 +1,6 @@
 SET UTF-8
 
-TRY ABCDEFGHIJKLMNOPQRSTUVWXYčČžŽěĚšŠabcdefghijklmnopqrstuvwxy
+TRY ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz
 
 KEY žšertyuiop|asdfghjklě|zčcvbnm
 
@@ -431,7 +431,7 @@ SFX AY y e .
 SFX AY 0 h .
 SFX AY 0 mi .
 SFX AY ky ši .
-SFX AY ky že .
+SFX AY zky že .
 
 SFX AZ Y 3
 SFX AZ i o .
@@ -956,26 +956,26 @@ SFX BJ ti l .
 SFX BJ ti la .
 SFX BJ ti lo .
 SFX BJ ti li .
-SFX BJ ati žu .
-SFX BJ ati žem .
-SFX BJ ati žeš .
-SFX BJ ati že .
-SFX BJ ati žemo .
-SFX BJ ati žete .
-SFX BJ ati žut .
+SFX BJ zati žu .
+SFX BJ zati žem .
+SFX BJ zati žeš .
+SFX BJ zati že .
+SFX BJ zati žemo .
+SFX BJ zati žete .
+SFX BJ zati žut .
 SFX BJ ti h .
 SFX BJ ti še .
 SFX BJ ti hmo .
 SFX BJ ti ste .
 SFX BJ ti hu .
-SFX BJ ati ži .
-SFX BJ ati žimo .
-SFX BJ ati žite .
-SFX BJ ati žuči .
-SFX BJ ati žuča .
-SFX BJ ati žuče .
-SFX BJ ati žemy .
-SFX BJ ati žema .
+SFX BJ zati ži .
+SFX BJ zati žimo .
+SFX BJ zati žite .
+SFX BJ zati žuči .
+SFX BJ zati žuča .
+SFX BJ zati žuče .
+SFX BJ zati žemy .
+SFX BJ zati žema .
 SFX BJ ti vši .
 SFX BJ ti vša .
 SFX BJ ti vše .
@@ -1289,980 +1289,982 @@ SFX BZ i eju .
 SFX BZ 0 h .
 SFX BZ 0 mi .
 
-SFX Ba Y 4
-SFX Ba a ě .
-SFX Ba a oh .
-SFX Ba a om .
-SFX Ba a oma .
+SFX Ba Y 15
+SFX Ba y o .
+SFX Ba y a .
+SFX Ba y ogo .
+SFX Ba y u .
+SFX Ba y oj .
+SFX Ba y om .
+SFX Ba y omu .
+SFX Ba 0 m .
+SFX Ba y oju .
+SFX Ba y i .
+SFX Ba y e .
+SFX Ba 0 h .
+SFX Ba 0 mi .
+SFX Ba ky ši .
+SFX Ba ky že .
 
-SFX Bb Y 31
-SFX Bb ti l .
-SFX Bb ti la .
-SFX Bb ti lo .
-SFX Bb ti li .
-SFX Bb ti nu .
-SFX Bb ti nem .
-SFX Bb ti neš .
-SFX Bb ti ne .
-SFX Bb ti nemo .
-SFX Bb ti nete .
-SFX Bb ti nut .
-SFX Bb ti h .
-SFX Bb ti še .
-SFX Bb ti hmo .
-SFX Bb ti ste .
-SFX Bb ti hu .
-SFX Bb ti ni .
-SFX Bb ti nimo .
-SFX Bb ti nite .
-SFX Bb ti nuči .
-SFX Bb ti nuča .
-SFX Bb ti nuče .
-SFX Bb ti nemy .
-SFX Bb ti nema .
-SFX Bb ti vši .
-SFX Bb ti vša .
-SFX Bb ti vše .
-SFX Bb ti ny .
-SFX Bb ti na .
-SFX Bb ti no .
-SFX Bb ti nje .
+SFX Bb Y 4
+SFX Bb a ě .
+SFX Bb a oh .
+SFX Bb a om .
+SFX Bb a oma .
 
 SFX Bc Y 31
 SFX Bc ti l .
 SFX Bc ti la .
 SFX Bc ti lo .
 SFX Bc ti li .
-SFX Bc eti omu .
-SFX Bc eti omem .
-SFX Bc eti omeš .
-SFX Bc eti ome .
-SFX Bc eti omemo .
-SFX Bc eti omete .
-SFX Bc eti omut .
+SFX Bc ti nu .
+SFX Bc ti nem .
+SFX Bc ti neš .
+SFX Bc ti ne .
+SFX Bc ti nemo .
+SFX Bc ti nete .
+SFX Bc ti nut .
 SFX Bc ti h .
 SFX Bc ti še .
 SFX Bc ti hmo .
 SFX Bc ti ste .
 SFX Bc ti hu .
-SFX Bc eti omi .
-SFX Bc eti omimo .
-SFX Bc eti omite .
-SFX Bc eti omuči .
-SFX Bc eti omuča .
-SFX Bc eti omuče .
-SFX Bc eti omemy .
-SFX Bc eti omema .
+SFX Bc ti ni .
+SFX Bc ti nimo .
+SFX Bc ti nite .
+SFX Bc ti nuči .
+SFX Bc ti nuča .
+SFX Bc ti nuče .
+SFX Bc ti nemy .
+SFX Bc ti nema .
 SFX Bc ti vši .
 SFX Bc ti vša .
 SFX Bc ti vše .
-SFX Bc i y .
-SFX Bc i a .
-SFX Bc i o .
-SFX Bc i je .
+SFX Bc ti ny .
+SFX Bc ti na .
+SFX Bc ti no .
+SFX Bc ti nje .
 
-SFX Bd Y 36
-SFX Bd ti se l .
-SFX Bd ti se la .
-SFX Bd ti se lo .
-SFX Bd ti se li .
-SFX Bd ti se ju .
-SFX Bd ti se m .
-SFX Bd ti se ješ .
-SFX Bd ti se š .
-SFX Bd ti se je .
-SFX Bd ti se jemo .
-SFX Bd ti se mo .
-SFX Bd ti se jete .
-SFX Bd i se e .
-SFX Bd ti se jut .
-SFX Bd ti se h .
-SFX Bd ti se še .
-SFX Bd ti se hmo .
-SFX Bd ti se ste .
-SFX Bd ti se hu .
-SFX Bd ti se j .
-SFX Bd ti se jmo .
-SFX Bd ti se jte .
-SFX Bd ti se juči .
-SFX Bd ti se juča .
-SFX Bd ti se juče .
-SFX Bd ti se jemy .
-SFX Bd ti se jema .
-SFX Bd ti se my .
-SFX Bd ti se ma .
-SFX Bd ti se vši .
-SFX Bd ti se vša .
-SFX Bd ti se vše .
-SFX Bd ti se ny .
-SFX Bd ti se na .
-SFX Bd ti se no .
-SFX Bd ti se nje .
+SFX Bd Y 31
+SFX Bd ti l .
+SFX Bd ti la .
+SFX Bd ti lo .
+SFX Bd ti li .
+SFX Bd zeti ozmu .
+SFX Bd zeti ozmem .
+SFX Bd zeti ozmeš .
+SFX Bd zeti ozme .
+SFX Bd zeti ozmemo .
+SFX Bd zeti ozmete .
+SFX Bd zeti ozmut .
+SFX Bd ti h .
+SFX Bd ti še .
+SFX Bd ti hmo .
+SFX Bd ti ste .
+SFX Bd ti hu .
+SFX Bd zeti ozmi .
+SFX Bd zeti ozmimo .
+SFX Bd zeti ozmite .
+SFX Bd zeti ozmuči .
+SFX Bd zeti ozmuča .
+SFX Bd zeti ozmuče .
+SFX Bd zeti ozmemy .
+SFX Bd zeti ozmema .
+SFX Bd ti vši .
+SFX Bd ti vša .
+SFX Bd ti vše .
+SFX Bd i y .
+SFX Bd i a .
+SFX Bd i o .
+SFX Bd i je .
 
-SFX Be Y 3
-SFX Be e ih .
-SFX Be e im .
-SFX Be e imi .
+SFX Be Y 36
+SFX Be ti se l .
+SFX Be ti se la .
+SFX Be ti se lo .
+SFX Be ti se li .
+SFX Be ti se ju .
+SFX Be ti se m .
+SFX Be ti se ješ .
+SFX Be ti se š .
+SFX Be ti se je .
+SFX Be ti se jemo .
+SFX Be ti se mo .
+SFX Be ti se jete .
+SFX Be i se e .
+SFX Be ti se jut .
+SFX Be ti se h .
+SFX Be ti se še .
+SFX Be ti se hmo .
+SFX Be ti se ste .
+SFX Be ti se hu .
+SFX Be ti se j .
+SFX Be ti se jmo .
+SFX Be ti se jte .
+SFX Be ti se juči .
+SFX Be ti se juča .
+SFX Be ti se juče .
+SFX Be ti se jemy .
+SFX Be ti se jema .
+SFX Be ti se my .
+SFX Be ti se ma .
+SFX Be ti se vši .
+SFX Be ti se vša .
+SFX Be ti se vše .
+SFX Be ti se ny .
+SFX Be ti se na .
+SFX Be ti se no .
+SFX Be ti se nje .
 
-SFX Bf Y 9
-SFX Bf ot ti .
-SFX Bf ot ta .
-SFX Bf ot tov .
-SFX Bf ot tu .
-SFX Bf ot tah .
-SFX Bf ot tam .
-SFX Bf ot tom .
-SFX Bf ot tami .
-SFX Bf ot te .
+SFX Bf Y 3
+SFX Bf e ih .
+SFX Bf e im .
+SFX Bf e imi .
 
-SFX Bg Y 4
-SFX Bg ok ka .
-SFX Bg ok ku .
-SFX Bg ok kom .
-SFX Bg ok če .
+SFX Bg Y 9
+SFX Bg ot ti .
+SFX Bg ot ta .
+SFX Bg ot tov .
+SFX Bg ot tu .
+SFX Bg ot tah .
+SFX Bg ot tam .
+SFX Bg ot tom .
+SFX Bg ot tami .
+SFX Bg ot te .
 
-SFX Bh Y 7
-SFX Bh o a .
-SFX Bh lo el .
-SFX Bh o u .
-SFX Bh o ah .
-SFX Bh o am .
-SFX Bh 0 m .
-SFX Bh o ami .
+SFX Bh Y 4
+SFX Bh ok ka .
+SFX Bh ok ku .
+SFX Bh ok kom .
+SFX Bh ok če .
 
-SFX Bi Y 15
-SFX Bi y o .
-SFX Bi y a .
-SFX Bi y ogo .
-SFX Bi y u .
-SFX Bi y oj .
-SFX Bi y om .
-SFX Bi y omu .
+SFX Bi Y 7
+SFX Bi o a .
+SFX Bi lo el .
+SFX Bi o u .
+SFX Bi o ah .
+SFX Bi o am .
 SFX Bi 0 m .
-SFX Bi y oju .
-SFX Bi y i .
-SFX Bi y e .
-SFX Bi 0 h .
-SFX Bi 0 mi .
-SFX Bi ky ši .
-SFX Bi ky še .
+SFX Bi o ami .
 
-SFX Bj Y 13
-SFX Bj in no .
-SFX Bj in na .
-SFX Bj in nogo .
-SFX Bj in nu .
-SFX Bj in noj .
-SFX Bj in nom .
-SFX Bj in nomu .
-SFX Bj in nym .
-SFX Bj in noju .
-SFX Bj in ni .
-SFX Bj in ne .
-SFX Bj in nyh .
-SFX Bj in nymi .
+SFX Bj Y 15
+SFX Bj y o .
+SFX Bj y a .
+SFX Bj y ogo .
+SFX Bj y u .
+SFX Bj y oj .
+SFX Bj y om .
+SFX Bj y omu .
+SFX Bj 0 m .
+SFX Bj y oju .
+SFX Bj y i .
+SFX Bj y e .
+SFX Bj 0 h .
+SFX Bj 0 mi .
+SFX Bj ky ši .
+SFX Bj ky še .
 
-SFX Bk Y 9
-SFX Bk ec ce .
-SFX Bk ec ca .
-SFX Bk ec cev .
-SFX Bk ec cu .
-SFX Bk ec cah .
-SFX Bk ec cam .
-SFX Bk ec cem .
-SFX Bk ec cami .
-SFX Bk ec če .
+SFX Bk Y 27
+SFX Bk ti l .
+SFX Bk ti la .
+SFX Bk ti lo .
+SFX Bk ti li .
+SFX Bk ziti žu .
+SFX Bk ti m .
+SFX Bk ti š .
+SFX Bk ti mo .
+SFX Bk i e .
+SFX Bk iti et .
+SFX Bk ti h .
+SFX Bk ti še .
+SFX Bk ti hmo .
+SFX Bk ti ste .
+SFX Bk ti hu .
+SFX Bk iti eči .
+SFX Bk iti eča .
+SFX Bk iti eče .
+SFX Bk ti my .
+SFX Bk ti ma .
+SFX Bk ti vši .
+SFX Bk ti vša .
+SFX Bk ti vše .
+SFX Bk ziti ženy .
+SFX Bk ziti žena .
+SFX Bk ziti ženo .
+SFX Bk ziti ženje .
 
-SFX Bl Y 27
-SFX Bl ti l .
-SFX Bl ti la .
-SFX Bl ti lo .
-SFX Bl ti li .
-SFX Bl diti ždžu .
-SFX Bl ti m .
-SFX Bl ti š .
-SFX Bl ti mo .
-SFX Bl i e .
-SFX Bl iti et .
-SFX Bl ti h .
-SFX Bl ti še .
-SFX Bl ti hmo .
-SFX Bl ti ste .
-SFX Bl ti hu .
-SFX Bl iti eči .
-SFX Bl iti eča .
-SFX Bl iti eče .
-SFX Bl ti my .
-SFX Bl ti ma .
-SFX Bl ti vši .
-SFX Bl ti vša .
-SFX Bl ti vše .
-SFX Bl diti ždženy .
-SFX Bl diti ždžena .
-SFX Bl diti ždženo .
-SFX Bl diti ždženje .
+SFX Bl Y 13
+SFX Bl in no .
+SFX Bl in na .
+SFX Bl in nogo .
+SFX Bl in nu .
+SFX Bl in noj .
+SFX Bl in nom .
+SFX Bl in nomu .
+SFX Bl in nym .
+SFX Bl in noju .
+SFX Bl in ni .
+SFX Bl in ne .
+SFX Bl in nyh .
+SFX Bl in nymi .
 
-SFX Bm Y 32
-SFX Bm sti dl .
-SFX Bm sti dla .
-SFX Bm sti dlo .
-SFX Bm sti dli .
-SFX Bm sti du .
-SFX Bm sti dem .
-SFX Bm sti deš .
-SFX Bm sti de .
-SFX Bm sti demo .
-SFX Bm sti dete .
-SFX Bm sti dut .
-SFX Bm sti deh .
-SFX Bm sti deše .
-SFX Bm sti dehmo .
-SFX Bm sti deste .
-SFX Bm sti dehu .
-SFX Bm sti di .
-SFX Bm sti dimo .
-SFX Bm sti dite .
-SFX Bm sti duči .
-SFX Bm sti duča .
-SFX Bm sti duče .
-SFX Bm sti domy .
-SFX Bm sti doma .
-SFX Bm sti domo .
-SFX Bm sti dši .
-SFX Bm sti dša .
-SFX Bm sti dše .
-SFX Bm sti deny .
-SFX Bm sti dena .
-SFX Bm sti deno .
-SFX Bm sti denje .
+SFX Bm Y 9
+SFX Bm ec ce .
+SFX Bm ec ca .
+SFX Bm ec cev .
+SFX Bm ec cu .
+SFX Bm ec cah .
+SFX Bm ec cam .
+SFX Bm ec cem .
+SFX Bm ec cami .
+SFX Bm ec če .
 
-SFX Bn Y 6
-SFX Bn e a .
-SFX Bn e u .
-SFX Bn e ah .
-SFX Bn e am .
-SFX Bn 0 m .
-SFX Bn e ami .
+SFX Bn Y 27
+SFX Bn ti l .
+SFX Bn ti la .
+SFX Bn ti lo .
+SFX Bn ti li .
+SFX Bn zditi ždžu .
+SFX Bn ti m .
+SFX Bn ti š .
+SFX Bn ti mo .
+SFX Bn i e .
+SFX Bn iti et .
+SFX Bn ti h .
+SFX Bn ti še .
+SFX Bn ti hmo .
+SFX Bn ti ste .
+SFX Bn ti hu .
+SFX Bn iti eči .
+SFX Bn iti eča .
+SFX Bn iti eče .
+SFX Bn ti my .
+SFX Bn ti ma .
+SFX Bn ti vši .
+SFX Bn ti vša .
+SFX Bn ti vše .
+SFX Bn zditi ždženy .
+SFX Bn zditi ždžena .
+SFX Bn zditi ždženo .
+SFX Bn zditi ždženje .
 
-SFX Bo Y 29
-SFX Bo ti se l .
-SFX Bo ti se la .
-SFX Bo ti se lo .
-SFX Bo ti se li .
-SFX Bo uti se em .
-SFX Bo uti se eš .
-SFX Bo uti se e .
-SFX Bo uti se emo .
-SFX Bo uti se ete .
-SFX Bo ti se h .
-SFX Bo ti se še .
-SFX Bo ti se hmo .
-SFX Bo ti se ste .
-SFX Bo ti se hu .
-SFX Bo uti se i .
-SFX Bo uti se imo .
-SFX Bo uti se ite .
-SFX Bo ti se či .
-SFX Bo ti se ča .
-SFX Bo ti se če .
-SFX Bo uti se emy .
-SFX Bo uti se ema .
-SFX Bo ti se vši .
-SFX Bo ti se vša .
-SFX Bo ti se vše .
-SFX Bo i se y .
-SFX Bo i se a .
-SFX Bo i se o .
-SFX Bo i se je .
+SFX Bo Y 32
+SFX Bo sti dl .
+SFX Bo sti dla .
+SFX Bo sti dlo .
+SFX Bo sti dli .
+SFX Bo sti du .
+SFX Bo sti dem .
+SFX Bo sti deš .
+SFX Bo sti de .
+SFX Bo sti demo .
+SFX Bo sti dete .
+SFX Bo sti dut .
+SFX Bo sti deh .
+SFX Bo sti deše .
+SFX Bo sti dehmo .
+SFX Bo sti deste .
+SFX Bo sti dehu .
+SFX Bo sti di .
+SFX Bo sti dimo .
+SFX Bo sti dite .
+SFX Bo sti duči .
+SFX Bo sti duča .
+SFX Bo sti duče .
+SFX Bo sti domy .
+SFX Bo sti doma .
+SFX Bo sti domo .
+SFX Bo sti dši .
+SFX Bo sti dša .
+SFX Bo sti dše .
+SFX Bo sti deny .
+SFX Bo sti dena .
+SFX Bo sti deno .
+SFX Bo sti denje .
 
-SFX Bp Y 27
-SFX Bp ti l .
-SFX Bp ti la .
-SFX Bp ti lo .
-SFX Bp ti li .
-SFX Bp titi ču .
-SFX Bp ti m .
-SFX Bp ti š .
-SFX Bp ti mo .
-SFX Bp i e .
-SFX Bp iti et .
-SFX Bp ti h .
-SFX Bp ti še .
-SFX Bp ti hmo .
-SFX Bp ti ste .
-SFX Bp ti hu .
-SFX Bp iti eči .
-SFX Bp iti eča .
-SFX Bp iti eče .
-SFX Bp ti my .
-SFX Bp ti ma .
-SFX Bp ti vši .
-SFX Bp ti vša .
-SFX Bp ti vše .
-SFX Bp titi čeny .
-SFX Bp titi čena .
-SFX Bp titi čeno .
-SFX Bp titi čenje .
+SFX Bp Y 6
+SFX Bp e a .
+SFX Bp e u .
+SFX Bp e ah .
+SFX Bp e am .
+SFX Bp 0 m .
+SFX Bp e ami .
 
-SFX Bq Y 28
-SFX Bq ti l .
-SFX Bq ti la .
-SFX Bq ti lo .
-SFX Bq ti li .
-SFX Bq ěti žu .
-SFX Bq ěti im .
-SFX Bq ěti iš .
-SFX Bq ěti i .
-SFX Bq ěti imo .
-SFX Bq ěti ite .
-SFX Bq ěti et .
-SFX Bq ti h .
-SFX Bq ti še .
-SFX Bq ti hmo .
-SFX Bq ti ste .
-SFX Bq ti hu .
-SFX Bq ěti eči .
-SFX Bq ěti eča .
-SFX Bq ěti eče .
-SFX Bq ěti imy .
-SFX Bq ěti ima .
-SFX Bq ti vši .
-SFX Bq ti vša .
-SFX Bq ti vše .
-SFX Bq ti ny .
-SFX Bq ti na .
-SFX Bq ti no .
-SFX Bq ti nje .
+SFX Bq Y 29
+SFX Bq ti se l .
+SFX Bq ti se la .
+SFX Bq ti se lo .
+SFX Bq ti se li .
+SFX Bq uti se em .
+SFX Bq uti se eš .
+SFX Bq uti se e .
+SFX Bq uti se emo .
+SFX Bq uti se ete .
+SFX Bq ti se h .
+SFX Bq ti se še .
+SFX Bq ti se hmo .
+SFX Bq ti se ste .
+SFX Bq ti se hu .
+SFX Bq uti se i .
+SFX Bq uti se imo .
+SFX Bq uti se ite .
+SFX Bq ti se či .
+SFX Bq ti se ča .
+SFX Bq ti se če .
+SFX Bq uti se emy .
+SFX Bq uti se ema .
+SFX Bq ti se vši .
+SFX Bq ti se vša .
+SFX Bq ti se vše .
+SFX Bq i se y .
+SFX Bq i se a .
+SFX Bq i se o .
+SFX Bq i se je .
 
-SFX Br Y 32
+SFX Br Y 27
 SFX Br ti l .
 SFX Br ti la .
 SFX Br ti lo .
 SFX Br ti li .
-SFX Br ti u .
-SFX Br ti em .
-SFX Br ti eš .
-SFX Br ti e .
-SFX Br ti emo .
-SFX Br ti ete .
-SFX Br ti ut .
-SFX Br ti eh .
-SFX Br ti eše .
-SFX Br ti ehmo .
-SFX Br ti este .
-SFX Br ti ehu .
-SFX Br ti i .
-SFX Br ti imo .
-SFX Br ti ite .
-SFX Br ti uči .
-SFX Br ti uča .
-SFX Br ti uče .
-SFX Br ti omy .
-SFX Br ti oma .
-SFX Br ti omo .
-SFX Br ti ši .
-SFX Br ti ša .
+SFX Br titi ču .
+SFX Br ti m .
+SFX Br ti š .
+SFX Br ti mo .
+SFX Br i e .
+SFX Br iti et .
+SFX Br ti h .
 SFX Br ti še .
-SFX Br ti eny .
-SFX Br ti ena .
-SFX Br ti eno .
-SFX Br ti enje .
+SFX Br ti hmo .
+SFX Br ti ste .
+SFX Br ti hu .
+SFX Br iti eči .
+SFX Br iti eča .
+SFX Br iti eče .
+SFX Br ti my .
+SFX Br ti ma .
+SFX Br ti vši .
+SFX Br ti vša .
+SFX Br ti vše .
+SFX Br titi čeny .
+SFX Br titi čena .
+SFX Br titi čeno .
+SFX Br titi čenje .
 
-SFX Bs Y 29
+SFX Bs Y 28
 SFX Bs ti l .
 SFX Bs ti la .
 SFX Bs ti lo .
 SFX Bs ti li .
+SFX Bs ěti žu .
+SFX Bs ěti im .
+SFX Bs ěti iš .
+SFX Bs ěti i .
+SFX Bs ěti imo .
+SFX Bs ěti ite .
+SFX Bs ěti et .
 SFX Bs ti h .
-SFX Bs ti s .
+SFX Bs ti še .
 SFX Bs ti hmo .
 SFX Bs ti ste .
-SFX Bs yti ěh .
-SFX Bs yti ěše .
-SFX Bs yti ěhmo .
-SFX Bs yti ěste .
-SFX Bs yti ěhu .
-SFX Bs yti udu .
-SFX Bs yti udeš .
-SFX Bs yti ude .
-SFX Bs yti udemo .
-SFX Bs yti udete .
-SFX Bs yti udut .
-SFX Bs yti ud .
-SFX Bs yti udmo .
-SFX Bs yti udte .
+SFX Bs ti hu .
+SFX Bs ěti eči .
+SFX Bs ěti eča .
+SFX Bs ěti eče .
+SFX Bs ěti imy .
+SFX Bs ěti ima .
 SFX Bs ti vši .
 SFX Bs ti vša .
 SFX Bs ti vše .
-SFX Bs i y .
-SFX Bs i a .
-SFX Bs i o .
-SFX Bs i je .
+SFX Bs ti ny .
+SFX Bs ti na .
+SFX Bs ti no .
+SFX Bs ti nje .
 
-SFX Bt Y 15
-SFX Bt y o .
-SFX Bt y a .
-SFX Bt y ogo .
-SFX Bt y u .
-SFX Bt y oj .
-SFX Bt y om .
-SFX Bt y omu .
-SFX Bt 0 m .
-SFX Bt y oju .
-SFX Bt y i .
-SFX Bt y e .
-SFX Bt 0 h .
-SFX Bt 0 mi .
-SFX Bt eky ši .
-SFX Bt eky je .
+SFX Bt Y 32
+SFX Bt ti l .
+SFX Bt ti la .
+SFX Bt ti lo .
+SFX Bt ti li .
+SFX Bt ti u .
+SFX Bt ti em .
+SFX Bt ti eš .
+SFX Bt ti e .
+SFX Bt ti emo .
+SFX Bt ti ete .
+SFX Bt ti ut .
+SFX Bt ti eh .
+SFX Bt ti eše .
+SFX Bt ti ehmo .
+SFX Bt ti este .
+SFX Bt ti ehu .
+SFX Bt ti i .
+SFX Bt ti imo .
+SFX Bt ti ite .
+SFX Bt ti uči .
+SFX Bt ti uča .
+SFX Bt ti uče .
+SFX Bt ti omy .
+SFX Bt ti oma .
+SFX Bt ti omo .
+SFX Bt ti ši .
+SFX Bt ti ša .
+SFX Bt ti še .
+SFX Bt ti eny .
+SFX Bt ti ena .
+SFX Bt ti eno .
+SFX Bt ti enje .
 
-SFX Bu Y 28
+SFX Bu Y 29
 SFX Bu ti l .
 SFX Bu ti la .
 SFX Bu ti lo .
 SFX Bu ti li .
-SFX Bu gti žu .
-SFX Bu gti žim .
-SFX Bu gti žiš .
-SFX Bu gti ži .
-SFX Bu gti žimo .
-SFX Bu gti žite .
-SFX Bu gti žet .
-SFX Bu gti žeh .
-SFX Bu gti žeše .
-SFX Bu gti žehmo .
-SFX Bu gti žeste .
-SFX Bu gti žehu .
-SFX Bu gti žeči .
-SFX Bu gti žeča .
-SFX Bu gti žeče .
-SFX Bu gti žimy .
-SFX Bu gti žima .
-SFX Bu ti ši .
-SFX Bu ti ša .
-SFX Bu ti še .
-SFX Bu gti ženy .
-SFX Bu gti žena .
-SFX Bu gti ženo .
-SFX Bu gti ženje .
+SFX Bu ti h .
+SFX Bu ti s .
+SFX Bu ti hmo .
+SFX Bu ti ste .
+SFX Bu yti ěh .
+SFX Bu yti ěše .
+SFX Bu yti ěhmo .
+SFX Bu yti ěste .
+SFX Bu yti ěhu .
+SFX Bu yti udu .
+SFX Bu yti udeš .
+SFX Bu yti ude .
+SFX Bu yti udemo .
+SFX Bu yti udete .
+SFX Bu yti udut .
+SFX Bu yti ud .
+SFX Bu yti udmo .
+SFX Bu yti udte .
+SFX Bu ti vši .
+SFX Bu ti vša .
+SFX Bu ti vše .
+SFX Bu i y .
+SFX Bu i a .
+SFX Bu i o .
+SFX Bu i je .
 
-SFX Bv Y 5
-SFX Bv y ebe .
-SFX Bv y e .
-SFX Bv y obě .
+SFX Bv Y 15
+SFX Bv y o .
+SFX Bv y a .
+SFX Bv y ogo .
+SFX Bv y u .
+SFX Bv y oj .
+SFX Bv y om .
+SFX Bv y omu .
+SFX Bv 0 m .
+SFX Bv y oju .
 SFX Bv y i .
-SFX Bv y oboju .
+SFX Bv y e .
+SFX Bv 0 h .
+SFX Bv 0 mi .
+SFX Bv eky ši .
+SFX Bv eky je .
 
-SFX Bw Y 31
+SFX Bw Y 28
 SFX Bw ti l .
 SFX Bw ti la .
 SFX Bw ti lo .
 SFX Bw ti li .
-SFX Bw uti mu .
-SFX Bw uti mem .
-SFX Bw uti meš .
-SFX Bw uti me .
-SFX Bw uti memo .
-SFX Bw uti mete .
-SFX Bw uti mut .
-SFX Bw ti h .
+SFX Bw gti žu .
+SFX Bw gti žim .
+SFX Bw gti žiš .
+SFX Bw gti ži .
+SFX Bw gti žimo .
+SFX Bw gti žite .
+SFX Bw gti žet .
+SFX Bw gti žeh .
+SFX Bw gti žeše .
+SFX Bw gti žehmo .
+SFX Bw gti žeste .
+SFX Bw gti žehu .
+SFX Bw gti žeči .
+SFX Bw gti žeča .
+SFX Bw gti žeče .
+SFX Bw gti žimy .
+SFX Bw gti žima .
+SFX Bw ti ši .
+SFX Bw ti ša .
 SFX Bw ti še .
-SFX Bw ti hmo .
-SFX Bw ti ste .
-SFX Bw ti hu .
-SFX Bw uti mi .
-SFX Bw uti mimo .
-SFX Bw uti mite .
-SFX Bw uti muči .
-SFX Bw uti muča .
-SFX Bw uti muče .
-SFX Bw uti memy .
-SFX Bw uti mema .
-SFX Bw ti vši .
-SFX Bw ti vša .
-SFX Bw ti vše .
-SFX Bw i y .
-SFX Bw i a .
-SFX Bw i o .
-SFX Bw i je .
+SFX Bw gti ženy .
+SFX Bw gti žena .
+SFX Bw gti ženo .
+SFX Bw gti ženje .
 
-SFX Bx Y 16
-SFX Bx yše veliky eliky .
-SFX Bx yše veliky eliko .
-SFX Bx yše veliky elika .
-SFX Bx yše veliky elikogo .
-SFX Bx yše veliky eliku .
-SFX Bx yše veliky elikoj .
-SFX Bx yše veliky elikom .
-SFX Bx yše veliky elikomu .
-SFX Bx yše veliky elikym .
-SFX Bx yše veliky elikoju .
-SFX Bx yše veliky eliki .
-SFX Bx yše veliky elike .
-SFX Bx yše veliky elikyh .
-SFX Bx yše veliky elikymi .
-SFX Bx yše veliky ečši .
-SFX Bx yše veliky eče .
+SFX Bx Y 5
+SFX Bx y ebe .
+SFX Bx y e .
+SFX Bx y obě .
+SFX Bx y i .
+SFX Bx y oboju .
 
 SFX By Y 31
 SFX By ti l .
 SFX By ti la .
 SFX By ti lo .
 SFX By ti li .
-SFX By ti u .
-SFX By ti em .
-SFX By ti eš .
-SFX By ti e .
-SFX By ti emo .
-SFX By ti ete .
-SFX By ti ut .
-SFX By ti eh .
-SFX By ti eše .
-SFX By ti ehmo .
-SFX By ti este .
-SFX By ti ehu .
-SFX By ti i .
-SFX By ti imo .
-SFX By ti ite .
-SFX By ti uči .
-SFX By ti uča .
-SFX By ti uče .
-SFX By ti emy .
-SFX By ti ema .
-SFX By ti ši .
-SFX By ti ša .
+SFX By uti mu .
+SFX By uti mem .
+SFX By uti meš .
+SFX By uti me .
+SFX By uti memo .
+SFX By uti mete .
+SFX By uti mut .
+SFX By ti h .
 SFX By ti še .
-SFX By ti eny .
-SFX By ti ena .
-SFX By ti eno .
-SFX By ti enje .
+SFX By ti hmo .
+SFX By ti ste .
+SFX By ti hu .
+SFX By uti mi .
+SFX By uti mimo .
+SFX By uti mite .
+SFX By uti muči .
+SFX By uti muča .
+SFX By uti muče .
+SFX By uti memy .
+SFX By uti mema .
+SFX By ti vši .
+SFX By ti vša .
+SFX By ti vše .
+SFX By i y .
+SFX By i a .
+SFX By i o .
+SFX By i je .
 
-SFX Bz Y 32
-SFX Bz jdti šel .
-SFX Bz jdti šla .
-SFX Bz jdti šlo .
-SFX Bz jdti šli .
-SFX Bz ti u .
-SFX Bz ti em .
-SFX Bz ti eš .
-SFX Bz ti e .
-SFX Bz ti emo .
-SFX Bz ti ete .
-SFX Bz ti ut .
-SFX Bz ti eh .
-SFX Bz ti eše .
-SFX Bz ti ehmo .
-SFX Bz ti este .
-SFX Bz ti ehu .
-SFX Bz ti i .
-SFX Bz ti imo .
-SFX Bz ti ite .
-SFX Bz ti uči .
-SFX Bz ti uča .
-SFX Bz ti uče .
-SFX Bz ti omy .
-SFX Bz ti oma .
-SFX Bz ti omo .
-SFX Bz jdti ševši .
-SFX Bz jdti ševša .
-SFX Bz jdti ševše .
-SFX Bz ti eny .
-SFX Bz ti ena .
-SFX Bz ti eno .
-SFX Bz ti enje .
+SFX Bz Y 16
+SFX Bz yše veliky eliky .
+SFX Bz yše veliky eliko .
+SFX Bz yše veliky elika .
+SFX Bz yše veliky elikogo .
+SFX Bz yše veliky eliku .
+SFX Bz yše veliky elikoj .
+SFX Bz yše veliky elikom .
+SFX Bz yše veliky elikomu .
+SFX Bz yše veliky elikym .
+SFX Bz yše veliky elikoju .
+SFX Bz yše veliky eliki .
+SFX Bz yše veliky elike .
+SFX Bz yše veliky elikyh .
+SFX Bz yše veliky elikymi .
+SFX Bz yše veliky ečši .
+SFX Bz yše veliky eče .
 
-SFX CA Y 9
-SFX CA a y .
-SFX CA a u .
-SFX CA ka ok .
-SFX CA a ě .
-SFX CA 0 h .
-SFX CA 0 m .
-SFX CA a oju .
-SFX CA 0 mi .
-SFX CA a o .
+SFX CA Y 31
+SFX CA ti l .
+SFX CA ti la .
+SFX CA ti lo .
+SFX CA ti li .
+SFX CA ti u .
+SFX CA ti em .
+SFX CA ti eš .
+SFX CA ti e .
+SFX CA ti emo .
+SFX CA ti ete .
+SFX CA ti ut .
+SFX CA ti eh .
+SFX CA ti eše .
+SFX CA ti ehmo .
+SFX CA ti este .
+SFX CA ti ehu .
+SFX CA ti i .
+SFX CA ti imo .
+SFX CA ti ite .
+SFX CA ti uči .
+SFX CA ti uča .
+SFX CA ti uče .
+SFX CA ti emy .
+SFX CA ti ema .
+SFX CA ti ši .
+SFX CA ti ša .
+SFX CA ti še .
+SFX CA ti eny .
+SFX CA ti ena .
+SFX CA ti eno .
+SFX CA ti enje .
 
-SFX CB Y 17
-SFX CB onj nj .
-SFX CB onj nje .
-SFX CB 0 e .
-SFX CB onj nja .
-SFX CB 0 a .
-SFX CB onj njev .
-SFX CB 0 ev .
-SFX CB onj nju .
-SFX CB 0 u .
-SFX CB onj njah .
-SFX CB 0 ah .
-SFX CB onj njam .
-SFX CB 0 am .
-SFX CB onj njem .
-SFX CB 0 em .
-SFX CB onj njami .
-SFX CB 0 ami .
+SFX CB Y 32
+SFX CB jdti šel .
+SFX CB jdti šla .
+SFX CB jdti šlo .
+SFX CB jdti šli .
+SFX CB ti u .
+SFX CB ti em .
+SFX CB ti eš .
+SFX CB ti e .
+SFX CB ti emo .
+SFX CB ti ete .
+SFX CB ti ut .
+SFX CB ti eh .
+SFX CB ti eše .
+SFX CB ti ehmo .
+SFX CB ti este .
+SFX CB ti ehu .
+SFX CB ti i .
+SFX CB ti imo .
+SFX CB ti ite .
+SFX CB ti uči .
+SFX CB ti uča .
+SFX CB ti uče .
+SFX CB ti omy .
+SFX CB ti oma .
+SFX CB ti omo .
+SFX CB jdti ševši .
+SFX CB jdti ševša .
+SFX CB jdti ševše .
+SFX CB ti eny .
+SFX CB ti ena .
+SFX CB ti eno .
+SFX CB ti enje .
 
-SFX CC Y 16
-SFX CC ho ši .
-SFX CC ho šesa .
-SFX CC o a .
-SFX CC ho šese .
-SFX CC ho šij .
-SFX CC ho šes .
-SFX CC o u .
-SFX CC ho šesi .
-SFX CC ho šah .
-SFX CC ho šesah .
-SFX CC ho šam .
-SFX CC ho šesam .
+SFX CC Y 9
+SFX CC a y .
+SFX CC a u .
+SFX CC ka ok .
+SFX CC a ě .
+SFX CC 0 h .
 SFX CC 0 m .
-SFX CC ho šesem .
-SFX CC ho šami .
-SFX CC ho šesami .
+SFX CC a oju .
+SFX CC 0 mi .
+SFX CC a o .
 
-SFX CD Y 14
-SFX CD e a .
-SFX CD ce česa .
-SFX CD ce čese .
-SFX CD ce čes .
-SFX CD e u .
-SFX CD ce česi .
-SFX CD e ah .
-SFX CD ce česah .
-SFX CD e am .
-SFX CD ce česam .
-SFX CD 0 m .
-SFX CD ce česem .
-SFX CD e ami .
-SFX CD ce česami .
+SFX CD Y 17
+SFX CD onj nj .
+SFX CD onj nje .
+SFX CD 0 e .
+SFX CD onj nja .
+SFX CD 0 a .
+SFX CD onj njev .
+SFX CD 0 ev .
+SFX CD onj nju .
+SFX CD 0 u .
+SFX CD onj njah .
+SFX CD 0 ah .
+SFX CD onj njam .
+SFX CD 0 am .
+SFX CD onj njem .
+SFX CD 0 em .
+SFX CD onj njami .
+SFX CD 0 ami .
 
-SFX CE Y 31
-SFX CE ti l .
-SFX CE ti la .
-SFX CE ti lo .
-SFX CE ti li .
-SFX CE ti u .
-SFX CE gti žem .
-SFX CE gti žeš .
-SFX CE gti že .
-SFX CE gti žemo .
-SFX CE gti žete .
-SFX CE ti ut .
-SFX CE gti žeh .
-SFX CE gti žeše .
-SFX CE gti žehmo .
-SFX CE gti žeste .
-SFX CE gti žehu .
-SFX CE gti ži .
-SFX CE gti žimo .
-SFX CE gti žite .
-SFX CE ti uči .
-SFX CE ti uča .
-SFX CE ti uče .
-SFX CE gti žemy .
-SFX CE gti žema .
-SFX CE ti ši .
-SFX CE ti ša .
-SFX CE ti še .
-SFX CE gti ženy .
-SFX CE gti žena .
-SFX CE gti ženo .
-SFX CE gti ženje .
+SFX CE Y 16
+SFX CE ho ši .
+SFX CE ho šesa .
+SFX CE o a .
+SFX CE ho šese .
+SFX CE ho šij .
+SFX CE ho šes .
+SFX CE o u .
+SFX CE ho šesi .
+SFX CE ho šah .
+SFX CE ho šesah .
+SFX CE ho šam .
+SFX CE ho šesam .
+SFX CE 0 m .
+SFX CE ho šesem .
+SFX CE ho šami .
+SFX CE ho šesami .
 
-SFX CF Y 4
-SFX CF es sa .
-SFX CF es su .
-SFX CF es som .
-SFX CF es se .
+SFX CF Y 14
+SFX CF e a .
+SFX CF ce česa .
+SFX CF ce čese .
+SFX CF ce čes .
+SFX CF e u .
+SFX CF ce česi .
+SFX CF e ah .
+SFX CF ce česah .
+SFX CF e am .
+SFX CF ce česam .
+SFX CF 0 m .
+SFX CF ce česem .
+SFX CF e ami .
+SFX CF ce česami .
 
-SFX CG Y 12
-SFX CG 0 e .
-SFX CG 0 a .
-SFX CG 0 ego .
-SFX CG 0 u .
-SFX CG 0 ej .
-SFX CG 0 em .
-SFX CG 0 emu .
-SFX CG 0 im .
-SFX CG 0 eju .
-SFX CG 0 i .
-SFX CG 0 ih .
-SFX CG 0 imi .
+SFX CG Y 31
+SFX CG ti l .
+SFX CG ti la .
+SFX CG ti lo .
+SFX CG ti li .
+SFX CG ti u .
+SFX CG gti žem .
+SFX CG gti žeš .
+SFX CG gti že .
+SFX CG gti žemo .
+SFX CG gti žete .
+SFX CG ti ut .
+SFX CG gti žeh .
+SFX CG gti žeše .
+SFX CG gti žehmo .
+SFX CG gti žeste .
+SFX CG gti žehu .
+SFX CG gti ži .
+SFX CG gti žimo .
+SFX CG gti žite .
+SFX CG ti uči .
+SFX CG ti uča .
+SFX CG ti uče .
+SFX CG gti žemy .
+SFX CG gti žema .
+SFX CG ti ši .
+SFX CG ti ša .
+SFX CG ti še .
+SFX CG gti ženy .
+SFX CG gti žena .
+SFX CG gti ženo .
+SFX CG gti ženje .
 
-SFX CH Y 31
-SFX CH ti l .
-SFX CH ti la .
-SFX CH ti lo .
-SFX CH ti li .
-SFX CH lěti elju .
-SFX CH lěti eljem .
-SFX CH lěti elješ .
-SFX CH lěti elje .
-SFX CH lěti eljemo .
-SFX CH lěti eljete .
-SFX CH lěti eljut .
-SFX CH ti h .
-SFX CH ti še .
-SFX CH ti hmo .
-SFX CH ti ste .
-SFX CH ti hu .
-SFX CH lěti elj .
-SFX CH lěti eljmo .
-SFX CH lěti eljte .
-SFX CH lěti eljuči .
-SFX CH lěti eljuča .
-SFX CH lěti eljuče .
-SFX CH lěti eljemy .
-SFX CH lěti eljema .
-SFX CH ti vši .
-SFX CH ti vša .
-SFX CH ti vše .
-SFX CH i y .
-SFX CH i a .
-SFX CH i o .
-SFX CH i je .
+SFX CH Y 4
+SFX CH es sa .
+SFX CH es su .
+SFX CH es som .
+SFX CH es se .
 
-SFX CI Y 9
-SFX CI a e .
-SFX CI a u .
-SFX CI ja ej .
-SFX CI a i .
-SFX CI 0 h .
-SFX CI 0 m .
-SFX CI a eju .
-SFX CI 0 mi .
-SFX CI a o .
+SFX CI Y 12
+SFX CI 0 e .
+SFX CI 0 a .
+SFX CI 0 ego .
+SFX CI 0 u .
+SFX CI 0 ej .
+SFX CI 0 em .
+SFX CI 0 emu .
+SFX CI 0 im .
+SFX CI 0 eju .
+SFX CI 0 i .
+SFX CI 0 ih .
+SFX CI 0 imi .
 
-SFX CJ Y 9
-SFX CJ a y .
-SFX CJ a u .
-SFX CJ la ol .
-SFX CJ a ě .
-SFX CJ 0 h .
-SFX CJ 0 m .
-SFX CJ a oju .
-SFX CJ 0 mi .
-SFX CJ a o .
+SFX CJ Y 31
+SFX CJ ti l .
+SFX CJ ti la .
+SFX CJ ti lo .
+SFX CJ ti li .
+SFX CJ lěti elju .
+SFX CJ lěti eljem .
+SFX CJ lěti elješ .
+SFX CJ lěti elje .
+SFX CJ lěti eljemo .
+SFX CJ lěti eljete .
+SFX CJ lěti eljut .
+SFX CJ ti h .
+SFX CJ ti še .
+SFX CJ ti hmo .
+SFX CJ ti ste .
+SFX CJ ti hu .
+SFX CJ lěti elj .
+SFX CJ lěti eljmo .
+SFX CJ lěti eljte .
+SFX CJ lěti eljuči .
+SFX CJ lěti eljuča .
+SFX CJ lěti eljuče .
+SFX CJ lěti eljemy .
+SFX CJ lěti eljema .
+SFX CJ ti vši .
+SFX CJ ti vša .
+SFX CJ ti vše .
+SFX CJ i y .
+SFX CJ i a .
+SFX CJ i o .
+SFX CJ i je .
 
-SFX CK Y 30
-SFX CK eti l .
-SFX CK eti la .
-SFX CK eti lo .
-SFX CK eti li .
-SFX CK eti u .
-SFX CK ti m .
-SFX CK ti š .
-SFX CK ti mo .
-SFX CK i e .
-SFX CK eti ut .
-SFX CK ti h .
-SFX CK ti še .
-SFX CK ti hmo .
-SFX CK ti ste .
-SFX CK ti hu .
-SFX CK eti i .
-SFX CK eti imo .
-SFX CK eti ite .
-SFX CK eti uči .
-SFX CK eti uča .
-SFX CK eti uče .
-SFX CK ti my .
-SFX CK ti ma .
-SFX CK eti ši .
-SFX CK eti ša .
-SFX CK eti še .
-SFX CK eti ty .
-SFX CK eti ta .
-SFX CK eti to .
-SFX CK eti tje .
+SFX CK Y 9
+SFX CK a e .
+SFX CK a u .
+SFX CK ja ej .
+SFX CK a i .
+SFX CK 0 h .
+SFX CK 0 m .
+SFX CK a eju .
+SFX CK 0 mi .
+SFX CK a o .
 
-SFX CL Y 2
-SFX CL s m .
-SFX CL s mi .
+SFX CL Y 9
+SFX CL a y .
+SFX CL a u .
+SFX CL la ol .
+SFX CL a ě .
+SFX CL 0 h .
+SFX CL 0 m .
+SFX CL a oju .
+SFX CL 0 mi .
+SFX CL a o .
 
-SFX CM Y 15
-SFX CM y o .
-SFX CM y a .
-SFX CM y ogo .
-SFX CM y u .
-SFX CM y oj .
-SFX CM y om .
-SFX CM y omu .
-SFX CM 0 m .
-SFX CM y oju .
-SFX CM y i .
-SFX CM y e .
-SFX CM 0 h .
-SFX CM 0 mi .
-SFX CM ky čějši .
-SFX CM ky čeje .
+SFX CM Y 30
+SFX CM eti l .
+SFX CM eti la .
+SFX CM eti lo .
+SFX CM eti li .
+SFX CM eti u .
+SFX CM ti m .
+SFX CM ti š .
+SFX CM ti mo .
+SFX CM i e .
+SFX CM eti ut .
+SFX CM ti h .
+SFX CM ti še .
+SFX CM ti hmo .
+SFX CM ti ste .
+SFX CM ti hu .
+SFX CM eti i .
+SFX CM eti imo .
+SFX CM eti ite .
+SFX CM eti uči .
+SFX CM eti uča .
+SFX CM eti uče .
+SFX CM ti my .
+SFX CM ti ma .
+SFX CM eti ši .
+SFX CM eti ša .
+SFX CM eti še .
+SFX CM eti ty .
+SFX CM eti ta .
+SFX CM eti to .
+SFX CM eti tje .
 
-SFX CN Y 27
-SFX CN ti se l .
-SFX CN ti se la .
-SFX CN ti se lo .
-SFX CN ti se li .
-SFX CN iti se u .
-SFX CN ti se m .
-SFX CN ti se š .
-SFX CN ti se mo .
-SFX CN i se e .
-SFX CN iti se et .
-SFX CN ti se h .
-SFX CN ti se še .
-SFX CN ti se hmo .
-SFX CN ti se ste .
-SFX CN ti se hu .
-SFX CN iti se eči .
-SFX CN iti se eča .
-SFX CN iti se eče .
-SFX CN ti se my .
-SFX CN ti se ma .
-SFX CN ti se vši .
-SFX CN ti se vša .
-SFX CN ti se vše .
-SFX CN iti se eny .
-SFX CN iti se ena .
-SFX CN iti se eno .
-SFX CN iti se enje .
+SFX CN Y 2
+SFX CN s m .
+SFX CN s mi .
 
-SFX CO Y 31
-SFX CO ti l .
-SFX CO ti la .
-SFX CO ti lo .
-SFX CO ti li .
-SFX CO skati šču .
-SFX CO skati ščem .
-SFX CO skati ščeš .
-SFX CO skati šče .
-SFX CO skati ščemo .
-SFX CO skati ščete .
-SFX CO skati ščut .
-SFX CO ti h .
-SFX CO ti še .
-SFX CO ti hmo .
-SFX CO ti ste .
-SFX CO ti hu .
-SFX CO skati šči .
-SFX CO skati ščimo .
-SFX CO skati ščite .
-SFX CO skati ščuči .
-SFX CO skati ščuča .
-SFX CO skati ščuče .
-SFX CO skati ščemy .
-SFX CO skati ščema .
-SFX CO ti vši .
-SFX CO ti vša .
-SFX CO ti vše .
-SFX CO ti ny .
-SFX CO ti na .
-SFX CO ti no .
-SFX CO ti nje .
+SFX CO Y 15
+SFX CO y o .
+SFX CO y a .
+SFX CO y ogo .
+SFX CO y u .
+SFX CO y oj .
+SFX CO y om .
+SFX CO y omu .
+SFX CO 0 m .
+SFX CO y oju .
+SFX CO y i .
+SFX CO y e .
+SFX CO 0 h .
+SFX CO 0 mi .
+SFX CO ky čějši .
+SFX CO ky čeje .
 
-SFX CP Y 7
-SFX CP a y .
-SFX CP a u .
-SFX CP a ě .
-SFX CP 0 h .
-SFX CP 0 m .
-SFX CP a oju .
-SFX CP 0 mi .
+SFX CP Y 27
+SFX CP ti se l .
+SFX CP ti se la .
+SFX CP ti se lo .
+SFX CP ti se li .
+SFX CP iti se u .
+SFX CP ti se m .
+SFX CP ti se š .
+SFX CP ti se mo .
+SFX CP i se e .
+SFX CP iti se et .
+SFX CP ti se h .
+SFX CP ti se še .
+SFX CP ti se hmo .
+SFX CP ti se ste .
+SFX CP ti se hu .
+SFX CP iti se eči .
+SFX CP iti se eča .
+SFX CP iti se eče .
+SFX CP ti se my .
+SFX CP ti se ma .
+SFX CP ti se vši .
+SFX CP ti se vša .
+SFX CP ti se vše .
+SFX CP iti se eny .
+SFX CP iti se ena .
+SFX CP iti se eno .
+SFX CP iti se enje .
 
 SFX CQ Y 31
 SFX CQ ti l .
 SFX CQ ti la .
 SFX CQ ti lo .
 SFX CQ ti li .
-SFX CQ ti u .
-SFX CQ ti em .
-SFX CQ ti eš .
-SFX CQ ti e .
-SFX CQ ti emo .
-SFX CQ ti ete .
-SFX CQ ti ut .
+SFX CQ skati šču .
+SFX CQ skati ščem .
+SFX CQ skati ščeš .
+SFX CQ skati šče .
+SFX CQ skati ščemo .
+SFX CQ skati ščete .
+SFX CQ skati ščut .
 SFX CQ ti h .
 SFX CQ ti še .
 SFX CQ ti hmo .
 SFX CQ ti ste .
 SFX CQ ti hu .
-SFX CQ ti i .
-SFX CQ ti imo .
-SFX CQ ti ite .
-SFX CQ ti uči .
-SFX CQ ti uča .
-SFX CQ ti uče .
-SFX CQ ti emy .
-SFX CQ ti ema .
+SFX CQ skati šči .
+SFX CQ skati ščimo .
+SFX CQ skati ščite .
+SFX CQ skati ščuči .
+SFX CQ skati ščuča .
+SFX CQ skati ščuče .
+SFX CQ skati ščemy .
+SFX CQ skati ščema .
 SFX CQ ti vši .
 SFX CQ ti vša .
 SFX CQ ti vše .
-SFX CQ ti eny .
-SFX CQ ti ena .
-SFX CQ ti eno .
-SFX CQ ti enje .
+SFX CQ ti ny .
+SFX CQ ti na .
+SFX CQ ti no .
+SFX CQ ti nje .
 
-SFX CR Y 9
-SFX CR et ty .
-SFX CR et ta .
-SFX CR et tov .
-SFX CR et tu .
-SFX CR et tah .
-SFX CR et tam .
-SFX CR et tom .
-SFX CR et tami .
-SFX CR et te .
+SFX CR Y 7
+SFX CR a y .
+SFX CR a u .
+SFX CR a ě .
+SFX CR 0 h .
+SFX CR 0 m .
+SFX CR a oju .
+SFX CR 0 mi .
 
-SFX CS Y 4
-SFX CS y ov .
-SFX CS y ah .
-SFX CS y am .
-SFX CS y ami .
+SFX CS Y 31
+SFX CS ti l .
+SFX CS ti la .
+SFX CS ti lo .
+SFX CS ti li .
+SFX CS ti u .
+SFX CS ti em .
+SFX CS ti eš .
+SFX CS ti e .
+SFX CS ti emo .
+SFX CS ti ete .
+SFX CS ti ut .
+SFX CS ti h .
+SFX CS ti še .
+SFX CS ti hmo .
+SFX CS ti ste .
+SFX CS ti hu .
+SFX CS ti i .
+SFX CS ti imo .
+SFX CS ti ite .
+SFX CS ti uči .
+SFX CS ti uča .
+SFX CS ti uče .
+SFX CS ti emy .
+SFX CS ti ema .
+SFX CS ti vši .
+SFX CS ti vša .
+SFX CS ti vše .
+SFX CS ti eny .
+SFX CS ti ena .
+SFX CS ti eno .
+SFX CS ti enje .
 
 SFX CT Y 9
-SFX CT el ly .
-SFX CT el la .
-SFX CT el lov .
-SFX CT el lu .
-SFX CT el lah .
-SFX CT el lam .
-SFX CT el lom .
-SFX CT el lami .
-SFX CT el le .
+SFX CT et ty .
+SFX CT et ta .
+SFX CT et tov .
+SFX CT et tu .
+SFX CT et tah .
+SFX CT et tam .
+SFX CT et tom .
+SFX CT et tami .
+SFX CT et te .
 
-SFX CU Y 31
-SFX CU ti l .
-SFX CU ti la .
-SFX CU ti lo .
-SFX CU ti li .
-SFX CU eti nu .
-SFX CU eti nem .
-SFX CU eti neš .
-SFX CU eti ne .
-SFX CU eti nemo .
-SFX CU eti nete .
-SFX CU eti nut .
-SFX CU ti h .
-SFX CU ti še .
-SFX CU ti hmo .
-SFX CU ti ste .
-SFX CU ti hu .
-SFX CU eti ni .
-SFX CU eti nimo .
-SFX CU eti nite .
-SFX CU eti nuči .
-SFX CU eti nuča .
-SFX CU eti nuče .
-SFX CU eti nemy .
-SFX CU eti nema .
-SFX CU ti vši .
-SFX CU ti vša .
-SFX CU ti vše .
-SFX CU i y .
-SFX CU i a .
-SFX CU i o .
-SFX CU i je .
+SFX CU Y 4
+SFX CU y ov .
+SFX CU y ah .
+SFX CU y am .
+SFX CU y ami .
 
 SFX CV Y 9
-SFX CV el li .
+SFX CV el ly .
 SFX CV el la .
 SFX CV el lov .
 SFX CV el lu .
@@ -2272,998 +2274,1019 @@ SFX CV el lom .
 SFX CV el lami .
 SFX CV el le .
 
-SFX CW Y 9
-SFX CW a y .
-SFX CW a u .
-SFX CW ma em .
-SFX CW a ě .
-SFX CW 0 h .
-SFX CW 0 m .
-SFX CW a oju .
-SFX CW 0 mi .
-SFX CW a o .
+SFX CW Y 31
+SFX CW ti l .
+SFX CW ti la .
+SFX CW ti lo .
+SFX CW ti li .
+SFX CW eti nu .
+SFX CW eti nem .
+SFX CW eti neš .
+SFX CW eti ne .
+SFX CW eti nemo .
+SFX CW eti nete .
+SFX CW eti nut .
+SFX CW ti h .
+SFX CW ti še .
+SFX CW ti hmo .
+SFX CW ti ste .
+SFX CW ti hu .
+SFX CW eti ni .
+SFX CW eti nimo .
+SFX CW eti nite .
+SFX CW eti nuči .
+SFX CW eti nuča .
+SFX CW eti nuče .
+SFX CW eti nemy .
+SFX CW eti nema .
+SFX CW ti vši .
+SFX CW ti vša .
+SFX CW ti vše .
+SFX CW i y .
+SFX CW i a .
+SFX CW i o .
+SFX CW i je .
 
-SFX CX Y 15
-SFX CX y o .
-SFX CX y a .
-SFX CX y ogo .
-SFX CX y u .
-SFX CX y oj .
-SFX CX y om .
-SFX CX y omu .
-SFX CX 0 m .
-SFX CX y oju .
-SFX CX y i .
-SFX CX y e .
-SFX CX 0 h .
-SFX CX 0 mi .
-SFX CX hy šějši .
-SFX CX hy šeje .
+SFX CX Y 9
+SFX CX el li .
+SFX CX el la .
+SFX CX el lov .
+SFX CX el lu .
+SFX CX el lah .
+SFX CX el lam .
+SFX CX el lom .
+SFX CX el lami .
+SFX CX el le .
 
-SFX CY Y 31
-SFX CY ti l .
-SFX CY ti la .
-SFX CY ti lo .
-SFX CY ti li .
-SFX CY kati ču .
-SFX CY kati čem .
-SFX CY kati češ .
-SFX CY kati če .
-SFX CY kati čemo .
-SFX CY kati čete .
-SFX CY kati čut .
-SFX CY ti h .
-SFX CY ti še .
-SFX CY ti hmo .
-SFX CY ti ste .
-SFX CY ti hu .
-SFX CY kati či .
-SFX CY kati čimo .
-SFX CY kati čite .
-SFX CY kati čuči .
-SFX CY kati čuča .
-SFX CY kati čuče .
-SFX CY kati čemy .
-SFX CY kati čema .
-SFX CY ti vši .
-SFX CY ti vša .
-SFX CY ti vše .
-SFX CY ti ny .
-SFX CY ti na .
-SFX CY ti no .
-SFX CY ti nje .
+SFX CY Y 9
+SFX CY a y .
+SFX CY a u .
+SFX CY ma em .
+SFX CY a ě .
+SFX CY 0 h .
+SFX CY 0 m .
+SFX CY a oju .
+SFX CY 0 mi .
+SFX CY a o .
 
-SFX CZ Y 28
-SFX CZ ti l .
-SFX CZ ti la .
-SFX CZ ti lo .
-SFX CZ ti li .
-SFX CZ sěti šu .
-SFX CZ ěti im .
-SFX CZ ěti iš .
-SFX CZ ěti i .
-SFX CZ ěti imo .
-SFX CZ ěti ite .
-SFX CZ ěti et .
-SFX CZ ti h .
-SFX CZ ti še .
-SFX CZ ti hmo .
-SFX CZ ti ste .
-SFX CZ ti hu .
-SFX CZ ěti eči .
-SFX CZ ěti eča .
-SFX CZ ěti eče .
-SFX CZ ěti imy .
-SFX CZ ěti ima .
-SFX CZ ti vši .
-SFX CZ ti vša .
-SFX CZ ti vše .
-SFX CZ ti ny .
-SFX CZ ti na .
-SFX CZ ti no .
-SFX CZ ti nje .
+SFX CZ Y 15
+SFX CZ y o .
+SFX CZ y a .
+SFX CZ y ogo .
+SFX CZ y u .
+SFX CZ y oj .
+SFX CZ y om .
+SFX CZ y omu .
+SFX CZ 0 m .
+SFX CZ y oju .
+SFX CZ y i .
+SFX CZ y e .
+SFX CZ 0 h .
+SFX CZ 0 mi .
+SFX CZ hy šějši .
+SFX CZ hy šeje .
 
-SFX Ca Y 14
-SFX Ca o a .
-SFX Ca o esa .
-SFX Ca o ese .
-SFX Ca o es .
-SFX Ca o u .
-SFX Ca o esi .
-SFX Ca o ah .
-SFX Ca o esah .
-SFX Ca o am .
-SFX Ca o esam .
-SFX Ca 0 m .
-SFX Ca o esem .
-SFX Ca o ami .
-SFX Ca o esami .
+SFX Ca Y 31
+SFX Ca ti l .
+SFX Ca ti la .
+SFX Ca ti lo .
+SFX Ca ti li .
+SFX Ca kati ču .
+SFX Ca kati čem .
+SFX Ca kati češ .
+SFX Ca kati če .
+SFX Ca kati čemo .
+SFX Ca kati čete .
+SFX Ca kati čut .
+SFX Ca ti h .
+SFX Ca ti še .
+SFX Ca ti hmo .
+SFX Ca ti ste .
+SFX Ca ti hu .
+SFX Ca kati či .
+SFX Ca kati čimo .
+SFX Ca kati čite .
+SFX Ca kati čuči .
+SFX Ca kati čuča .
+SFX Ca kati čuče .
+SFX Ca kati čemy .
+SFX Ca kati čema .
+SFX Ca ti vši .
+SFX Ca ti vša .
+SFX Ca ti vše .
+SFX Ca ti ny .
+SFX Ca ti na .
+SFX Ca ti no .
+SFX Ca ti nje .
 
-SFX Cb Y 7
-SFX Cb o a .
-SFX Cb ko ok .
-SFX Cb o u .
-SFX Cb o ah .
-SFX Cb o am .
-SFX Cb 0 m .
-SFX Cb o ami .
+SFX Cb Y 28
+SFX Cb ti l .
+SFX Cb ti la .
+SFX Cb ti lo .
+SFX Cb ti li .
+SFX Cb sěti šu .
+SFX Cb ěti im .
+SFX Cb ěti iš .
+SFX Cb ěti i .
+SFX Cb ěti imo .
+SFX Cb ěti ite .
+SFX Cb ěti et .
+SFX Cb ti h .
+SFX Cb ti še .
+SFX Cb ti hmo .
+SFX Cb ti ste .
+SFX Cb ti hu .
+SFX Cb ěti eči .
+SFX Cb ěti eča .
+SFX Cb ěti eče .
+SFX Cb ěti imy .
+SFX Cb ěti ima .
+SFX Cb ti vši .
+SFX Cb ti vša .
+SFX Cb ti vše .
+SFX Cb ti ny .
+SFX Cb ti na .
+SFX Cb ti no .
+SFX Cb ti nje .
 
-SFX Cc Y 3
-SFX Cc sot istah .
-SFX Cc sot istam .
-SFX Cc sot justami .
+SFX Cc Y 14
+SFX Cc o a .
+SFX Cc o esa .
+SFX Cc o ese .
+SFX Cc o es .
+SFX Cc o u .
+SFX Cc o esi .
+SFX Cc o ah .
+SFX Cc o esah .
+SFX Cc o am .
+SFX Cc o esam .
+SFX Cc 0 m .
+SFX Cc o esem .
+SFX Cc o ami .
+SFX Cc o esami .
 
-SFX Cd Y 32
-SFX Cd sti tl .
-SFX Cd sti tla .
-SFX Cd sti tlo .
-SFX Cd sti tli .
-SFX Cd sti tu .
-SFX Cd sti tem .
-SFX Cd sti teš .
-SFX Cd sti te .
-SFX Cd sti temo .
-SFX Cd sti tete .
-SFX Cd sti tut .
-SFX Cd sti teh .
-SFX Cd sti teše .
-SFX Cd sti tehmo .
-SFX Cd sti teste .
-SFX Cd sti tehu .
-SFX Cd sti ti .
-SFX Cd sti timo .
-SFX Cd sti tite .
-SFX Cd sti tuči .
-SFX Cd sti tuča .
-SFX Cd sti tuče .
-SFX Cd sti tomy .
-SFX Cd sti toma .
-SFX Cd sti tomo .
-SFX Cd sti tši .
-SFX Cd sti tša .
-SFX Cd sti tše .
-SFX Cd sti teny .
-SFX Cd sti tena .
-SFX Cd sti teno .
-SFX Cd sti tenje .
+SFX Cd Y 7
+SFX Cd o a .
+SFX Cd ko ok .
+SFX Cd o u .
+SFX Cd o ah .
+SFX Cd o am .
+SFX Cd 0 m .
+SFX Cd o ami .
 
-SFX Ce Y 10
-SFX Ce ej a .
-SFX Ce j go .
-SFX Ce ej u .
-SFX Ce j m .
-SFX Ce j mu .
-SFX Ce ej im .
-SFX Ce 0 u .
-SFX Ce ej i .
-SFX Ce ej ih .
-SFX Ce ej imi .
+SFX Ce Y 3
+SFX Ce sot istah .
+SFX Ce sot istam .
+SFX Ce sot justami .
 
-SFX Cf Y 3
-SFX Cf i yh .
-SFX Cf i ym .
-SFX Cf i ymi .
+SFX Cf Y 32
+SFX Cf sti tl .
+SFX Cf sti tla .
+SFX Cf sti tlo .
+SFX Cf sti tli .
+SFX Cf sti tu .
+SFX Cf sti tem .
+SFX Cf sti teš .
+SFX Cf sti te .
+SFX Cf sti temo .
+SFX Cf sti tete .
+SFX Cf sti tut .
+SFX Cf sti teh .
+SFX Cf sti teše .
+SFX Cf sti tehmo .
+SFX Cf sti teste .
+SFX Cf sti tehu .
+SFX Cf sti ti .
+SFX Cf sti timo .
+SFX Cf sti tite .
+SFX Cf sti tuči .
+SFX Cf sti tuča .
+SFX Cf sti tuče .
+SFX Cf sti tomy .
+SFX Cf sti toma .
+SFX Cf sti tomo .
+SFX Cf sti tši .
+SFX Cf sti tša .
+SFX Cf sti tše .
+SFX Cf sti teny .
+SFX Cf sti tena .
+SFX Cf sti teno .
+SFX Cf sti tenje .
 
-SFX Cg Y 7
-SFX Cg o a .
-SFX Cg lo ol .
-SFX Cg o u .
-SFX Cg o ah .
-SFX Cg o am .
-SFX Cg 0 m .
-SFX Cg o ami .
+SFX Cg Y 10
+SFX Cg ej a .
+SFX Cg j go .
+SFX Cg ej u .
+SFX Cg j m .
+SFX Cg j mu .
+SFX Cg ej im .
+SFX Cg 0 u .
+SFX Cg ej i .
+SFX Cg ej ih .
+SFX Cg ej imi .
 
-SFX Ch Y 31
-SFX Ch ti l .
-SFX Ch ti la .
-SFX Ch ti lo .
-SFX Ch ti li .
-SFX Ch evati uju .
-SFX Ch evati ujem .
-SFX Ch evati uješ .
-SFX Ch evati uje .
-SFX Ch evati ujemo .
-SFX Ch evati ujete .
-SFX Ch evati ujut .
-SFX Ch ti h .
-SFX Ch ti še .
-SFX Ch ti hmo .
-SFX Ch ti ste .
-SFX Ch ti hu .
-SFX Ch evati uj .
-SFX Ch evati ujmo .
-SFX Ch evati ujte .
-SFX Ch evati ujuči .
-SFX Ch evati ujuča .
-SFX Ch evati ujuče .
-SFX Ch evati ujemy .
-SFX Ch evati ujema .
-SFX Ch ti vši .
-SFX Ch ti vša .
-SFX Ch ti vše .
-SFX Ch ti ny .
-SFX Ch ti na .
-SFX Ch ti no .
-SFX Ch ti nje .
+SFX Ch Y 3
+SFX Ch i yh .
+SFX Ch i ym .
+SFX Ch i ymi .
 
-SFX Ci Y 9
-SFX Ci 0 i .
-SFX Ci 0 a .
-SFX Ci 0 ov .
-SFX Ci 0 u .
-SFX Ci 0 ah .
-SFX Ci 0 am .
-SFX Ci 0 om .
-SFX Ci 0 ami .
-SFX Ci g že .
+SFX Ci Y 7
+SFX Ci o a .
+SFX Ci lo ol .
+SFX Ci o u .
+SFX Ci o ah .
+SFX Ci o am .
+SFX Ci 0 m .
+SFX Ci o ami .
 
-SFX Cj Y 7
-SFX Cj olj lj .
-SFX Cj olj lja .
-SFX Cj 0 a .
-SFX Cj olj lju .
-SFX Cj 0 u .
-SFX Cj olj ljem .
-SFX Cj 0 em .
+SFX Cj Y 31
+SFX Cj ti l .
+SFX Cj ti la .
+SFX Cj ti lo .
+SFX Cj ti li .
+SFX Cj evati uju .
+SFX Cj evati ujem .
+SFX Cj evati uješ .
+SFX Cj evati uje .
+SFX Cj evati ujemo .
+SFX Cj evati ujete .
+SFX Cj evati ujut .
+SFX Cj ti h .
+SFX Cj ti še .
+SFX Cj ti hmo .
+SFX Cj ti ste .
+SFX Cj ti hu .
+SFX Cj evati uj .
+SFX Cj evati ujmo .
+SFX Cj evati ujte .
+SFX Cj evati ujuči .
+SFX Cj evati ujuča .
+SFX Cj evati ujuče .
+SFX Cj evati ujemy .
+SFX Cj evati ujema .
+SFX Cj ti vši .
+SFX Cj ti vša .
+SFX Cj ti vše .
+SFX Cj ti ny .
+SFX Cj ti na .
+SFX Cj ti no .
+SFX Cj ti nje .
 
-SFX Ck Y 18
-SFX Ck o y .
-SFX Ck 0 y .
-SFX Ck o a .
+SFX Ck Y 9
+SFX Ck 0 i .
 SFX Ck 0 a .
-SFX Ck 0 v .
 SFX Ck 0 ov .
-SFX Ck o u .
 SFX Ck 0 u .
-SFX Ck o ah .
 SFX Ck 0 ah .
-SFX Ck o am .
 SFX Ck 0 am .
-SFX Ck 0 m .
 SFX Ck 0 om .
-SFX Ck o ami .
 SFX Ck 0 ami .
-SFX Ck o e .
-SFX Ck 0 e .
+SFX Ck g že .
 
-SFX Cl Y 31
-SFX Cl ti se l .
-SFX Cl ti se la .
-SFX Cl ti se lo .
-SFX Cl ti se li .
-SFX Cl ati se žu .
-SFX Cl ati se žem .
-SFX Cl ati se žeš .
-SFX Cl ati se že .
-SFX Cl ati se žemo .
-SFX Cl ati se žete .
-SFX Cl ati se žut .
-SFX Cl ti se h .
-SFX Cl ti se še .
-SFX Cl ti se hmo .
-SFX Cl ti se ste .
-SFX Cl ti se hu .
-SFX Cl ati se ži .
-SFX Cl ati se žimo .
-SFX Cl ati se žite .
-SFX Cl ati se žuči .
-SFX Cl ati se žuča .
-SFX Cl ati se žuče .
-SFX Cl ati se žemy .
-SFX Cl ati se žema .
-SFX Cl ti se vši .
-SFX Cl ti se vša .
-SFX Cl ti se vše .
-SFX Cl ti se ny .
-SFX Cl ti se na .
-SFX Cl ti se no .
-SFX Cl ti se nje .
+SFX Cl Y 7
+SFX Cl olj lj .
+SFX Cl olj lja .
+SFX Cl 0 a .
+SFX Cl olj lju .
+SFX Cl 0 u .
+SFX Cl olj ljem .
+SFX Cl 0 em .
 
-SFX Cm Y 3
-SFX Cm i ěh .
-SFX Cm i ěm .
-SFX Cm i ěmi .
+SFX Cm Y 19
+SFX Cm oz z .
+SFX Cm oz zy .
+SFX Cm 0 y .
+SFX Cm oz za .
+SFX Cm 0 a .
+SFX Cm oz zov .
+SFX Cm 0 ov .
+SFX Cm oz zu .
+SFX Cm 0 u .
+SFX Cm oz zah .
+SFX Cm 0 ah .
+SFX Cm oz zam .
+SFX Cm 0 am .
+SFX Cm oz zom .
+SFX Cm 0 om .
+SFX Cm oz zami .
+SFX Cm 0 ami .
+SFX Cm oz ze .
+SFX Cm 0 e .
 
 SFX Cn Y 31
-SFX Cn ti l .
-SFX Cn ti la .
-SFX Cn ti lo .
-SFX Cn ti li .
-SFX Cn obrati beru .
-SFX Cn obrati berem .
-SFX Cn obrati bereš .
-SFX Cn obrati bere .
-SFX Cn obrati beremo .
-SFX Cn obrati berete .
-SFX Cn obrati berut .
-SFX Cn ti h .
-SFX Cn ti še .
-SFX Cn ti hmo .
-SFX Cn ti ste .
-SFX Cn ti hu .
-SFX Cn obrati beri .
-SFX Cn obrati berimo .
-SFX Cn obrati berite .
-SFX Cn obrati beruči .
-SFX Cn obrati beruča .
-SFX Cn obrati beruče .
-SFX Cn obrati beremy .
-SFX Cn obrati berema .
-SFX Cn ti vši .
-SFX Cn ti vša .
-SFX Cn ti vše .
-SFX Cn ti ny .
-SFX Cn ti na .
-SFX Cn ti no .
-SFX Cn ti nje .
+SFX Cn ti se l .
+SFX Cn ti se la .
+SFX Cn ti se lo .
+SFX Cn ti se li .
+SFX Cn zati se žu .
+SFX Cn zati se žem .
+SFX Cn zati se žeš .
+SFX Cn zati se že .
+SFX Cn zati se žemo .
+SFX Cn zati se žete .
+SFX Cn zati se žut .
+SFX Cn ti se h .
+SFX Cn ti se še .
+SFX Cn ti se hmo .
+SFX Cn ti se ste .
+SFX Cn ti se hu .
+SFX Cn zati se ži .
+SFX Cn zati se žimo .
+SFX Cn zati se žite .
+SFX Cn zati se žuči .
+SFX Cn zati se žuča .
+SFX Cn zati se žuče .
+SFX Cn zati se žemy .
+SFX Cn zati se žema .
+SFX Cn ti se vši .
+SFX Cn ti se vša .
+SFX Cn ti se vše .
+SFX Cn ti se ny .
+SFX Cn ti se na .
+SFX Cn ti se no .
+SFX Cn ti se nje .
 
-SFX Co Y 31
-SFX Co ti se l .
-SFX Co ti se la .
-SFX Co ti se lo .
-SFX Co ti se li .
-SFX Co eti se nu .
-SFX Co eti se nem .
-SFX Co eti se neš .
-SFX Co eti se ne .
-SFX Co eti se nemo .
-SFX Co eti se nete .
-SFX Co eti se nut .
-SFX Co ti se h .
-SFX Co ti se še .
-SFX Co ti se hmo .
-SFX Co ti se ste .
-SFX Co ti se hu .
-SFX Co eti se ni .
-SFX Co eti se nimo .
-SFX Co eti se nite .
-SFX Co eti se nuči .
-SFX Co eti se nuča .
-SFX Co eti se nuče .
-SFX Co eti se nemy .
-SFX Co eti se nema .
-SFX Co ti se vši .
-SFX Co ti se vša .
-SFX Co ti se vše .
-SFX Co i se y .
-SFX Co i se a .
-SFX Co i se o .
-SFX Co i se je .
+SFX Co Y 3
+SFX Co i ěh .
+SFX Co i ěm .
+SFX Co i ěmi .
 
-SFX Cp Y 4
-SFX Cp 0 j .
-SFX Cp i ah .
-SFX Cp i am .
-SFX Cp i ami .
+SFX Cp Y 31
+SFX Cp ti l .
+SFX Cp ti la .
+SFX Cp ti lo .
+SFX Cp ti li .
+SFX Cp obrati beru .
+SFX Cp obrati berem .
+SFX Cp obrati bereš .
+SFX Cp obrati bere .
+SFX Cp obrati beremo .
+SFX Cp obrati berete .
+SFX Cp obrati berut .
+SFX Cp ti h .
+SFX Cp ti še .
+SFX Cp ti hmo .
+SFX Cp ti ste .
+SFX Cp ti hu .
+SFX Cp obrati beri .
+SFX Cp obrati berimo .
+SFX Cp obrati berite .
+SFX Cp obrati beruči .
+SFX Cp obrati beruča .
+SFX Cp obrati beruče .
+SFX Cp obrati beremy .
+SFX Cp obrati berema .
+SFX Cp ti vši .
+SFX Cp ti vša .
+SFX Cp ti vše .
+SFX Cp ti ny .
+SFX Cp ti na .
+SFX Cp ti no .
+SFX Cp ti nje .
 
-SFX Cq Y 4
-SFX Cq 0 a .
-SFX Cq 0 u .
-SFX Cq 0 om .
-SFX Cq g že .
+SFX Cq Y 31
+SFX Cq ti se l .
+SFX Cq ti se la .
+SFX Cq ti se lo .
+SFX Cq ti se li .
+SFX Cq eti se nu .
+SFX Cq eti se nem .
+SFX Cq eti se neš .
+SFX Cq eti se ne .
+SFX Cq eti se nemo .
+SFX Cq eti se nete .
+SFX Cq eti se nut .
+SFX Cq ti se h .
+SFX Cq ti se še .
+SFX Cq ti se hmo .
+SFX Cq ti se ste .
+SFX Cq ti se hu .
+SFX Cq eti se ni .
+SFX Cq eti se nimo .
+SFX Cq eti se nite .
+SFX Cq eti se nuči .
+SFX Cq eti se nuča .
+SFX Cq eti se nuče .
+SFX Cq eti se nemy .
+SFX Cq eti se nema .
+SFX Cq ti se vši .
+SFX Cq ti se vša .
+SFX Cq ti se vše .
+SFX Cq i se y .
+SFX Cq i se a .
+SFX Cq i se o .
+SFX Cq i se je .
 
-SFX Cr Y 31
-SFX Cr eti l .
-SFX Cr eti la .
-SFX Cr eti lo .
-SFX Cr eti li .
-SFX Cr reti eru .
-SFX Cr reti erem .
-SFX Cr reti ereš .
-SFX Cr reti ere .
-SFX Cr reti eremo .
-SFX Cr reti erete .
-SFX Cr reti erut .
-SFX Cr ti h .
-SFX Cr ti še .
-SFX Cr ti hmo .
-SFX Cr ti ste .
-SFX Cr ti hu .
-SFX Cr reti eri .
-SFX Cr reti erimo .
-SFX Cr reti erite .
-SFX Cr reti eruči .
-SFX Cr reti eruča .
-SFX Cr reti eruče .
-SFX Cr reti eremy .
-SFX Cr reti erema .
-SFX Cr eti ši .
-SFX Cr eti ša .
-SFX Cr eti še .
-SFX Cr eti ty .
-SFX Cr eti ta .
-SFX Cr eti to .
-SFX Cr eti tje .
+SFX Cr Y 4
+SFX Cr 0 j .
+SFX Cr i ah .
+SFX Cr i am .
+SFX Cr i ami .
 
-SFX Cs Y 3
-SFX Cs 0 h .
-SFX Cs 0 m .
-SFX Cs 0 mi .
+SFX Cs Y 4
+SFX Cs 0 a .
+SFX Cs 0 u .
+SFX Cs 0 om .
+SFX Cs g že .
 
-SFX Ct Y 11
-SFX Ct oj a .
-SFX Ct j go .
-SFX Ct oj u .
-SFX Ct j m .
-SFX Ct j mu .
-SFX Ct oj ym .
-SFX Ct 0 u .
-SFX Ct oj i .
-SFX Ct oj e .
-SFX Ct oj yh .
-SFX Ct oj ymi .
+SFX Ct Y 31
+SFX Ct eti l .
+SFX Ct eti la .
+SFX Ct eti lo .
+SFX Ct eti li .
+SFX Ct reti eru .
+SFX Ct reti erem .
+SFX Ct reti ereš .
+SFX Ct reti ere .
+SFX Ct reti eremo .
+SFX Ct reti erete .
+SFX Ct reti erut .
+SFX Ct ti h .
+SFX Ct ti še .
+SFX Ct ti hmo .
+SFX Ct ti ste .
+SFX Ct ti hu .
+SFX Ct reti eri .
+SFX Ct reti erimo .
+SFX Ct reti erite .
+SFX Ct reti eruči .
+SFX Ct reti eruča .
+SFX Ct reti eruče .
+SFX Ct reti eremy .
+SFX Ct reti erema .
+SFX Ct eti ši .
+SFX Ct eti ša .
+SFX Ct eti še .
+SFX Ct eti ty .
+SFX Ct eti ta .
+SFX Ct eti to .
+SFX Ct eti tje .
 
-SFX Cu Y 10
-SFX Cu 0 ta .
-SFX Cu 0 te .
-SFX Cu 0 t .
-SFX Cu 0 ti .
-SFX Cu 0 tu .
-SFX Cu 0 tah .
-SFX Cu 0 tam .
-SFX Cu 0 tem .
-SFX Cu 0 tom .
-SFX Cu 0 tami .
+SFX Cu Y 3
+SFX Cu 0 h .
+SFX Cu 0 m .
+SFX Cu 0 mi .
 
-SFX Cv Y 3
-SFX Cv e ah .
-SFX Cv e am .
-SFX Cv e ami .
+SFX Cv Y 11
+SFX Cv oj a .
+SFX Cv j go .
+SFX Cv oj u .
+SFX Cv j m .
+SFX Cv j mu .
+SFX Cv oj ym .
+SFX Cv 0 u .
+SFX Cv oj i .
+SFX Cv oj e .
+SFX Cv oj yh .
+SFX Cv oj ymi .
 
-SFX Cw Y 12
-SFX Cw es se .
-SFX Cw es sa .
-SFX Cw es sego .
-SFX Cw es su .
-SFX Cw es sej .
-SFX Cw es sem .
-SFX Cw es semu .
-SFX Cw es sim .
-SFX Cw es seju .
-SFX Cw es si .
-SFX Cw es sih .
-SFX Cw es simi .
+SFX Cw Y 10
+SFX Cw 0 ta .
+SFX Cw 0 te .
+SFX Cw 0 t .
+SFX Cw 0 ti .
+SFX Cw 0 tu .
+SFX Cw 0 tah .
+SFX Cw 0 tam .
+SFX Cw 0 tem .
+SFX Cw 0 tom .
+SFX Cw 0 tami .
 
-SFX Cx Y 31
-SFX Cx i l .
-SFX Cx i la .
-SFX Cx i lo .
-SFX Cx i li .
-SFX Cx i u .
-SFX Cx i em .
-SFX Cx i eš .
-SFX Cx i e .
-SFX Cx i emo .
-SFX Cx i ete .
-SFX Cx i ut .
-SFX Cx i eh .
-SFX Cx i eše .
-SFX Cx i ehmo .
-SFX Cx i este .
-SFX Cx i ehu .
-SFX Cx 0 mo .
-SFX Cx 0 te .
-SFX Cx i uči .
-SFX Cx i uča .
-SFX Cx i uče .
-SFX Cx i omy .
-SFX Cx i oma .
-SFX Cx i omo .
-SFX Cx i ši .
-SFX Cx i ša .
-SFX Cx i še .
-SFX Cx i eny .
-SFX Cx i ena .
-SFX Cx i eno .
-SFX Cx i enje .
+SFX Cx Y 3
+SFX Cx e ah .
+SFX Cx e am .
+SFX Cx e ami .
 
-SFX Cy Y 31
-SFX Cy ti l .
-SFX Cy ti la .
-SFX Cy ti lo .
-SFX Cy ti li .
-SFX Cy nati onu .
-SFX Cy nati onem .
-SFX Cy nati oneš .
-SFX Cy nati one .
-SFX Cy nati onemo .
-SFX Cy nati onete .
-SFX Cy nati onut .
-SFX Cy ti h .
-SFX Cy ti še .
-SFX Cy ti hmo .
-SFX Cy ti ste .
-SFX Cy ti hu .
-SFX Cy nati oni .
-SFX Cy nati onimo .
-SFX Cy nati onite .
-SFX Cy nati onuči .
-SFX Cy nati onuča .
-SFX Cy nati onuče .
-SFX Cy nati onemy .
-SFX Cy nati onema .
-SFX Cy ti vši .
-SFX Cy ti vša .
-SFX Cy ti vše .
-SFX Cy ti ny .
-SFX Cy ti na .
-SFX Cy ti no .
-SFX Cy ti nje .
+SFX Cy Y 12
+SFX Cy es se .
+SFX Cy es sa .
+SFX Cy es sego .
+SFX Cy es su .
+SFX Cy es sej .
+SFX Cy es sem .
+SFX Cy es semu .
+SFX Cy es sim .
+SFX Cy es seju .
+SFX Cy es si .
+SFX Cy es sih .
+SFX Cy es simi .
 
-SFX Cz Y 8
-SFX Cz enj nje .
-SFX Cz enj nja .
-SFX Cz enj njev .
-SFX Cz enj nju .
-SFX Cz enj njah .
-SFX Cz enj njam .
-SFX Cz enj njem .
-SFX Cz enj njami .
+SFX Cz Y 31
+SFX Cz i l .
+SFX Cz i la .
+SFX Cz i lo .
+SFX Cz i li .
+SFX Cz i u .
+SFX Cz i em .
+SFX Cz i eš .
+SFX Cz i e .
+SFX Cz i emo .
+SFX Cz i ete .
+SFX Cz i ut .
+SFX Cz i eh .
+SFX Cz i eše .
+SFX Cz i ehmo .
+SFX Cz i este .
+SFX Cz i ehu .
+SFX Cz 0 mo .
+SFX Cz 0 te .
+SFX Cz i uči .
+SFX Cz i uča .
+SFX Cz i uče .
+SFX Cz i omy .
+SFX Cz i oma .
+SFX Cz i omo .
+SFX Cz i ši .
+SFX Cz i ša .
+SFX Cz i še .
+SFX Cz i eny .
+SFX Cz i ena .
+SFX Cz i eno .
+SFX Cz i enje .
 
-SFX DA Y 4
-SFX DA tonebud egonebud .
-SFX DA tonebud emnebud .
-SFX DA tonebud emunebud .
-SFX DA tonebud imnebud .
+SFX DA Y 31
+SFX DA ti l .
+SFX DA ti la .
+SFX DA ti lo .
+SFX DA ti li .
+SFX DA nati onu .
+SFX DA nati onem .
+SFX DA nati oneš .
+SFX DA nati one .
+SFX DA nati onemo .
+SFX DA nati onete .
+SFX DA nati onut .
+SFX DA ti h .
+SFX DA ti še .
+SFX DA ti hmo .
+SFX DA ti ste .
+SFX DA ti hu .
+SFX DA nati oni .
+SFX DA nati onimo .
+SFX DA nati onite .
+SFX DA nati onuči .
+SFX DA nati onuča .
+SFX DA nati onuče .
+SFX DA nati onemy .
+SFX DA nati onema .
+SFX DA ti vši .
+SFX DA ti vša .
+SFX DA ti vše .
+SFX DA ti ny .
+SFX DA ti na .
+SFX DA ti no .
+SFX DA ti nje .
 
-SFX DB Y 9
-SFX DB en ny .
-SFX DB en na .
-SFX DB en nov .
-SFX DB en nu .
-SFX DB en nah .
-SFX DB en nam .
-SFX DB en nom .
-SFX DB en nami .
-SFX DB en ne .
+SFX DB Y 8
+SFX DB enj nje .
+SFX DB enj nja .
+SFX DB enj njev .
+SFX DB enj nju .
+SFX DB enj njah .
+SFX DB enj njam .
+SFX DB enj njem .
+SFX DB enj njami .
 
-SFX DC Y 8
-SFX DC elj lje .
-SFX DC elj lja .
-SFX DC elj ljev .
-SFX DC elj lju .
-SFX DC elj ljah .
-SFX DC elj ljam .
-SFX DC elj ljem .
-SFX DC elj ljami .
+SFX DC Y 4
+SFX DC tonebud egonebud .
+SFX DC tonebud emnebud .
+SFX DC tonebud emunebud .
+SFX DC tonebud imnebud .
 
-SFX DD Y 15
-SFX DD enj ni .
-SFX DD enj nje .
-SFX DD enj ne .
-SFX DD enj nja .
-SFX DD enj nev .
-SFX DD enj njev .
-SFX DD enj nju .
-SFX DD enj nah .
-SFX DD enj njah .
-SFX DD enj nam .
-SFX DD enj njam .
-SFX DD enj nem .
-SFX DD enj njem .
-SFX DD enj nami .
-SFX DD enj njami .
+SFX DD Y 9
+SFX DD en ny .
+SFX DD en na .
+SFX DD en nov .
+SFX DD en nu .
+SFX DD en nah .
+SFX DD en nam .
+SFX DD en nom .
+SFX DD en nami .
+SFX DD en ne .
 
-SFX DE Y 28
-SFX DE ti se l .
-SFX DE ti se la .
-SFX DE ti se lo .
-SFX DE ti se li .
-SFX DE ati se u .
-SFX DE ati se im .
-SFX DE ati se iš .
-SFX DE ati se i .
-SFX DE ati se imo .
-SFX DE ati se ite .
-SFX DE ati se et .
-SFX DE ti se h .
-SFX DE ti se še .
-SFX DE ti se hmo .
-SFX DE ti se ste .
-SFX DE ti se hu .
-SFX DE ati se eči .
-SFX DE ati se eča .
-SFX DE ati se eče .
-SFX DE ati se imy .
-SFX DE ati se ima .
-SFX DE ti se vši .
-SFX DE ti se vša .
-SFX DE ti se vše .
-SFX DE ti se ny .
-SFX DE ti se na .
-SFX DE ti se no .
-SFX DE ti se nje .
+SFX DE Y 8
+SFX DE elj lje .
+SFX DE elj lja .
+SFX DE elj ljev .
+SFX DE elj lju .
+SFX DE elj ljah .
+SFX DE elj ljam .
+SFX DE elj ljem .
+SFX DE elj ljami .
 
-SFX DF Y 31
-SFX DF ti l .
-SFX DF ti la .
-SFX DF ti lo .
-SFX DF ti li .
-SFX DF rati eru .
-SFX DF rati erem .
-SFX DF rati ereš .
-SFX DF rati ere .
-SFX DF rati eremo .
-SFX DF rati erete .
-SFX DF rati erut .
-SFX DF ti h .
-SFX DF ti še .
-SFX DF ti hmo .
-SFX DF ti ste .
-SFX DF ti hu .
-SFX DF rati eri .
-SFX DF rati erimo .
-SFX DF rati erite .
-SFX DF rati eruči .
-SFX DF rati eruča .
-SFX DF rati eruče .
-SFX DF rati eremy .
-SFX DF rati erema .
-SFX DF ti vši .
-SFX DF ti vša .
-SFX DF ti vše .
-SFX DF ti ny .
-SFX DF ti na .
-SFX DF ti no .
-SFX DF ti nje .
+SFX DF Y 15
+SFX DF enj ni .
+SFX DF enj nje .
+SFX DF enj ne .
+SFX DF enj nja .
+SFX DF enj nev .
+SFX DF enj njev .
+SFX DF enj nju .
+SFX DF enj nah .
+SFX DF enj njah .
+SFX DF enj nam .
+SFX DF enj njam .
+SFX DF enj nem .
+SFX DF enj njem .
+SFX DF enj nami .
+SFX DF enj njami .
 
-SFX DG Y 27
+SFX DG Y 28
 SFX DG ti se l .
 SFX DG ti se la .
 SFX DG ti se lo .
 SFX DG ti se li .
-SFX DG iti se žu .
-SFX DG ti se m .
-SFX DG ti se š .
-SFX DG ti se mo .
-SFX DG i se e .
-SFX DG iti se et .
+SFX DG ati se u .
+SFX DG ati se im .
+SFX DG ati se iš .
+SFX DG ati se i .
+SFX DG ati se imo .
+SFX DG ati se ite .
+SFX DG ati se et .
 SFX DG ti se h .
 SFX DG ti se še .
 SFX DG ti se hmo .
 SFX DG ti se ste .
 SFX DG ti se hu .
-SFX DG iti se eči .
-SFX DG iti se eča .
-SFX DG iti se eče .
-SFX DG ti se my .
-SFX DG ti se ma .
+SFX DG ati se eči .
+SFX DG ati se eča .
+SFX DG ati se eče .
+SFX DG ati se imy .
+SFX DG ati se ima .
 SFX DG ti se vši .
 SFX DG ti se vša .
 SFX DG ti se vše .
-SFX DG iti se ženy .
-SFX DG iti se žena .
-SFX DG iti se ženo .
-SFX DG iti se ženje .
+SFX DG ti se ny .
+SFX DG ti se na .
+SFX DG ti se no .
+SFX DG ti se nje .
 
-SFX DH Y 7
-SFX DH ov vi .
-SFX DH ov ve .
-SFX DH ov vij .
-SFX DH ov vah .
-SFX DH ov vam .
-SFX DH 0 ju .
-SFX DH ov vami .
+SFX DH Y 31
+SFX DH ti l .
+SFX DH ti la .
+SFX DH ti lo .
+SFX DH ti li .
+SFX DH rati eru .
+SFX DH rati erem .
+SFX DH rati ereš .
+SFX DH rati ere .
+SFX DH rati eremo .
+SFX DH rati erete .
+SFX DH rati erut .
+SFX DH ti h .
+SFX DH ti še .
+SFX DH ti hmo .
+SFX DH ti ste .
+SFX DH ti hu .
+SFX DH rati eri .
+SFX DH rati erimo .
+SFX DH rati erite .
+SFX DH rati eruči .
+SFX DH rati eruča .
+SFX DH rati eruče .
+SFX DH rati eremy .
+SFX DH rati erema .
+SFX DH ti vši .
+SFX DH ti vša .
+SFX DH ti vše .
+SFX DH ti ny .
+SFX DH ti na .
+SFX DH ti no .
+SFX DH ti nje .
 
-SFX DI Y 31
-SFX DI ti l .
-SFX DI ti la .
-SFX DI ti lo .
-SFX DI ti li .
-SFX DI ati ju .
-SFX DI ati jem .
-SFX DI ati ješ .
-SFX DI ati je .
-SFX DI ati jemo .
-SFX DI ati jete .
-SFX DI ati jut .
-SFX DI ti h .
-SFX DI ti še .
-SFX DI ti hmo .
-SFX DI ti ste .
-SFX DI ti hu .
-SFX DI ati j .
-SFX DI ati jmo .
-SFX DI ati jte .
-SFX DI ati juči .
-SFX DI ati juča .
-SFX DI ati juče .
-SFX DI ati jemy .
-SFX DI ati jema .
-SFX DI ti vši .
-SFX DI ti vša .
-SFX DI ti vše .
-SFX DI ti ny .
-SFX DI ti na .
-SFX DI ti no .
-SFX DI ti nje .
+SFX DI Y 27
+SFX DI ti se l .
+SFX DI ti se la .
+SFX DI ti se lo .
+SFX DI ti se li .
+SFX DI iti se žu .
+SFX DI ti se m .
+SFX DI ti se š .
+SFX DI ti se mo .
+SFX DI i se e .
+SFX DI iti se et .
+SFX DI ti se h .
+SFX DI ti se še .
+SFX DI ti se hmo .
+SFX DI ti se ste .
+SFX DI ti se hu .
+SFX DI iti se eči .
+SFX DI iti se eča .
+SFX DI iti se eče .
+SFX DI ti se my .
+SFX DI ti se ma .
+SFX DI ti se vši .
+SFX DI ti se vša .
+SFX DI ti se vše .
+SFX DI iti se ženy .
+SFX DI iti se žena .
+SFX DI iti se ženo .
+SFX DI iti se ženje .
 
-SFX DJ Y 31
-SFX DJ ti se l .
-SFX DJ ti se la .
-SFX DJ ti se lo .
-SFX DJ ti se li .
-SFX DJ ovati se uju .
-SFX DJ ovati se ujem .
-SFX DJ ovati se uješ .
-SFX DJ ovati se uje .
-SFX DJ ovati se ujemo .
-SFX DJ ovati se ujete .
-SFX DJ ovati se ujut .
-SFX DJ ti se h .
-SFX DJ ti se še .
-SFX DJ ti se hmo .
-SFX DJ ti se ste .
-SFX DJ ti se hu .
-SFX DJ ovati se uj .
-SFX DJ ovati se ujmo .
-SFX DJ ovati se ujte .
-SFX DJ ovati se ujuči .
-SFX DJ ovati se ujuča .
-SFX DJ ovati se ujuče .
-SFX DJ ovati se ujemy .
-SFX DJ ovati se ujema .
-SFX DJ ti se vši .
-SFX DJ ti se vša .
-SFX DJ ti se vše .
-SFX DJ ti se ny .
-SFX DJ ti se na .
-SFX DJ ti se no .
-SFX DJ ti se nje .
+SFX DJ Y 7
+SFX DJ ov vi .
+SFX DJ ov ve .
+SFX DJ ov vij .
+SFX DJ ov vah .
+SFX DJ ov vam .
+SFX DJ 0 ju .
+SFX DJ ov vami .
 
-SFX DK Y 13
-SFX DK oš š .
-SFX DK oš ši .
-SFX DK 0 i .
-SFX DK oš šij .
-SFX DK 0 ij .
-SFX DK oš šah .
-SFX DK 0 ah .
-SFX DK oš šam .
-SFX DK 0 am .
-SFX DK oš šju .
-SFX DK 0 ju .
-SFX DK oš šami .
-SFX DK 0 ami .
+SFX DK Y 31
+SFX DK ti l .
+SFX DK ti la .
+SFX DK ti lo .
+SFX DK ti li .
+SFX DK ati ju .
+SFX DK ati jem .
+SFX DK ati ješ .
+SFX DK ati je .
+SFX DK ati jemo .
+SFX DK ati jete .
+SFX DK ati jut .
+SFX DK ti h .
+SFX DK ti še .
+SFX DK ti hmo .
+SFX DK ti ste .
+SFX DK ti hu .
+SFX DK ati j .
+SFX DK ati jmo .
+SFX DK ati jte .
+SFX DK ati juči .
+SFX DK ati juča .
+SFX DK ati juče .
+SFX DK ati jemy .
+SFX DK ati jema .
+SFX DK ti vši .
+SFX DK ti vša .
+SFX DK ti vše .
+SFX DK ti ny .
+SFX DK ti na .
+SFX DK ti no .
+SFX DK ti nje .
 
-SFX DL Y 7
-SFX DL o a .
-SFX DL no on .
-SFX DL o u .
-SFX DL o ah .
-SFX DL o am .
-SFX DL 0 m .
-SFX DL o ami .
+SFX DL Y 31
+SFX DL ti se l .
+SFX DL ti se la .
+SFX DL ti se lo .
+SFX DL ti se li .
+SFX DL ovati se uju .
+SFX DL ovati se ujem .
+SFX DL ovati se uješ .
+SFX DL ovati se uje .
+SFX DL ovati se ujemo .
+SFX DL ovati se ujete .
+SFX DL ovati se ujut .
+SFX DL ti se h .
+SFX DL ti se še .
+SFX DL ti se hmo .
+SFX DL ti se ste .
+SFX DL ti se hu .
+SFX DL ovati se uj .
+SFX DL ovati se ujmo .
+SFX DL ovati se ujte .
+SFX DL ovati se ujuči .
+SFX DL ovati se ujuča .
+SFX DL ovati se ujuče .
+SFX DL ovati se ujemy .
+SFX DL ovati se ujema .
+SFX DL ti se vši .
+SFX DL ti se vša .
+SFX DL ti se vše .
+SFX DL ti se ny .
+SFX DL ti se na .
+SFX DL ti se no .
+SFX DL ti se nje .
 
-SFX DM Y 16
-SFX DM ti l .
-SFX DM ti la .
-SFX DM ti lo .
-SFX DM ti li .
-SFX DM ti h .
-SFX DM ti še .
-SFX DM ti hmo .
-SFX DM ti ste .
-SFX DM ti hu .
-SFX DM ti vši .
-SFX DM ti vša .
-SFX DM ti vše .
-SFX DM ti ny .
-SFX DM ti na .
-SFX DM ti no .
-SFX DM ti nje .
+SFX DM Y 13
+SFX DM oš š .
+SFX DM oš ši .
+SFX DM 0 i .
+SFX DM oš šij .
+SFX DM 0 ij .
+SFX DM oš šah .
+SFX DM 0 ah .
+SFX DM oš šam .
+SFX DM 0 am .
+SFX DM oš šju .
+SFX DM 0 ju .
+SFX DM oš šami .
+SFX DM 0 ami .
 
-SFX DN Y 28
-SFX DN ti l .
-SFX DN ti la .
-SFX DN ti lo .
-SFX DN ti li .
-SFX DN těti ču .
-SFX DN ěti im .
-SFX DN ěti iš .
-SFX DN ěti i .
-SFX DN ěti imo .
-SFX DN ěti ite .
-SFX DN ěti et .
-SFX DN ti h .
-SFX DN ti še .
-SFX DN ti hmo .
-SFX DN ti ste .
-SFX DN ti hu .
-SFX DN ěti eči .
-SFX DN ěti eča .
-SFX DN ěti eče .
-SFX DN ěti imy .
-SFX DN ěti ima .
-SFX DN ti vši .
-SFX DN ti vša .
-SFX DN ti vše .
-SFX DN ti ny .
-SFX DN ti na .
-SFX DN ti no .
-SFX DN ti nje .
+SFX DN Y 7
+SFX DN o a .
+SFX DN no on .
+SFX DN o u .
+SFX DN o ah .
+SFX DN o am .
+SFX DN 0 m .
+SFX DN o ami .
 
-SFX DO Y 32
-SFX DO sti se dl .
-SFX DO sti se dla .
-SFX DO sti se dlo .
-SFX DO sti se dli .
-SFX DO sti se du .
-SFX DO sti se dem .
-SFX DO sti se deš .
-SFX DO sti se de .
-SFX DO sti se demo .
-SFX DO sti se dete .
-SFX DO sti se dut .
-SFX DO sti se deh .
-SFX DO sti se deše .
-SFX DO sti se dehmo .
-SFX DO sti se deste .
-SFX DO sti se dehu .
-SFX DO sti se di .
-SFX DO sti se dimo .
-SFX DO sti se dite .
-SFX DO sti se duči .
-SFX DO sti se duča .
-SFX DO sti se duče .
-SFX DO sti se domy .
-SFX DO sti se doma .
-SFX DO sti se domo .
-SFX DO sti se dši .
-SFX DO sti se dša .
-SFX DO sti se dše .
-SFX DO sti se deny .
-SFX DO sti se dena .
-SFX DO sti se deno .
-SFX DO sti se denje .
+SFX DO Y 31
+SFX DO ti l .
+SFX DO ti la .
+SFX DO ti lo .
+SFX DO ti li .
+SFX DO vati ovu .
+SFX DO vati ovem .
+SFX DO vati oveš .
+SFX DO vati ove .
+SFX DO vati ovemo .
+SFX DO vati ovete .
+SFX DO vati ovut .
+SFX DO ti h .
+SFX DO ti še .
+SFX DO ti hmo .
+SFX DO ti ste .
+SFX DO ti hu .
+SFX DO vati ovi .
+SFX DO vati ovimo .
+SFX DO vati ovite .
+SFX DO vati ovuči .
+SFX DO vati ovuča .
+SFX DO vati ovuče .
+SFX DO vati ovemy .
+SFX DO vati ovema .
+SFX DO ti vši .
+SFX DO ti vša .
+SFX DO ti vše .
+SFX DO ti ny .
+SFX DO ti na .
+SFX DO ti no .
+SFX DO ti nje .
 
-SFX DP Y 19
-SFX DP on n .
-SFX DP on ny .
-SFX DP 0 y .
-SFX DP on na .
-SFX DP 0 a .
-SFX DP on nov .
-SFX DP 0 ov .
-SFX DP on nu .
-SFX DP 0 u .
-SFX DP on nah .
-SFX DP 0 ah .
-SFX DP on nam .
-SFX DP 0 am .
-SFX DP on nom .
-SFX DP 0 om .
-SFX DP on nami .
-SFX DP 0 ami .
-SFX DP on ne .
-SFX DP 0 e .
+SFX DP Y 28
+SFX DP ti l .
+SFX DP ti la .
+SFX DP ti lo .
+SFX DP ti li .
+SFX DP těti ču .
+SFX DP ěti im .
+SFX DP ěti iš .
+SFX DP ěti i .
+SFX DP ěti imo .
+SFX DP ěti ite .
+SFX DP ěti et .
+SFX DP ti h .
+SFX DP ti še .
+SFX DP ti hmo .
+SFX DP ti ste .
+SFX DP ti hu .
+SFX DP ěti eči .
+SFX DP ěti eča .
+SFX DP ěti eče .
+SFX DP ěti imy .
+SFX DP ěti ima .
+SFX DP ti vši .
+SFX DP ti vša .
+SFX DP ti vše .
+SFX DP ti ny .
+SFX DP ti na .
+SFX DP ti no .
+SFX DP ti nje .
 
-SFX DQ Y 25
-SFX DQ ti u .
-SFX DQ ti em .
-SFX DQ ti eš .
-SFX DQ ti e .
-SFX DQ ti emo .
-SFX DQ ti ete .
-SFX DQ ti ut .
-SFX DQ ti eh .
-SFX DQ ti eše .
-SFX DQ ti ehmo .
-SFX DQ ti este .
-SFX DQ ti ehu .
-SFX DQ ti i .
-SFX DQ ti imo .
-SFX DQ ti ite .
-SFX DQ ti uči .
-SFX DQ ti uča .
-SFX DQ ti uče .
-SFX DQ ti omy .
-SFX DQ ti oma .
-SFX DQ ti omo .
-SFX DQ ti eny .
-SFX DQ ti ena .
-SFX DQ ti eno .
-SFX DQ ti enje .
+SFX DQ Y 32
+SFX DQ sti se dl .
+SFX DQ sti se dla .
+SFX DQ sti se dlo .
+SFX DQ sti se dli .
+SFX DQ sti se du .
+SFX DQ sti se dem .
+SFX DQ sti se deš .
+SFX DQ sti se de .
+SFX DQ sti se demo .
+SFX DQ sti se dete .
+SFX DQ sti se dut .
+SFX DQ sti se deh .
+SFX DQ sti se deše .
+SFX DQ sti se dehmo .
+SFX DQ sti se deste .
+SFX DQ sti se dehu .
+SFX DQ sti se di .
+SFX DQ sti se dimo .
+SFX DQ sti se dite .
+SFX DQ sti se duči .
+SFX DQ sti se duča .
+SFX DQ sti se duče .
+SFX DQ sti se domy .
+SFX DQ sti se doma .
+SFX DQ sti se domo .
+SFX DQ sti se dši .
+SFX DQ sti se dša .
+SFX DQ sti se dše .
+SFX DQ sti se deny .
+SFX DQ sti se dena .
+SFX DQ sti se deno .
+SFX DQ sti se denje .
 
-SFX DR Y 32
-SFX DR ti l .
-SFX DR ti la .
-SFX DR ti lo .
-SFX DR ti li .
-SFX DR yti udu .
-SFX DR yti udem .
-SFX DR yti udeš .
-SFX DR yti ude .
-SFX DR yti udemo .
-SFX DR yti udete .
-SFX DR yti udut .
-SFX DR ti h .
-SFX DR ti še .
-SFX DR ti hmo .
-SFX DR ti ste .
-SFX DR ti hu .
-SFX DR yti udi .
-SFX DR yti udimo .
-SFX DR yti udite .
-SFX DR yti uduči .
-SFX DR yti uduča .
-SFX DR yti uduče .
-SFX DR yti udomy .
-SFX DR yti udoma .
-SFX DR yti udomo .
-SFX DR ti vši .
-SFX DR ti vša .
-SFX DR ti vše .
-SFX DR i y .
-SFX DR i a .
-SFX DR i o .
-SFX DR i je .
+SFX DR Y 19
+SFX DR on n .
+SFX DR on ny .
+SFX DR 0 y .
+SFX DR on na .
+SFX DR 0 a .
+SFX DR on nov .
+SFX DR 0 ov .
+SFX DR on nu .
+SFX DR 0 u .
+SFX DR on nah .
+SFX DR 0 ah .
+SFX DR on nam .
+SFX DR 0 am .
+SFX DR on nom .
+SFX DR 0 om .
+SFX DR on nami .
+SFX DR 0 ami .
+SFX DR on ne .
+SFX DR 0 e .
 
-SFX DS Y 32
-SFX DS ti l .
-SFX DS ti la .
-SFX DS ti lo .
-SFX DS ti li .
-SFX DS hati du .
-SFX DS hati dem .
-SFX DS hati deš .
-SFX DS hati de .
-SFX DS hati demo .
-SFX DS hati dete .
-SFX DS hati dut .
-SFX DS ti h .
-SFX DS ti še .
-SFX DS ti hmo .
-SFX DS ti ste .
-SFX DS ti hu .
-SFX DS hati di .
-SFX DS hati dimo .
-SFX DS hati dite .
-SFX DS hati duči .
-SFX DS hati duča .
-SFX DS hati duče .
-SFX DS hati domy .
-SFX DS hati doma .
-SFX DS hati domo .
-SFX DS ti vši .
-SFX DS ti vša .
-SFX DS ti vše .
-SFX DS ti ny .
-SFX DS ti na .
-SFX DS ti no .
-SFX DS ti nje .
+SFX DS Y 25
+SFX DS ti u .
+SFX DS ti em .
+SFX DS ti eš .
+SFX DS ti e .
+SFX DS ti emo .
+SFX DS ti ete .
+SFX DS ti ut .
+SFX DS ti eh .
+SFX DS ti eše .
+SFX DS ti ehmo .
+SFX DS ti este .
+SFX DS ti ehu .
+SFX DS ti i .
+SFX DS ti imo .
+SFX DS ti ite .
+SFX DS ti uči .
+SFX DS ti uča .
+SFX DS ti uče .
+SFX DS ti omy .
+SFX DS ti oma .
+SFX DS ti omo .
+SFX DS ti eny .
+SFX DS ti ena .
+SFX DS ti eno .
+SFX DS ti enje .
 
-SFX DT Y 7
-SFX DT o a .
-SFX DT to ot .
-SFX DT o u .
-SFX DT o ah .
-SFX DT o am .
-SFX DT 0 m .
-SFX DT o ami .
+SFX DT Y 32
+SFX DT ti l .
+SFX DT ti la .
+SFX DT ti lo .
+SFX DT ti li .
+SFX DT yti udu .
+SFX DT yti udem .
+SFX DT yti udeš .
+SFX DT yti ude .
+SFX DT yti udemo .
+SFX DT yti udete .
+SFX DT yti udut .
+SFX DT ti h .
+SFX DT ti še .
+SFX DT ti hmo .
+SFX DT ti ste .
+SFX DT ti hu .
+SFX DT yti udi .
+SFX DT yti udimo .
+SFX DT yti udite .
+SFX DT yti uduči .
+SFX DT yti uduča .
+SFX DT yti uduče .
+SFX DT yti udomy .
+SFX DT yti udoma .
+SFX DT yti udomo .
+SFX DT ti vši .
+SFX DT ti vša .
+SFX DT ti vše .
+SFX DT i y .
+SFX DT i a .
+SFX DT i o .
+SFX DT i je .
 
-SFX DU Y 28
+SFX DU Y 32
 SFX DU ti l .
 SFX DU ti la .
 SFX DU ti lo .
 SFX DU ti li .
-SFX DU ati ju .
-SFX DU ati im .
-SFX DU ati iš .
-SFX DU ati i .
-SFX DU ati imo .
-SFX DU ati ite .
-SFX DU ati et .
+SFX DU hati du .
+SFX DU hati dem .
+SFX DU hati deš .
+SFX DU hati de .
+SFX DU hati demo .
+SFX DU hati dete .
+SFX DU hati dut .
 SFX DU ti h .
 SFX DU ti še .
 SFX DU ti hmo .
 SFX DU ti ste .
 SFX DU ti hu .
-SFX DU ati eči .
-SFX DU ati eča .
-SFX DU ati eče .
-SFX DU ati imy .
-SFX DU ati ima .
+SFX DU hati di .
+SFX DU hati dimo .
+SFX DU hati dite .
+SFX DU hati duči .
+SFX DU hati duča .
+SFX DU hati duče .
+SFX DU hati domy .
+SFX DU hati doma .
+SFX DU hati domo .
 SFX DU ti vši .
 SFX DU ti vša .
 SFX DU ti vše .
@@ -3272,500 +3295,475 @@ SFX DU ti na .
 SFX DU ti no .
 SFX DU ti nje .
 
-SFX DV Y 30
-SFX DV ti se l .
-SFX DV ti se la .
-SFX DV ti se lo .
-SFX DV ti se li .
-SFX DV ati se u .
-SFX DV ati se em .
-SFX DV ati se eš .
-SFX DV ati se e .
-SFX DV ati se emo .
-SFX DV ati se ete .
-SFX DV ati se ut .
-SFX DV ti se h .
-SFX DV ti se še .
-SFX DV ti se hmo .
-SFX DV ti se ste .
-SFX DV ti se hu .
-SFX DV ati se mo .
-SFX DV ati se te .
-SFX DV ati se uči .
-SFX DV ati se uča .
-SFX DV ati se uče .
-SFX DV ati se emy .
-SFX DV ati se ema .
-SFX DV ti se vši .
-SFX DV ti se vša .
-SFX DV ti se vše .
-SFX DV ti se ny .
-SFX DV ti se na .
-SFX DV ti se no .
-SFX DV ti se nje .
+SFX DV Y 7
+SFX DV o a .
+SFX DV to ot .
+SFX DV o u .
+SFX DV o ah .
+SFX DV o am .
+SFX DV 0 m .
+SFX DV o ami .
 
-SFX DW Y 10
-SFX DW 0 na .
-SFX DW 0 ne .
-SFX DW 0 n .
-SFX DW 0 ni .
-SFX DW 0 nu .
-SFX DW 0 nah .
-SFX DW 0 nam .
-SFX DW 0 nem .
-SFX DW 0 nom .
-SFX DW 0 nami .
+SFX DW Y 28
+SFX DW ti l .
+SFX DW ti la .
+SFX DW ti lo .
+SFX DW ti li .
+SFX DW ati ju .
+SFX DW ati im .
+SFX DW ati iš .
+SFX DW ati i .
+SFX DW ati imo .
+SFX DW ati ite .
+SFX DW ati et .
+SFX DW ti h .
+SFX DW ti še .
+SFX DW ti hmo .
+SFX DW ti ste .
+SFX DW ti hu .
+SFX DW ati eči .
+SFX DW ati eča .
+SFX DW ati eče .
+SFX DW ati imy .
+SFX DW ati ima .
+SFX DW ti vši .
+SFX DW ti vša .
+SFX DW ti vše .
+SFX DW ti ny .
+SFX DW ti na .
+SFX DW ti no .
+SFX DW ti nje .
 
-SFX DX Y 4
-SFX DX sot isot .
-SFX DX sot istah .
-SFX DX sot istam .
-SFX DX sot justami .
+SFX DX Y 30
+SFX DX ti se l .
+SFX DX ti se la .
+SFX DX ti se lo .
+SFX DX ti se li .
+SFX DX ati se u .
+SFX DX ati se em .
+SFX DX ati se eš .
+SFX DX ati se e .
+SFX DX ati se emo .
+SFX DX ati se ete .
+SFX DX ati se ut .
+SFX DX ti se h .
+SFX DX ti se še .
+SFX DX ti se hmo .
+SFX DX ti se ste .
+SFX DX ti se hu .
+SFX DX ati se mo .
+SFX DX ati se te .
+SFX DX ati se uči .
+SFX DX ati se uča .
+SFX DX ati se uče .
+SFX DX ati se emy .
+SFX DX ati se ema .
+SFX DX ti se vši .
+SFX DX ti se vša .
+SFX DX ti se vše .
+SFX DX ti se ny .
+SFX DX ti se na .
+SFX DX ti se no .
+SFX DX ti se nje .
 
-SFX DY Y 9
-SFX DY es si .
-SFX DY es sa .
-SFX DY es sov .
-SFX DY es su .
-SFX DY es sah .
-SFX DY es sam .
-SFX DY es som .
-SFX DY es sami .
-SFX DY es se .
+SFX DY Y 10
+SFX DY 0 na .
+SFX DY 0 ne .
+SFX DY 0 n .
+SFX DY 0 ni .
+SFX DY 0 nu .
+SFX DY 0 nah .
+SFX DY 0 nam .
+SFX DY 0 nem .
+SFX DY 0 nom .
+SFX DY 0 nami .
 
-SFX DZ Y 9
-SFX DZ i je .
-SFX DZ i ju .
-SFX DZ i ej .
-SFX DZ i ji .
-SFX DZ i jah .
-SFX DZ i jam .
-SFX DZ i jeju .
-SFX DZ i jami .
-SFX DZ i jo .
+SFX DZ Y 4
+SFX DZ sot isot .
+SFX DZ sot istah .
+SFX DZ sot istam .
+SFX DZ sot justami .
 
-SFX Da Y 28
-SFX Da ti l .
-SFX Da ti la .
-SFX Da ti lo .
-SFX Da ti li .
-SFX Da ypěti ipju .
-SFX Da ypěti ipim .
-SFX Da ypěti ipiš .
-SFX Da ypěti ipi .
-SFX Da ypěti ipimo .
-SFX Da ypěti ipite .
-SFX Da ypěti ipet .
-SFX Da ti h .
-SFX Da ti še .
-SFX Da ti hmo .
-SFX Da ti ste .
-SFX Da ti hu .
-SFX Da ypěti ipeči .
-SFX Da ypěti ipeča .
-SFX Da ypěti ipeče .
-SFX Da ypěti ipimy .
-SFX Da ypěti ipima .
-SFX Da ti vši .
-SFX Da ti vša .
-SFX Da ti vše .
-SFX Da ti ny .
-SFX Da ti na .
-SFX Da ti no .
-SFX Da ti nje .
+SFX Da Y 9
+SFX Da es si .
+SFX Da es sa .
+SFX Da es sov .
+SFX Da es su .
+SFX Da es sah .
+SFX Da es sam .
+SFX Da es som .
+SFX Da es sami .
+SFX Da es se .
 
-SFX Db Y 11
-SFX Db 0 e .
-SFX Db 0 i .
-SFX Db 0 a .
-SFX Db 0 ev .
-SFX Db 0 ij .
-SFX Db 0 u .
-SFX Db 0 ah .
-SFX Db 0 am .
-SFX Db 0 em .
-SFX Db 0 ju .
-SFX Db 0 ami .
+SFX Db Y 9
+SFX Db i je .
+SFX Db i ju .
+SFX Db i ej .
+SFX Db i ji .
+SFX Db i jah .
+SFX Db i jam .
+SFX Db i jeju .
+SFX Db i jami .
+SFX Db i jo .
 
-SFX Dc Y 9
-SFX Dc oha hy .
-SFX Dc oha hu .
-SFX Dc oha h .
-SFX Dc oha hě .
-SFX Dc oha hah .
-SFX Dc oha ham .
-SFX Dc oha hoju .
-SFX Dc oha hami .
-SFX Dc oha ho .
+SFX Dc Y 28
+SFX Dc ti l .
+SFX Dc ti la .
+SFX Dc ti lo .
+SFX Dc ti li .
+SFX Dc ypěti ipju .
+SFX Dc ypěti ipim .
+SFX Dc ypěti ipiš .
+SFX Dc ypěti ipi .
+SFX Dc ypěti ipimo .
+SFX Dc ypěti ipite .
+SFX Dc ypěti ipet .
+SFX Dc ti h .
+SFX Dc ti še .
+SFX Dc ti hmo .
+SFX Dc ti ste .
+SFX Dc ti hu .
+SFX Dc ypěti ipeči .
+SFX Dc ypěti ipeča .
+SFX Dc ypěti ipeče .
+SFX Dc ypěti ipimy .
+SFX Dc ypěti ipima .
+SFX Dc ti vši .
+SFX Dc ti vša .
+SFX Dc ti vše .
+SFX Dc ti ny .
+SFX Dc ti na .
+SFX Dc ti no .
+SFX Dc ti nje .
 
-SFX Dd Y 9
-SFX Dd o a .
-SFX Dd no on .
-SFX Dd o u .
-SFX Dd o ah .
-SFX Dd o am .
-SFX Dd 0 m .
-SFX Dd o ami .
-SFX Dd no en .
-SFX Dd o ju .
+SFX Dd Y 11
+SFX Dd 0 e .
+SFX Dd 0 i .
+SFX Dd 0 a .
+SFX Dd 0 ev .
+SFX Dd 0 ij .
+SFX Dd 0 u .
+SFX Dd 0 ah .
+SFX Dd 0 am .
+SFX Dd 0 em .
+SFX Dd 0 ju .
+SFX Dd 0 ami .
 
-SFX De Y 19
-SFX De ob b .
-SFX De ob by .
-SFX De 0 y .
-SFX De ob ba .
-SFX De 0 a .
-SFX De ob bov .
-SFX De 0 ov .
-SFX De ob bu .
-SFX De 0 u .
-SFX De ob bah .
-SFX De 0 ah .
-SFX De ob bam .
-SFX De 0 am .
-SFX De ob bom .
-SFX De 0 om .
-SFX De ob bami .
-SFX De 0 ami .
-SFX De ob be .
-SFX De 0 e .
+SFX De Y 9
+SFX De oha hy .
+SFX De oha hu .
+SFX De oha h .
+SFX De oha hě .
+SFX De oha hah .
+SFX De oha ham .
+SFX De oha hoju .
+SFX De oha hami .
+SFX De oha ho .
 
-SFX Df Y 4
-SFX Df i ov .
-SFX Df i ah .
-SFX Df i am .
-SFX Df i ami .
+SFX Df Y 9
+SFX Df o a .
+SFX Df no on .
+SFX Df o u .
+SFX Df o ah .
+SFX Df o am .
+SFX Df 0 m .
+SFX Df o ami .
+SFX Df no en .
+SFX Df o ju .
 
-SFX Dg Y 31
-SFX Dg ti l .
-SFX Dg ti la .
-SFX Dg ti lo .
-SFX Dg ti li .
-SFX Dg vati ju .
-SFX Dg vati jem .
-SFX Dg vati ješ .
-SFX Dg vati je .
-SFX Dg vati jemo .
-SFX Dg vati jete .
-SFX Dg vati jut .
-SFX Dg ti h .
-SFX Dg ti še .
-SFX Dg ti hmo .
-SFX Dg ti ste .
-SFX Dg ti hu .
-SFX Dg vati j .
-SFX Dg vati jmo .
-SFX Dg vati jte .
-SFX Dg vati juči .
-SFX Dg vati juča .
-SFX Dg vati juče .
-SFX Dg vati jemy .
-SFX Dg vati jema .
-SFX Dg ti vši .
-SFX Dg ti vša .
-SFX Dg ti vše .
-SFX Dg ti ny .
-SFX Dg ti na .
-SFX Dg ti no .
-SFX Dg ti nje .
+SFX Dg Y 19
+SFX Dg ob b .
+SFX Dg ob by .
+SFX Dg 0 y .
+SFX Dg ob ba .
+SFX Dg 0 a .
+SFX Dg ob bov .
+SFX Dg 0 ov .
+SFX Dg ob bu .
+SFX Dg 0 u .
+SFX Dg ob bah .
+SFX Dg 0 ah .
+SFX Dg ob bam .
+SFX Dg 0 am .
+SFX Dg ob bom .
+SFX Dg 0 om .
+SFX Dg ob bami .
+SFX Dg 0 ami .
+SFX Dg ob be .
+SFX Dg 0 e .
 
-SFX Dh Y 15
-SFX Dh y o .
-SFX Dh y a .
-SFX Dh y ogo .
-SFX Dh y u .
-SFX Dh y oj .
-SFX Dh y om .
-SFX Dh y omu .
-SFX Dh 0 m .
-SFX Dh y oju .
-SFX Dh y i .
-SFX Dh y e .
-SFX Dh 0 h .
-SFX Dh 0 mi .
-SFX Dh ky ši .
-SFX Dh tky če .
+SFX Dh Y 4
+SFX Dh i ov .
+SFX Dh i ah .
+SFX Dh i am .
+SFX Dh i ami .
 
-SFX Di Y 9
-SFX Di ev jvi .
-SFX Di ev jva .
-SFX Di ev jvov .
-SFX Di ev jvu .
-SFX Di ev jvah .
-SFX Di ev jvam .
-SFX Di ev jvom .
-SFX Di ev jvami .
-SFX Di ev jve .
+SFX Di Y 31
+SFX Di ti l .
+SFX Di ti la .
+SFX Di ti lo .
+SFX Di ti li .
+SFX Di vati ju .
+SFX Di vati jem .
+SFX Di vati ješ .
+SFX Di vati je .
+SFX Di vati jemo .
+SFX Di vati jete .
+SFX Di vati jut .
+SFX Di ti h .
+SFX Di ti še .
+SFX Di ti hmo .
+SFX Di ti ste .
+SFX Di ti hu .
+SFX Di vati j .
+SFX Di vati jmo .
+SFX Di vati jte .
+SFX Di vati juči .
+SFX Di vati juča .
+SFX Di vati juče .
+SFX Di vati jemy .
+SFX Di vati jema .
+SFX Di ti vši .
+SFX Di ti vša .
+SFX Di ti vše .
+SFX Di ti ny .
+SFX Di ti na .
+SFX Di ti no .
+SFX Di ti nje .
 
-SFX Dj Y 31
-SFX Dj ti l .
-SFX Dj ti la .
-SFX Dj ti lo .
-SFX Dj ti li .
-SFX Dj gati žu .
-SFX Dj gati žem .
-SFX Dj gati žeš .
-SFX Dj gati že .
-SFX Dj gati žemo .
-SFX Dj gati žete .
-SFX Dj gati žut .
-SFX Dj ti h .
-SFX Dj ti še .
-SFX Dj ti hmo .
-SFX Dj ti ste .
-SFX Dj ti hu .
-SFX Dj gati ži .
-SFX Dj gati žimo .
-SFX Dj gati žite .
-SFX Dj gati žuči .
-SFX Dj gati žuča .
-SFX Dj gati žuče .
-SFX Dj gati žemy .
-SFX Dj gati žema .
-SFX Dj ti vši .
-SFX Dj ti vša .
-SFX Dj ti vše .
-SFX Dj ti ny .
-SFX Dj ti na .
-SFX Dj ti no .
-SFX Dj ti nje .
+SFX Dj Y 15
+SFX Dj y o .
+SFX Dj y a .
+SFX Dj y ogo .
+SFX Dj y u .
+SFX Dj y oj .
+SFX Dj y om .
+SFX Dj y omu .
+SFX Dj 0 m .
+SFX Dj y oju .
+SFX Dj y i .
+SFX Dj y e .
+SFX Dj 0 h .
+SFX Dj 0 mi .
+SFX Dj ky ši .
+SFX Dj tky če .
 
-SFX Dk Y 15
-SFX Dk y o .
-SFX Dk y a .
-SFX Dk y ogo .
-SFX Dk y u .
-SFX Dk y oj .
-SFX Dk y om .
-SFX Dk y omu .
-SFX Dk 0 m .
-SFX Dk y oju .
-SFX Dk y i .
-SFX Dk y e .
-SFX Dk 0 h .
-SFX Dk 0 mi .
-SFX Dk aly enši .
-SFX Dk aly enje .
+SFX Dk Y 9
+SFX Dk ev jvi .
+SFX Dk ev jva .
+SFX Dk ev jvov .
+SFX Dk ev jvu .
+SFX Dk ev jvah .
+SFX Dk ev jvam .
+SFX Dk ev jvom .
+SFX Dk ev jvami .
+SFX Dk ev jve .
 
-SFX Dl Y 27
-SFX Dl ti se l .
-SFX Dl ti se la .
-SFX Dl ti se lo .
-SFX Dl ti se li .
-SFX Dl stiti se šču .
-SFX Dl ti se m .
-SFX Dl ti se š .
-SFX Dl ti se mo .
-SFX Dl i se e .
-SFX Dl iti se et .
-SFX Dl ti se h .
-SFX Dl ti se še .
-SFX Dl ti se hmo .
-SFX Dl ti se ste .
-SFX Dl ti se hu .
-SFX Dl iti se eči .
-SFX Dl iti se eča .
-SFX Dl iti se eče .
-SFX Dl ti se my .
-SFX Dl ti se ma .
-SFX Dl ti se vši .
-SFX Dl ti se vša .
-SFX Dl ti se vše .
-SFX Dl stiti se ščeny .
-SFX Dl stiti se ščena .
-SFX Dl stiti se ščeno .
-SFX Dl stiti se ščenje .
+SFX Dl Y 31
+SFX Dl ti l .
+SFX Dl ti la .
+SFX Dl ti lo .
+SFX Dl ti li .
+SFX Dl gati žu .
+SFX Dl gati žem .
+SFX Dl gati žeš .
+SFX Dl gati že .
+SFX Dl gati žemo .
+SFX Dl gati žete .
+SFX Dl gati žut .
+SFX Dl ti h .
+SFX Dl ti še .
+SFX Dl ti hmo .
+SFX Dl ti ste .
+SFX Dl ti hu .
+SFX Dl gati ži .
+SFX Dl gati žimo .
+SFX Dl gati žite .
+SFX Dl gati žuči .
+SFX Dl gati žuča .
+SFX Dl gati žuče .
+SFX Dl gati žemy .
+SFX Dl gati žema .
+SFX Dl ti vši .
+SFX Dl ti vša .
+SFX Dl ti vše .
+SFX Dl ti ny .
+SFX Dl ti na .
+SFX Dl ti no .
+SFX Dl ti nje .
 
-SFX Dm Y 13
-SFX Dm ynebud onebud .
-SFX Dm ynebud anebud .
-SFX Dm ynebud ogonebud .
-SFX Dm ynebud unebud .
-SFX Dm ynebud ojnebud .
-SFX Dm ynebud omnebud .
-SFX Dm ynebud omunebud .
-SFX Dm nebud mnebud .
-SFX Dm ynebud ojunebud .
-SFX Dm ynebud inebud .
-SFX Dm ynebud enebud .
-SFX Dm nebud hnebud .
-SFX Dm nebud minebud .
+SFX Dm Y 15
+SFX Dm y o .
+SFX Dm y a .
+SFX Dm y ogo .
+SFX Dm y u .
+SFX Dm y oj .
+SFX Dm y om .
+SFX Dm y omu .
+SFX Dm 0 m .
+SFX Dm y oju .
+SFX Dm y i .
+SFX Dm y e .
+SFX Dm 0 h .
+SFX Dm 0 mi .
+SFX Dm aly enši .
+SFX Dm aly enje .
 
-SFX Dn Y 7
-SFX Dn e a .
-SFX Dn je ej .
-SFX Dn e u .
-SFX Dn e ah .
-SFX Dn e am .
-SFX Dn 0 m .
-SFX Dn e ami .
+SFX Dn Y 27
+SFX Dn ti se l .
+SFX Dn ti se la .
+SFX Dn ti se lo .
+SFX Dn ti se li .
+SFX Dn stiti se šču .
+SFX Dn ti se m .
+SFX Dn ti se š .
+SFX Dn ti se mo .
+SFX Dn i se e .
+SFX Dn iti se et .
+SFX Dn ti se h .
+SFX Dn ti se še .
+SFX Dn ti se hmo .
+SFX Dn ti se ste .
+SFX Dn ti se hu .
+SFX Dn iti se eči .
+SFX Dn iti se eča .
+SFX Dn iti se eče .
+SFX Dn ti se my .
+SFX Dn ti se ma .
+SFX Dn ti se vši .
+SFX Dn ti se vša .
+SFX Dn ti se vše .
+SFX Dn stiti se ščeny .
+SFX Dn stiti se ščena .
+SFX Dn stiti se ščeno .
+SFX Dn stiti se ščenje .
 
-SFX Do Y 9
-SFX Do oh h .
-SFX Do oh ha .
-SFX Do 0 a .
-SFX Do oh hu .
-SFX Do 0 u .
-SFX Do oh hom .
-SFX Do 0 om .
-SFX Do oh še .
-SFX Do h še .
+SFX Do Y 13
+SFX Do ynebud onebud .
+SFX Do ynebud anebud .
+SFX Do ynebud ogonebud .
+SFX Do ynebud unebud .
+SFX Do ynebud ojnebud .
+SFX Do ynebud omnebud .
+SFX Do ynebud omunebud .
+SFX Do nebud mnebud .
+SFX Do ynebud ojunebud .
+SFX Do ynebud inebud .
+SFX Do ynebud enebud .
+SFX Do nebud hnebud .
+SFX Do nebud minebud .
 
-SFX Dp Y 31
-SFX Dp ti l .
-SFX Dp ti la .
-SFX Dp ti lo .
-SFX Dp ti li .
-SFX Dp vati ovu .
-SFX Dp vati ovem .
-SFX Dp vati oveš .
-SFX Dp vati ove .
-SFX Dp vati ovemo .
-SFX Dp vati ovete .
-SFX Dp vati ovut .
-SFX Dp ti h .
-SFX Dp ti še .
-SFX Dp ti hmo .
-SFX Dp ti ste .
-SFX Dp ti hu .
-SFX Dp vati ovi .
-SFX Dp vati ovimo .
-SFX Dp vati ovite .
-SFX Dp vati ovuči .
-SFX Dp vati ovuča .
-SFX Dp vati ovuče .
-SFX Dp vati ovemy .
-SFX Dp vati ovema .
-SFX Dp ti vši .
-SFX Dp ti vša .
-SFX Dp ti vše .
-SFX Dp ti ny .
-SFX Dp ti na .
-SFX Dp ti no .
-SFX Dp ti nje .
+SFX Dp Y 7
+SFX Dp e a .
+SFX Dp je ej .
+SFX Dp e u .
+SFX Dp e ah .
+SFX Dp e am .
+SFX Dp 0 m .
+SFX Dp e ami .
 
-SFX Dq Y 31
-SFX Dq ti se l .
-SFX Dq ti se la .
-SFX Dq ti se lo .
-SFX Dq ti se li .
-SFX Dq ti se u .
-SFX Dq kti se čem .
-SFX Dq kti se češ .
-SFX Dq kti se če .
-SFX Dq kti se čemo .
-SFX Dq kti se čete .
-SFX Dq ti se ut .
-SFX Dq kti se čeh .
-SFX Dq kti se češe .
-SFX Dq kti se čehmo .
-SFX Dq kti se česte .
-SFX Dq kti se čehu .
-SFX Dq kti se či .
-SFX Dq kti se čimo .
-SFX Dq kti se čite .
-SFX Dq ti se uči .
-SFX Dq ti se uča .
-SFX Dq ti se uče .
-SFX Dq kti se čemy .
-SFX Dq kti se čema .
-SFX Dq ti se ši .
-SFX Dq ti se ša .
-SFX Dq ti se še .
-SFX Dq kti se čeny .
-SFX Dq kti se čena .
-SFX Dq kti se čeno .
-SFX Dq kti se čenje .
+SFX Dq Y 9
+SFX Dq oh h .
+SFX Dq oh ha .
+SFX Dq 0 a .
+SFX Dq oh hu .
+SFX Dq 0 u .
+SFX Dq oh hom .
+SFX Dq 0 om .
+SFX Dq oh še .
+SFX Dq h še .
 
 SFX Dr Y 31
-SFX Dr ti l .
-SFX Dr ti la .
-SFX Dr ti lo .
-SFX Dr ti li .
-SFX Dr ti u .
-SFX Dr kti čem .
-SFX Dr kti češ .
-SFX Dr kti če .
-SFX Dr kti čemo .
-SFX Dr kti čete .
-SFX Dr ti ut .
-SFX Dr kti čeh .
-SFX Dr kti češe .
-SFX Dr kti čehmo .
-SFX Dr kti česte .
-SFX Dr kti čehu .
-SFX Dr kti či .
-SFX Dr kti čimo .
-SFX Dr kti čite .
-SFX Dr ti uči .
-SFX Dr ti uča .
-SFX Dr ti uče .
-SFX Dr kti čemy .
-SFX Dr kti čema .
-SFX Dr ti ši .
-SFX Dr ti ša .
-SFX Dr ti še .
-SFX Dr kti čeny .
-SFX Dr kti čena .
-SFX Dr kti čeno .
-SFX Dr kti čenje .
+SFX Dr ti se l .
+SFX Dr ti se la .
+SFX Dr ti se lo .
+SFX Dr ti se li .
+SFX Dr ti se u .
+SFX Dr kti se čem .
+SFX Dr kti se češ .
+SFX Dr kti se če .
+SFX Dr kti se čemo .
+SFX Dr kti se čete .
+SFX Dr ti se ut .
+SFX Dr kti se čeh .
+SFX Dr kti se češe .
+SFX Dr kti se čehmo .
+SFX Dr kti se česte .
+SFX Dr kti se čehu .
+SFX Dr kti se či .
+SFX Dr kti se čimo .
+SFX Dr kti se čite .
+SFX Dr ti se uči .
+SFX Dr ti se uča .
+SFX Dr ti se uče .
+SFX Dr kti se čemy .
+SFX Dr kti se čema .
+SFX Dr ti se ši .
+SFX Dr ti se ša .
+SFX Dr ti se še .
+SFX Dr kti se čeny .
+SFX Dr kti se čena .
+SFX Dr kti se čeno .
+SFX Dr kti se čenje .
 
 SFX Ds Y 31
 SFX Ds ti l .
 SFX Ds ti la .
 SFX Ds ti lo .
 SFX Ds ti li .
-SFX Ds těti ču .
-SFX Ds těti čem .
-SFX Ds těti češ .
-SFX Ds těti če .
-SFX Ds těti čemo .
-SFX Ds těti čete .
-SFX Ds těti čut .
-SFX Ds ti h .
+SFX Ds ti u .
+SFX Ds kti čem .
+SFX Ds kti češ .
+SFX Ds kti če .
+SFX Ds kti čemo .
+SFX Ds kti čete .
+SFX Ds ti ut .
+SFX Ds kti čeh .
+SFX Ds kti češe .
+SFX Ds kti čehmo .
+SFX Ds kti česte .
+SFX Ds kti čehu .
+SFX Ds kti či .
+SFX Ds kti čimo .
+SFX Ds kti čite .
+SFX Ds ti uči .
+SFX Ds ti uča .
+SFX Ds ti uče .
+SFX Ds kti čemy .
+SFX Ds kti čema .
+SFX Ds ti ši .
+SFX Ds ti ša .
 SFX Ds ti še .
-SFX Ds ti hmo .
-SFX Ds ti ste .
-SFX Ds ti hu .
-SFX Ds těti či .
-SFX Ds těti čimo .
-SFX Ds těti čite .
-SFX Ds těti čuči .
-SFX Ds těti čuča .
-SFX Ds těti čuče .
-SFX Ds těti čemy .
-SFX Ds těti čema .
-SFX Ds ti vši .
-SFX Ds ti vša .
-SFX Ds ti vše .
-SFX Ds ti ny .
-SFX Ds ti na .
-SFX Ds ti no .
-SFX Ds ti nje .
+SFX Ds kti čeny .
+SFX Ds kti čena .
+SFX Ds kti čeno .
+SFX Ds kti čenje .
 
-SFX Dt Y 29
+SFX Dt Y 31
 SFX Dt ti l .
 SFX Dt ti la .
 SFX Dt ti lo .
 SFX Dt ti li .
-SFX Dt děti m .
-SFX Dt děti š .
-SFX Dt děti mo .
-SFX Dt děti te .
-SFX Dt ěti ut .
+SFX Dt těti ču .
+SFX Dt těti čem .
+SFX Dt těti češ .
+SFX Dt těti če .
+SFX Dt těti čemo .
+SFX Dt těti čete .
+SFX Dt těti čut .
 SFX Dt ti h .
 SFX Dt ti še .
 SFX Dt ti hmo .
 SFX Dt ti ste .
 SFX Dt ti hu .
-SFX Dt ěti mo .
-SFX Dt ěti te .
-SFX Dt ěti uči .
-SFX Dt ěti uča .
-SFX Dt ěti uče .
-SFX Dt ěti omy .
-SFX Dt ěti oma .
-SFX Dt ěti omo .
+SFX Dt těti či .
+SFX Dt těti čimo .
+SFX Dt těti čite .
+SFX Dt těti čuči .
+SFX Dt těti čuča .
+SFX Dt těti čuče .
+SFX Dt těti čemy .
+SFX Dt těti čema .
 SFX Dt ti vši .
 SFX Dt ti vša .
 SFX Dt ti vše .
@@ -3774,2274 +3772,2293 @@ SFX Dt ti na .
 SFX Dt ti no .
 SFX Dt ti nje .
 
-SFX Du Y 19
-SFX Du ol l .
-SFX Du ol li .
-SFX Du 0 i .
-SFX Du ol la .
-SFX Du 0 a .
-SFX Du ol lov .
-SFX Du 0 ov .
-SFX Du ol lu .
-SFX Du 0 u .
-SFX Du ol lah .
-SFX Du 0 ah .
-SFX Du ol lam .
-SFX Du 0 am .
-SFX Du ol lom .
-SFX Du 0 om .
-SFX Du ol lami .
-SFX Du 0 ami .
-SFX Du ol le .
-SFX Du 0 e .
+SFX Du Y 29
+SFX Du ti l .
+SFX Du ti la .
+SFX Du ti lo .
+SFX Du ti li .
+SFX Du děti m .
+SFX Du děti š .
+SFX Du děti mo .
+SFX Du děti te .
+SFX Du ěti ut .
+SFX Du ti h .
+SFX Du ti še .
+SFX Du ti hmo .
+SFX Du ti ste .
+SFX Du ti hu .
+SFX Du ěti mo .
+SFX Du ěti te .
+SFX Du ěti uči .
+SFX Du ěti uča .
+SFX Du ěti uče .
+SFX Du ěti omy .
+SFX Du ěti oma .
+SFX Du ěti omo .
+SFX Du ti vši .
+SFX Du ti vša .
+SFX Du ti vše .
+SFX Du ti ny .
+SFX Du ti na .
+SFX Du ti no .
+SFX Du ti nje .
 
-SFX Dv Y 32
-SFX Dv ojdti šel .
-SFX Dv jdti šla .
-SFX Dv jdti šlo .
-SFX Dv jdti šli .
-SFX Dv ti u .
-SFX Dv ti em .
-SFX Dv ti eš .
-SFX Dv ti e .
-SFX Dv ti emo .
-SFX Dv ti ete .
-SFX Dv ti ut .
-SFX Dv ti eh .
-SFX Dv ti eše .
-SFX Dv ti ehmo .
-SFX Dv ti este .
-SFX Dv ti ehu .
-SFX Dv ti i .
-SFX Dv ti imo .
-SFX Dv ti ite .
-SFX Dv ti uči .
-SFX Dv ti uča .
-SFX Dv ti uče .
-SFX Dv ti omy .
-SFX Dv ti oma .
-SFX Dv ti omo .
-SFX Dv ojdti ševši .
-SFX Dv ojdti ševša .
-SFX Dv ojdti ševše .
-SFX Dv ti eny .
-SFX Dv ti ena .
-SFX Dv ti eno .
-SFX Dv ti enje .
+SFX Dv Y 19
+SFX Dv ol l .
+SFX Dv ol li .
+SFX Dv 0 i .
+SFX Dv ol la .
+SFX Dv 0 a .
+SFX Dv ol lov .
+SFX Dv 0 ov .
+SFX Dv ol lu .
+SFX Dv 0 u .
+SFX Dv ol lah .
+SFX Dv 0 ah .
+SFX Dv ol lam .
+SFX Dv 0 am .
+SFX Dv ol lom .
+SFX Dv 0 om .
+SFX Dv ol lami .
+SFX Dv 0 ami .
+SFX Dv ol le .
+SFX Dv 0 e .
 
-SFX Dw Y 9
-SFX Dw ok ki .
-SFX Dw ok ka .
-SFX Dw ok kov .
-SFX Dw ok ku .
-SFX Dw ok kah .
-SFX Dw ok kam .
-SFX Dw ok kom .
-SFX Dw ok kami .
-SFX Dw ok če .
+SFX Dw Y 32
+SFX Dw ojdti šel .
+SFX Dw jdti šla .
+SFX Dw jdti šlo .
+SFX Dw jdti šli .
+SFX Dw ti u .
+SFX Dw ti em .
+SFX Dw ti eš .
+SFX Dw ti e .
+SFX Dw ti emo .
+SFX Dw ti ete .
+SFX Dw ti ut .
+SFX Dw ti eh .
+SFX Dw ti eše .
+SFX Dw ti ehmo .
+SFX Dw ti este .
+SFX Dw ti ehu .
+SFX Dw ti i .
+SFX Dw ti imo .
+SFX Dw ti ite .
+SFX Dw ti uči .
+SFX Dw ti uča .
+SFX Dw ti uče .
+SFX Dw ti omy .
+SFX Dw ti oma .
+SFX Dw ti omo .
+SFX Dw ojdti ševši .
+SFX Dw ojdti ševša .
+SFX Dw ojdti ševše .
+SFX Dw ti eny .
+SFX Dw ti ena .
+SFX Dw ti eno .
+SFX Dw ti enje .
 
 SFX Dx Y 9
-SFX Dx 0 e .
-SFX Dx 0 a .
-SFX Dx 0 ev .
-SFX Dx 0 u .
-SFX Dx 0 ah .
-SFX Dx 0 am .
-SFX Dx 0 em .
-SFX Dx 0 ami .
-SFX Dx c če .
+SFX Dx ok ki .
+SFX Dx ok ka .
+SFX Dx ok kov .
+SFX Dx ok ku .
+SFX Dx ok kah .
+SFX Dx ok kam .
+SFX Dx ok kom .
+SFX Dx ok kami .
+SFX Dx ok če .
 
-SFX Dy Y 31
-SFX Dy ti l .
-SFX Dy ti la .
-SFX Dy ti lo .
-SFX Dy ti li .
-SFX Dy eti mu .
-SFX Dy eti mem .
-SFX Dy eti meš .
-SFX Dy eti me .
-SFX Dy eti memo .
-SFX Dy eti mete .
-SFX Dy eti mut .
-SFX Dy ti h .
-SFX Dy ti še .
-SFX Dy ti hmo .
-SFX Dy ti ste .
-SFX Dy ti hu .
-SFX Dy eti mi .
-SFX Dy eti mimo .
-SFX Dy eti mite .
-SFX Dy eti muči .
-SFX Dy eti muča .
-SFX Dy eti muče .
-SFX Dy eti memy .
-SFX Dy eti mema .
-SFX Dy ti vši .
-SFX Dy ti vša .
-SFX Dy ti vše .
-SFX Dy i y .
-SFX Dy i a .
-SFX Dy i o .
-SFX Dy i je .
+SFX Dy Y 9
+SFX Dy 0 e .
+SFX Dy 0 a .
+SFX Dy 0 ev .
+SFX Dy 0 u .
+SFX Dy 0 ah .
+SFX Dy 0 am .
+SFX Dy 0 em .
+SFX Dy 0 ami .
+SFX Dy c če .
 
-SFX Dz Y 7
-SFX Dz o a .
-SFX Dz ko ek .
-SFX Dz o u .
-SFX Dz o ah .
-SFX Dz o am .
-SFX Dz 0 m .
-SFX Dz o ami .
+SFX Dz Y 31
+SFX Dz ti l .
+SFX Dz ti la .
+SFX Dz ti lo .
+SFX Dz ti li .
+SFX Dz eti mu .
+SFX Dz eti mem .
+SFX Dz eti meš .
+SFX Dz eti me .
+SFX Dz eti memo .
+SFX Dz eti mete .
+SFX Dz eti mut .
+SFX Dz ti h .
+SFX Dz ti še .
+SFX Dz ti hmo .
+SFX Dz ti ste .
+SFX Dz ti hu .
+SFX Dz eti mi .
+SFX Dz eti mimo .
+SFX Dz eti mite .
+SFX Dz eti muči .
+SFX Dz eti muča .
+SFX Dz eti muče .
+SFX Dz eti memy .
+SFX Dz eti mema .
+SFX Dz ti vši .
+SFX Dz ti vša .
+SFX Dz ti vše .
+SFX Dz i y .
+SFX Dz i a .
+SFX Dz i o .
+SFX Dz i je .
 
-SFX EA Y 31
-SFX EA ti l .
-SFX EA ti la .
-SFX EA ti lo .
-SFX EA ti li .
-SFX EA jeti ojmu .
-SFX EA jeti ojmem .
-SFX EA jeti ojmeš .
-SFX EA jeti ojme .
-SFX EA jeti ojmemo .
-SFX EA jeti ojmete .
-SFX EA jeti ojmut .
-SFX EA ti h .
-SFX EA ti še .
-SFX EA ti hmo .
-SFX EA ti ste .
-SFX EA ti hu .
-SFX EA jeti ojmi .
-SFX EA jeti ojmimo .
-SFX EA jeti ojmite .
-SFX EA jeti ojmuči .
-SFX EA jeti ojmuča .
-SFX EA jeti ojmuče .
-SFX EA jeti ojmemy .
-SFX EA jeti ojmema .
-SFX EA ti vši .
-SFX EA ti vša .
-SFX EA ti vše .
-SFX EA i y .
-SFX EA i a .
-SFX EA i o .
-SFX EA i je .
+SFX EA Y 7
+SFX EA o a .
+SFX EA ko ek .
+SFX EA o u .
+SFX EA o ah .
+SFX EA o am .
+SFX EA 0 m .
+SFX EA o ami .
 
-SFX EB Y 3
-SFX EB e yh .
-SFX EB e ym .
-SFX EB e ymi .
+SFX EB Y 31
+SFX EB ti l .
+SFX EB ti la .
+SFX EB ti lo .
+SFX EB ti li .
+SFX EB jeti ojmu .
+SFX EB jeti ojmem .
+SFX EB jeti ojmeš .
+SFX EB jeti ojme .
+SFX EB jeti ojmemo .
+SFX EB jeti ojmete .
+SFX EB jeti ojmut .
+SFX EB ti h .
+SFX EB ti še .
+SFX EB ti hmo .
+SFX EB ti ste .
+SFX EB ti hu .
+SFX EB jeti ojmi .
+SFX EB jeti ojmimo .
+SFX EB jeti ojmite .
+SFX EB jeti ojmuči .
+SFX EB jeti ojmuča .
+SFX EB jeti ojmuče .
+SFX EB jeti ojmemy .
+SFX EB jeti ojmema .
+SFX EB ti vši .
+SFX EB ti vša .
+SFX EB ti vše .
+SFX EB i y .
+SFX EB i a .
+SFX EB i o .
+SFX EB i je .
 
-SFX EC Y 6
-SFX EC enj nji .
-SFX EC enj njij .
-SFX EC enj njah .
-SFX EC enj njam .
-SFX EC enj njju .
-SFX EC enj njami .
+SFX EC Y 3
+SFX EC e yh .
+SFX EC e ym .
+SFX EC e ymi .
 
-SFX ED Y 31
-SFX ED ti se l .
-SFX ED ti se la .
-SFX ED ti se lo .
-SFX ED ti se li .
-SFX ED obrati se beru .
-SFX ED obrati se berem .
-SFX ED obrati se bereš .
-SFX ED obrati se bere .
-SFX ED obrati se beremo .
-SFX ED obrati se berete .
-SFX ED obrati se berut .
-SFX ED ti se h .
-SFX ED ti se še .
-SFX ED ti se hmo .
-SFX ED ti se ste .
-SFX ED ti se hu .
-SFX ED obrati se beri .
-SFX ED obrati se berimo .
-SFX ED obrati se berite .
-SFX ED obrati se beruči .
-SFX ED obrati se beruča .
-SFX ED obrati se beruče .
-SFX ED obrati se beremy .
-SFX ED obrati se berema .
-SFX ED ti se vši .
-SFX ED ti se vša .
-SFX ED ti se vše .
-SFX ED ti se ny .
-SFX ED ti se na .
-SFX ED ti se no .
-SFX ED ti se nje .
+SFX ED Y 6
+SFX ED enj nji .
+SFX ED enj njij .
+SFX ED enj njah .
+SFX ED enj njam .
+SFX ED enj njju .
+SFX ED enj njami .
 
-SFX EE Y 4
-SFX EE 0 be .
-SFX EE e obě .
-SFX EE e i .
-SFX EE e oboju .
+SFX EE Y 31
+SFX EE ti se l .
+SFX EE ti se la .
+SFX EE ti se lo .
+SFX EE ti se li .
+SFX EE obrati se beru .
+SFX EE obrati se berem .
+SFX EE obrati se bereš .
+SFX EE obrati se bere .
+SFX EE obrati se beremo .
+SFX EE obrati se berete .
+SFX EE obrati se berut .
+SFX EE ti se h .
+SFX EE ti se še .
+SFX EE ti se hmo .
+SFX EE ti se ste .
+SFX EE ti se hu .
+SFX EE obrati se beri .
+SFX EE obrati se berimo .
+SFX EE obrati se berite .
+SFX EE obrati se beruči .
+SFX EE obrati se beruča .
+SFX EE obrati se beruče .
+SFX EE obrati se beremy .
+SFX EE obrati se berema .
+SFX EE ti se vši .
+SFX EE ti se vša .
+SFX EE ti se vše .
+SFX EE ti se ny .
+SFX EE ti se na .
+SFX EE ti se no .
+SFX EE ti se nje .
 
-SFX EF Y 30
-SFX EF ti se l .
-SFX EF ti se la .
-SFX EF ti se lo .
-SFX EF ti se li .
-SFX EF ti se m .
-SFX EF ti se š .
-SFX EF ti se mo .
-SFX EF i se e .
-SFX EF ti se dut .
-SFX EF ti se h .
-SFX EF ti se še .
-SFX EF ti se hmo .
-SFX EF ti se ste .
-SFX EF ti se hu .
-SFX EF ti se j .
-SFX EF ti se jmo .
-SFX EF ti se jte .
-SFX EF ti se duči .
-SFX EF ti se duča .
-SFX EF ti se duče .
-SFX EF ti se domy .
-SFX EF ti se doma .
-SFX EF ti se domo .
-SFX EF ti se vši .
-SFX EF ti se vša .
-SFX EF ti se vše .
-SFX EF ti se ny .
-SFX EF ti se na .
-SFX EF ti se no .
-SFX EF ti se nje .
+SFX EF Y 4
+SFX EF 0 be .
+SFX EF e obě .
+SFX EF e i .
+SFX EF e oboju .
 
-SFX EG Y 8
-SFX EG i u .
-SFX EG i ev .
-SFX EG i e .
-SFX EG i ah .
-SFX EG i am .
-SFX EG i eju .
-SFX EG i ami .
-SFX EG i o .
+SFX EG Y 30
+SFX EG ti se l .
+SFX EG ti se la .
+SFX EG ti se lo .
+SFX EG ti se li .
+SFX EG ti se m .
+SFX EG ti se š .
+SFX EG ti se mo .
+SFX EG i se e .
+SFX EG ti se dut .
+SFX EG ti se h .
+SFX EG ti se še .
+SFX EG ti se hmo .
+SFX EG ti se ste .
+SFX EG ti se hu .
+SFX EG ti se j .
+SFX EG ti se jmo .
+SFX EG ti se jte .
+SFX EG ti se duči .
+SFX EG ti se duča .
+SFX EG ti se duče .
+SFX EG ti se domy .
+SFX EG ti se doma .
+SFX EG ti se domo .
+SFX EG ti se vši .
+SFX EG ti se vša .
+SFX EG ti se vše .
+SFX EG ti se ny .
+SFX EG ti se na .
+SFX EG ti se no .
+SFX EG ti se nje .
 
-SFX EH Y 27
-SFX EH ti se l .
-SFX EH ti se la .
-SFX EH ti se lo .
-SFX EH ti se li .
-SFX EH siti se šu .
-SFX EH ti se m .
-SFX EH ti se š .
-SFX EH ti se mo .
-SFX EH i se e .
-SFX EH iti se et .
-SFX EH ti se h .
-SFX EH ti se še .
-SFX EH ti se hmo .
-SFX EH ti se ste .
-SFX EH ti se hu .
-SFX EH iti se eči .
-SFX EH iti se eča .
-SFX EH iti se eče .
-SFX EH ti se my .
-SFX EH ti se ma .
-SFX EH ti se vši .
-SFX EH ti se vša .
-SFX EH ti se vše .
-SFX EH siti se šeny .
-SFX EH siti se šena .
-SFX EH siti se šeno .
-SFX EH siti se šenje .
+SFX EH Y 8
+SFX EH i u .
+SFX EH i ev .
+SFX EH i e .
+SFX EH i ah .
+SFX EH i am .
+SFX EH i eju .
+SFX EH i ami .
+SFX EH i o .
 
-SFX EI Y 6
-SFX EI i ego .
-SFX EI 0 h .
-SFX EI i em .
-SFX EI i emu .
-SFX EI 0 m .
-SFX EI 0 mi .
+SFX EI Y 27
+SFX EI ti se l .
+SFX EI ti se la .
+SFX EI ti se lo .
+SFX EI ti se li .
+SFX EI siti se šu .
+SFX EI ti se m .
+SFX EI ti se š .
+SFX EI ti se mo .
+SFX EI i se e .
+SFX EI iti se et .
+SFX EI ti se h .
+SFX EI ti se še .
+SFX EI ti se hmo .
+SFX EI ti se ste .
+SFX EI ti se hu .
+SFX EI iti se eči .
+SFX EI iti se eča .
+SFX EI iti se eče .
+SFX EI ti se my .
+SFX EI ti se ma .
+SFX EI ti se vši .
+SFX EI ti se vša .
+SFX EI ti se vše .
+SFX EI siti se šeny .
+SFX EI siti se šena .
+SFX EI siti se šeno .
+SFX EI siti se šenje .
 
-SFX EJ Y 10
-SFX EJ yrovo irovo .
-SFX EJ yrovo irovoy .
-SFX EJ yrovo irovoa .
-SFX EJ yrovo irovoov .
-SFX EJ yrovo irovou .
-SFX EJ yrovo irovoah .
-SFX EJ yrovo irovoam .
-SFX EJ yrovo irovoom .
-SFX EJ yrovo irovoami .
-SFX EJ yrovo irovoe .
+SFX EJ Y 6
+SFX EJ i ego .
+SFX EJ 0 h .
+SFX EJ i em .
+SFX EJ i emu .
+SFX EJ 0 m .
+SFX EJ 0 mi .
 
-SFX EK Y 31
-SFX EK ti se l .
-SFX EK ti se la .
-SFX EK ti se lo .
-SFX EK ti se li .
-SFX EK ti se nu .
-SFX EK ti se nem .
-SFX EK ti se neš .
-SFX EK ti se ne .
-SFX EK ti se nemo .
-SFX EK ti se nete .
-SFX EK ti se nut .
-SFX EK ti se h .
-SFX EK ti se še .
-SFX EK ti se hmo .
-SFX EK ti se ste .
-SFX EK ti se hu .
-SFX EK ti se ni .
-SFX EK ti se nimo .
-SFX EK ti se nite .
-SFX EK ti se nuči .
-SFX EK ti se nuča .
-SFX EK ti se nuče .
-SFX EK ti se nemy .
-SFX EK ti se nema .
-SFX EK ti se vši .
-SFX EK ti se vša .
-SFX EK ti se vše .
-SFX EK ti se ny .
-SFX EK ti se na .
-SFX EK ti se no .
-SFX EK ti se nje .
+SFX EK Y 10
+SFX EK yrovoz irovoz .
+SFX EK yrovoz irovozy .
+SFX EK yrovoz irovoza .
+SFX EK yrovoz irovozov .
+SFX EK yrovoz irovozu .
+SFX EK yrovoz irovozah .
+SFX EK yrovoz irovozam .
+SFX EK yrovoz irovozom .
+SFX EK yrovoz irovozami .
+SFX EK yrovoz irovoze .
 
 SFX EL Y 31
-SFX EL ti l .
-SFX EL ti la .
-SFX EL ti lo .
-SFX EL ti li .
-SFX EL asti u .
-SFX EL asti em .
-SFX EL asti eš .
-SFX EL asti e .
-SFX EL asti emo .
-SFX EL asti ete .
-SFX EL asti ut .
-SFX EL ti eh .
-SFX EL ti eše .
-SFX EL ti ehmo .
-SFX EL ti este .
-SFX EL ti ehu .
-SFX EL asti i .
-SFX EL asti imo .
-SFX EL asti ite .
-SFX EL asti uči .
-SFX EL asti uča .
-SFX EL asti uče .
-SFX EL asti emy .
-SFX EL asti ema .
-SFX EL ti ši .
-SFX EL ti ša .
-SFX EL ti še .
-SFX EL ti eny .
-SFX EL ti ena .
-SFX EL ti eno .
-SFX EL ti enje .
+SFX EL ti se l .
+SFX EL ti se la .
+SFX EL ti se lo .
+SFX EL ti se li .
+SFX EL ti se nu .
+SFX EL ti se nem .
+SFX EL ti se neš .
+SFX EL ti se ne .
+SFX EL ti se nemo .
+SFX EL ti se nete .
+SFX EL ti se nut .
+SFX EL ti se h .
+SFX EL ti se še .
+SFX EL ti se hmo .
+SFX EL ti se ste .
+SFX EL ti se hu .
+SFX EL ti se ni .
+SFX EL ti se nimo .
+SFX EL ti se nite .
+SFX EL ti se nuči .
+SFX EL ti se nuča .
+SFX EL ti se nuče .
+SFX EL ti se nemy .
+SFX EL ti se nema .
+SFX EL ti se vši .
+SFX EL ti se vša .
+SFX EL ti se vše .
+SFX EL ti se ny .
+SFX EL ti se na .
+SFX EL ti se no .
+SFX EL ti se nje .
 
-SFX EM Y 9
-SFX EM ina y .
-SFX EM a u .
-SFX EM a y .
-SFX EM a ě .
-SFX EM ina ah .
-SFX EM ina am .
-SFX EM a oju .
-SFX EM ina ami .
-SFX EM a o .
+SFX EM Y 31
+SFX EM ti l .
+SFX EM ti la .
+SFX EM ti lo .
+SFX EM ti li .
+SFX EM asti u .
+SFX EM asti em .
+SFX EM asti eš .
+SFX EM asti e .
+SFX EM asti emo .
+SFX EM asti ete .
+SFX EM asti ut .
+SFX EM ti eh .
+SFX EM ti eše .
+SFX EM ti ehmo .
+SFX EM ti este .
+SFX EM ti ehu .
+SFX EM asti i .
+SFX EM asti imo .
+SFX EM asti ite .
+SFX EM asti uči .
+SFX EM asti uča .
+SFX EM asti uče .
+SFX EM asti emy .
+SFX EM asti ema .
+SFX EM ti ši .
+SFX EM ti ša .
+SFX EM ti še .
+SFX EM ti eny .
+SFX EM ti ena .
+SFX EM ti eno .
+SFX EM ti enje .
 
-SFX EN Y 31
-SFX EN ti l .
-SFX EN ti la .
-SFX EN ti lo .
-SFX EN ti li .
-SFX EN cati ču .
-SFX EN cati čem .
-SFX EN cati češ .
-SFX EN cati če .
-SFX EN cati čemo .
-SFX EN cati čete .
-SFX EN cati čut .
-SFX EN ti h .
-SFX EN ti še .
-SFX EN ti hmo .
-SFX EN ti ste .
-SFX EN ti hu .
-SFX EN cati či .
-SFX EN cati čimo .
-SFX EN cati čite .
-SFX EN cati čuči .
-SFX EN cati čuča .
-SFX EN cati čuče .
-SFX EN cati čemy .
-SFX EN cati čema .
-SFX EN ti vši .
-SFX EN ti vša .
-SFX EN ti vše .
-SFX EN ti ny .
-SFX EN ti na .
-SFX EN ti no .
-SFX EN ti nje .
+SFX EN Y 9
+SFX EN ina y .
+SFX EN a u .
+SFX EN a y .
+SFX EN a ě .
+SFX EN ina ah .
+SFX EN ina am .
+SFX EN a oju .
+SFX EN ina ami .
+SFX EN a o .
 
-SFX EO Y 36
+SFX EO Y 31
 SFX EO ti l .
 SFX EO ti la .
 SFX EO ti lo .
 SFX EO ti li .
-SFX EO ti ju .
-SFX EO ti m .
-SFX EO ti ješ .
-SFX EO ti š .
-SFX EO ti je .
-SFX EO ti jemo .
-SFX EO ti mo .
-SFX EO ti jete .
-SFX EO i e .
-SFX EO ti jut .
+SFX EO cati ču .
+SFX EO cati čem .
+SFX EO cati češ .
+SFX EO cati če .
+SFX EO cati čemo .
+SFX EO cati čete .
+SFX EO cati čut .
 SFX EO ti h .
 SFX EO ti še .
 SFX EO ti hmo .
 SFX EO ti ste .
 SFX EO ti hu .
-SFX EO ti j .
-SFX EO ti jmo .
-SFX EO ti jte .
-SFX EO ti juči .
-SFX EO ti juča .
-SFX EO ti juče .
-SFX EO ti jemy .
-SFX EO ti jema .
-SFX EO ti my .
-SFX EO ti ma .
+SFX EO cati či .
+SFX EO cati čimo .
+SFX EO cati čite .
+SFX EO cati čuči .
+SFX EO cati čuča .
+SFX EO cati čuče .
+SFX EO cati čemy .
+SFX EO cati čema .
 SFX EO ti vši .
 SFX EO ti vša .
 SFX EO ti vše .
-SFX EO ti eny .
-SFX EO ti ena .
-SFX EO ti eno .
-SFX EO ti enje .
+SFX EO ti ny .
+SFX EO ti na .
+SFX EO ti no .
+SFX EO ti nje .
 
-SFX EP Y 32
-SFX EP jdti se šel .
-SFX EP jdti se šla .
-SFX EP jdti se šlo .
-SFX EP jdti se šli .
-SFX EP ti se u .
-SFX EP ti se em .
-SFX EP ti se eš .
-SFX EP ti se e .
-SFX EP ti se emo .
-SFX EP ti se ete .
-SFX EP ti se ut .
-SFX EP ti se eh .
-SFX EP ti se eše .
-SFX EP ti se ehmo .
-SFX EP ti se este .
-SFX EP ti se ehu .
-SFX EP ti se i .
-SFX EP ti se imo .
-SFX EP ti se ite .
-SFX EP ti se uči .
-SFX EP ti se uča .
-SFX EP ti se uče .
-SFX EP ti se omy .
-SFX EP ti se oma .
-SFX EP ti se omo .
-SFX EP jdti se ševši .
-SFX EP jdti se ševša .
-SFX EP jdti se ševše .
-SFX EP ti se eny .
-SFX EP ti se ena .
-SFX EP ti se eno .
-SFX EP ti se enje .
+SFX EP Y 36
+SFX EP ti l .
+SFX EP ti la .
+SFX EP ti lo .
+SFX EP ti li .
+SFX EP ti ju .
+SFX EP ti m .
+SFX EP ti ješ .
+SFX EP ti š .
+SFX EP ti je .
+SFX EP ti jemo .
+SFX EP ti mo .
+SFX EP ti jete .
+SFX EP i e .
+SFX EP ti jut .
+SFX EP ti h .
+SFX EP ti še .
+SFX EP ti hmo .
+SFX EP ti ste .
+SFX EP ti hu .
+SFX EP ti j .
+SFX EP ti jmo .
+SFX EP ti jte .
+SFX EP ti juči .
+SFX EP ti juča .
+SFX EP ti juče .
+SFX EP ti jemy .
+SFX EP ti jema .
+SFX EP ti my .
+SFX EP ti ma .
+SFX EP ti vši .
+SFX EP ti vša .
+SFX EP ti vše .
+SFX EP ti eny .
+SFX EP ti ena .
+SFX EP ti eno .
+SFX EP ti enje .
 
-SFX EQ Y 31
-SFX EQ ti se l .
-SFX EQ ti se la .
-SFX EQ ti se lo .
-SFX EQ ti se li .
-SFX EQ ti se ju .
-SFX EQ ti se jem .
-SFX EQ ti se ješ .
-SFX EQ ti se je .
-SFX EQ ti se jemo .
-SFX EQ ti se jete .
-SFX EQ ti se jut .
-SFX EQ ti se h .
-SFX EQ ti se še .
-SFX EQ ti se hmo .
-SFX EQ ti se ste .
-SFX EQ ti se hu .
-SFX EQ ti se j .
-SFX EQ ti se jmo .
-SFX EQ ti se jte .
-SFX EQ ti se juči .
-SFX EQ ti se juča .
-SFX EQ ti se juče .
-SFX EQ ti se jemy .
-SFX EQ ti se jema .
-SFX EQ ti se vši .
-SFX EQ ti se vša .
-SFX EQ ti se vše .
-SFX EQ i se y .
-SFX EQ i se a .
-SFX EQ i se o .
-SFX EQ i se je .
+SFX EQ Y 32
+SFX EQ jdti se šel .
+SFX EQ jdti se šla .
+SFX EQ jdti se šlo .
+SFX EQ jdti se šli .
+SFX EQ ti se u .
+SFX EQ ti se em .
+SFX EQ ti se eš .
+SFX EQ ti se e .
+SFX EQ ti se emo .
+SFX EQ ti se ete .
+SFX EQ ti se ut .
+SFX EQ ti se eh .
+SFX EQ ti se eše .
+SFX EQ ti se ehmo .
+SFX EQ ti se este .
+SFX EQ ti se ehu .
+SFX EQ ti se i .
+SFX EQ ti se imo .
+SFX EQ ti se ite .
+SFX EQ ti se uči .
+SFX EQ ti se uča .
+SFX EQ ti se uče .
+SFX EQ ti se omy .
+SFX EQ ti se oma .
+SFX EQ ti se omo .
+SFX EQ jdti se ševši .
+SFX EQ jdti se ševša .
+SFX EQ jdti se ševše .
+SFX EQ ti se eny .
+SFX EQ ti se ena .
+SFX EQ ti se eno .
+SFX EQ ti se enje .
 
-SFX ER Y 28
-SFX ER sti dl .
-SFX ER sti dla .
-SFX ER sti dlo .
-SFX ER sti dli .
-SFX ER sti du .
-SFX ER sti dem .
-SFX ER sti deš .
-SFX ER sti de .
-SFX ER sti demo .
-SFX ER sti dete .
-SFX ER sti dut .
-SFX ER sti deh .
-SFX ER sti deše .
-SFX ER sti dehmo .
-SFX ER sti deste .
-SFX ER sti dehu .
-SFX ER sti di .
-SFX ER sti dimo .
-SFX ER sti dite .
-SFX ER sti duči .
-SFX ER sti dučaduče .
-SFX ER sti domy .
-SFX ER sti domadomo .
-SFX ER sti dši .
-SFX ER sti dšadše .
-SFX ER sti deny .
-SFX ER sti denadeno .
-SFX ER sti denje .
+SFX ER Y 31
+SFX ER ti se l .
+SFX ER ti se la .
+SFX ER ti se lo .
+SFX ER ti se li .
+SFX ER ti se ju .
+SFX ER ti se jem .
+SFX ER ti se ješ .
+SFX ER ti se je .
+SFX ER ti se jemo .
+SFX ER ti se jete .
+SFX ER ti se jut .
+SFX ER ti se h .
+SFX ER ti se še .
+SFX ER ti se hmo .
+SFX ER ti se ste .
+SFX ER ti se hu .
+SFX ER ti se j .
+SFX ER ti se jmo .
+SFX ER ti se jte .
+SFX ER ti se juči .
+SFX ER ti se juča .
+SFX ER ti se juče .
+SFX ER ti se jemy .
+SFX ER ti se jema .
+SFX ER ti se vši .
+SFX ER ti se vša .
+SFX ER ti se vše .
+SFX ER i se y .
+SFX ER i se a .
+SFX ER i se o .
+SFX ER i se je .
 
-SFX ES Y 30
-SFX ES ti l .
-SFX ES ti la .
-SFX ES ti lo .
-SFX ES ti li .
-SFX ES eti u .
-SFX ES ti m .
-SFX ES ti š .
-SFX ES ti mo .
-SFX ES i e .
-SFX ES eti ut .
-SFX ES ti h .
-SFX ES ti še .
-SFX ES ti hmo .
-SFX ES ti ste .
-SFX ES ti hu .
-SFX ES eti i .
-SFX ES eti imo .
-SFX ES eti ite .
-SFX ES eti uči .
-SFX ES eti uča .
-SFX ES eti uče .
-SFX ES ti my .
-SFX ES ti ma .
-SFX ES ti vši .
-SFX ES ti vša .
-SFX ES ti vše .
-SFX ES ti ny .
-SFX ES ti na .
-SFX ES ti no .
-SFX ES ti nje .
+SFX ES Y 28
+SFX ES sti dl .
+SFX ES sti dla .
+SFX ES sti dlo .
+SFX ES sti dli .
+SFX ES sti du .
+SFX ES sti dem .
+SFX ES sti deš .
+SFX ES sti de .
+SFX ES sti demo .
+SFX ES sti dete .
+SFX ES sti dut .
+SFX ES sti deh .
+SFX ES sti deše .
+SFX ES sti dehmo .
+SFX ES sti deste .
+SFX ES sti dehu .
+SFX ES sti di .
+SFX ES sti dimo .
+SFX ES sti dite .
+SFX ES sti duči .
+SFX ES sti dučaduče .
+SFX ES sti domy .
+SFX ES sti domadomo .
+SFX ES sti dši .
+SFX ES sti dšadše .
+SFX ES sti deny .
+SFX ES sti denadeno .
+SFX ES sti denje .
 
-SFX ET Y 6
-SFX ET 0 te .
-SFX ET 0 ta .
-SFX ET 0 ti .
-SFX ET 0 tu .
-SFX ET 0 tem .
-SFX ET 0 tom .
+SFX ET Y 30
+SFX ET ti l .
+SFX ET ti la .
+SFX ET ti lo .
+SFX ET ti li .
+SFX ET eti u .
+SFX ET ti m .
+SFX ET ti š .
+SFX ET ti mo .
+SFX ET i e .
+SFX ET eti ut .
+SFX ET ti h .
+SFX ET ti še .
+SFX ET ti hmo .
+SFX ET ti ste .
+SFX ET ti hu .
+SFX ET eti i .
+SFX ET eti imo .
+SFX ET eti ite .
+SFX ET eti uči .
+SFX ET eti uča .
+SFX ET eti uče .
+SFX ET ti my .
+SFX ET ti ma .
+SFX ET ti vši .
+SFX ET ti vša .
+SFX ET ti vše .
+SFX ET ti ny .
+SFX ET ti na .
+SFX ET ti no .
+SFX ET ti nje .
 
-SFX EU Y 28
-SFX EU ti se l .
-SFX EU ti se la .
-SFX EU ti se lo .
-SFX EU ti se li .
-SFX EU ěti se žu .
-SFX EU ěti se im .
-SFX EU ěti se iš .
-SFX EU ěti se i .
-SFX EU ěti se imo .
-SFX EU ěti se ite .
-SFX EU ěti se et .
-SFX EU ti se h .
-SFX EU ti se še .
-SFX EU ti se hmo .
-SFX EU ti se ste .
-SFX EU ti se hu .
-SFX EU ěti se eči .
-SFX EU ěti se eča .
-SFX EU ěti se eče .
-SFX EU ěti se imy .
-SFX EU ěti se ima .
-SFX EU ti se vši .
-SFX EU ti se vša .
-SFX EU ti se vše .
-SFX EU ti se ny .
-SFX EU ti se na .
-SFX EU ti se no .
-SFX EU ti se nje .
+SFX EU Y 6
+SFX EU 0 te .
+SFX EU 0 ta .
+SFX EU 0 ti .
+SFX EU 0 tu .
+SFX EU 0 tem .
+SFX EU 0 tom .
 
-SFX EV Y 8
-SFX EV ec ci .
-SFX EV ec ca .
-SFX EV ec cev .
-SFX EV ec cu .
-SFX EV ec cah .
-SFX EV ec cam .
-SFX EV ec cem .
-SFX EV ec cami .
+SFX EV Y 28
+SFX EV ti se l .
+SFX EV ti se la .
+SFX EV ti se lo .
+SFX EV ti se li .
+SFX EV ěti se žu .
+SFX EV ěti se im .
+SFX EV ěti se iš .
+SFX EV ěti se i .
+SFX EV ěti se imo .
+SFX EV ěti se ite .
+SFX EV ěti se et .
+SFX EV ti se h .
+SFX EV ti se še .
+SFX EV ti se hmo .
+SFX EV ti se ste .
+SFX EV ti se hu .
+SFX EV ěti se eči .
+SFX EV ěti se eča .
+SFX EV ěti se eče .
+SFX EV ěti se imy .
+SFX EV ěti se ima .
+SFX EV ti se vši .
+SFX EV ti se vša .
+SFX EV ti se vše .
+SFX EV ti se ny .
+SFX EV ti se na .
+SFX EV ti se no .
+SFX EV ti se nje .
 
-SFX EW Y 15
-SFX EW en no .
-SFX EW en na .
-SFX EW en nogo .
-SFX EW en nu .
-SFX EW en noj .
-SFX EW en nom .
-SFX EW en nomu .
-SFX EW en nym .
-SFX EW en noju .
-SFX EW en ni .
-SFX EW en ne .
-SFX EW en nyh .
-SFX EW en nymi .
-SFX EW en nějši .
-SFX EW en něje .
+SFX EW Y 8
+SFX EW ec ci .
+SFX EW ec ca .
+SFX EW ec cev .
+SFX EW ec cu .
+SFX EW ec cah .
+SFX EW ec cam .
+SFX EW ec cem .
+SFX EW ec cami .
 
-SFX EX Y 13
-SFX EX 0 o .
-SFX EX 0 a .
-SFX EX 0 ogo .
-SFX EX 0 u .
-SFX EX 0 oj .
-SFX EX 0 om .
-SFX EX 0 omu .
-SFX EX 0 ym .
-SFX EX 0 oju .
-SFX EX 0 i .
-SFX EX 0 e .
-SFX EX 0 yh .
-SFX EX 0 ymi .
+SFX EX Y 15
+SFX EX en no .
+SFX EX en na .
+SFX EX en nogo .
+SFX EX en nu .
+SFX EX en noj .
+SFX EX en nom .
+SFX EX en nomu .
+SFX EX en nym .
+SFX EX en noju .
+SFX EX en ni .
+SFX EX en ne .
+SFX EX en nyh .
+SFX EX en nymi .
+SFX EX en nějši .
+SFX EX en něje .
 
-SFX EY Y 4
-SFX EY ky ek .
-SFX EY y ah .
-SFX EY y am .
-SFX EY y ami .
+SFX EY Y 13
+SFX EY 0 o .
+SFX EY 0 a .
+SFX EY 0 ogo .
+SFX EY 0 u .
+SFX EY 0 oj .
+SFX EY 0 om .
+SFX EY 0 omu .
+SFX EY 0 ym .
+SFX EY 0 oju .
+SFX EY 0 i .
+SFX EY 0 e .
+SFX EY 0 yh .
+SFX EY 0 ymi .
 
-SFX EZ Y 8
-SFX EZ a y .
-SFX EZ a u .
-SFX EZ ka ek .
-SFX EZ a ě .
-SFX EZ 0 h .
-SFX EZ 0 m .
-SFX EZ a oju .
-SFX EZ 0 mi .
+SFX EZ Y 4
+SFX EZ ky ek .
+SFX EZ y ah .
+SFX EZ y am .
+SFX EZ y ami .
 
-SFX Ea Y 9
-SFX Ea ov vy .
-SFX Ea ov va .
-SFX Ea ov vov .
-SFX Ea ov vu .
-SFX Ea ov vah .
-SFX Ea ov vam .
-SFX Ea ov vom .
-SFX Ea ov vami .
-SFX Ea ov ve .
+SFX Ea Y 8
+SFX Ea a y .
+SFX Ea a u .
+SFX Ea ka ek .
+SFX Ea a ě .
+SFX Ea 0 h .
+SFX Ea 0 m .
+SFX Ea a oju .
+SFX Ea 0 mi .
 
-SFX Eb Y 7
-SFX Eb y e .
-SFX Eb y ogo .
-SFX Eb 0 h .
-SFX Eb y om .
-SFX Eb y omu .
-SFX Eb 0 m .
-SFX Eb 0 mi .
+SFX Eb Y 9
+SFX Eb ov vy .
+SFX Eb ov va .
+SFX Eb ov vov .
+SFX Eb ov vu .
+SFX Eb ov vah .
+SFX Eb ov vam .
+SFX Eb ov vom .
+SFX Eb ov vami .
+SFX Eb ov ve .
 
-SFX Ec Y 4
-SFX Ec ec ca .
-SFX Ec ec cu .
-SFX Ec ec cem .
-SFX Ec ec če .
+SFX Ec Y 7
+SFX Ec y e .
+SFX Ec y ogo .
+SFX Ec 0 h .
+SFX Ec y om .
+SFX Ec y omu .
+SFX Ec 0 m .
+SFX Ec 0 mi .
 
-SFX Ed Y 31
-SFX Ed ěti se l .
-SFX Ed ěti se la .
-SFX Ed ěti se lo .
-SFX Ed ěti se li .
-SFX Ed ěti se u .
-SFX Ed ěti se em .
-SFX Ed ěti se eš .
-SFX Ed ěti se e .
-SFX Ed ěti se emo .
-SFX Ed ěti se ete .
-SFX Ed ěti se ut .
-SFX Ed ti se h .
-SFX Ed ti se še .
-SFX Ed ti se hmo .
-SFX Ed ti se ste .
-SFX Ed ti se hu .
-SFX Ed ěti se i .
-SFX Ed ěti se imo .
-SFX Ed ěti se ite .
-SFX Ed ěti se uči .
-SFX Ed ěti se uča .
-SFX Ed ěti se uče .
-SFX Ed ěti se emy .
-SFX Ed ěti se ema .
-SFX Ed ěti se ši .
-SFX Ed ěti se ša .
-SFX Ed ěti se še .
-SFX Ed ěti se ty .
-SFX Ed ěti se ta .
-SFX Ed ěti se to .
-SFX Ed ěti se tje .
+SFX Ed Y 4
+SFX Ed ec ca .
+SFX Ed ec cu .
+SFX Ed ec cem .
+SFX Ed ec če .
 
-SFX Ee Y 15
-SFX Ee y od o .
-SFX Ee y od a .
-SFX Ee y od ogo .
-SFX Ee y od u .
-SFX Ee y od oj .
-SFX Ee y od om .
-SFX Ee y od omu .
-SFX Ee  od m .
-SFX Ee y od oju .
-SFX Ee y od i .
-SFX Ee y od e .
-SFX Ee  od h .
-SFX Ee  od mi .
-SFX Ee y od ějši .
-SFX Ee y od ěje .
+SFX Ee Y 31
+SFX Ee ěti se l .
+SFX Ee ěti se la .
+SFX Ee ěti se lo .
+SFX Ee ěti se li .
+SFX Ee ěti se u .
+SFX Ee ěti se em .
+SFX Ee ěti se eš .
+SFX Ee ěti se e .
+SFX Ee ěti se emo .
+SFX Ee ěti se ete .
+SFX Ee ěti se ut .
+SFX Ee ti se h .
+SFX Ee ti se še .
+SFX Ee ti se hmo .
+SFX Ee ti se ste .
+SFX Ee ti se hu .
+SFX Ee ěti se i .
+SFX Ee ěti se imo .
+SFX Ee ěti se ite .
+SFX Ee ěti se uči .
+SFX Ee ěti se uča .
+SFX Ee ěti se uče .
+SFX Ee ěti se emy .
+SFX Ee ěti se ema .
+SFX Ee ěti se ši .
+SFX Ee ěti se ša .
+SFX Ee ěti se še .
+SFX Ee ěti se ty .
+SFX Ee ěti se ta .
+SFX Ee ěti se to .
+SFX Ee ěti se tje .
 
-SFX Ef Y 7
-SFX Ef y i .
-SFX Ef y ogo .
-SFX Ef 0 h .
-SFX Ef y om .
-SFX Ef y omu .
-SFX Ef 0 m .
-SFX Ef 0 mi .
+SFX Ef Y 15
+SFX Ef y od o .
+SFX Ef y od a .
+SFX Ef y od ogo .
+SFX Ef y od u .
+SFX Ef y od oj .
+SFX Ef y od om .
+SFX Ef y od omu .
+SFX Ef  od m .
+SFX Ef y od oju .
+SFX Ef y od i .
+SFX Ef y od e .
+SFX Ef  od h .
+SFX Ef  od mi .
+SFX Ef y od ějši .
+SFX Ef y od ěje .
 
 SFX Eg Y 7
-SFX Eg e i .
-SFX Eg 0 go .
-SFX Eg e ih .
+SFX Eg y i .
+SFX Eg y ogo .
+SFX Eg 0 h .
+SFX Eg y om .
+SFX Eg y omu .
 SFX Eg 0 m .
-SFX Eg 0 mu .
-SFX Eg e im .
-SFX Eg e imi .
+SFX Eg 0 mi .
 
-SFX Eh Y 32
-SFX Eh ti se l .
-SFX Eh ti se la .
-SFX Eh ti se lo .
-SFX Eh ti se li .
-SFX Eh ti se u .
-SFX Eh ti se em .
-SFX Eh ti se eš .
-SFX Eh ti se e .
-SFX Eh ti se emo .
-SFX Eh ti se ete .
-SFX Eh ti se ut .
-SFX Eh ti se eh .
-SFX Eh ti se eše .
-SFX Eh ti se ehmo .
-SFX Eh ti se este .
-SFX Eh ti se ehu .
-SFX Eh ti se i .
-SFX Eh ti se imo .
-SFX Eh ti se ite .
-SFX Eh ti se uči .
-SFX Eh ti se uča .
-SFX Eh ti se uče .
-SFX Eh ti se omy .
-SFX Eh ti se oma .
-SFX Eh ti se omo .
-SFX Eh ti se ši .
-SFX Eh ti se ša .
-SFX Eh ti se še .
-SFX Eh ti se eny .
-SFX Eh ti se ena .
-SFX Eh ti se eno .
-SFX Eh ti se enje .
+SFX Eh Y 7
+SFX Eh e i .
+SFX Eh 0 go .
+SFX Eh e ih .
+SFX Eh 0 m .
+SFX Eh 0 mu .
+SFX Eh e im .
+SFX Eh e imi .
 
-SFX Ei Y 19
-SFX Ei ol l .
-SFX Ei ol ly .
-SFX Ei 0 y .
-SFX Ei ol la .
-SFX Ei 0 a .
-SFX Ei ol lov .
-SFX Ei 0 ov .
-SFX Ei ol lu .
-SFX Ei 0 u .
-SFX Ei ol lah .
-SFX Ei 0 ah .
-SFX Ei ol lam .
-SFX Ei 0 am .
-SFX Ei ol lom .
-SFX Ei 0 om .
-SFX Ei ol lami .
-SFX Ei 0 ami .
-SFX Ei ol le .
-SFX Ei 0 e .
+SFX Ei Y 32
+SFX Ei ti se l .
+SFX Ei ti se la .
+SFX Ei ti se lo .
+SFX Ei ti se li .
+SFX Ei ti se u .
+SFX Ei ti se em .
+SFX Ei ti se eš .
+SFX Ei ti se e .
+SFX Ei ti se emo .
+SFX Ei ti se ete .
+SFX Ei ti se ut .
+SFX Ei ti se eh .
+SFX Ei ti se eše .
+SFX Ei ti se ehmo .
+SFX Ei ti se este .
+SFX Ei ti se ehu .
+SFX Ei ti se i .
+SFX Ei ti se imo .
+SFX Ei ti se ite .
+SFX Ei ti se uči .
+SFX Ei ti se uča .
+SFX Ei ti se uče .
+SFX Ei ti se omy .
+SFX Ei ti se oma .
+SFX Ei ti se omo .
+SFX Ei ti se ši .
+SFX Ei ti se ša .
+SFX Ei ti se še .
+SFX Ei ti se eny .
+SFX Ei ti se ena .
+SFX Ei ti se eno .
+SFX Ei ti se enje .
 
-SFX Ej Y 31
-SFX Ej ti se l .
-SFX Ej ti se la .
-SFX Ej ti se lo .
-SFX Ej ti se li .
-SFX Ej sati se šu .
-SFX Ej sati se šem .
-SFX Ej sati se šeš .
-SFX Ej sati se še .
-SFX Ej sati se šemo .
-SFX Ej sati se šete .
-SFX Ej sati se šut .
-SFX Ej ti se h .
-SFX Ej ti se še .
-SFX Ej ti se hmo .
-SFX Ej ti se ste .
-SFX Ej ti se hu .
-SFX Ej sati se ši .
-SFX Ej sati se šimo .
-SFX Ej sati se šite .
-SFX Ej sati se šuči .
-SFX Ej sati se šuča .
-SFX Ej sati se šuče .
-SFX Ej sati se šemy .
-SFX Ej sati se šema .
-SFX Ej ti se vši .
-SFX Ej ti se vša .
-SFX Ej ti se vše .
-SFX Ej ti se ny .
-SFX Ej ti se na .
-SFX Ej ti se no .
-SFX Ej ti se nje .
+SFX Ej Y 19
+SFX Ej ol l .
+SFX Ej ol ly .
+SFX Ej 0 y .
+SFX Ej ol la .
+SFX Ej 0 a .
+SFX Ej ol lov .
+SFX Ej 0 ov .
+SFX Ej ol lu .
+SFX Ej 0 u .
+SFX Ej ol lah .
+SFX Ej 0 ah .
+SFX Ej ol lam .
+SFX Ej 0 am .
+SFX Ej ol lom .
+SFX Ej 0 om .
+SFX Ej ol lami .
+SFX Ej 0 ami .
+SFX Ej ol le .
+SFX Ej 0 e .
 
-SFX Ek Y 13
-SFX Ek en no .
-SFX Ek en na .
-SFX Ek en nogo .
-SFX Ek en nu .
-SFX Ek en noj .
-SFX Ek en nom .
-SFX Ek en nomu .
-SFX Ek en nym .
-SFX Ek en noju .
-SFX Ek en ni .
-SFX Ek en ne .
-SFX Ek en nyh .
-SFX Ek en nymi .
+SFX Ek Y 31
+SFX Ek ti se l .
+SFX Ek ti se la .
+SFX Ek ti se lo .
+SFX Ek ti se li .
+SFX Ek sati se šu .
+SFX Ek sati se šem .
+SFX Ek sati se šeš .
+SFX Ek sati se še .
+SFX Ek sati se šemo .
+SFX Ek sati se šete .
+SFX Ek sati se šut .
+SFX Ek ti se h .
+SFX Ek ti se še .
+SFX Ek ti se hmo .
+SFX Ek ti se ste .
+SFX Ek ti se hu .
+SFX Ek sati se ši .
+SFX Ek sati se šimo .
+SFX Ek sati se šite .
+SFX Ek sati se šuči .
+SFX Ek sati se šuča .
+SFX Ek sati se šuče .
+SFX Ek sati se šemy .
+SFX Ek sati se šema .
+SFX Ek ti se vši .
+SFX Ek ti se vša .
+SFX Ek ti se vše .
+SFX Ek ti se ny .
+SFX Ek ti se na .
+SFX Ek ti se no .
+SFX Ek ti se nje .
 
-SFX El Y 12
-SFX El libo elibo .
-SFX El libo alibo .
-SFX El libo egolibo .
-SFX El libo ulibo .
-SFX El libo ejlibo .
-SFX El libo emlibo .
-SFX El libo emulibo .
-SFX El libo imlibo .
-SFX El libo ejulibo .
-SFX El libo ilibo .
-SFX El libo ihlibo .
-SFX El libo imilibo .
+SFX El Y 13
+SFX El en no .
+SFX El en na .
+SFX El en nogo .
+SFX El en nu .
+SFX El en noj .
+SFX El en nom .
+SFX El en nomu .
+SFX El en nym .
+SFX El en noju .
+SFX El en ni .
+SFX El en ne .
+SFX El en nyh .
+SFX El en nymi .
 
-SFX Em Y 4
-SFX Em tolibo egolibo .
-SFX Em tolibo emlibo .
-SFX Em tolibo emulibo .
-SFX Em tolibo imlibo .
+SFX Em Y 12
+SFX Em libo elibo .
+SFX Em libo alibo .
+SFX Em libo egolibo .
+SFX Em libo ulibo .
+SFX Em libo ejlibo .
+SFX Em libo emlibo .
+SFX Em libo emulibo .
+SFX Em libo imlibo .
+SFX Em libo ejulibo .
+SFX Em libo ilibo .
+SFX Em libo ihlibo .
+SFX Em libo imilibo .
 
-SFX En Y 9
-SFX En os si .
-SFX En os sa .
-SFX En os sov .
-SFX En os su .
-SFX En os sah .
-SFX En os sam .
-SFX En os som .
-SFX En os sami .
-SFX En os se .
+SFX En Y 4
+SFX En tolibo egolibo .
+SFX En tolibo emlibo .
+SFX En tolibo emulibo .
+SFX En tolibo imlibo .
 
-SFX Eo Y 13
-SFX Eo ylibo olibo .
-SFX Eo ylibo alibo .
-SFX Eo ylibo ogolibo .
-SFX Eo ylibo ulibo .
-SFX Eo ylibo ojlibo .
-SFX Eo ylibo omlibo .
-SFX Eo ylibo omulibo .
-SFX Eo libo mlibo .
-SFX Eo ylibo ojulibo .
-SFX Eo ylibo ilibo .
-SFX Eo ylibo elibo .
-SFX Eo libo hlibo .
-SFX Eo libo milibo .
+SFX Eo Y 9
+SFX Eo os si .
+SFX Eo os sa .
+SFX Eo os sov .
+SFX Eo os su .
+SFX Eo os sah .
+SFX Eo os sam .
+SFX Eo os som .
+SFX Eo os sami .
+SFX Eo os se .
 
-SFX Ep Y 31
-SFX Ep ti l .
-SFX Ep ti la .
-SFX Ep ti lo .
-SFX Ep ti li .
-SFX Ep gti žu .
-SFX Ep gti žem .
-SFX Ep gti žeš .
-SFX Ep gti že .
-SFX Ep gti žemo .
-SFX Ep gti žete .
-SFX Ep gti žut .
-SFX Ep gti žeh .
-SFX Ep gti žeše .
-SFX Ep gti žehmo .
-SFX Ep gti žeste .
-SFX Ep gti žehu .
-SFX Ep gti ži .
-SFX Ep gti žimo .
-SFX Ep gti žite .
-SFX Ep gti žuči .
-SFX Ep gti žuča .
-SFX Ep gti žuče .
-SFX Ep gti žemy .
-SFX Ep gti žema .
-SFX Ep ti ši .
-SFX Ep ti ša .
-SFX Ep ti še .
-SFX Ep gti ženy .
-SFX Ep gti žena .
-SFX Ep gti ženo .
-SFX Ep gti ženje .
+SFX Ep Y 13
+SFX Ep ylibo olibo .
+SFX Ep ylibo alibo .
+SFX Ep ylibo ogolibo .
+SFX Ep ylibo ulibo .
+SFX Ep ylibo ojlibo .
+SFX Ep ylibo omlibo .
+SFX Ep ylibo omulibo .
+SFX Ep libo mlibo .
+SFX Ep ylibo ojulibo .
+SFX Ep ylibo ilibo .
+SFX Ep ylibo elibo .
+SFX Ep libo hlibo .
+SFX Ep libo milibo .
 
-SFX Eq Y 32
-SFX Eq idti šel .
-SFX Eq idti šla .
-SFX Eq idti šlo .
-SFX Eq idti šli .
-SFX Eq ti u .
-SFX Eq ti em .
-SFX Eq ti eš .
-SFX Eq ti e .
-SFX Eq ti emo .
-SFX Eq ti ete .
-SFX Eq ti ut .
-SFX Eq ti eh .
-SFX Eq ti eše .
-SFX Eq ti ehmo .
-SFX Eq ti este .
-SFX Eq ti ehu .
-SFX Eq ti i .
-SFX Eq ti imo .
-SFX Eq ti ite .
-SFX Eq ti uči .
-SFX Eq ti uča .
-SFX Eq ti uče .
-SFX Eq ti omy .
-SFX Eq ti oma .
-SFX Eq ti omo .
-SFX Eq idti ševši .
-SFX Eq idti ševša .
-SFX Eq idti ševše .
-SFX Eq ti eny .
-SFX Eq ti ena .
-SFX Eq ti eno .
-SFX Eq ti enje .
+SFX Eq Y 31
+SFX Eq ti l .
+SFX Eq ti la .
+SFX Eq ti lo .
+SFX Eq ti li .
+SFX Eq gti žu .
+SFX Eq gti žem .
+SFX Eq gti žeš .
+SFX Eq gti že .
+SFX Eq gti žemo .
+SFX Eq gti žete .
+SFX Eq gti žut .
+SFX Eq gti žeh .
+SFX Eq gti žeše .
+SFX Eq gti žehmo .
+SFX Eq gti žeste .
+SFX Eq gti žehu .
+SFX Eq gti ži .
+SFX Eq gti žimo .
+SFX Eq gti žite .
+SFX Eq gti žuči .
+SFX Eq gti žuča .
+SFX Eq gti žuče .
+SFX Eq gti žemy .
+SFX Eq gti žema .
+SFX Eq ti ši .
+SFX Eq ti ša .
+SFX Eq ti še .
+SFX Eq gti ženy .
+SFX Eq gti žena .
+SFX Eq gti ženo .
+SFX Eq gti ženje .
 
-SFX Er Y 27
-SFX Er ti se l .
-SFX Er ti se la .
-SFX Er ti se lo .
-SFX Er ti se li .
-SFX Er titi se ču .
-SFX Er ti se m .
-SFX Er ti se š .
-SFX Er ti se mo .
-SFX Er i se e .
-SFX Er iti se et .
-SFX Er ti se h .
-SFX Er ti se še .
-SFX Er ti se hmo .
-SFX Er ti se ste .
-SFX Er ti se hu .
-SFX Er iti se eči .
-SFX Er iti se eča .
-SFX Er iti se eče .
-SFX Er ti se my .
-SFX Er ti se ma .
-SFX Er ti se vši .
-SFX Er ti se vša .
-SFX Er ti se vše .
-SFX Er titi se čeny .
-SFX Er titi se čena .
-SFX Er titi se čeno .
-SFX Er titi se čenje .
+SFX Er Y 32
+SFX Er idti šel .
+SFX Er idti šla .
+SFX Er idti šlo .
+SFX Er idti šli .
+SFX Er ti u .
+SFX Er ti em .
+SFX Er ti eš .
+SFX Er ti e .
+SFX Er ti emo .
+SFX Er ti ete .
+SFX Er ti ut .
+SFX Er ti eh .
+SFX Er ti eše .
+SFX Er ti ehmo .
+SFX Er ti este .
+SFX Er ti ehu .
+SFX Er ti i .
+SFX Er ti imo .
+SFX Er ti ite .
+SFX Er ti uči .
+SFX Er ti uča .
+SFX Er ti uče .
+SFX Er ti omy .
+SFX Er ti oma .
+SFX Er ti omo .
+SFX Er idti ševši .
+SFX Er idti ševša .
+SFX Er idti ševše .
+SFX Er ti eny .
+SFX Er ti ena .
+SFX Er ti eno .
+SFX Er ti enje .
 
-SFX Es Y 13
-SFX Es ož ž .
-SFX Es ož ži .
-SFX Es 0 i .
-SFX Es ož žij .
-SFX Es 0 ij .
-SFX Es ož žah .
-SFX Es 0 ah .
-SFX Es ož žam .
-SFX Es 0 am .
-SFX Es ož žju .
-SFX Es 0 ju .
-SFX Es ož žami .
-SFX Es 0 ami .
+SFX Es Y 27
+SFX Es ti se l .
+SFX Es ti se la .
+SFX Es ti se lo .
+SFX Es ti se li .
+SFX Es titi se ču .
+SFX Es ti se m .
+SFX Es ti se š .
+SFX Es ti se mo .
+SFX Es i se e .
+SFX Es iti se et .
+SFX Es ti se h .
+SFX Es ti se še .
+SFX Es ti se hmo .
+SFX Es ti se ste .
+SFX Es ti se hu .
+SFX Es iti se eči .
+SFX Es iti se eča .
+SFX Es iti se eče .
+SFX Es ti se my .
+SFX Es ti se ma .
+SFX Es ti se vši .
+SFX Es ti se vša .
+SFX Es ti se vše .
+SFX Es titi se čeny .
+SFX Es titi se čena .
+SFX Es titi se čeno .
+SFX Es titi se čenje .
 
-SFX Et Y 3
-SFX Et o yh .
-SFX Et o ym .
-SFX Et o ymi .
+SFX Et Y 13
+SFX Et ož ž .
+SFX Et ož ži .
+SFX Et 0 i .
+SFX Et ož žij .
+SFX Et 0 ij .
+SFX Et ož žah .
+SFX Et 0 ah .
+SFX Et ož žam .
+SFX Et 0 am .
+SFX Et ož žju .
+SFX Et 0 ju .
+SFX Et ož žami .
+SFX Et 0 ami .
 
-SFX Eu Y 8
-SFX Eu a y .
-SFX Eu a u .
-SFX Eu ka ok .
-SFX Eu a ě .
-SFX Eu 0 h .
-SFX Eu 0 m .
-SFX Eu a oju .
-SFX Eu 0 mi .
+SFX Eu Y 3
+SFX Eu o yh .
+SFX Eu o ym .
+SFX Eu o ymi .
 
-SFX Ev Y 32
-SFX Ev ti se l .
-SFX Ev ti se la .
-SFX Ev ti se lo .
-SFX Ev ti se li .
-SFX Ev yti se udu .
-SFX Ev yti se udem .
-SFX Ev yti se udeš .
-SFX Ev yti se ude .
-SFX Ev yti se udemo .
-SFX Ev yti se udete .
-SFX Ev yti se udut .
-SFX Ev ti se h .
-SFX Ev ti se še .
-SFX Ev ti se hmo .
-SFX Ev ti se ste .
-SFX Ev ti se hu .
-SFX Ev yti se udi .
-SFX Ev yti se udimo .
-SFX Ev yti se udite .
-SFX Ev yti se uduči .
-SFX Ev yti se uduča .
-SFX Ev yti se uduče .
-SFX Ev yti se udomy .
-SFX Ev yti se udoma .
-SFX Ev yti se udomo .
-SFX Ev ti se vši .
-SFX Ev ti se vša .
-SFX Ev ti se vše .
-SFX Ev i se y .
-SFX Ev i se a .
-SFX Ev i se o .
-SFX Ev i se je .
+SFX Ev Y 8
+SFX Ev a y .
+SFX Ev a u .
+SFX Ev ka ok .
+SFX Ev a ě .
+SFX Ev 0 h .
+SFX Ev 0 m .
+SFX Ev a oju .
+SFX Ev 0 mi .
 
-SFX Ew Y 4
-SFX Ew ky ok .
-SFX Ew y ah .
-SFX Ew y am .
-SFX Ew y ami .
+SFX Ew Y 32
+SFX Ew ti se l .
+SFX Ew ti se la .
+SFX Ew ti se lo .
+SFX Ew ti se li .
+SFX Ew yti se udu .
+SFX Ew yti se udem .
+SFX Ew yti se udeš .
+SFX Ew yti se ude .
+SFX Ew yti se udemo .
+SFX Ew yti se udete .
+SFX Ew yti se udut .
+SFX Ew ti se h .
+SFX Ew ti se še .
+SFX Ew ti se hmo .
+SFX Ew ti se ste .
+SFX Ew ti se hu .
+SFX Ew yti se udi .
+SFX Ew yti se udimo .
+SFX Ew yti se udite .
+SFX Ew yti se uduči .
+SFX Ew yti se uduča .
+SFX Ew yti se uduče .
+SFX Ew yti se udomy .
+SFX Ew yti se udoma .
+SFX Ew yti se udomo .
+SFX Ew ti se vši .
+SFX Ew ti se vša .
+SFX Ew ti se vše .
+SFX Ew i se y .
+SFX Ew i se a .
+SFX Ew i se o .
+SFX Ew i se je .
 
-SFX Ex Y 31
-SFX Ex ti l .
-SFX Ex ti la .
-SFX Ex ti lo .
-SFX Ex ti li .
-SFX Ex rakaati skažu .
-SFX Ex rakaati skažem .
-SFX Ex rakaati skažeš .
-SFX Ex rakaati skaže .
-SFX Ex rakaati skažemo .
-SFX Ex rakaati skažete .
-SFX Ex rakaati skažut .
-SFX Ex ti h .
-SFX Ex ti še .
-SFX Ex ti hmo .
-SFX Ex ti ste .
-SFX Ex ti hu .
-SFX Ex rakaati skaži .
-SFX Ex rakaati skažimo .
-SFX Ex rakaati skažite .
-SFX Ex rakaati skažuči .
-SFX Ex rakaati skažuča .
-SFX Ex rakaati skažuče .
-SFX Ex rakaati skažemy .
-SFX Ex rakaati skažema .
-SFX Ex ti vši .
-SFX Ex ti vša .
-SFX Ex ti vše .
-SFX Ex ti ny .
-SFX Ex ti na .
-SFX Ex ti no .
-SFX Ex ti nje .
+SFX Ex Y 4
+SFX Ex ky ok .
+SFX Ex y ah .
+SFX Ex y am .
+SFX Ex y ami .
 
 SFX Ey Y 31
 SFX Ey ti l .
 SFX Ey ti la .
 SFX Ey ti lo .
 SFX Ey ti li .
-SFX Ey ti nu .
-SFX Ey ti nem .
-SFX Ey ti neš .
-SFX Ey ti ne .
-SFX Ey ti nemo .
-SFX Ey ti nete .
-SFX Ey ti nut .
+SFX Ey razkazati skažu .
+SFX Ey razkazati skažem .
+SFX Ey razkazati skažeš .
+SFX Ey razkazati skaže .
+SFX Ey razkazati skažemo .
+SFX Ey razkazati skažete .
+SFX Ey razkazati skažut .
 SFX Ey ti h .
 SFX Ey ti še .
 SFX Ey ti hmo .
 SFX Ey ti ste .
 SFX Ey ti hu .
-SFX Ey ti ni .
-SFX Ey ti nimo .
-SFX Ey ti nite .
-SFX Ey ti nuči .
-SFX Ey ti nuča .
-SFX Ey ti nuče .
-SFX Ey ti nemy .
-SFX Ey ti nema .
+SFX Ey razkazati skaži .
+SFX Ey razkazati skažimo .
+SFX Ey razkazati skažite .
+SFX Ey razkazati skažuči .
+SFX Ey razkazati skažuča .
+SFX Ey razkazati skažuče .
+SFX Ey razkazati skažemy .
+SFX Ey razkazati skažema .
 SFX Ey ti vši .
 SFX Ey ti vša .
 SFX Ey ti vše .
-SFX Ey i y .
-SFX Ey i a .
-SFX Ey i o .
-SFX Ey i je .
+SFX Ey ti ny .
+SFX Ey ti na .
+SFX Ey ti no .
+SFX Ey ti nje .
 
-SFX Ez Y 7
-SFX Ez i eri .
-SFX Ez i ere .
-SFX Ez i erij .
-SFX Ez i erah .
-SFX Ez i eram .
-SFX Ez i erju .
-SFX Ez i erami .
+SFX Ez Y 31
+SFX Ez ti l .
+SFX Ez ti la .
+SFX Ez ti lo .
+SFX Ez ti li .
+SFX Ez ti nu .
+SFX Ez ti nem .
+SFX Ez ti neš .
+SFX Ez ti ne .
+SFX Ez ti nemo .
+SFX Ez ti nete .
+SFX Ez ti nut .
+SFX Ez ti h .
+SFX Ez ti še .
+SFX Ez ti hmo .
+SFX Ez ti ste .
+SFX Ez ti hu .
+SFX Ez ti ni .
+SFX Ez ti nimo .
+SFX Ez ti nite .
+SFX Ez ti nuči .
+SFX Ez ti nuča .
+SFX Ez ti nuče .
+SFX Ez ti nemy .
+SFX Ez ti nema .
+SFX Ez ti vši .
+SFX Ez ti vša .
+SFX Ez ti vše .
+SFX Ez i y .
+SFX Ez i a .
+SFX Ez i o .
+SFX Ez i je .
 
-SFX FA Y 32
-SFX FA ojdti se šel .
-SFX FA ojdti se šla .
-SFX FA ojdti se šlo .
-SFX FA ojdti se šli .
-SFX FA ti se u .
-SFX FA ti se em .
-SFX FA ti se eš .
-SFX FA ti se e .
-SFX FA ti se emo .
-SFX FA ti se ete .
-SFX FA ti se ut .
-SFX FA ti se eh .
-SFX FA ti se eše .
-SFX FA ti se ehmo .
-SFX FA ti se este .
-SFX FA ti se ehu .
-SFX FA ti se i .
-SFX FA ti se imo .
-SFX FA ti se ite .
-SFX FA ti se uči .
-SFX FA ti se uča .
-SFX FA ti se uče .
-SFX FA ti se omy .
-SFX FA ti se oma .
-SFX FA ti se omo .
-SFX FA ojdti se ševši .
-SFX FA ojdti se ševša .
-SFX FA ojdti se ševše .
-SFX FA ti se eny .
-SFX FA ti se ena .
-SFX FA ti se eno .
-SFX FA ti se enje .
+SFX FA Y 7
+SFX FA i eri .
+SFX FA i ere .
+SFX FA i erij .
+SFX FA i erah .
+SFX FA i eram .
+SFX FA i erju .
+SFX FA i erami .
 
-SFX FB Y 15
-SFX FB y na o .
-SFX FB y na a .
-SFX FB y na ogo .
-SFX FB y na u .
-SFX FB y na oj .
-SFX FB y na om .
-SFX FB y na omu .
-SFX FB  na m .
-SFX FB y na oju .
-SFX FB y na i .
-SFX FB y na e .
-SFX FB  na h .
-SFX FB  na mi .
-SFX FB y na ějši .
-SFX FB y na ěje .
+SFX FB Y 32
+SFX FB ojdti se šel .
+SFX FB ojdti se šla .
+SFX FB ojdti se šlo .
+SFX FB ojdti se šli .
+SFX FB ti se u .
+SFX FB ti se em .
+SFX FB ti se eš .
+SFX FB ti se e .
+SFX FB ti se emo .
+SFX FB ti se ete .
+SFX FB ti se ut .
+SFX FB ti se eh .
+SFX FB ti se eše .
+SFX FB ti se ehmo .
+SFX FB ti se este .
+SFX FB ti se ehu .
+SFX FB ti se i .
+SFX FB ti se imo .
+SFX FB ti se ite .
+SFX FB ti se uči .
+SFX FB ti se uča .
+SFX FB ti se uče .
+SFX FB ti se omy .
+SFX FB ti se oma .
+SFX FB ti se omo .
+SFX FB ojdti se ševši .
+SFX FB ojdti se ševša .
+SFX FB ojdti se ševše .
+SFX FB ti se eny .
+SFX FB ti se ena .
+SFX FB ti se eno .
+SFX FB ti se enje .
 
 SFX FC Y 15
-SFX FC y a o .
-SFX FC y a a .
-SFX FC y a ogo .
-SFX FC y a u .
-SFX FC y a oj .
-SFX FC y a om .
-SFX FC y a omu .
-SFX FC  a m .
-SFX FC y a oju .
-SFX FC y a i .
-SFX FC y a e .
-SFX FC  a h .
-SFX FC  a mi .
-SFX FC y a ějši .
-SFX FC y a ěje .
+SFX FC y na o .
+SFX FC y na a .
+SFX FC y na ogo .
+SFX FC y na u .
+SFX FC y na oj .
+SFX FC y na om .
+SFX FC y na omu .
+SFX FC  na m .
+SFX FC y na oju .
+SFX FC y na i .
+SFX FC y na e .
+SFX FC  na h .
+SFX FC  na mi .
+SFX FC y na ějši .
+SFX FC y na ěje .
 
-SFX FD Y 31
-SFX FD ti se l .
-SFX FD ti se la .
-SFX FD ti se lo .
-SFX FD ti se li .
-SFX FD eti se mu .
-SFX FD eti se mem .
-SFX FD eti se meš .
-SFX FD eti se me .
-SFX FD eti se memo .
-SFX FD eti se mete .
-SFX FD eti se mut .
-SFX FD ti se h .
-SFX FD ti se še .
-SFX FD ti se hmo .
-SFX FD ti se ste .
-SFX FD ti se hu .
-SFX FD eti se mi .
-SFX FD eti se mimo .
-SFX FD eti se mite .
-SFX FD eti se muči .
-SFX FD eti se muča .
-SFX FD eti se muče .
-SFX FD eti se memy .
-SFX FD eti se mema .
-SFX FD ti se vši .
-SFX FD ti se vša .
-SFX FD ti se vše .
-SFX FD i se y .
-SFX FD i se a .
-SFX FD i se o .
-SFX FD i se je .
+SFX FD Y 15
+SFX FD y za o .
+SFX FD y za a .
+SFX FD y za ogo .
+SFX FD y za u .
+SFX FD y za oj .
+SFX FD y za om .
+SFX FD y za omu .
+SFX FD  za m .
+SFX FD y za oju .
+SFX FD y za i .
+SFX FD y za e .
+SFX FD  za h .
+SFX FD  za mi .
+SFX FD y za ějši .
+SFX FD y za ěje .
 
-SFX FE Y 28
+SFX FE Y 31
 SFX FE ti se l .
 SFX FE ti se la .
 SFX FE ti se lo .
 SFX FE ti se li .
-SFX FE gti se žu .
-SFX FE gti se žim .
-SFX FE gti se žiš .
-SFX FE gti se ži .
-SFX FE gti se žimo .
-SFX FE gti se žite .
-SFX FE gti se žet .
-SFX FE gti se žeh .
-SFX FE gti se žeše .
-SFX FE gti se žehmo .
-SFX FE gti se žeste .
-SFX FE gti se žehu .
-SFX FE gti se žeči .
-SFX FE gti se žeča .
-SFX FE gti se žeče .
-SFX FE gti se žimy .
-SFX FE gti se žima .
-SFX FE ti se ši .
-SFX FE ti se ša .
+SFX FE eti se mu .
+SFX FE eti se mem .
+SFX FE eti se meš .
+SFX FE eti se me .
+SFX FE eti se memo .
+SFX FE eti se mete .
+SFX FE eti se mut .
+SFX FE ti se h .
 SFX FE ti se še .
-SFX FE gti se ženy .
-SFX FE gti se žena .
-SFX FE gti se ženo .
-SFX FE gti se ženje .
+SFX FE ti se hmo .
+SFX FE ti se ste .
+SFX FE ti se hu .
+SFX FE eti se mi .
+SFX FE eti se mimo .
+SFX FE eti se mite .
+SFX FE eti se muči .
+SFX FE eti se muča .
+SFX FE eti se muče .
+SFX FE eti se memy .
+SFX FE eti se mema .
+SFX FE ti se vši .
+SFX FE ti se vša .
+SFX FE ti se vše .
+SFX FE i se y .
+SFX FE i se a .
+SFX FE i se o .
+SFX FE i se je .
 
-SFX FF Y 31
+SFX FF Y 28
 SFX FF ti se l .
 SFX FF ti se la .
 SFX FF ti se lo .
 SFX FF ti se li .
-SFX FF ti se u .
-SFX FF ti se em .
-SFX FF ti se eš .
-SFX FF ti se e .
-SFX FF ti se emo .
-SFX FF ti se ete .
-SFX FF ti se ut .
-SFX FF ti se h .
+SFX FF gti se žu .
+SFX FF gti se žim .
+SFX FF gti se žiš .
+SFX FF gti se ži .
+SFX FF gti se žimo .
+SFX FF gti se žite .
+SFX FF gti se žet .
+SFX FF gti se žeh .
+SFX FF gti se žeše .
+SFX FF gti se žehmo .
+SFX FF gti se žeste .
+SFX FF gti se žehu .
+SFX FF gti se žeči .
+SFX FF gti se žeča .
+SFX FF gti se žeče .
+SFX FF gti se žimy .
+SFX FF gti se žima .
+SFX FF ti se ši .
+SFX FF ti se ša .
 SFX FF ti se še .
-SFX FF ti se hmo .
-SFX FF ti se ste .
-SFX FF ti se hu .
-SFX FF ti se i .
-SFX FF ti se imo .
-SFX FF ti se ite .
-SFX FF ti se uči .
-SFX FF ti se uča .
-SFX FF ti se uče .
-SFX FF ti se emy .
-SFX FF ti se ema .
-SFX FF ti se vši .
-SFX FF ti se vša .
-SFX FF ti se vše .
-SFX FF ti se eny .
-SFX FF ti se ena .
-SFX FF ti se eno .
-SFX FF ti se enje .
+SFX FF gti se ženy .
+SFX FF gti se žena .
+SFX FF gti se ženo .
+SFX FF gti se ženje .
 
 SFX FG Y 31
-SFX FG i se l .
-SFX FG i se la .
-SFX FG i se lo .
-SFX FG i se li .
-SFX FG i se u .
-SFX FG i se em .
-SFX FG i se eš .
-SFX FG i se e .
-SFX FG i se emo .
-SFX FG i se ete .
-SFX FG i se ut .
-SFX FG i se eh .
-SFX FG i se eše .
-SFX FG i se ehmo .
-SFX FG i se este .
-SFX FG i se ehu .
-SFX FG  se mo .
-SFX FG  se te .
-SFX FG i se uči .
-SFX FG i se uča .
-SFX FG i se uče .
-SFX FG i se omy .
-SFX FG i se oma .
-SFX FG i se omo .
-SFX FG i se ši .
-SFX FG i se ša .
-SFX FG i se še .
-SFX FG i se eny .
-SFX FG i se ena .
-SFX FG i se eno .
-SFX FG i se enje .
+SFX FG ti se l .
+SFX FG ti se la .
+SFX FG ti se lo .
+SFX FG ti se li .
+SFX FG ti se u .
+SFX FG ti se em .
+SFX FG ti se eš .
+SFX FG ti se e .
+SFX FG ti se emo .
+SFX FG ti se ete .
+SFX FG ti se ut .
+SFX FG ti se h .
+SFX FG ti se še .
+SFX FG ti se hmo .
+SFX FG ti se ste .
+SFX FG ti se hu .
+SFX FG ti se i .
+SFX FG ti se imo .
+SFX FG ti se ite .
+SFX FG ti se uči .
+SFX FG ti se uča .
+SFX FG ti se uče .
+SFX FG ti se emy .
+SFX FG ti se ema .
+SFX FG ti se vši .
+SFX FG ti se vša .
+SFX FG ti se vše .
+SFX FG ti se eny .
+SFX FG ti se ena .
+SFX FG ti se eno .
+SFX FG ti se enje .
 
-SFX FH Y 15
-SFX FH y o .
-SFX FH y a .
-SFX FH y ogo .
-SFX FH y u .
-SFX FH y oj .
-SFX FH y om .
-SFX FH y omu .
-SFX FH 0 m .
-SFX FH y oju .
-SFX FH y i .
-SFX FH y e .
-SFX FH 0 h .
-SFX FH 0 mi .
-SFX FH gky žši .
-SFX FH ky še .
+SFX FH Y 31
+SFX FH i se l .
+SFX FH i se la .
+SFX FH i se lo .
+SFX FH i se li .
+SFX FH i se u .
+SFX FH i se em .
+SFX FH i se eš .
+SFX FH i se e .
+SFX FH i se emo .
+SFX FH i se ete .
+SFX FH i se ut .
+SFX FH i se eh .
+SFX FH i se eše .
+SFX FH i se ehmo .
+SFX FH i se este .
+SFX FH i se ehu .
+SFX FH  se mo .
+SFX FH  se te .
+SFX FH i se uči .
+SFX FH i se uča .
+SFX FH i se uče .
+SFX FH i se omy .
+SFX FH i se oma .
+SFX FH i se omo .
+SFX FH i se ši .
+SFX FH i se ša .
+SFX FH i se še .
+SFX FH i se eny .
+SFX FH i se ena .
+SFX FH i se eno .
+SFX FH i se enje .
 
-SFX FI Y 30
-SFX FI sti dl .
-SFX FI sti dla .
-SFX FI sti dlo .
-SFX FI sti dli .
-SFX FI sti m .
-SFX FI sti š .
-SFX FI sti mo .
-SFX FI sti te .
-SFX FI sti dut .
-SFX FI sti deh .
-SFX FI sti deše .
-SFX FI sti dehmo .
-SFX FI sti deste .
-SFX FI sti dehu .
-SFX FI sti d .
-SFX FI sti dmo .
-SFX FI sti dte .
-SFX FI sti duči .
-SFX FI sti duča .
-SFX FI sti duče .
-SFX FI sti domy .
-SFX FI sti doma .
-SFX FI sti domo .
-SFX FI sti dši .
-SFX FI sti dša .
-SFX FI sti dše .
-SFX FI sti deny .
-SFX FI sti dena .
-SFX FI sti deno .
-SFX FI sti denje .
+SFX FI Y 15
+SFX FI y o .
+SFX FI y a .
+SFX FI y ogo .
+SFX FI y u .
+SFX FI y oj .
+SFX FI y om .
+SFX FI y omu .
+SFX FI 0 m .
+SFX FI y oju .
+SFX FI y i .
+SFX FI y e .
+SFX FI 0 h .
+SFX FI 0 mi .
+SFX FI gky žši .
+SFX FI ky še .
 
-SFX FJ Y 12
-SFX FJ koli ekoli .
-SFX FJ koli akoli .
-SFX FJ koli egokoli .
-SFX FJ koli ukoli .
-SFX FJ koli ejkoli .
-SFX FJ koli emkoli .
-SFX FJ koli emukoli .
-SFX FJ koli imkoli .
-SFX FJ koli ejukoli .
-SFX FJ koli ikoli .
-SFX FJ koli ihkoli .
-SFX FJ koli imikoli .
+SFX FJ Y 30
+SFX FJ sti dl .
+SFX FJ sti dla .
+SFX FJ sti dlo .
+SFX FJ sti dli .
+SFX FJ sti m .
+SFX FJ sti š .
+SFX FJ sti mo .
+SFX FJ sti te .
+SFX FJ sti dut .
+SFX FJ sti deh .
+SFX FJ sti deše .
+SFX FJ sti dehmo .
+SFX FJ sti deste .
+SFX FJ sti dehu .
+SFX FJ sti d .
+SFX FJ sti dmo .
+SFX FJ sti dte .
+SFX FJ sti duči .
+SFX FJ sti duča .
+SFX FJ sti duče .
+SFX FJ sti domy .
+SFX FJ sti doma .
+SFX FJ sti domo .
+SFX FJ sti dši .
+SFX FJ sti dša .
+SFX FJ sti dše .
+SFX FJ sti deny .
+SFX FJ sti dena .
+SFX FJ sti deno .
+SFX FJ sti denje .
 
-SFX FK Y 4
-SFX FK tokoli egokoli .
-SFX FK tokoli emkoli .
-SFX FK tokoli emukoli .
-SFX FK tokoli imkoli .
+SFX FK Y 12
+SFX FK koli ekoli .
+SFX FK koli akoli .
+SFX FK koli egokoli .
+SFX FK koli ukoli .
+SFX FK koli ejkoli .
+SFX FK koli emkoli .
+SFX FK koli emukoli .
+SFX FK koli imkoli .
+SFX FK koli ejukoli .
+SFX FK koli ikoli .
+SFX FK koli ihkoli .
+SFX FK koli imikoli .
 
-SFX FL Y 13
-SFX FL ykoli okoli .
-SFX FL ykoli akoli .
-SFX FL ykoli ogokoli .
-SFX FL ykoli ukoli .
-SFX FL ykoli ojkoli .
-SFX FL ykoli omkoli .
-SFX FL ykoli omukoli .
-SFX FL koli mkoli .
-SFX FL ykoli ojukoli .
-SFX FL ykoli ikoli .
-SFX FL ykoli ekoli .
-SFX FL koli hkoli .
-SFX FL koli mikoli .
+SFX FL Y 4
+SFX FL tokoli egokoli .
+SFX FL tokoli emkoli .
+SFX FL tokoli emukoli .
+SFX FL tokoli imkoli .
 
-SFX FM Y 12
-SFX FM jže že .
-SFX FM ojže aže .
-SFX FM jže gože .
-SFX FM ojže uže .
-SFX FM jže mže .
-SFX FM jže muže .
-SFX FM ojže ymže .
-SFX FM že uže .
-SFX FM ojže iže .
-SFX FM ojže eže .
-SFX FM ojže yhže .
-SFX FM ojže ymiže .
+SFX FM Y 13
+SFX FM ykoli okoli .
+SFX FM ykoli akoli .
+SFX FM ykoli ogokoli .
+SFX FM ykoli ukoli .
+SFX FM ykoli ojkoli .
+SFX FM ykoli omkoli .
+SFX FM ykoli omukoli .
+SFX FM koli mkoli .
+SFX FM ykoli ojukoli .
+SFX FM ykoli ikoli .
+SFX FM ykoli ekoli .
+SFX FM koli hkoli .
+SFX FM koli mikoli .
 
-SFX FN Y 4
-SFX FN ka ok .
-SFX FN 0 h .
-SFX FN 0 m .
-SFX FN 0 mi .
+SFX FN Y 12
+SFX FN jže že .
+SFX FN ojže aže .
+SFX FN jže gože .
+SFX FN ojže uže .
+SFX FN jže mže .
+SFX FN jže muže .
+SFX FN ojže ymže .
+SFX FN že uže .
+SFX FN ojže iže .
+SFX FN ojže eže .
+SFX FN ojže yhže .
+SFX FN ojže ymiže .
 
-SFX FO Y 31
-SFX FO ti se l .
-SFX FO ti se la .
-SFX FO ti se lo .
-SFX FO ti se li .
-SFX FO ti se u .
-SFX FO gti se žem .
-SFX FO gti se žeš .
-SFX FO gti se že .
-SFX FO gti se žemo .
-SFX FO gti se žete .
-SFX FO ti se ut .
-SFX FO gti se žeh .
-SFX FO gti se žeše .
-SFX FO gti se žehmo .
-SFX FO gti se žeste .
-SFX FO gti se žehu .
-SFX FO gti se ži .
-SFX FO gti se žimo .
-SFX FO gti se žite .
-SFX FO ti se uči .
-SFX FO ti se uča .
-SFX FO ti se uče .
-SFX FO gti se žemy .
-SFX FO gti se žema .
-SFX FO ti se ši .
-SFX FO ti se ša .
-SFX FO ti se še .
-SFX FO gti se ženy .
-SFX FO gti se žena .
-SFX FO gti se ženo .
-SFX FO gti se ženje .
+SFX FO Y 4
+SFX FO ka ok .
+SFX FO 0 h .
+SFX FO 0 m .
+SFX FO 0 mi .
 
-SFX FP Y 8
-SFX FP v ov .
-SFX FP 0 i .
-SFX FP 0 e .
-SFX FP 0 ij .
-SFX FP 0 ah .
-SFX FP 0 am .
-SFX FP v ovju .
-SFX FP 0 ami .
+SFX FP Y 31
+SFX FP ti se l .
+SFX FP ti se la .
+SFX FP ti se lo .
+SFX FP ti se li .
+SFX FP ti se u .
+SFX FP gti se žem .
+SFX FP gti se žeš .
+SFX FP gti se že .
+SFX FP gti se žemo .
+SFX FP gti se žete .
+SFX FP ti se ut .
+SFX FP gti se žeh .
+SFX FP gti se žeše .
+SFX FP gti se žehmo .
+SFX FP gti se žeste .
+SFX FP gti se žehu .
+SFX FP gti se ži .
+SFX FP gti se žimo .
+SFX FP gti se žite .
+SFX FP ti se uči .
+SFX FP ti se uča .
+SFX FP ti se uče .
+SFX FP gti se žemy .
+SFX FP gti se žema .
+SFX FP ti se ši .
+SFX FP ti se ša .
+SFX FP ti se še .
+SFX FP gti se ženy .
+SFX FP gti se žena .
+SFX FP gti se ženo .
+SFX FP gti se ženje .
 
-SFX FQ Y 29
-SFX FQ ti se l .
-SFX FQ ti se la .
-SFX FQ ti se lo .
-SFX FQ ti se li .
-SFX FQ děti se m .
-SFX FQ děti se š .
-SFX FQ děti se mo .
-SFX FQ děti se te .
-SFX FQ ěti se ut .
-SFX FQ ti se h .
-SFX FQ ti se še .
-SFX FQ ti se hmo .
-SFX FQ ti se ste .
-SFX FQ ti se hu .
-SFX FQ ěti se mo .
-SFX FQ ěti se te .
-SFX FQ ěti se uči .
-SFX FQ ěti se uča .
-SFX FQ ěti se uče .
-SFX FQ ěti se omy .
-SFX FQ ěti se oma .
-SFX FQ ěti se omo .
-SFX FQ ti se vši .
-SFX FQ ti se vša .
-SFX FQ ti se vše .
-SFX FQ ti se ny .
-SFX FQ ti se na .
-SFX FQ ti se no .
-SFX FQ ti se nje .
+SFX FQ Y 8
+SFX FQ v ov .
+SFX FQ 0 i .
+SFX FQ 0 e .
+SFX FQ 0 ij .
+SFX FQ 0 ah .
+SFX FQ 0 am .
+SFX FQ v ovju .
+SFX FQ 0 ami .
 
-SFX FR Y 4
-SFX FR tokoli ogokoli .
-SFX FR tokoli omkoli .
-SFX FR tokoli omukoli .
-SFX FR tokoli ymkoli .
+SFX FR Y 29
+SFX FR ti se l .
+SFX FR ti se la .
+SFX FR ti se lo .
+SFX FR ti se li .
+SFX FR děti se m .
+SFX FR děti se š .
+SFX FR děti se mo .
+SFX FR děti se te .
+SFX FR ěti se ut .
+SFX FR ti se h .
+SFX FR ti se še .
+SFX FR ti se hmo .
+SFX FR ti se ste .
+SFX FR ti se hu .
+SFX FR ěti se mo .
+SFX FR ěti se te .
+SFX FR ěti se uči .
+SFX FR ěti se uča .
+SFX FR ěti se uče .
+SFX FR ěti se omy .
+SFX FR ěti se oma .
+SFX FR ěti se omo .
+SFX FR ti se vši .
+SFX FR ti se vša .
+SFX FR ti se vše .
+SFX FR ti se ny .
+SFX FR ti se na .
+SFX FR ti se no .
+SFX FR ti se nje .
 
-SFX FS Y 7
-SFX FS a e .
-SFX FS a o .
-SFX FS a oj .
-SFX FS a yh .
-SFX FS a ym .
-SFX FS a oju .
-SFX FS a ymi .
+SFX FS Y 4
+SFX FS tokoli ogokoli .
+SFX FS tokoli omkoli .
+SFX FS tokoli omukoli .
+SFX FS tokoli ymkoli .
 
-SFX FT Y 28
-SFX FT ti l .
-SFX FT ti la .
-SFX FT ti lo .
-SFX FT ti li .
-SFX FT etěti ěču .
-SFX FT etěti ětim .
-SFX FT etěti ětiš .
-SFX FT etěti ěti .
-SFX FT etěti ětimo .
-SFX FT etěti ětite .
-SFX FT etěti ětet .
-SFX FT ti h .
-SFX FT ti še .
-SFX FT ti hmo .
-SFX FT ti ste .
-SFX FT ti hu .
-SFX FT etěti ěteči .
-SFX FT etěti ěteča .
-SFX FT etěti ěteče .
-SFX FT etěti ětimy .
-SFX FT etěti ětima .
-SFX FT ti vši .
-SFX FT ti vša .
-SFX FT ti vše .
-SFX FT ti ny .
-SFX FT ti na .
-SFX FT ti no .
-SFX FT ti nje .
+SFX FT Y 7
+SFX FT a e .
+SFX FT a o .
+SFX FT a oj .
+SFX FT a yh .
+SFX FT a ym .
+SFX FT a oju .
+SFX FT a ymi .
 
-SFX FU Y 31
-SFX FU ti se l .
-SFX FU ti se la .
-SFX FU ti se lo .
-SFX FU ti se li .
-SFX FU ati se u .
-SFX FU ati se em .
-SFX FU ati se eš .
-SFX FU ati se e .
-SFX FU ati se emo .
-SFX FU ati se ete .
-SFX FU ati se ut .
-SFX FU ti se h .
-SFX FU ti se še .
-SFX FU ti se hmo .
-SFX FU ti se ste .
-SFX FU ti se hu .
-SFX FU ati se i .
-SFX FU ati se imo .
-SFX FU ati se ite .
-SFX FU ati se uči .
-SFX FU ati se uča .
-SFX FU ati se uče .
-SFX FU ati se emy .
-SFX FU ati se ema .
-SFX FU ti se vši .
-SFX FU ti se vša .
-SFX FU ti se vše .
-SFX FU ti se ny .
-SFX FU ti se na .
-SFX FU ti se no .
-SFX FU ti se nje .
+SFX FU Y 28
+SFX FU ti l .
+SFX FU ti la .
+SFX FU ti lo .
+SFX FU ti li .
+SFX FU etěti ěču .
+SFX FU etěti ětim .
+SFX FU etěti ětiš .
+SFX FU etěti ěti .
+SFX FU etěti ětimo .
+SFX FU etěti ětite .
+SFX FU etěti ětet .
+SFX FU ti h .
+SFX FU ti še .
+SFX FU ti hmo .
+SFX FU ti ste .
+SFX FU ti hu .
+SFX FU etěti ěteči .
+SFX FU etěti ěteča .
+SFX FU etěti ěteče .
+SFX FU etěti ětimy .
+SFX FU etěti ětima .
+SFX FU ti vši .
+SFX FU ti vša .
+SFX FU ti vše .
+SFX FU ti ny .
+SFX FU ti na .
+SFX FU ti no .
+SFX FU ti nje .
 
-SFX FV Y 32
-SFX FV ti l .
-SFX FV ti la .
-SFX FV ti lo .
-SFX FV ti li .
-SFX FV ti ju .
-SFX FV ti m .
-SFX FV ti ješ .
-SFX FV ti š .
-SFX FV ti je .
-SFX FV ti jemo .
-SFX FV ti mo .
-SFX FV ti jete .
-SFX FV i e .
-SFX FV ti jut .
-SFX FV ti h .
-SFX FV ti še .
-SFX FV ti hmo .
-SFX FV ti ste .
-SFX FV ti hu .
-SFX FV ti j .
-SFX FV ti jmo .
-SFX FV ti jte .
-SFX FV ti juči .
-SFX FV ti jučagajuče .
-SFX FV ti jemy .
-SFX FV ti jema .
-SFX FV ti jemogamy .
-SFX FV ti vši .
-SFX FV ti všagavše .
-SFX FV ti ny .
-SFX FV ti nagano .
-SFX FV ti nje .
+SFX FV Y 31
+SFX FV ti se l .
+SFX FV ti se la .
+SFX FV ti se lo .
+SFX FV ti se li .
+SFX FV ati se u .
+SFX FV ati se em .
+SFX FV ati se eš .
+SFX FV ati se e .
+SFX FV ati se emo .
+SFX FV ati se ete .
+SFX FV ati se ut .
+SFX FV ti se h .
+SFX FV ti se še .
+SFX FV ti se hmo .
+SFX FV ti se ste .
+SFX FV ti se hu .
+SFX FV ati se i .
+SFX FV ati se imo .
+SFX FV ati se ite .
+SFX FV ati se uči .
+SFX FV ati se uča .
+SFX FV ati se uče .
+SFX FV ati se emy .
+SFX FV ati se ema .
+SFX FV ti se vši .
+SFX FV ti se vša .
+SFX FV ti se vše .
+SFX FV ti se ny .
+SFX FV ti se na .
+SFX FV ti se no .
+SFX FV ti se nje .
 
-SFX FW Y 26
+SFX FW Y 32
 SFX FW ti l .
 SFX FW ti la .
 SFX FW ti lo .
 SFX FW ti li .
-SFX FW uti em .
-SFX FW uti eš .
-SFX FW uti e .
-SFX FW uti emo .
-SFX FW uti ete .
+SFX FW ti ju .
+SFX FW ti m .
+SFX FW ti ješ .
+SFX FW ti š .
+SFX FW ti je .
+SFX FW ti jemo .
+SFX FW ti mo .
+SFX FW ti jete .
+SFX FW i e .
+SFX FW ti jut .
 SFX FW ti h .
 SFX FW ti še .
 SFX FW ti hmo .
 SFX FW ti ste .
 SFX FW ti hu .
-SFX FW uti i .
-SFX FW uti imo .
-SFX FW uti ite .
-SFX FW ti či .
-SFX FW ti čagnuče .
-SFX FW uti emy .
-SFX FW uti emagnemo .
+SFX FW ti j .
+SFX FW ti jmo .
+SFX FW ti jte .
+SFX FW ti juči .
+SFX FW ti jučagajuče .
+SFX FW ti jemy .
+SFX FW ti jema .
+SFX FW ti jemogamy .
 SFX FW ti vši .
-SFX FW ti všagnuvše .
-SFX FW i y .
-SFX FW i agnuto .
-SFX FW i je .
+SFX FW ti všagavše .
+SFX FW ti ny .
+SFX FW ti nagano .
+SFX FW ti nje .
 
-SFX FX Y 31
-SFX FX ti se l .
-SFX FX ti se la .
-SFX FX ti se lo .
-SFX FX ti se li .
-SFX FX kati se ču .
-SFX FX kati se čem .
-SFX FX kati se češ .
-SFX FX kati se če .
-SFX FX kati se čemo .
-SFX FX kati se čete .
-SFX FX kati se čut .
-SFX FX ti se h .
-SFX FX ti se še .
-SFX FX ti se hmo .
-SFX FX ti se ste .
-SFX FX ti se hu .
-SFX FX kati se či .
-SFX FX kati se čimo .
-SFX FX kati se čite .
-SFX FX kati se čuči .
-SFX FX kati se čuča .
-SFX FX kati se čuče .
-SFX FX kati se čemy .
-SFX FX kati se čema .
-SFX FX ti se vši .
-SFX FX ti se vša .
-SFX FX ti se vše .
-SFX FX ti se ny .
-SFX FX ti se na .
-SFX FX ti se no .
-SFX FX ti se nje .
+SFX FX Y 26
+SFX FX ti l .
+SFX FX ti la .
+SFX FX ti lo .
+SFX FX ti li .
+SFX FX uti em .
+SFX FX uti eš .
+SFX FX uti e .
+SFX FX uti emo .
+SFX FX uti ete .
+SFX FX ti h .
+SFX FX ti še .
+SFX FX ti hmo .
+SFX FX ti ste .
+SFX FX ti hu .
+SFX FX uti i .
+SFX FX uti imo .
+SFX FX uti ite .
+SFX FX ti či .
+SFX FX ti čagnuče .
+SFX FX uti emy .
+SFX FX uti emagnemo .
+SFX FX ti vši .
+SFX FX ti všagnuvše .
+SFX FX i y .
+SFX FX i agnuto .
+SFX FX i je .
 
-SFX FY Y 4
-SFX FY e ov .
-SFX FY e ah .
-SFX FY e am .
-SFX FY e ami .
+SFX FY Y 31
+SFX FY ti se l .
+SFX FY ti se la .
+SFX FY ti se lo .
+SFX FY ti se li .
+SFX FY kati se ču .
+SFX FY kati se čem .
+SFX FY kati se češ .
+SFX FY kati se če .
+SFX FY kati se čemo .
+SFX FY kati se čete .
+SFX FY kati se čut .
+SFX FY ti se h .
+SFX FY ti se še .
+SFX FY ti se hmo .
+SFX FY ti se ste .
+SFX FY ti se hu .
+SFX FY kati se či .
+SFX FY kati se čimo .
+SFX FY kati se čite .
+SFX FY kati se čuči .
+SFX FY kati se čuča .
+SFX FY kati se čuče .
+SFX FY kati se čemy .
+SFX FY kati se čema .
+SFX FY ti se vši .
+SFX FY ti se vša .
+SFX FY ti se vše .
+SFX FY ti se ny .
+SFX FY ti se na .
+SFX FY ti se no .
+SFX FY ti se nje .
 
-SFX FZ Y 8
-SFX FZ o e .
-SFX FZ o y .
-SFX FZ 0 go .
-SFX FZ o yh .
-SFX FZ 0 m .
-SFX FZ 0 mu .
-SFX FZ o ym .
-SFX FZ o ymi .
+SFX FZ Y 4
+SFX FZ e ov .
+SFX FZ e ah .
+SFX FZ e am .
+SFX FZ e ami .
 
 SFX Fa Y 8
-SFX Fa i e .
-SFX Fa i u .
-SFX Fa ki ok .
-SFX Fa i ah .
-SFX Fa i am .
-SFX Fa i eju .
-SFX Fa i ami .
-SFX Fa i o .
+SFX Fa o e .
+SFX Fa o y .
+SFX Fa 0 go .
+SFX Fa o yh .
+SFX Fa 0 m .
+SFX Fa 0 mu .
+SFX Fa o ym .
+SFX Fa o ymi .
 
-SFX Fb Y 9
-SFX Fb a e .
-SFX Fb a u .
-SFX Fb ša eš .
-SFX Fb a i .
-SFX Fb 0 h .
-SFX Fb 0 m .
-SFX Fb a eju .
-SFX Fb 0 mi .
-SFX Fb a o .
+SFX Fb Y 8
+SFX Fb i e .
+SFX Fb i u .
+SFX Fb ki ok .
+SFX Fb i ah .
+SFX Fb i am .
+SFX Fb i eju .
+SFX Fb i ami .
+SFX Fb i o .
 
-SFX Fc Y 4
-SFX Fc ěstě ohsot .
-SFX Fc ěstě ohstah .
-SFX Fc ěstě omstam .
-SFX Fc ěstě omastami .
+SFX Fc Y 9
+SFX Fc a e .
+SFX Fc a u .
+SFX Fc ša eš .
+SFX Fc a i .
+SFX Fc 0 h .
+SFX Fc 0 m .
+SFX Fc a eju .
+SFX Fc 0 mi .
+SFX Fc a o .
 
-SFX Fd Y 7
-SFX Fd o e .
-SFX Fd o a .
-SFX Fd o u .
-SFX Fd o ah .
-SFX Fd o am .
-SFX Fd o em .
-SFX Fd o ami .
+SFX Fd Y 4
+SFX Fd ěstě ohsot .
+SFX Fd ěstě ohstah .
+SFX Fd ěstě omstam .
+SFX Fd ěstě omastami .
 
-SFX Fe Y 15
-SFX Fe 0 o .
-SFX Fe 0 a .
-SFX Fe 0 ogo .
-SFX Fe 0 u .
-SFX Fe 0 oj .
-SFX Fe 0 om .
-SFX Fe 0 omu .
-SFX Fe 0 ym .
-SFX Fe 0 oju .
-SFX Fe 0 i .
-SFX Fe 0 e .
-SFX Fe 0 yh .
-SFX Fe 0 ymi .
-SFX Fe 0 ějši .
-SFX Fe 0 ěje .
+SFX Fe Y 7
+SFX Fe o e .
+SFX Fe o a .
+SFX Fe o u .
+SFX Fe o ah .
+SFX Fe o am .
+SFX Fe o em .
+SFX Fe o ami .
 
-SFX Ff Y 9
-SFX Ff ek ki .
-SFX Ff ek ka .
-SFX Ff ek kov .
-SFX Ff ek ku .
-SFX Ff ek kah .
-SFX Ff ek kam .
-SFX Ff ek kom .
-SFX Ff ek kami .
-SFX Ff ek če .
+SFX Ff Y 15
+SFX Ff 0 o .
+SFX Ff 0 a .
+SFX Ff 0 ogo .
+SFX Ff 0 u .
+SFX Ff 0 oj .
+SFX Ff 0 om .
+SFX Ff 0 omu .
+SFX Ff 0 ym .
+SFX Ff 0 oju .
+SFX Ff 0 i .
+SFX Ff 0 e .
+SFX Ff 0 yh .
+SFX Ff 0 ymi .
+SFX Ff 0 ějši .
+SFX Ff 0 ěje .
 
-SFX Fg Y 8
-SFX Fg et te .
-SFX Fg et ta .
-SFX Fg et tev .
-SFX Fg et tu .
-SFX Fg et tah .
-SFX Fg et tam .
-SFX Fg et tem .
-SFX Fg et tami .
+SFX Fg Y 9
+SFX Fg ek ki .
+SFX Fg ek ka .
+SFX Fg ek kov .
+SFX Fg ek ku .
+SFX Fg ek kah .
+SFX Fg ek kam .
+SFX Fg ek kom .
+SFX Fg ek kami .
+SFX Fg ek če .
 
-SFX Fh Y 27
-SFX Fh ti se l .
-SFX Fh ti se la .
-SFX Fh ti se lo .
-SFX Fh ti se li .
-SFX Fh diti se ždžu .
-SFX Fh ti se m .
-SFX Fh ti se š .
-SFX Fh ti se mo .
-SFX Fh i se e .
-SFX Fh iti se et .
-SFX Fh ti se h .
-SFX Fh ti se še .
-SFX Fh ti se hmo .
-SFX Fh ti se ste .
-SFX Fh ti se hu .
-SFX Fh iti se eči .
-SFX Fh iti se eča .
-SFX Fh iti se eče .
-SFX Fh ti se my .
-SFX Fh ti se ma .
-SFX Fh ti se vši .
-SFX Fh ti se vša .
-SFX Fh ti se vše .
-SFX Fh diti se ždženy .
-SFX Fh diti se ždžena .
-SFX Fh diti se ždženo .
-SFX Fh diti se ždženje .
+SFX Fh Y 8
+SFX Fh et te .
+SFX Fh et ta .
+SFX Fh et tev .
+SFX Fh et tu .
+SFX Fh et tah .
+SFX Fh et tam .
+SFX Fh et tem .
+SFX Fh et tami .
 
-SFX Fi Y 9
-SFX Fi  ha y .
-SFX Fi  ha a .
-SFX Fi  ha ov .
-SFX Fi  ha u .
-SFX Fi  ha ah .
-SFX Fi  ha am .
-SFX Fi  ha om .
-SFX Fi  ha ami .
-SFX Fi  ha e .
+SFX Fi Y 27
+SFX Fi ti se l .
+SFX Fi ti se la .
+SFX Fi ti se lo .
+SFX Fi ti se li .
+SFX Fi zditi se ždžu .
+SFX Fi ti se m .
+SFX Fi ti se š .
+SFX Fi ti se mo .
+SFX Fi i se e .
+SFX Fi iti se et .
+SFX Fi ti se h .
+SFX Fi ti se še .
+SFX Fi ti se hmo .
+SFX Fi ti se ste .
+SFX Fi ti se hu .
+SFX Fi iti se eči .
+SFX Fi iti se eča .
+SFX Fi iti se eče .
+SFX Fi ti se my .
+SFX Fi ti se ma .
+SFX Fi ti se vši .
+SFX Fi ti se vša .
+SFX Fi ti se vše .
+SFX Fi zditi se ždženy .
+SFX Fi zditi se ždžena .
+SFX Fi zditi se ždženo .
+SFX Fi zditi se ždženje .
 
-SFX Fj Y 14
-SFX Fj o a .
-SFX Fj go žesa .
-SFX Fj go žese .
-SFX Fj go žes .
-SFX Fj o u .
-SFX Fj go žesi .
-SFX Fj o ah .
-SFX Fj go žesah .
-SFX Fj o am .
-SFX Fj go žesam .
-SFX Fj 0 m .
-SFX Fj go žesem .
-SFX Fj o ami .
-SFX Fj go žesami .
+SFX Fj Y 9
+SFX Fj  ha y .
+SFX Fj  ha a .
+SFX Fj  ha ov .
+SFX Fj  ha u .
+SFX Fj  ha ah .
+SFX Fj  ha am .
+SFX Fj  ha om .
+SFX Fj  ha ami .
+SFX Fj  ha e .
 
-SFX Fk Y 8
-SFX Fk ec ce .
-SFX Fk ec ca .
-SFX Fk ec cev .
-SFX Fk ec cu .
-SFX Fk ec cah .
-SFX Fk ec cam .
-SFX Fk ec cem .
-SFX Fk ec cami .
+SFX Fk Y 14
+SFX Fk o a .
+SFX Fk go žesa .
+SFX Fk go žese .
+SFX Fk go žes .
+SFX Fk o u .
+SFX Fk go žesi .
+SFX Fk o ah .
+SFX Fk go žesah .
+SFX Fk o am .
+SFX Fk go žesam .
+SFX Fk 0 m .
+SFX Fk go žesem .
+SFX Fk o ami .
+SFX Fk go žesami .
 
-SFX Fl Y 9
-SFX Fl ek ky .
-SFX Fl ek ka .
-SFX Fl ek kov .
-SFX Fl ek ku .
-SFX Fl ek kah .
-SFX Fl ek kam .
-SFX Fl ek kom .
-SFX Fl ek kami .
-SFX Fl ek če .
+SFX Fl Y 8
+SFX Fl ec ce .
+SFX Fl ec ca .
+SFX Fl ec cev .
+SFX Fl ec cu .
+SFX Fl ec cah .
+SFX Fl ec cam .
+SFX Fl ec cem .
+SFX Fl ec cami .
 
-SFX Fm Y 31
-SFX Fm ti l .
-SFX Fm ti la .
-SFX Fm ti lo .
-SFX Fm ti li .
-SFX Fm lati olju .
-SFX Fm lati oljem .
-SFX Fm lati olješ .
-SFX Fm lati olje .
-SFX Fm lati oljemo .
-SFX Fm lati oljete .
-SFX Fm lati oljut .
-SFX Fm ti h .
-SFX Fm ti še .
-SFX Fm ti hmo .
-SFX Fm ti ste .
-SFX Fm ti hu .
-SFX Fm lati olj .
-SFX Fm lati oljmo .
-SFX Fm lati oljte .
-SFX Fm lati oljuči .
-SFX Fm lati oljuča .
-SFX Fm lati oljuče .
-SFX Fm lati oljemy .
-SFX Fm lati oljema .
-SFX Fm ti vši .
-SFX Fm ti vša .
-SFX Fm ti vše .
-SFX Fm i y .
-SFX Fm i a .
-SFX Fm i o .
-SFX Fm i je .
+SFX Fm Y 9
+SFX Fm ek ky .
+SFX Fm ek ka .
+SFX Fm ek kov .
+SFX Fm ek ku .
+SFX Fm ek kah .
+SFX Fm ek kam .
+SFX Fm ek kom .
+SFX Fm ek kami .
+SFX Fm ek če .
 
-SFX Fn Y 30
-SFX Fn sti se dl .
-SFX Fn sti se dla .
-SFX Fn sti se dlo .
-SFX Fn sti se dli .
-SFX Fn sti se m .
-SFX Fn sti se š .
-SFX Fn sti se mo .
-SFX Fn sti se te .
-SFX Fn sti se dut .
-SFX Fn sti se deh .
-SFX Fn sti se deše .
-SFX Fn sti se dehmo .
-SFX Fn sti se deste .
-SFX Fn sti se dehu .
-SFX Fn sti se d .
-SFX Fn sti se dmo .
-SFX Fn sti se dte .
-SFX Fn sti se duči .
-SFX Fn sti se duča .
-SFX Fn sti se duče .
-SFX Fn sti se domy .
-SFX Fn sti se doma .
-SFX Fn sti se domo .
-SFX Fn sti se dši .
-SFX Fn sti se dša .
-SFX Fn sti se dše .
-SFX Fn sti se deny .
-SFX Fn sti se dena .
-SFX Fn sti se deno .
-SFX Fn sti se denje .
+SFX Fn Y 31
+SFX Fn ti l .
+SFX Fn ti la .
+SFX Fn ti lo .
+SFX Fn ti li .
+SFX Fn lati olju .
+SFX Fn lati oljem .
+SFX Fn lati olješ .
+SFX Fn lati olje .
+SFX Fn lati oljemo .
+SFX Fn lati oljete .
+SFX Fn lati oljut .
+SFX Fn ti h .
+SFX Fn ti še .
+SFX Fn ti hmo .
+SFX Fn ti ste .
+SFX Fn ti hu .
+SFX Fn lati olj .
+SFX Fn lati oljmo .
+SFX Fn lati oljte .
+SFX Fn lati oljuči .
+SFX Fn lati oljuča .
+SFX Fn lati oljuče .
+SFX Fn lati oljemy .
+SFX Fn lati oljema .
+SFX Fn ti vši .
+SFX Fn ti vša .
+SFX Fn ti vše .
+SFX Fn i y .
+SFX Fn i a .
+SFX Fn i o .
+SFX Fn i je .
 
-SFX Fo Y 31
-SFX Fo ti l .
-SFX Fo ti la .
-SFX Fo ti lo .
-SFX Fo ti li .
-SFX Fo skočiti u .
-SFX Fo skočiti em .
-SFX Fo skočiti eš .
-SFX Fo skočiti e .
-SFX Fo skočiti emo .
-SFX Fo skočiti ete .
-SFX Fo skočiti ut .
-SFX Fo ti h .
-SFX Fo ti še .
-SFX Fo ti hmo .
-SFX Fo ti ste .
-SFX Fo ti hu .
-SFX Fo skočiti j .
-SFX Fo skočiti jmo .
-SFX Fo skočiti jte .
-SFX Fo skočiti juči .
-SFX Fo skočiti juča .
-SFX Fo skočiti juče .
-SFX Fo skočiti emy .
-SFX Fo skočiti ema .
-SFX Fo ti vši .
-SFX Fo ti vša .
-SFX Fo ti vše .
-SFX Fo iti eny .
-SFX Fo iti ena .
-SFX Fo iti eno .
-SFX Fo iti enje .
+SFX Fo Y 30
+SFX Fo sti se dl .
+SFX Fo sti se dla .
+SFX Fo sti se dlo .
+SFX Fo sti se dli .
+SFX Fo sti se m .
+SFX Fo sti se š .
+SFX Fo sti se mo .
+SFX Fo sti se te .
+SFX Fo sti se dut .
+SFX Fo sti se deh .
+SFX Fo sti se deše .
+SFX Fo sti se dehmo .
+SFX Fo sti se deste .
+SFX Fo sti se dehu .
+SFX Fo sti se d .
+SFX Fo sti se dmo .
+SFX Fo sti se dte .
+SFX Fo sti se duči .
+SFX Fo sti se duča .
+SFX Fo sti se duče .
+SFX Fo sti se domy .
+SFX Fo sti se doma .
+SFX Fo sti se domo .
+SFX Fo sti se dši .
+SFX Fo sti se dša .
+SFX Fo sti se dše .
+SFX Fo sti se deny .
+SFX Fo sti se dena .
+SFX Fo sti se deno .
+SFX Fo sti se denje .
 
-SFX Fp Y 28
-SFX Fp ti se l .
-SFX Fp ti se la .
-SFX Fp ti se lo .
-SFX Fp ti se li .
-SFX Fp ati se ju .
-SFX Fp ati se im .
-SFX Fp ati se iš .
-SFX Fp ati se i .
-SFX Fp ati se imo .
-SFX Fp ati se ite .
-SFX Fp ati se et .
-SFX Fp ti se h .
-SFX Fp ti se še .
-SFX Fp ti se hmo .
-SFX Fp ti se ste .
-SFX Fp ti se hu .
-SFX Fp ati se eči .
-SFX Fp ati se eča .
-SFX Fp ati se eče .
-SFX Fp ati se imy .
-SFX Fp ati se ima .
-SFX Fp ti se vši .
-SFX Fp ti se vša .
-SFX Fp ti se vše .
-SFX Fp ti se ny .
-SFX Fp ti se na .
-SFX Fp ti se no .
-SFX Fp ti se nje .
+SFX Fp Y 31
+SFX Fp ti l .
+SFX Fp ti la .
+SFX Fp ti lo .
+SFX Fp ti li .
+SFX Fp skočiti u .
+SFX Fp skočiti em .
+SFX Fp skočiti eš .
+SFX Fp skočiti e .
+SFX Fp skočiti emo .
+SFX Fp skočiti ete .
+SFX Fp skočiti ut .
+SFX Fp ti h .
+SFX Fp ti še .
+SFX Fp ti hmo .
+SFX Fp ti ste .
+SFX Fp ti hu .
+SFX Fp skočiti j .
+SFX Fp skočiti jmo .
+SFX Fp skočiti jte .
+SFX Fp skočiti juči .
+SFX Fp skočiti juča .
+SFX Fp skočiti juče .
+SFX Fp skočiti emy .
+SFX Fp skočiti ema .
+SFX Fp ti vši .
+SFX Fp ti vša .
+SFX Fp ti vše .
+SFX Fp iti eny .
+SFX Fp iti ena .
+SFX Fp iti eno .
+SFX Fp iti enje .
 
-SFX Fq Y 31
-SFX Fq ti l .
-SFX Fq ti la .
-SFX Fq ti lo .
-SFX Fq ti li .
-SFX Fq tati ču .
-SFX Fq tati čem .
-SFX Fq tati češ .
-SFX Fq tati če .
-SFX Fq tati čemo .
-SFX Fq tati čete .
-SFX Fq tati čut .
-SFX Fq ti h .
-SFX Fq ti še .
-SFX Fq ti hmo .
-SFX Fq ti ste .
-SFX Fq ti hu .
-SFX Fq tati či .
-SFX Fq tati čimo .
-SFX Fq tati čite .
-SFX Fq tati čuči .
-SFX Fq tati čuča .
-SFX Fq tati čuče .
-SFX Fq tati čemy .
-SFX Fq tati čema .
-SFX Fq ti vši .
-SFX Fq ti vša .
-SFX Fq ti vše .
-SFX Fq ti ny .
-SFX Fq ti na .
-SFX Fq ti no .
-SFX Fq ti nje .
+SFX Fq Y 28
+SFX Fq ti se l .
+SFX Fq ti se la .
+SFX Fq ti se lo .
+SFX Fq ti se li .
+SFX Fq ati se ju .
+SFX Fq ati se im .
+SFX Fq ati se iš .
+SFX Fq ati se i .
+SFX Fq ati se imo .
+SFX Fq ati se ite .
+SFX Fq ati se et .
+SFX Fq ti se h .
+SFX Fq ti se še .
+SFX Fq ti se hmo .
+SFX Fq ti se ste .
+SFX Fq ti se hu .
+SFX Fq ati se eči .
+SFX Fq ati se eča .
+SFX Fq ati se eče .
+SFX Fq ati se imy .
+SFX Fq ati se ima .
+SFX Fq ti se vši .
+SFX Fq ti se vša .
+SFX Fq ti se vše .
+SFX Fq ti se ny .
+SFX Fq ti se na .
+SFX Fq ti se no .
+SFX Fq ti se nje .
 
-SFX Fr Y 28
-SFX Fr ti se l .
-SFX Fr ti se la .
-SFX Fr ti se lo .
-SFX Fr ti se li .
-SFX Fr ěti se ju .
-SFX Fr ěti se im .
-SFX Fr ěti se iš .
-SFX Fr ěti se i .
-SFX Fr ěti se imo .
-SFX Fr ěti se ite .
-SFX Fr ěti se et .
-SFX Fr ti se h .
-SFX Fr ti se še .
-SFX Fr ti se hmo .
-SFX Fr ti se ste .
-SFX Fr ti se hu .
-SFX Fr ěti se eči .
-SFX Fr ěti se eča .
-SFX Fr ěti se eče .
-SFX Fr ěti se imy .
-SFX Fr ěti se ima .
-SFX Fr ti se vši .
-SFX Fr ti se vša .
-SFX Fr ti se vše .
-SFX Fr ti se ny .
-SFX Fr ti se na .
-SFX Fr ti se no .
-SFX Fr ti se nje .
+SFX Fr Y 31
+SFX Fr ti l .
+SFX Fr ti la .
+SFX Fr ti lo .
+SFX Fr ti li .
+SFX Fr tati ču .
+SFX Fr tati čem .
+SFX Fr tati češ .
+SFX Fr tati če .
+SFX Fr tati čemo .
+SFX Fr tati čete .
+SFX Fr tati čut .
+SFX Fr ti h .
+SFX Fr ti še .
+SFX Fr ti hmo .
+SFX Fr ti ste .
+SFX Fr ti hu .
+SFX Fr tati či .
+SFX Fr tati čimo .
+SFX Fr tati čite .
+SFX Fr tati čuči .
+SFX Fr tati čuča .
+SFX Fr tati čuče .
+SFX Fr tati čemy .
+SFX Fr tati čema .
+SFX Fr ti vši .
+SFX Fr ti vša .
+SFX Fr ti vše .
+SFX Fr ti ny .
+SFX Fr ti na .
+SFX Fr ti no .
+SFX Fr ti nje .
 
 SFX Fs Y 28
-SFX Fs ti l .
-SFX Fs ti la .
-SFX Fs ti lo .
-SFX Fs ti li .
-SFX Fs cati ču .
-SFX Fs ati im .
-SFX Fs ati iš .
-SFX Fs ati i .
-SFX Fs ati imo .
-SFX Fs ati ite .
-SFX Fs ati et .
-SFX Fs ti h .
-SFX Fs ti še .
-SFX Fs ti hmo .
-SFX Fs ti ste .
-SFX Fs ti hu .
-SFX Fs ati eči .
-SFX Fs ati eča .
-SFX Fs ati eče .
-SFX Fs ati imy .
-SFX Fs ati ima .
-SFX Fs ti vši .
-SFX Fs ti vša .
-SFX Fs ti vše .
-SFX Fs ti ny .
-SFX Fs ti na .
-SFX Fs ti no .
-SFX Fs ti nje .
+SFX Fs ti se l .
+SFX Fs ti se la .
+SFX Fs ti se lo .
+SFX Fs ti se li .
+SFX Fs ěti se ju .
+SFX Fs ěti se im .
+SFX Fs ěti se iš .
+SFX Fs ěti se i .
+SFX Fs ěti se imo .
+SFX Fs ěti se ite .
+SFX Fs ěti se et .
+SFX Fs ti se h .
+SFX Fs ti se še .
+SFX Fs ti se hmo .
+SFX Fs ti se ste .
+SFX Fs ti se hu .
+SFX Fs ěti se eči .
+SFX Fs ěti se eča .
+SFX Fs ěti se eče .
+SFX Fs ěti se imy .
+SFX Fs ěti se ima .
+SFX Fs ti se vši .
+SFX Fs ti se vša .
+SFX Fs ti se vše .
+SFX Fs ti se ny .
+SFX Fs ti se na .
+SFX Fs ti se no .
+SFX Fs ti se nje .
 
-SFX Ft Y 31
+SFX Ft Y 28
 SFX Ft ti l .
-SFX Ft egti gla .
-SFX Ft egti glo .
-SFX Ft egti gli .
-SFX Ft egti gu .
-SFX Ft egti žem .
-SFX Ft egti žeš .
-SFX Ft egti že .
-SFX Ft egti žemo .
-SFX Ft egti žete .
-SFX Ft egti gut .
-SFX Ft egti žeh .
-SFX Ft egti žeše .
-SFX Ft egti žehmo .
-SFX Ft egti žeste .
-SFX Ft egti žehu .
-SFX Ft egti ži .
-SFX Ft egti žimo .
-SFX Ft egti žite .
-SFX Ft egti guči .
-SFX Ft egti guča .
-SFX Ft egti guče .
-SFX Ft egti žemy .
-SFX Ft egti žema .
-SFX Ft ti ši .
-SFX Ft ti ša .
+SFX Ft ti la .
+SFX Ft ti lo .
+SFX Ft ti li .
+SFX Ft cati ču .
+SFX Ft ati im .
+SFX Ft ati iš .
+SFX Ft ati i .
+SFX Ft ati imo .
+SFX Ft ati ite .
+SFX Ft ati et .
+SFX Ft ti h .
 SFX Ft ti še .
-SFX Ft egti ženy .
-SFX Ft egti žena .
-SFX Ft egti ženo .
-SFX Ft egti ženje .
+SFX Ft ti hmo .
+SFX Ft ti ste .
+SFX Ft ti hu .
+SFX Ft ati eči .
+SFX Ft ati eča .
+SFX Ft ati eče .
+SFX Ft ati imy .
+SFX Ft ati ima .
+SFX Ft ti vši .
+SFX Ft ti vša .
+SFX Ft ti vše .
+SFX Ft ti ny .
+SFX Ft ti na .
+SFX Ft ti no .
+SFX Ft ti nje .
 
-SFX Fu Y 14
-SFX Fu e a .
-SFX Fu 0 sa .
-SFX Fu 0 se .
-SFX Fu 0 s .
-SFX Fu e u .
-SFX Fu 0 si .
-SFX Fu e ah .
-SFX Fu 0 sah .
-SFX Fu e am .
-SFX Fu 0 sam .
-SFX Fu 0 m .
-SFX Fu 0 sem .
-SFX Fu e ami .
-SFX Fu 0 sami .
+SFX Fu Y 31
+SFX Fu ti l .
+SFX Fu egti gla .
+SFX Fu egti glo .
+SFX Fu egti gli .
+SFX Fu egti gu .
+SFX Fu egti žem .
+SFX Fu egti žeš .
+SFX Fu egti že .
+SFX Fu egti žemo .
+SFX Fu egti žete .
+SFX Fu egti gut .
+SFX Fu egti žeh .
+SFX Fu egti žeše .
+SFX Fu egti žehmo .
+SFX Fu egti žeste .
+SFX Fu egti žehu .
+SFX Fu egti ži .
+SFX Fu egti žimo .
+SFX Fu egti žite .
+SFX Fu egti guči .
+SFX Fu egti guča .
+SFX Fu egti guče .
+SFX Fu egti žemy .
+SFX Fu egti žema .
+SFX Fu ti ši .
+SFX Fu ti ša .
+SFX Fu ti še .
+SFX Fu egti ženy .
+SFX Fu egti žena .
+SFX Fu egti ženo .
+SFX Fu egti ženje .
 
-SFX Fv Y 31
-SFX Fv ti l .
-SFX Fv ti la .
-SFX Fv ti lo .
-SFX Fv ti li .
-SFX Fv uti ovu .
-SFX Fv uti ovem .
-SFX Fv uti oveš .
-SFX Fv uti ove .
-SFX Fv uti ovemo .
-SFX Fv uti ovete .
-SFX Fv uti ovut .
-SFX Fv ti h .
-SFX Fv ti še .
-SFX Fv ti hmo .
-SFX Fv ti ste .
-SFX Fv ti hu .
-SFX Fv uti ovi .
-SFX Fv uti ovimo .
-SFX Fv uti ovite .
-SFX Fv uti ovuči .
-SFX Fv uti ovuča .
-SFX Fv uti ovuče .
-SFX Fv uti ovemy .
-SFX Fv uti ovema .
-SFX Fv ti vši .
-SFX Fv ti vša .
-SFX Fv ti vše .
-SFX Fv i y .
-SFX Fv i a .
-SFX Fv i o .
-SFX Fv i je .
+SFX Fv Y 27
+SFX Fv ti se l .
+SFX Fv ti se la .
+SFX Fv ti se lo .
+SFX Fv ti se li .
+SFX Fv ziti se žu .
+SFX Fv ti se m .
+SFX Fv ti se š .
+SFX Fv ti se mo .
+SFX Fv i se e .
+SFX Fv iti se et .
+SFX Fv ti se h .
+SFX Fv ti se še .
+SFX Fv ti se hmo .
+SFX Fv ti se ste .
+SFX Fv ti se hu .
+SFX Fv iti se eči .
+SFX Fv iti se eča .
+SFX Fv iti se eče .
+SFX Fv ti se my .
+SFX Fv ti se ma .
+SFX Fv ti se vši .
+SFX Fv ti se vša .
+SFX Fv ti se vše .
+SFX Fv ziti se ženy .
+SFX Fv ziti se žena .
+SFX Fv ziti se ženo .
+SFX Fv ziti se ženje .
 
-SFX Fw Y 19
-SFX Fw ot t .
-SFX Fw ot ty .
-SFX Fw 0 y .
-SFX Fw ot ta .
-SFX Fw 0 a .
-SFX Fw ot tov .
-SFX Fw 0 ov .
-SFX Fw ot tu .
-SFX Fw 0 u .
-SFX Fw ot tah .
-SFX Fw 0 ah .
-SFX Fw ot tam .
-SFX Fw 0 am .
-SFX Fw ot tom .
-SFX Fw 0 om .
-SFX Fw ot tami .
-SFX Fw 0 ami .
-SFX Fw ot te .
-SFX Fw 0 e .
+SFX Fw Y 14
+SFX Fw e a .
+SFX Fw 0 sa .
+SFX Fw 0 se .
+SFX Fw 0 s .
+SFX Fw e u .
+SFX Fw 0 si .
+SFX Fw e ah .
+SFX Fw 0 sah .
+SFX Fw e am .
+SFX Fw 0 sam .
+SFX Fw 0 m .
+SFX Fw 0 sem .
+SFX Fw e ami .
+SFX Fw 0 sami .
 
-SFX Fx Y 9
-SFX Fx en ni .
-SFX Fx en na .
-SFX Fx en nov .
-SFX Fx en nu .
-SFX Fx en nah .
-SFX Fx en nam .
-SFX Fx en nom .
-SFX Fx en nami .
-SFX Fx en ne .
+SFX Fx Y 31
+SFX Fx ti l .
+SFX Fx ti la .
+SFX Fx ti lo .
+SFX Fx ti li .
+SFX Fx uti ovu .
+SFX Fx uti ovem .
+SFX Fx uti oveš .
+SFX Fx uti ove .
+SFX Fx uti ovemo .
+SFX Fx uti ovete .
+SFX Fx uti ovut .
+SFX Fx ti h .
+SFX Fx ti še .
+SFX Fx ti hmo .
+SFX Fx ti ste .
+SFX Fx ti hu .
+SFX Fx uti ovi .
+SFX Fx uti ovimo .
+SFX Fx uti ovite .
+SFX Fx uti ovuči .
+SFX Fx uti ovuča .
+SFX Fx uti ovuče .
+SFX Fx uti ovemy .
+SFX Fx uti ovema .
+SFX Fx ti vši .
+SFX Fx ti vša .
+SFX Fx ti vše .
+SFX Fx i y .
+SFX Fx i a .
+SFX Fx i o .
+SFX Fx i je .
 
-SFX Fy Y 31
-SFX Fy ti se l .
-SFX Fy ti se la .
-SFX Fy ti se lo .
-SFX Fy ti se li .
-SFX Fy vati se ovu .
-SFX Fy vati se ovem .
-SFX Fy vati se oveš .
-SFX Fy vati se ove .
-SFX Fy vati se ovemo .
-SFX Fy vati se ovete .
-SFX Fy vati se ovut .
-SFX Fy ti se h .
-SFX Fy ti se še .
-SFX Fy ti se hmo .
-SFX Fy ti se ste .
-SFX Fy ti se hu .
-SFX Fy vati se ovi .
-SFX Fy vati se ovimo .
-SFX Fy vati se ovite .
-SFX Fy vati se ovuči .
-SFX Fy vati se ovuča .
-SFX Fy vati se ovuče .
-SFX Fy vati se ovemy .
-SFX Fy vati se ovema .
-SFX Fy ti se vši .
-SFX Fy ti se vša .
-SFX Fy ti se vše .
-SFX Fy ti se ny .
-SFX Fy ti se na .
-SFX Fy ti se no .
-SFX Fy ti se nje .
+SFX Fy Y 19
+SFX Fy ot t .
+SFX Fy ot ty .
+SFX Fy 0 y .
+SFX Fy ot ta .
+SFX Fy 0 a .
+SFX Fy ot tov .
+SFX Fy 0 ov .
+SFX Fy ot tu .
+SFX Fy 0 u .
+SFX Fy ot tah .
+SFX Fy 0 ah .
+SFX Fy ot tam .
+SFX Fy 0 am .
+SFX Fy ot tom .
+SFX Fy 0 om .
+SFX Fy ot tami .
+SFX Fy 0 ami .
+SFX Fy ot te .
+SFX Fy 0 e .
 
 SFX Fz Y 9
-SFX Fz yr ir .
-SFX Fz yr ire .
-SFX Fz yr ira .
-SFX Fz yr irev .
-SFX Fz yr iru .
-SFX Fz yr irah .
-SFX Fz yr iram .
-SFX Fz yr irem .
-SFX Fz yr irami .
+SFX Fz en ni .
+SFX Fz en na .
+SFX Fz en nov .
+SFX Fz en nu .
+SFX Fz en nah .
+SFX Fz en nam .
+SFX Fz en nom .
+SFX Fz en nami .
+SFX Fz en ne .
 
-SFX GA Y 28
+SFX GA Y 31
 SFX GA ti se l .
 SFX GA ti se la .
 SFX GA ti se lo .
 SFX GA ti se li .
-SFX GA těti se ču .
-SFX GA ěti se im .
-SFX GA ěti se iš .
-SFX GA ěti se i .
-SFX GA ěti se imo .
-SFX GA ěti se ite .
-SFX GA ěti se et .
+SFX GA vati se ovu .
+SFX GA vati se ovem .
+SFX GA vati se oveš .
+SFX GA vati se ove .
+SFX GA vati se ovemo .
+SFX GA vati se ovete .
+SFX GA vati se ovut .
 SFX GA ti se h .
 SFX GA ti se še .
 SFX GA ti se hmo .
 SFX GA ti se ste .
 SFX GA ti se hu .
-SFX GA ěti se eči .
-SFX GA ěti se eča .
-SFX GA ěti se eče .
-SFX GA ěti se imy .
-SFX GA ěti se ima .
+SFX GA vati se ovi .
+SFX GA vati se ovimo .
+SFX GA vati se ovite .
+SFX GA vati se ovuči .
+SFX GA vati se ovuča .
+SFX GA vati se ovuče .
+SFX GA vati se ovemy .
+SFX GA vati se ovema .
 SFX GA ti se vši .
 SFX GA ti se vša .
 SFX GA ti se vše .
@@ -6050,219 +6067,193 @@ SFX GA ti se na .
 SFX GA ti se no .
 SFX GA ti se nje .
 
-SFX GB Y 31
-SFX GB ti l .
-SFX GB ti la .
-SFX GB ti lo .
-SFX GB ti li .
-SFX GB rati oru .
-SFX GB rati orem .
-SFX GB rati oreš .
-SFX GB rati ore .
-SFX GB rati oremo .
-SFX GB rati orete .
-SFX GB rati orut .
-SFX GB ti h .
-SFX GB ti še .
-SFX GB ti hmo .
-SFX GB ti ste .
-SFX GB ti hu .
-SFX GB rati ori .
-SFX GB rati orimo .
-SFX GB rati orite .
-SFX GB rati oruči .
-SFX GB rati oruča .
-SFX GB rati oruče .
-SFX GB rati oremy .
-SFX GB rati orema .
-SFX GB ti vši .
-SFX GB ti vša .
-SFX GB ti vše .
-SFX GB i y .
-SFX GB i a .
-SFX GB i o .
-SFX GB i je .
+SFX GB Y 9
+SFX GB yr ir .
+SFX GB yr ire .
+SFX GB yr ira .
+SFX GB yr irev .
+SFX GB yr iru .
+SFX GB yr irah .
+SFX GB yr iram .
+SFX GB yr irem .
+SFX GB yr irami .
 
-SFX GC Y 19
-SFX GC or r .
-SFX GC or ry .
-SFX GC 0 y .
-SFX GC or ra .
-SFX GC 0 a .
-SFX GC or rov .
-SFX GC 0 ov .
-SFX GC or ru .
-SFX GC 0 u .
-SFX GC or rah .
-SFX GC 0 ah .
-SFX GC or ram .
-SFX GC 0 am .
-SFX GC or rom .
-SFX GC 0 om .
-SFX GC or rami .
-SFX GC 0 ami .
-SFX GC or re .
-SFX GC 0 e .
+SFX GC Y 28
+SFX GC ti se l .
+SFX GC ti se la .
+SFX GC ti se lo .
+SFX GC ti se li .
+SFX GC těti se ču .
+SFX GC ěti se im .
+SFX GC ěti se iš .
+SFX GC ěti se i .
+SFX GC ěti se imo .
+SFX GC ěti se ite .
+SFX GC ěti se et .
+SFX GC ti se h .
+SFX GC ti se še .
+SFX GC ti se hmo .
+SFX GC ti se ste .
+SFX GC ti se hu .
+SFX GC ěti se eči .
+SFX GC ěti se eča .
+SFX GC ěti se eče .
+SFX GC ěti se imy .
+SFX GC ěti se ima .
+SFX GC ti se vši .
+SFX GC ti se vša .
+SFX GC ti se vše .
+SFX GC ti se ny .
+SFX GC ti se na .
+SFX GC ti se no .
+SFX GC ti se nje .
 
 SFX GD Y 31
-SFX GD ti se l .
-SFX GD ti se la .
-SFX GD ti se lo .
-SFX GD ti se li .
-SFX GD asti se u .
-SFX GD asti se em .
-SFX GD asti se eš .
-SFX GD asti se e .
-SFX GD asti se emo .
-SFX GD asti se ete .
-SFX GD asti se ut .
-SFX GD ti se eh .
-SFX GD ti se eše .
-SFX GD ti se ehmo .
-SFX GD ti se este .
-SFX GD ti se ehu .
-SFX GD asti se i .
-SFX GD asti se imo .
-SFX GD asti se ite .
-SFX GD asti se uči .
-SFX GD asti se uča .
-SFX GD asti se uče .
-SFX GD asti se emy .
-SFX GD asti se ema .
-SFX GD ti se ši .
-SFX GD ti se ša .
-SFX GD ti se še .
-SFX GD ti se eny .
-SFX GD ti se ena .
-SFX GD ti se eno .
-SFX GD ti se enje .
+SFX GD ti l .
+SFX GD ti la .
+SFX GD ti lo .
+SFX GD ti li .
+SFX GD rati oru .
+SFX GD rati orem .
+SFX GD rati oreš .
+SFX GD rati ore .
+SFX GD rati oremo .
+SFX GD rati orete .
+SFX GD rati orut .
+SFX GD ti h .
+SFX GD ti še .
+SFX GD ti hmo .
+SFX GD ti ste .
+SFX GD ti hu .
+SFX GD rati ori .
+SFX GD rati orimo .
+SFX GD rati orite .
+SFX GD rati oruči .
+SFX GD rati oruča .
+SFX GD rati oruče .
+SFX GD rati oremy .
+SFX GD rati orema .
+SFX GD ti vši .
+SFX GD ti vša .
+SFX GD ti vše .
+SFX GD i y .
+SFX GD i a .
+SFX GD i o .
+SFX GD i je .
 
-SFX GE Y 32
-SFX GE ti l .
-SFX GE ti la .
-SFX GE ti lo .
-SFX GE ti li .
-SFX GE ati u .
-SFX GE ati em .
-SFX GE ati eš .
-SFX GE ati e .
-SFX GE ati emo .
-SFX GE ati ete .
-SFX GE ati ut .
-SFX GE ti h .
-SFX GE ti še .
-SFX GE ti hmo .
-SFX GE ti ste .
-SFX GE ti hu .
-SFX GE ati i .
-SFX GE ati imo .
-SFX GE ati ite .
-SFX GE ati uči .
-SFX GE ati uča .
-SFX GE ati uče .
-SFX GE ati omy .
-SFX GE ati oma .
-SFX GE ati omo .
-SFX GE ti vši .
-SFX GE ti vša .
-SFX GE ti vše .
-SFX GE ti ny .
-SFX GE ti na .
-SFX GE ti no .
-SFX GE ti nje .
+SFX GE Y 19
+SFX GE or r .
+SFX GE or ry .
+SFX GE 0 y .
+SFX GE or ra .
+SFX GE 0 a .
+SFX GE or rov .
+SFX GE 0 ov .
+SFX GE or ru .
+SFX GE 0 u .
+SFX GE or rah .
+SFX GE 0 ah .
+SFX GE or ram .
+SFX GE 0 am .
+SFX GE or rom .
+SFX GE 0 om .
+SFX GE or rami .
+SFX GE 0 ami .
+SFX GE or re .
+SFX GE 0 e .
 
 SFX GF Y 31
-SFX GF ti l .
-SFX GF ti la .
-SFX GF ti lo .
-SFX GF ti li .
-SFX GF lati elju .
-SFX GF lati eljem .
-SFX GF lati elješ .
-SFX GF lati elje .
-SFX GF lati eljemo .
-SFX GF lati eljete .
-SFX GF lati eljut .
-SFX GF ti h .
-SFX GF ti še .
-SFX GF ti hmo .
-SFX GF ti ste .
-SFX GF ti hu .
-SFX GF lati elj .
-SFX GF lati eljmo .
-SFX GF lati eljte .
-SFX GF lati eljuči .
-SFX GF lati eljuča .
-SFX GF lati eljuče .
-SFX GF lati eljemy .
-SFX GF lati eljema .
-SFX GF ti vši .
-SFX GF ti vša .
-SFX GF ti vše .
-SFX GF ti ny .
-SFX GF ti na .
-SFX GF ti no .
-SFX GF ti nje .
+SFX GF ti se l .
+SFX GF ti se la .
+SFX GF ti se lo .
+SFX GF ti se li .
+SFX GF asti se u .
+SFX GF asti se em .
+SFX GF asti se eš .
+SFX GF asti se e .
+SFX GF asti se emo .
+SFX GF asti se ete .
+SFX GF asti se ut .
+SFX GF ti se eh .
+SFX GF ti se eše .
+SFX GF ti se ehmo .
+SFX GF ti se este .
+SFX GF ti se ehu .
+SFX GF asti se i .
+SFX GF asti se imo .
+SFX GF asti se ite .
+SFX GF asti se uči .
+SFX GF asti se uča .
+SFX GF asti se uče .
+SFX GF asti se emy .
+SFX GF asti se ema .
+SFX GF ti se ši .
+SFX GF ti se ša .
+SFX GF ti se še .
+SFX GF ti se eny .
+SFX GF ti se ena .
+SFX GF ti se eno .
+SFX GF ti se enje .
 
 SFX GG Y 32
-SFX GG ti se l .
-SFX GG ti se la .
-SFX GG ti se lo .
-SFX GG ti se li .
-SFX GG hati se du .
-SFX GG hati se dem .
-SFX GG hati se deš .
-SFX GG hati se de .
-SFX GG hati se demo .
-SFX GG hati se dete .
-SFX GG hati se dut .
-SFX GG ti se h .
-SFX GG ti se še .
-SFX GG ti se hmo .
-SFX GG ti se ste .
-SFX GG ti se hu .
-SFX GG hati se di .
-SFX GG hati se dimo .
-SFX GG hati se dite .
-SFX GG hati se duči .
-SFX GG hati se duča .
-SFX GG hati se duče .
-SFX GG hati se domy .
-SFX GG hati se doma .
-SFX GG hati se domo .
-SFX GG ti se vši .
-SFX GG ti se vša .
-SFX GG ti se vše .
-SFX GG ti se ny .
-SFX GG ti se na .
-SFX GG ti se no .
-SFX GG ti se nje .
+SFX GG ti l .
+SFX GG ti la .
+SFX GG ti lo .
+SFX GG ti li .
+SFX GG ati u .
+SFX GG ati em .
+SFX GG ati eš .
+SFX GG ati e .
+SFX GG ati emo .
+SFX GG ati ete .
+SFX GG ati ut .
+SFX GG ti h .
+SFX GG ti še .
+SFX GG ti hmo .
+SFX GG ti ste .
+SFX GG ti hu .
+SFX GG ati i .
+SFX GG ati imo .
+SFX GG ati ite .
+SFX GG ati uči .
+SFX GG ati uča .
+SFX GG ati uče .
+SFX GG ati omy .
+SFX GG ati oma .
+SFX GG ati omo .
+SFX GG ti vši .
+SFX GG ti vša .
+SFX GG ti vše .
+SFX GG ti ny .
+SFX GG ti na .
+SFX GG ti no .
+SFX GG ti nje .
 
 SFX GH Y 31
 SFX GH ti l .
 SFX GH ti la .
 SFX GH ti lo .
 SFX GH ti li .
-SFX GH inati nu .
-SFX GH inati nem .
-SFX GH inati neš .
-SFX GH inati ne .
-SFX GH inati nemo .
-SFX GH inati nete .
-SFX GH inati nut .
+SFX GH lati elju .
+SFX GH lati eljem .
+SFX GH lati elješ .
+SFX GH lati elje .
+SFX GH lati eljemo .
+SFX GH lati eljete .
+SFX GH lati eljut .
 SFX GH ti h .
 SFX GH ti še .
 SFX GH ti hmo .
 SFX GH ti ste .
 SFX GH ti hu .
-SFX GH inati ni .
-SFX GH inati nimo .
-SFX GH inati nite .
-SFX GH inati nuči .
-SFX GH inati nuča .
-SFX GH inati nuče .
-SFX GH inati nemy .
-SFX GH inati nema .
+SFX GH lati elj .
+SFX GH lati eljmo .
+SFX GH lati eljte .
+SFX GH lati eljuči .
+SFX GH lati eljuča .
+SFX GH lati eljuče .
+SFX GH lati eljemy .
+SFX GH lati eljema .
 SFX GH ti vši .
 SFX GH ti vša .
 SFX GH ti vše .
@@ -6271,416 +6262,501 @@ SFX GH ti na .
 SFX GH ti no .
 SFX GH ti nje .
 
-SFX GI Y 30
-SFX GI eti se l .
-SFX GI eti se la .
-SFX GI eti se lo .
-SFX GI eti se li .
-SFX GI eti se u .
-SFX GI ti se m .
-SFX GI ti se š .
-SFX GI ti se mo .
-SFX GI i se e .
-SFX GI eti se ut .
+SFX GI Y 32
+SFX GI ti se l .
+SFX GI ti se la .
+SFX GI ti se lo .
+SFX GI ti se li .
+SFX GI hati se du .
+SFX GI hati se dem .
+SFX GI hati se deš .
+SFX GI hati se de .
+SFX GI hati se demo .
+SFX GI hati se dete .
+SFX GI hati se dut .
 SFX GI ti se h .
 SFX GI ti se še .
 SFX GI ti se hmo .
 SFX GI ti se ste .
 SFX GI ti se hu .
-SFX GI eti se i .
-SFX GI eti se imo .
-SFX GI eti se ite .
-SFX GI eti se uči .
-SFX GI eti se uča .
-SFX GI eti se uče .
-SFX GI ti se my .
-SFX GI ti se ma .
-SFX GI eti se ši .
-SFX GI eti se ša .
-SFX GI eti se še .
-SFX GI eti se ty .
-SFX GI eti se ta .
-SFX GI eti se to .
-SFX GI eti se tje .
+SFX GI hati se di .
+SFX GI hati se dimo .
+SFX GI hati se dite .
+SFX GI hati se duči .
+SFX GI hati se duča .
+SFX GI hati se duče .
+SFX GI hati se domy .
+SFX GI hati se doma .
+SFX GI hati se domo .
+SFX GI ti se vši .
+SFX GI ti se vša .
+SFX GI ti se vše .
+SFX GI ti se ny .
+SFX GI ti se na .
+SFX GI ti se no .
+SFX GI ti se nje .
 
-SFX GJ Y 9
-SFX GJ er ry .
-SFX GJ er ra .
-SFX GJ er rov .
-SFX GJ er ru .
-SFX GJ er rah .
-SFX GJ er ram .
-SFX GJ er rom .
-SFX GJ er rami .
-SFX GJ er re .
+SFX GJ Y 31
+SFX GJ ti l .
+SFX GJ ti la .
+SFX GJ ti lo .
+SFX GJ ti li .
+SFX GJ inati nu .
+SFX GJ inati nem .
+SFX GJ inati neš .
+SFX GJ inati ne .
+SFX GJ inati nemo .
+SFX GJ inati nete .
+SFX GJ inati nut .
+SFX GJ ti h .
+SFX GJ ti še .
+SFX GJ ti hmo .
+SFX GJ ti ste .
+SFX GJ ti hu .
+SFX GJ inati ni .
+SFX GJ inati nimo .
+SFX GJ inati nite .
+SFX GJ inati nuči .
+SFX GJ inati nuča .
+SFX GJ inati nuče .
+SFX GJ inati nemy .
+SFX GJ inati nema .
+SFX GJ ti vši .
+SFX GJ ti vša .
+SFX GJ ti vše .
+SFX GJ ti ny .
+SFX GJ ti na .
+SFX GJ ti no .
+SFX GJ ti nje .
 
-SFX GK Y 31
-SFX GK ti se l .
-SFX GK ti se la .
-SFX GK ti se lo .
-SFX GK ti se li .
-SFX GK ti se u .
-SFX GK ti se em .
-SFX GK ti se eš .
-SFX GK ti se e .
-SFX GK ti se emo .
-SFX GK ti se ete .
-SFX GK ti se ut .
-SFX GK ti se eh .
-SFX GK ti se eše .
-SFX GK ti se ehmo .
-SFX GK ti se este .
-SFX GK ti se ehu .
-SFX GK ti se i .
-SFX GK ti se imo .
-SFX GK ti se ite .
-SFX GK ti se uči .
-SFX GK ti se uča .
-SFX GK ti se uče .
-SFX GK ti se emy .
-SFX GK ti se ema .
-SFX GK ti se ši .
-SFX GK ti se ša .
+SFX GK Y 30
+SFX GK eti se l .
+SFX GK eti se la .
+SFX GK eti se lo .
+SFX GK eti se li .
+SFX GK eti se u .
+SFX GK ti se m .
+SFX GK ti se š .
+SFX GK ti se mo .
+SFX GK i se e .
+SFX GK eti se ut .
+SFX GK ti se h .
 SFX GK ti se še .
-SFX GK ti se eny .
-SFX GK ti se ena .
-SFX GK ti se eno .
-SFX GK ti se enje .
+SFX GK ti se hmo .
+SFX GK ti se ste .
+SFX GK ti se hu .
+SFX GK eti se i .
+SFX GK eti se imo .
+SFX GK eti se ite .
+SFX GK eti se uči .
+SFX GK eti se uča .
+SFX GK eti se uče .
+SFX GK ti se my .
+SFX GK ti se ma .
+SFX GK eti se ši .
+SFX GK eti se ša .
+SFX GK eti se še .
+SFX GK eti se ty .
+SFX GK eti se ta .
+SFX GK eti se to .
+SFX GK eti se tje .
 
-SFX GL Y 31
-SFX GL ti se l .
-SFX GL ti se la .
-SFX GL ti se lo .
-SFX GL ti se li .
-SFX GL ti se vu .
-SFX GL ti se vem .
-SFX GL ti se veš .
-SFX GL ti se ve .
-SFX GL ti se vemo .
-SFX GL ti se vete .
-SFX GL ti se vut .
-SFX GL ti se h .
-SFX GL ti se še .
-SFX GL ti se hmo .
-SFX GL ti se ste .
-SFX GL ti se hu .
-SFX GL ti se vi .
-SFX GL ti se vimo .
-SFX GL ti se vite .
-SFX GL ti se vuči .
-SFX GL ti se vuča .
-SFX GL ti se vuče .
-SFX GL ti se vemy .
-SFX GL ti se vema .
-SFX GL ti se vši .
-SFX GL ti se vša .
-SFX GL ti se vše .
-SFX GL i se y .
-SFX GL i se a .
-SFX GL i se o .
-SFX GL i se je .
+SFX GL Y 16
+SFX GL ti l .
+SFX GL ti la .
+SFX GL ti lo .
+SFX GL ti li .
+SFX GL ti h .
+SFX GL ti še .
+SFX GL ti hmo .
+SFX GL ti ste .
+SFX GL ti hu .
+SFX GL ti vši .
+SFX GL ti vša .
+SFX GL ti vše .
+SFX GL ti ny .
+SFX GL ti na .
+SFX GL ti no .
+SFX GL ti nje .
 
-SFX GM Y 7
-SFX GM i e .
-SFX GM i u .
-SFX GM i ah .
-SFX GM i am .
-SFX GM i eju .
-SFX GM i ami .
-SFX GM i o .
+SFX GM Y 9
+SFX GM er ry .
+SFX GM er ra .
+SFX GM er rov .
+SFX GM er ru .
+SFX GM er rah .
+SFX GM er ram .
+SFX GM er rom .
+SFX GM er rami .
+SFX GM er re .
 
 SFX GN Y 31
-SFX GN ti l .
-SFX GN ti la .
-SFX GN ti lo .
-SFX GN ti li .
-SFX GN skyvati šču .
-SFX GN skyvati ščem .
-SFX GN skyvati ščeš .
-SFX GN skyvati šče .
-SFX GN skyvati ščemo .
-SFX GN skyvati ščete .
-SFX GN skyvati ščut .
-SFX GN ti h .
-SFX GN ti še .
-SFX GN ti hmo .
-SFX GN ti ste .
-SFX GN ti hu .
-SFX GN skyvati šči .
-SFX GN skyvati ščimo .
-SFX GN skyvati ščite .
-SFX GN skyvati ščuči .
-SFX GN skyvati ščuča .
-SFX GN skyvati ščuče .
-SFX GN skyvati ščemy .
-SFX GN skyvati ščema .
-SFX GN ti vši .
-SFX GN ti vša .
-SFX GN ti vše .
-SFX GN ti ny .
-SFX GN ti na .
-SFX GN ti no .
-SFX GN ti nje .
+SFX GN ti se l .
+SFX GN ti se la .
+SFX GN ti se lo .
+SFX GN ti se li .
+SFX GN ti se u .
+SFX GN ti se em .
+SFX GN ti se eš .
+SFX GN ti se e .
+SFX GN ti se emo .
+SFX GN ti se ete .
+SFX GN ti se ut .
+SFX GN ti se eh .
+SFX GN ti se eše .
+SFX GN ti se ehmo .
+SFX GN ti se este .
+SFX GN ti se ehu .
+SFX GN ti se i .
+SFX GN ti se imo .
+SFX GN ti se ite .
+SFX GN ti se uči .
+SFX GN ti se uča .
+SFX GN ti se uče .
+SFX GN ti se emy .
+SFX GN ti se ema .
+SFX GN ti se ši .
+SFX GN ti se ša .
+SFX GN ti se še .
+SFX GN ti se eny .
+SFX GN ti se ena .
+SFX GN ti se eno .
+SFX GN ti se enje .
 
 SFX GO Y 31
 SFX GO ti se l .
 SFX GO ti se la .
 SFX GO ti se lo .
 SFX GO ti se li .
-SFX GO evati se uju .
-SFX GO evati se ujem .
-SFX GO evati se uješ .
-SFX GO evati se uje .
-SFX GO evati se ujemo .
-SFX GO evati se ujete .
-SFX GO evati se ujut .
+SFX GO ti se vu .
+SFX GO ti se vem .
+SFX GO ti se veš .
+SFX GO ti se ve .
+SFX GO ti se vemo .
+SFX GO ti se vete .
+SFX GO ti se vut .
 SFX GO ti se h .
 SFX GO ti se še .
 SFX GO ti se hmo .
 SFX GO ti se ste .
 SFX GO ti se hu .
-SFX GO evati se uj .
-SFX GO evati se ujmo .
-SFX GO evati se ujte .
-SFX GO evati se ujuči .
-SFX GO evati se ujuča .
-SFX GO evati se ujuče .
-SFX GO evati se ujemy .
-SFX GO evati se ujema .
+SFX GO ti se vi .
+SFX GO ti se vimo .
+SFX GO ti se vite .
+SFX GO ti se vuči .
+SFX GO ti se vuča .
+SFX GO ti se vuče .
+SFX GO ti se vemy .
+SFX GO ti se vema .
 SFX GO ti se vši .
 SFX GO ti se vša .
 SFX GO ti se vše .
-SFX GO ti se ny .
-SFX GO ti se na .
-SFX GO ti se no .
-SFX GO ti se nje .
+SFX GO i se y .
+SFX GO i se a .
+SFX GO i se o .
+SFX GO i se je .
 
-SFX GP Y 31
-SFX GP eti se l .
-SFX GP eti se la .
-SFX GP eti se lo .
-SFX GP eti se li .
-SFX GP reti se eru .
-SFX GP reti se erem .
-SFX GP reti se ereš .
-SFX GP reti se ere .
-SFX GP reti se eremo .
-SFX GP reti se erete .
-SFX GP reti se erut .
-SFX GP ti se h .
-SFX GP ti se še .
-SFX GP ti se hmo .
-SFX GP ti se ste .
-SFX GP ti se hu .
-SFX GP reti se eri .
-SFX GP reti se erimo .
-SFX GP reti se erite .
-SFX GP reti se eruči .
-SFX GP reti se eruča .
-SFX GP reti se eruče .
-SFX GP reti se eremy .
-SFX GP reti se erema .
-SFX GP eti se ši .
-SFX GP eti se ša .
-SFX GP eti se še .
-SFX GP eti se ty .
-SFX GP eti se ta .
-SFX GP eti se to .
-SFX GP eti se tje .
+SFX GP Y 7
+SFX GP i e .
+SFX GP i u .
+SFX GP i ah .
+SFX GP i am .
+SFX GP i eju .
+SFX GP i ami .
+SFX GP i o .
 
-SFX GQ Y 7
-SFX GQ o  a .
-SFX GQ ko  ek .
-SFX GQ o  u .
-SFX GQ o  ah .
-SFX GQ o  am .
-SFX GQ   m .
-SFX GQ o  ami .
+SFX GQ Y 31
+SFX GQ ti l .
+SFX GQ ti la .
+SFX GQ ti lo .
+SFX GQ ti li .
+SFX GQ skyvati šču .
+SFX GQ skyvati ščem .
+SFX GQ skyvati ščeš .
+SFX GQ skyvati šče .
+SFX GQ skyvati ščemo .
+SFX GQ skyvati ščete .
+SFX GQ skyvati ščut .
+SFX GQ ti h .
+SFX GQ ti še .
+SFX GQ ti hmo .
+SFX GQ ti ste .
+SFX GQ ti hu .
+SFX GQ skyvati šči .
+SFX GQ skyvati ščimo .
+SFX GQ skyvati ščite .
+SFX GQ skyvati ščuči .
+SFX GQ skyvati ščuča .
+SFX GQ skyvati ščuče .
+SFX GQ skyvati ščemy .
+SFX GQ skyvati ščema .
+SFX GQ ti vši .
+SFX GQ ti vša .
+SFX GQ ti vše .
+SFX GQ ti ny .
+SFX GQ ti na .
+SFX GQ ti no .
+SFX GQ ti nje .
 
-SFX GR Y 15
-SFX GR y o .
-SFX GR y a .
-SFX GR y ogo .
-SFX GR y u .
-SFX GR y oj .
-SFX GR y om .
-SFX GR y omu .
-SFX GR 0 m .
-SFX GR y oju .
-SFX GR y i .
-SFX GR y e .
-SFX GR 0 h .
-SFX GR 0 mi .
-SFX GR oky ši .
-SFX GR stoky šče .
+SFX GR Y 31
+SFX GR ti se l .
+SFX GR ti se la .
+SFX GR ti se lo .
+SFX GR ti se li .
+SFX GR evati se uju .
+SFX GR evati se ujem .
+SFX GR evati se uješ .
+SFX GR evati se uje .
+SFX GR evati se ujemo .
+SFX GR evati se ujete .
+SFX GR evati se ujut .
+SFX GR ti se h .
+SFX GR ti se še .
+SFX GR ti se hmo .
+SFX GR ti se ste .
+SFX GR ti se hu .
+SFX GR evati se uj .
+SFX GR evati se ujmo .
+SFX GR evati se ujte .
+SFX GR evati se ujuči .
+SFX GR evati se ujuča .
+SFX GR evati se ujuče .
+SFX GR evati se ujemy .
+SFX GR evati se ujema .
+SFX GR ti se vši .
+SFX GR ti se vša .
+SFX GR ti se vše .
+SFX GR ti se ny .
+SFX GR ti se na .
+SFX GR ti se no .
+SFX GR ti se nje .
 
-SFX GS Y 16
-SFX GS  svatbě poveany veany .
-SFX GS  svatbě poveany veano .
-SFX GS  svatbě poveany veana .
-SFX GS  svatbě poveany veanogo .
-SFX GS  svatbě poveany veanu .
-SFX GS  svatbě poveany veanoj .
-SFX GS  svatbě poveany veanom .
-SFX GS  svatbě poveany veanomu .
-SFX GS  svatbě poveany veanym .
-SFX GS  svatbě poveany veanoju .
-SFX GS  svatbě poveany veani .
-SFX GS  svatbě poveany veane .
-SFX GS  svatbě poveany veanyh .
-SFX GS  svatbě poveany veanymi .
-SFX GS  svatbě poveany veanějši .
-SFX GS  svatbě poveany veaněje .
+SFX GS Y 31
+SFX GS eti se l .
+SFX GS eti se la .
+SFX GS eti se lo .
+SFX GS eti se li .
+SFX GS reti se eru .
+SFX GS reti se erem .
+SFX GS reti se ereš .
+SFX GS reti se ere .
+SFX GS reti se eremo .
+SFX GS reti se erete .
+SFX GS reti se erut .
+SFX GS ti se h .
+SFX GS ti se še .
+SFX GS ti se hmo .
+SFX GS ti se ste .
+SFX GS ti se hu .
+SFX GS reti se eri .
+SFX GS reti se erimo .
+SFX GS reti se erite .
+SFX GS reti se eruči .
+SFX GS reti se eruča .
+SFX GS reti se eruče .
+SFX GS reti se eremy .
+SFX GS reti se erema .
+SFX GS eti se ši .
+SFX GS eti se ša .
+SFX GS eti se še .
+SFX GS eti se ty .
+SFX GS eti se ta .
+SFX GS eti se to .
+SFX GS eti se tje .
 
-SFX GT Y 32
-SFX GT sti se tl .
-SFX GT sti se tla .
-SFX GT sti se tlo .
-SFX GT sti se tli .
-SFX GT sti se tu .
-SFX GT sti se tem .
-SFX GT sti se teš .
-SFX GT sti se te .
-SFX GT sti se temo .
-SFX GT sti se tete .
-SFX GT sti se tut .
-SFX GT sti se teh .
-SFX GT sti se teše .
-SFX GT sti se tehmo .
-SFX GT sti se teste .
-SFX GT sti se tehu .
-SFX GT sti se ti .
-SFX GT sti se timo .
-SFX GT sti se tite .
-SFX GT sti se tuči .
-SFX GT sti se tuča .
-SFX GT sti se tuče .
-SFX GT sti se tomy .
-SFX GT sti se toma .
-SFX GT sti se tomo .
-SFX GT sti se tši .
-SFX GT sti se tša .
-SFX GT sti se tše .
-SFX GT sti se teny .
-SFX GT sti se tena .
-SFX GT sti se teno .
-SFX GT sti se tenje .
+SFX GT Y 7
+SFX GT o  a .
+SFX GT ko  ek .
+SFX GT o  u .
+SFX GT o  ah .
+SFX GT o  am .
+SFX GT   m .
+SFX GT o  ami .
 
-SFX GU Y 32
-SFX GU ti l .
-SFX GU ti la .
-SFX GU ti lo .
-SFX GU ti li .
-SFX GU nuti u .
-SFX GU nuti em .
-SFX GU nuti eš .
-SFX GU nuti e .
-SFX GU nuti emo .
-SFX GU nuti ete .
-SFX GU nuti ut .
-SFX GU ti h .
-SFX GU ti še .
-SFX GU ti hmo .
-SFX GU ti ste .
-SFX GU ti hu .
-SFX GU nuti i .
-SFX GU nuti imo .
-SFX GU nuti ite .
-SFX GU nuti uči .
-SFX GU nuti uča .
-SFX GU nuti uče .
-SFX GU nuti omy .
-SFX GU nuti oma .
-SFX GU nuti omo .
-SFX GU ti vši .
-SFX GU ti vša .
-SFX GU ti vše .
-SFX GU i y .
-SFX GU i a .
-SFX GU i o .
-SFX GU i je .
+SFX GU Y 15
+SFX GU y o .
+SFX GU y a .
+SFX GU y ogo .
+SFX GU y u .
+SFX GU y oj .
+SFX GU y om .
+SFX GU y omu .
+SFX GU 0 m .
+SFX GU y oju .
+SFX GU y i .
+SFX GU y e .
+SFX GU 0 h .
+SFX GU 0 mi .
+SFX GU oky ši .
+SFX GU stoky šče .
 
-SFX GV Y 32
-SFX GV ti se l .
-SFX GV ti se la .
-SFX GV ti se lo .
-SFX GV ti se li .
-SFX GV nuti se u .
-SFX GV nuti se em .
-SFX GV nuti se eš .
-SFX GV nuti se e .
-SFX GV nuti se emo .
-SFX GV nuti se ete .
-SFX GV nuti se ut .
-SFX GV ti se h .
-SFX GV ti se še .
-SFX GV ti se hmo .
-SFX GV ti se ste .
-SFX GV ti se hu .
-SFX GV nuti se i .
-SFX GV nuti se imo .
-SFX GV nuti se ite .
-SFX GV nuti se uči .
-SFX GV nuti se uča .
-SFX GV nuti se uče .
-SFX GV nuti se omy .
-SFX GV nuti se oma .
-SFX GV nuti se omo .
-SFX GV ti se vši .
-SFX GV ti se vša .
-SFX GV ti se vše .
-SFX GV i se y .
-SFX GV i se a .
-SFX GV i se o .
-SFX GV i se je .
+SFX GV Y 16
+SFX GV  svatbě povezany vezany .
+SFX GV  svatbě povezany vezano .
+SFX GV  svatbě povezany vezana .
+SFX GV  svatbě povezany vezanogo .
+SFX GV  svatbě povezany vezanu .
+SFX GV  svatbě povezany vezanoj .
+SFX GV  svatbě povezany vezanom .
+SFX GV  svatbě povezany vezanomu .
+SFX GV  svatbě povezany vezanym .
+SFX GV  svatbě povezany vezanoju .
+SFX GV  svatbě povezany vezani .
+SFX GV  svatbě povezany vezane .
+SFX GV  svatbě povezany vezanyh .
+SFX GV  svatbě povezany vezanymi .
+SFX GV  svatbě povezany vezanějši .
+SFX GV  svatbě povezany vezaněje .
 
-SFX GW Y 31
-SFX GW ti l .
-SFX GW ti la .
-SFX GW ti lo .
-SFX GW ti li .
-SFX GW skakati u .
-SFX GW skakati em .
-SFX GW skakati eš .
-SFX GW skakati e .
-SFX GW skakati emo .
-SFX GW skakati ete .
-SFX GW skakati ut .
-SFX GW ti h .
-SFX GW ti še .
-SFX GW ti hmo .
-SFX GW ti ste .
-SFX GW ti hu .
-SFX GW skakati j .
-SFX GW skakati jmo .
-SFX GW skakati jte .
-SFX GW skakati juči .
-SFX GW skakati juča .
-SFX GW skakati juče .
-SFX GW skakati emy .
-SFX GW skakati ema .
-SFX GW ti vši .
-SFX GW ti vša .
-SFX GW ti vše .
-SFX GW ti ny .
-SFX GW ti na .
-SFX GW ti no .
-SFX GW ti nje .
+SFX GW Y 32
+SFX GW sti se tl .
+SFX GW sti se tla .
+SFX GW sti se tlo .
+SFX GW sti se tli .
+SFX GW sti se tu .
+SFX GW sti se tem .
+SFX GW sti se teš .
+SFX GW sti se te .
+SFX GW sti se temo .
+SFX GW sti se tete .
+SFX GW sti se tut .
+SFX GW sti se teh .
+SFX GW sti se teše .
+SFX GW sti se tehmo .
+SFX GW sti se teste .
+SFX GW sti se tehu .
+SFX GW sti se ti .
+SFX GW sti se timo .
+SFX GW sti se tite .
+SFX GW sti se tuči .
+SFX GW sti se tuča .
+SFX GW sti se tuče .
+SFX GW sti se tomy .
+SFX GW sti se toma .
+SFX GW sti se tomo .
+SFX GW sti se tši .
+SFX GW sti se tša .
+SFX GW sti se tše .
+SFX GW sti se teny .
+SFX GW sti se tena .
+SFX GW sti se teno .
+SFX GW sti se tenje .
 
-SFX GX Y 15
-SFX GX y naděje o .
-SFX GX y naděje a .
-SFX GX y naděje ogo .
-SFX GX y naděje u .
-SFX GX y naděje oj .
-SFX GX y naděje om .
-SFX GX y naděje omu .
-SFX GX  naděje m .
-SFX GX y naděje oju .
-SFX GX y naděje i .
-SFX GX y naděje e .
-SFX GX  naděje h .
-SFX GX  naděje mi .
-SFX GX y naděje ějši .
-SFX GX y naděje ěje .
+SFX GX Y 32
+SFX GX ti l .
+SFX GX ti la .
+SFX GX ti lo .
+SFX GX ti li .
+SFX GX nuti u .
+SFX GX nuti em .
+SFX GX nuti eš .
+SFX GX nuti e .
+SFX GX nuti emo .
+SFX GX nuti ete .
+SFX GX nuti ut .
+SFX GX ti h .
+SFX GX ti še .
+SFX GX ti hmo .
+SFX GX ti ste .
+SFX GX ti hu .
+SFX GX nuti i .
+SFX GX nuti imo .
+SFX GX nuti ite .
+SFX GX nuti uči .
+SFX GX nuti uča .
+SFX GX nuti uče .
+SFX GX nuti omy .
+SFX GX nuti oma .
+SFX GX nuti omo .
+SFX GX ti vši .
+SFX GX ti vša .
+SFX GX ti vše .
+SFX GX i y .
+SFX GX i a .
+SFX GX i o .
+SFX GX i je .
+
+SFX GY Y 32
+SFX GY ti se l .
+SFX GY ti se la .
+SFX GY ti se lo .
+SFX GY ti se li .
+SFX GY nuti se u .
+SFX GY nuti se em .
+SFX GY nuti se eš .
+SFX GY nuti se e .
+SFX GY nuti se emo .
+SFX GY nuti se ete .
+SFX GY nuti se ut .
+SFX GY ti se h .
+SFX GY ti se še .
+SFX GY ti se hmo .
+SFX GY ti se ste .
+SFX GY ti se hu .
+SFX GY nuti se i .
+SFX GY nuti se imo .
+SFX GY nuti se ite .
+SFX GY nuti se uči .
+SFX GY nuti se uča .
+SFX GY nuti se uče .
+SFX GY nuti se omy .
+SFX GY nuti se oma .
+SFX GY nuti se omo .
+SFX GY ti se vši .
+SFX GY ti se vša .
+SFX GY ti se vše .
+SFX GY i se y .
+SFX GY i se a .
+SFX GY i se o .
+SFX GY i se je .
+
+SFX GZ Y 31
+SFX GZ ti l .
+SFX GZ ti la .
+SFX GZ ti lo .
+SFX GZ ti li .
+SFX GZ skakati u .
+SFX GZ skakati em .
+SFX GZ skakati eš .
+SFX GZ skakati e .
+SFX GZ skakati emo .
+SFX GZ skakati ete .
+SFX GZ skakati ut .
+SFX GZ ti h .
+SFX GZ ti še .
+SFX GZ ti hmo .
+SFX GZ ti ste .
+SFX GZ ti hu .
+SFX GZ skakati j .
+SFX GZ skakati jmo .
+SFX GZ skakati jte .
+SFX GZ skakati juči .
+SFX GZ skakati juča .
+SFX GZ skakati juče .
+SFX GZ skakati emy .
+SFX GZ skakati ema .
+SFX GZ ti vši .
+SFX GZ ti vša .
+SFX GZ ti vše .
+SFX GZ ti ny .
+SFX GZ ti na .
+SFX GZ ti no .
+SFX GZ ti nje .
+
+SFX Ga Y 15
+SFX Ga y naděje o .
+SFX Ga y naděje a .
+SFX Ga y naděje ogo .
+SFX Ga y naděje u .
+SFX Ga y naděje oj .
+SFX Ga y naděje om .
+SFX Ga y naděje omu .
+SFX Ga  naděje m .
+SFX Ga y naděje oju .
+SFX Ga y naděje i .
+SFX Ga y naděje e .
+SFX Ga  naděje h .
+SFX Ga  naděje mi .
+SFX Ga y naděje ějši .
+SFX Ga y naděje ěje .
 

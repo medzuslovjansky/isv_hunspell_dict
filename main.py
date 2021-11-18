@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 
 flagsLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 
+
 def determineLongFlag(number):
     letterIndex1 = 0
     letterIndex2 = 0
@@ -13,6 +14,7 @@ def determineLongFlag(number):
         if letterIndex1 >= len(flagsLetters):
             raise RuntimeError('Ran out of flags')
     return flagsLetters[letterIndex1] + flagsLetters[letterIndex2]
+
 
 DICTIONARY_NAME = 'isv_lat_hunspell_dict'
 XML_FILE_NAME = 'out_isv_lat.xml'
@@ -33,12 +35,13 @@ else:
         suffixScheme = []
         for form in lemma:
             formString = form.attrib['t']  # read form
-            formString = ''.join(char for char in formString if char in 'ABCDEFGHIJKLMNOPQRSTUVWXYčČžŽěĚšŠabcdefghijklmnopqrstuvwxy ')
+            formString = ''.join(
+                char for char in formString if char in 'ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz ')
             if reducedForms.count(formString) == 0 and not formString == '':
-                reducedForms.append(formString)
+                reducedForms.append(formString)  # only add forms that haven't been added before
         baseForm = ''
-        if len(reducedForms) > 0:  # if any form
-            baseForm = reducedForms[0]
+        if len(reducedForms) > 0:  # if any form exists
+            baseForm = reducedForms[0]  # baseForm will be the word form in the dictionary .dic file
             dictionaryEntry['word'] += baseForm
         if len(reducedForms) > 1:  # if more than 1 form
             for index, formString in enumerate(reducedForms):
@@ -67,7 +70,7 @@ else:
                 suffixSchemeLibrary.append(suffixScheme)
             if suffixScheme in suffixSchemeLibrary:
                 dictionaryEntry['flags'].append(suffixSchemeLibrary.index(suffixScheme))
-            if len(additionalDictionaryEntries) > 0:  # more than 1 form, but couldn't build a suffix scheme
+            if len(additionalDictionaryEntries) > 0:  # not suffixable -> create separate dictionary entries (on -> jego etc.)
                 if ('o ' + additionalDictionaryEntries[0]) in dictionaryEntry['word']:
                     splitWords = dictionaryEntry['word'].split()
                     additionalDictionaryEntries.append(splitWords[0])
@@ -83,6 +86,7 @@ else:
                 dictionary.append({'word': additionalEntry, 'flags': []})
     print(str(len(suffixSchemeLibrary)) + ' suffix schemes')
     print(str(len(dictionary)) + ' dictionary entries')
+    # output do .dic file
     with open(DICTIONARY_NAME + '.dic', 'w') as f:
         print(str(len(dictionary)), file=f)
         for x in range(len(dictionary)):
@@ -95,15 +99,13 @@ else:
             if not combinedFlags == '':
                 combinedFlags = '/' + combinedFlags
             print(entry['word'] + combinedFlags, file=f)
+    # output to .aff file
     with open(DICTIONARY_NAME + '.aff', 'w') as f:
         with open('affix_file_header.txt', 'r') as header:
             print(header.read(), file=f)
             for index, schemeIterate in enumerate(suffixSchemeLibrary):
                 print('SFX ' + determineLongFlag(index) + ' Y ' + str(len(schemeIterate)), file=f)
                 for instructionIterate in schemeIterate:
-                    print('SFX ' + determineLongFlag(index) + ' ' + instructionIterate['delete'] + ' ' + instructionIterate['add'] + ' ' + instructionIterate['condition'], file=f)
+                    print('SFX ' + determineLongFlag(index) + ' ' + instructionIterate['delete'] + ' ' +
+                          instructionIterate['add'] + ' ' + instructionIterate['condition'], file=f)
                 print('', file=f)
-
-
-
-
