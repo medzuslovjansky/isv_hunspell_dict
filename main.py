@@ -36,7 +36,7 @@ else:
         for form in lemma:
             formString = form.attrib['t']  # read form
             formString = ''.join(
-                char for char in formString if char in 'ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz ')
+                char for char in formString if char in '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz ')
             if reducedForms.count(formString) == 0 and not formString == '':
                 reducedForms.append(formString)  # only add forms that haven't been added before
         baseForm = ''
@@ -49,9 +49,7 @@ else:
                     if not formString[0] == baseForm[0]:
                         additionalDictionaryEntries.append(formString)
                     elif formString in baseForm and not formString == baseForm:
-                        print(baseForm + ' ' + formString)
                         suffixInstruction = {'delete': baseForm[len(formString):len(baseForm)], 'add': '0', 'condition': '.'}
-                        print(suffixInstruction)
                         suffixScheme.append(suffixInstruction)
                     else:
                         lengthBaseForm = len(baseForm)

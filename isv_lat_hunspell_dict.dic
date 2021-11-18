@@ -125,8 +125,8 @@ akcija/AL
 cicka/Ag
 jar/AQ
 akt/AQ
-kogdanebud
-kogdynebud
+kogda-nebud
+kogdy-nebud
 potvrditi/AX
 areštovati/AH
 armija/AL
@@ -185,7 +185,7 @@ odojdti/Aq
 dolnolužičsky/AT
 selo/Ao
 irlandija/AJ
-čijnebud/Ar
+čij-nebud/Ar
 bliznec/As
 blokovati/AH
 noč/An
@@ -290,7 +290,7 @@ diakon/AP
 len/Aa
 inočto/BG
 lěvy/AO
-lětje/AM
+-lětje/AM
 mlatok/AK
 dodati/BH
 blazn/AP
@@ -301,7 +301,7 @@ kromě
 limitovati/AH
 odpovědalny/AO
 lider/AP
-ktonebud/BI
+kto-nebud/BI
 bočan/AP
 razměnjati/AF
 lisica/AL
@@ -1063,7 +1063,7 @@ razširiti/AI
 visěti/Cb
 pravy/AO
 potrěbovati/AH
-odkudnebud
+odkud-nebud
 potvrdžati/AF
 strahovati/AH
 zatemniti/AI
@@ -1234,7 +1234,7 @@ slovjansky/AT
 papa/AR
 slovjan/AP
 slovjanin/BF
-presareliz/AQ
+presa-reliz/AQ
 situacija/AL
 slovo/Cc
 samotny/AO
@@ -1602,7 +1602,7 @@ jednostranny/AO
 iran/Aa
 ingušetija/AJ
 seksualny/AO
-čtonebud/DC
+čto-nebud/DC
 grupa/AB
 myti/BM
 medžutym
@@ -1611,9 +1611,9 @@ byk/Ab
 bezposrědnji/BQ
 bezposrědny/AO
 mrtvy/AO
-kdenebud
+kde-nebud
 izgorěti/AF
-iznad
+iz-nad
 izgovor/AQ
 izdržlivy/AO
 dvukratno
@@ -2080,9 +2080,9 @@ poslědnji/BQ
 poslědny/AO
 bojka/Ag
 roditi/AX
-presakonferencija/AL
+presa-konferencija/AL
 poslědstvo/Ao
-začtonebud
+začto-nebud
 prezident/AP
 vrěme/DY
 protiviti se/Ad
@@ -2252,7 +2252,7 @@ izpraviti/AI
 italija/AJ
 izključati/AF
 irak/Al
-izza
+iz-za
 izpravjati/AF
 vyše
 vezati/BJ
@@ -2417,7 +2417,7 @@ mašina/AB
 masturbovati/AH
 mast/An
 lihtenštejn/Aa
-kudynebud
+kudy-nebud
 maksimum/AQ
 luna/AB
 lužičsky/AT
@@ -2439,8 +2439,8 @@ mama/AB
 mandat/AQ
 matematik/Ab
 libijsky/AT
-kakynebud/Do
-kakonebud
+kaky-nebud/Do
+kako-nebud
 medžu
 medžunarodny/AO
 měd/Ac
@@ -2548,7 +2548,7 @@ pčela/AB
 polabsky/AT
 poljska/Aj
 prěmnogo
-premierministr/AP
+premier-ministr/AP
 razduti/By
 administracija/AL
 anglijsky/AT
@@ -2623,7 +2623,7 @@ bojkotovati/AH
 poletěti/DP
 mněti/BR
 nadzirati/AF
-izpod
+iz-pod
 napitok/AK
 napominati/AF
 dveri/Cr
@@ -2648,7 +2648,7 @@ renesansa/AB
 vnutrnost/An
 odděliti/AI
 stati/Bc
-ktorynebud/Do
+ktory-nebud/Do
 rabiti/AI
 izvoljniti/AI
 tajny/AO
@@ -2721,7 +2721,7 @@ evropejec/Ah
 kremenj/BO
 nastupajuči/BQ
 jarmo/Ao
-izprěd
+iz-prěd
 betonomešalka/CC
 zmija/AL
 zlato/AG
@@ -2746,7 +2746,7 @@ prnik/BN
 posvečati/AF
 universalny/AO
 věst/An
-vebsajt/AQ
+veb-sajt/AQ
 vebsajt/AQ
 vdol
 vrh/BS
@@ -3406,7 +3406,7 @@ zakopati/AF
 tomu
 ničemu
 něčemu
-čemunebud
+čemu-nebud
 zatože
 že
 uspěti/AF
@@ -4051,7 +4051,7 @@ luksemburžsky/AT
 katastrofa/AB
 katastrofičny/AO
 incident/AQ
-izmedžu
+iz-medžu
 blizko
 kolo
 suprotiv
@@ -4600,7 +4600,7 @@ samorazumny/AO
 něktory/AO
 koj/CI
 koj/CI
-kojnebud/Ar
+koj-nebud/Ar
 někoj/CI
 dany/AO
 nyně
@@ -5114,7 +5114,7 @@ cvekla/CL
 čips/AQ
 čip/AQ
 čitati/AF
-člověkpavuk/Ab
+člověk-pavuk/Ab
 člověkoljubje/Am
 člověkoljubec/Ah
 črnik/Ab
@@ -6690,11 +6690,11 @@ budka/CC
 cibuljevy/AO
 čem
 či
-čijlibo/Em
+čij-libo/Em
 čimno
 članok/AK
 člověčnost/Ax
-čtolibo/En
+čto-libo/En
 črnoglednica/AL
 črnoglednik/Ab
 danok/AK
@@ -6721,7 +6721,7 @@ fraze
 garant/AP
 garantovany/AO
 garantovati/AH
-kdelibo
+kde-libo
 glavolomka/CC
 glubinny/AO
 godišnje
@@ -6745,17 +6745,17 @@ izvoliti/AI
 izvoljenje/AM
 jedvab/Aa
 jetra/Cu
-kakolibo
-kakylibo/Ep
+kako-libo
+kaky-libo/Ep
 klienti/Dh
 klientsky/AT
-kogdalibo
-kogdylibo
-kolikolibo
+kogda-libo
+kogdy-libo
+koliko-libo
 konečnik/BN
 koprovy/AO
 krmny/AO
-ktorylibo/Ep
+ktory-libo/Ep
 lěčitelj/Au
 ledva
 lěta/Cu
@@ -6794,7 +6794,7 @@ oddyh/BS
 odhodženje/AM
 odkogda
 odkogdy
-odkudylibo
+odkudy-libo
 odstupanje/AM
 odzavisiti/Ap
 opustošenje/AM
@@ -6935,7 +6935,7 @@ vratnik/Ab
 ujenka/CC
 vutraba/AB
 vzorny/AO
-začtolibo
+začto-libo
 zabavnik/Ab
 zabolěvanje/AM
 zad/AQ
@@ -7804,7 +7804,7 @@ izvodženje/AM
 jablanj/An
 jalovec/Bm
 jasenj/Ac
-jaslasadok/AK
+jasla-sadok/AK
 jasno
 jasnovidnost/An
 java/AB
@@ -8708,14 +8708,14 @@ odovud
 odonud
 ovudy
 onudy
-kudylibo
+kudy-libo
 kamo
 tamo
 ovamo
 onamo
 někamo
-kamonebud
-kamolibo
+kamo-nebud
+kamo-libo
 nikamo
 vsamo
 inamo
@@ -9280,7 +9280,7 @@ izslavjati/AF
 izslavjati se/Be
 izsloviti/AI
 izsloviti se/Ad
-izsrěd
+iz-srěd
 izumrěly/AO
 jazvec/As
 kamenolom/AQ
@@ -9319,7 +9319,7 @@ materinsky/AT
 mazilo/Ao
 mazivo/Ao
 meduza/AB
-medvědgrizli/EH
+medvěd-grizli/EH
 měnjati/AF
 měrilo/Ao
 měrka/CC
@@ -9848,8 +9848,8 @@ sěča/AL
 seliti se/Ad
 sěkuča/AL
 segati/FW
-a
-o
+-a
+-o
 segnuti/FX
 seženj/An
 siliti se/Ad
@@ -10568,7 +10568,7 @@ občudovati/AH
 občudovanje/AM
 ostrěženje/AM
 pavian/AP
-kolikonebud
+koliko-nebud
 pohristijanjati/AF
 pohristijaniti/AI
 obhoditi se/DI
@@ -10779,7 +10779,7 @@ klavesin/AQ
 čembalo/Ao
 čelesta/AB
 valtorna/AB
-flejtapikolo/Ao
+flejta-pikolo/Ao
 rubin/AQ
 sraka/AB
 fazan/AP
@@ -10894,8 +10894,8 @@ rasist/AP
 rasističny/AO
 postrug/Ck
 razmnažanje/AM
-popmuzika/AB
-rokmuzika/AB
+pop-muzika/AB
+rok-muzika/AB
 saturn/Aa
 sociologija/AJ
 sociolog/Ck
@@ -13616,7 +13616,7 @@ zubrovka/CC
 zvězdny/AO
 zvonica/AL
 zvonok/AK
-žarptica/AL
+žar-ptica/AL
 želězobeton/Aa
 žmuriti/AI
 žmurky/Ex
@@ -14016,7 +14016,7 @@ uzda/AB
 vulgarnost/An
 vugoljny/AO
 badminton/Aa
-pingpong/Cs
+ping-pong/Cs
 izpregati/AF
 izpregti/CG
 uprež/An
@@ -14169,7 +14169,7 @@ aerodrom/AQ
 blokflejta/AB
 magnetofon/AQ
 gramofon/AQ
-kompaktdisk/BN
+kompakt-disk/BN
 zatykati/Ca
 zatykati se/FY
 zatknuti se/Bq
@@ -14781,7 +14781,7 @@ koverec/Bm
 fartuh/BS
 cělodnevny/AO
 cělodenny/AO
-nonstop
+non-stop
 tunel/AQ
 ekvator/AQ
 razbojny/AO
@@ -15089,7 +15089,7 @@ konstitucijny/AO
 krymsky/AT
 arhiv/AQ
 arhivovati/AH
-vebstranica/AL
+veb-stranica/AL
 superheroj/Au
 bastard/AQ
 prěvažajuči/BQ
@@ -15433,7 +15433,7 @@ prědavstvo/AG
 prědavničsky/AT
 sekretariat/AQ
 onlajn
-onlajn
+on-lajn
 novoprišelec/Ah
 sčisliti/AI
 nesčisljeny/AO
@@ -15877,8 +15877,8 @@ partnerka/CC
 duel/AQ
 dvoboj/Ac
 tvarog/AV
-glugglug
-buljbulj
+glug-glug
+bulj-bulj
 seržant/AP
 škodnik/Ab
 čuma/AB

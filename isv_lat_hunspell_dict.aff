@@ -1,19 +1,23 @@
 SET UTF-8
 
-TRY ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz
+TRY -ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz
 
 KEY žšertyuiop|asdfghjklě|zčcvbnm
 
+BREAK 1
+BREAK =
+
 FLAG long
 
-REP 8
+REP 9
+REP e y
 REP e ě
 REP i y
 REP y i
-REP e y
 REP y e
 REP l lj
 REP s ss
+REP ě e
 REP ljenje jenje
 
 SFX AA Y 31
@@ -709,18 +713,18 @@ SFX Aq ti eno .
 SFX Aq ti enje .
 
 SFX Ar Y 12
-SFX Ar nebud enebud .
-SFX Ar nebud anebud .
-SFX Ar nebud egonebud .
-SFX Ar nebud unebud .
-SFX Ar nebud ejnebud .
-SFX Ar nebud emnebud .
-SFX Ar nebud emunebud .
-SFX Ar nebud imnebud .
-SFX Ar nebud ejunebud .
-SFX Ar nebud inebud .
-SFX Ar nebud ihnebud .
-SFX Ar nebud iminebud .
+SFX Ar -nebud e-nebud .
+SFX Ar -nebud a-nebud .
+SFX Ar -nebud ego-nebud .
+SFX Ar -nebud u-nebud .
+SFX Ar -nebud ej-nebud .
+SFX Ar -nebud em-nebud .
+SFX Ar -nebud emu-nebud .
+SFX Ar -nebud im-nebud .
+SFX Ar -nebud eju-nebud .
+SFX Ar -nebud i-nebud .
+SFX Ar -nebud ih-nebud .
+SFX Ar -nebud imi-nebud .
 
 SFX As Y 9
 SFX As 0 i .
@@ -969,10 +973,10 @@ SFX BH ti no .
 SFX BH ti nje .
 
 SFX BI Y 4
-SFX BI tonebud ogonebud .
-SFX BI tonebud omnebud .
-SFX BI tonebud omunebud .
-SFX BI tonebud ymnebud .
+SFX BI to-nebud ogo-nebud .
+SFX BI to-nebud om-nebud .
+SFX BI to-nebud omu-nebud .
+SFX BI to-nebud ym-nebud .
 
 SFX BJ Y 31
 SFX BJ ti l .
@@ -2894,10 +2898,10 @@ SFX DB enj njem .
 SFX DB enj njami .
 
 SFX DC Y 4
-SFX DC tonebud egonebud .
-SFX DC tonebud emnebud .
-SFX DC tonebud emunebud .
-SFX DC tonebud imnebud .
+SFX DC to-nebud ego-nebud .
+SFX DC to-nebud em-nebud .
+SFX DC to-nebud emu-nebud .
+SFX DC to-nebud im-nebud .
 
 SFX DD Y 9
 SFX DD en ny .
@@ -3695,19 +3699,19 @@ SFX Dn stiti se ščeno .
 SFX Dn stiti se ščenje .
 
 SFX Do Y 13
-SFX Do ynebud onebud .
-SFX Do ynebud anebud .
-SFX Do ynebud ogonebud .
-SFX Do ynebud unebud .
-SFX Do ynebud ojnebud .
-SFX Do ynebud omnebud .
-SFX Do ynebud omunebud .
-SFX Do nebud mnebud .
-SFX Do ynebud ojunebud .
-SFX Do ynebud inebud .
-SFX Do ynebud enebud .
-SFX Do nebud hnebud .
-SFX Do nebud minebud .
+SFX Do y-nebud o-nebud .
+SFX Do y-nebud a-nebud .
+SFX Do y-nebud ogo-nebud .
+SFX Do y-nebud u-nebud .
+SFX Do y-nebud oj-nebud .
+SFX Do y-nebud om-nebud .
+SFX Do y-nebud omu-nebud .
+SFX Do -nebud m-nebud .
+SFX Do y-nebud oju-nebud .
+SFX Do y-nebud i-nebud .
+SFX Do y-nebud e-nebud .
+SFX Do -nebud h-nebud .
+SFX Do -nebud mi-nebud .
 
 SFX Dp Y 7
 SFX Dp e a .
@@ -4744,24 +4748,24 @@ SFX El en nyh .
 SFX El en nymi .
 
 SFX Em Y 12
-SFX Em libo elibo .
-SFX Em libo alibo .
-SFX Em libo egolibo .
-SFX Em libo ulibo .
-SFX Em libo ejlibo .
-SFX Em libo emlibo .
-SFX Em libo emulibo .
-SFX Em libo imlibo .
-SFX Em libo ejulibo .
-SFX Em libo ilibo .
-SFX Em libo ihlibo .
-SFX Em libo imilibo .
+SFX Em -libo e-libo .
+SFX Em -libo a-libo .
+SFX Em -libo ego-libo .
+SFX Em -libo u-libo .
+SFX Em -libo ej-libo .
+SFX Em -libo em-libo .
+SFX Em -libo emu-libo .
+SFX Em -libo im-libo .
+SFX Em -libo eju-libo .
+SFX Em -libo i-libo .
+SFX Em -libo ih-libo .
+SFX Em -libo imi-libo .
 
 SFX En Y 4
-SFX En tolibo egolibo .
-SFX En tolibo emlibo .
-SFX En tolibo emulibo .
-SFX En tolibo imlibo .
+SFX En to-libo ego-libo .
+SFX En to-libo em-libo .
+SFX En to-libo emu-libo .
+SFX En to-libo im-libo .
 
 SFX Eo Y 9
 SFX Eo os si .
@@ -4775,19 +4779,19 @@ SFX Eo os sami .
 SFX Eo os se .
 
 SFX Ep Y 13
-SFX Ep ylibo olibo .
-SFX Ep ylibo alibo .
-SFX Ep ylibo ogolibo .
-SFX Ep ylibo ulibo .
-SFX Ep ylibo ojlibo .
-SFX Ep ylibo omlibo .
-SFX Ep ylibo omulibo .
-SFX Ep libo mlibo .
-SFX Ep ylibo ojulibo .
-SFX Ep ylibo ilibo .
-SFX Ep ylibo elibo .
-SFX Ep libo hlibo .
-SFX Ep libo milibo .
+SFX Ep y-libo o-libo .
+SFX Ep y-libo a-libo .
+SFX Ep y-libo ogo-libo .
+SFX Ep y-libo u-libo .
+SFX Ep y-libo oj-libo .
+SFX Ep y-libo om-libo .
+SFX Ep y-libo omu-libo .
+SFX Ep -libo m-libo .
+SFX Ep y-libo oju-libo .
+SFX Ep y-libo i-libo .
+SFX Ep y-libo e-libo .
+SFX Ep -libo h-libo .
+SFX Ep -libo mi-libo .
 
 SFX Eq Y 31
 SFX Eq ti l .

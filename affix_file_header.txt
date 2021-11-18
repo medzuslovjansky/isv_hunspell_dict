@@ -1,17 +1,21 @@
 SET UTF-8
 
-TRY ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz
+TRY -ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz
 
 KEY žšertyuiop|asdfghjklě|zčcvbnm
 
+BREAK 1
+BREAK =
+
 FLAG long
 
-REP 8
+REP 9
+REP e y
 REP e ě
 REP i y
 REP y i
-REP e y
 REP y e
 REP l lj
 REP s ss
+REP ě e
 REP ljenje jenje
