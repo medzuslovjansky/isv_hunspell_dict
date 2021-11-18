@@ -84,6 +84,8 @@ else:
             dictionary.append(dictionaryEntry)
             for additionalEntry in additionalDictionaryEntries:
                 dictionary.append({'word': additionalEntry, 'flags': []})
+        else:
+            dictionary.append(dictionaryEntry)
     print(str(len(suffixSchemeLibrary)) + ' suffix schemes')
     print(str(len(dictionary)) + ' dictionary entries')
     # output do .dic file

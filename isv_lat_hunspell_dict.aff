@@ -6,11 +6,15 @@ KEY žšertyuiop|asdfghjklě|zčcvbnm
 
 FLAG long
 
-REP 4
+REP 8
 REP e ě
-REP ě e
 REP i y
 REP y i
+REP e y
+REP y e
+REP l lj
+REP s ss
+REP ljenje jenje
 
 SFX AA Y 31
 SFX AA ti l .
