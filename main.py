@@ -48,6 +48,11 @@ else:
                 if not index == 0:
                     if not formString[0] == baseForm[0]:
                         additionalDictionaryEntries.append(formString)
+                    elif formString in baseForm and not formString == baseForm:
+                        print(baseForm + ' ' + formString)
+                        suffixInstruction = {'delete': baseForm[len(formString):len(baseForm)], 'add': '0', 'condition': '.'}
+                        print(suffixInstruction)
+                        suffixScheme.append(suffixInstruction)
                     else:
                         lengthBaseForm = len(baseForm)
                         delete = ''
