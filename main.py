@@ -1,23 +1,55 @@
-import xml.etree.ElementTree as ET
+import lxml.etree as ET
+import json
 
-flagsLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+OUTPUT_DICTIONARY_NAME = 'isv_lat_hunspell_dict'
+XML_FILE_NAME = 'out_isv_lat.xml'
+ACCEPTABLE_WORD_CHARS = '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz '
+GENERATE_ADDITIONAL_ISV_VERB_DERIVATIVE_WORD_FORMS = True
+ADDITIONAL_ISV_FORMS_FILE_NAME = 'isv_lat_additional_derivative_forms.json'
+AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+
+addSuffixTableList = []
+addSuffixTableVerb = {'baseWordEnding': 'ti', 'list': []}
+addSuffixTableVerb['list'].append({'baseSuffix': 'nje', 'addSuffixes': ['nja', 'nju', 'njem', 'nij', 'njam', 'njami', 'njah']})
+addSuffixTableVerb['list'].append({'baseSuffix': 'uči',
+                       'addSuffixes': ['učego', 'učemu', 'učim', 'učem', 'učih', 'učimi']})
+addSuffixTableVerb['list'].append({'baseSuffix': 'uča',
+                       'addSuffixes': ['uču', 'učej', 'učeju']})
+addSuffixTableVerb['list'].append({'baseSuffix': 'my',
+                       'addSuffixes': ['mogo', 'momu', 'mym', 'mom', 'mo']})
+addSuffixTableVerb['list'].append({'baseSuffix': 'ma',
+                       'addSuffixes': ['mu', 'moj', 'moju', 'mi', 'me', 'myh', 'mym', 'mymi']})
+addSuffixTableVerb['list'].append({'baseSuffix': 'vši',
+                       'addSuffixes': ['všego', 'všemu', 'všim', 'všem', 'vših', 'všimi']})
+addSuffixTableVerb['list'].append({'baseSuffix': 'vša',
+                       'addSuffixes': ['všu', 'všej', 'všeju']})
+addSuffixTableVerb['list'].append({'baseSuffix': 'ny',
+                       'addSuffixes': ['nogo', 'nomu', 'nym', 'nom', 'ni', 'ne', 'nyh', 'nymi']})
+addSuffixTableVerb['list'].append({'baseSuffix': 'na',
+                       'addSuffixes': ['nu', 'noj', 'noju']})
 
 
-def determineLongFlag(number):
+#addSuffixTableAdjective = {}
+
+
+addSuffixTableList.append(addSuffixTableVerb)
+with open(ADDITIONAL_ISV_FORMS_FILE_NAME, 'w', encoding='utf8') as f:
+    print(json.dumps(addSuffixTableList, ensure_ascii=False), file=f)
+
+
+def determine_long_flag(number):
     letterIndex1 = 0
     letterIndex2 = 0
-    while (letterIndex1 * len(flagsLetters) + letterIndex2) < number:
+    while (letterIndex1 * len(AFFIX_FLAG_NAME_CHARACTERS) + letterIndex2) < number:
         letterIndex2 += 1
-        if letterIndex2 >= len(flagsLetters):
+        if letterIndex2 >= len(AFFIX_FLAG_NAME_CHARACTERS):
             letterIndex1 += 1
             letterIndex2 = 0
-        if letterIndex1 >= len(flagsLetters):
+        if letterIndex1 >= len(AFFIX_FLAG_NAME_CHARACTERS):
             raise RuntimeError('Ran out of flags')
-    return flagsLetters[letterIndex1] + flagsLetters[letterIndex2]
+    return AFFIX_FLAG_NAME_CHARACTERS[letterIndex1] + AFFIX_FLAG_NAME_CHARACTERS[letterIndex2]
 
 
-DICTIONARY_NAME = 'isv_lat_hunspell_dict'
-XML_FILE_NAME = 'out_isv_lat.xml'
 with open(XML_FILE_NAME, 'r') as xml_file:
     tree = ET.parse(xml_file)
 root = tree.getroot()
@@ -36,7 +68,7 @@ else:
         for form in lemma:
             formString = form.attrib['t']  # read form
             formString = ''.join(
-                char for char in formString if char in '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz ')
+                char for char in formString if char in ACCEPTABLE_WORD_CHARS)
             if reducedForms.count(formString) == 0 and not formString == '':
                 reducedForms.append(formString)  # only add forms that haven't been added before
         baseForm = ''
@@ -66,9 +98,18 @@ else:
                                 break
                         suffixInstruction = {'delete': delete, 'add': add, 'condition': '.'}
                         if not (suffixInstruction['add'] == '' and suffixInstruction['delete'] == ''):
+                            # in .aff format 'delete no characters' = delete 0
                             if suffixInstruction['delete'] == '':
                                 suffixInstruction['delete'] = '0'
                             suffixScheme.append(suffixInstruction)
+                            # add declination word forms for noun and participle forms of verbs
+                            if GENERATE_ADDITIONAL_ISV_VERB_DERIVATIVE_WORD_FORMS is True:
+                                for suffixTable in addSuffixTableList:
+                                    if baseForm[lengthBaseForm-2:lengthBaseForm] == suffixTable['baseWordEnding']:
+                                        for addSuffixRow in suffixTable['list']:
+                                            if addSuffixRow['baseSuffix'] in suffixInstruction['add']:
+                                                for additionalSuffix in addSuffixRow['addSuffixes']:
+                                                    suffixScheme.append({'delete': delete, 'add': add.replace(addSuffixRow['baseSuffix'], additionalSuffix), 'condition': '.'})
             if suffixScheme not in suffixSchemeLibrary and not suffixScheme == []:
                 suffixSchemeLibrary.append(suffixScheme)
             if suffixScheme in suffixSchemeLibrary:
@@ -92,7 +133,7 @@ else:
     print(str(len(suffixSchemeLibrary)) + ' suffix schemes')
     print(str(len(dictionary)) + ' dictionary entries')
     # output do .dic file
-    with open(DICTIONARY_NAME + '.dic', 'w') as f:
+    with open(OUTPUT_DICTIONARY_NAME + '.dic', 'w') as f:
         print(str(len(dictionary)), file=f)
         for x in range(len(dictionary)):
             entry = dictionary[x]
@@ -100,17 +141,17 @@ else:
             flags = entry['flags']
             for y in range(len(flags)):
                 flagNum = flags[y]
-                combinedFlags += determineLongFlag(flagNum)
+                combinedFlags += determine_long_flag(flagNum)
             if not combinedFlags == '':
                 combinedFlags = '/' + combinedFlags
             print(entry['word'] + combinedFlags, file=f)
     # output to .aff file
-    with open(DICTIONARY_NAME + '.aff', 'w') as f:
+    with open(OUTPUT_DICTIONARY_NAME + '.aff', 'w') as f:
         with open('affix_file_header.txt', 'r') as header:
             print(header.read(), file=f)
             for index, schemeIterate in enumerate(suffixSchemeLibrary):
-                print('SFX ' + determineLongFlag(index) + ' Y ' + str(len(schemeIterate)), file=f)
+                print('SFX ' + determine_long_flag(index) + ' Y ' + str(len(schemeIterate)), file=f)
                 for instructionIterate in schemeIterate:
-                    print('SFX ' + determineLongFlag(index) + ' ' + instructionIterate['delete'] + ' ' +
+                    print('SFX ' + determine_long_flag(index) + ' ' + instructionIterate['delete'] + ' ' +
                           instructionIterate['add'] + ' ' + instructionIterate['condition'], file=f)
                 print('', file=f)
