@@ -7,10 +7,12 @@ OPENCORPORAXML_FILE_NAME = 'out_isv_lat.xml'
 ACCEPTABLE_WORD_CHARS = '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz '
 GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS = True
 MODIFY_SUFFIXES = True
-ADDITIONAL_ISV_FORMS_FILE_NAME = 'isv_lat_additional'
+ADDITIONAL_ISV_FORMS_FILE_NAMES = 'isv_lat_additional'
 AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 AFFIX_FILE_HEADER_NAME = 'affix_file_header.txt'
 SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS = True
+SPECIAL_HANDLING_OF_ISV_NEGATIVE_VERBS = True
+SPECIAL_HANDLING_OF_ISV_ADJECTIVES_WITH_ADVERBS = True
 
 addSuffixTableList = []
 addSuffixTableVerb = {'partOfSpeech': 'VERB', 'list': []}
@@ -45,10 +47,10 @@ suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'ši'
 suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'je', 'modifiedAddForm': 'je/zz'})
 
 
-with open(ADDITIONAL_ISV_FORMS_FILE_NAME + '_derivative_forms.json', 'w', encoding='utf8') as f:
+with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_derivative_forms.json', 'w', encoding='utf8') as f:
     print(json.dumps(addSuffixTableList, indent=1, ensure_ascii=False), file=f)
 
-with open(ADDITIONAL_ISV_FORMS_FILE_NAME + '_modified_suffixes.json', 'w', encoding='utf8') as f:
+with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes.json', 'w', encoding='utf8') as f:
     print(json.dumps(suffixModificationTable, indent=1, ensure_ascii=False), file=f)
 
 def determine_long_flag(number):
@@ -85,14 +87,27 @@ else:
         dictionaryEntry = {'word': '', 'flags': []}
         additionalDictionaryEntries = []
         suffixScheme = []
+        rememberBadAdjectiveAdverbCombination = ''
         for form in lemma:
             formString = form.attrib['t']  # read form
-            if SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS is True:
-                if formString[len(formString)-3:len(formString)] == ' se':
-                    formString = formString[0:len(formString)-3]
-                    print(formString)
             formString = ''.join(
                 char for char in formString if char in ACCEPTABLE_WORD_CHARS)
+            if SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS is True:
+                if formString[len(formString)-3:len(formString)] == ' se' and partOfSpeech == 'VERB':
+                    formString = formString[0:len(formString)-3]
+            if SPECIAL_HANDLING_OF_ISV_NEGATIVE_VERBS is True:
+                if 'ne ' == formString[0:3] and partOfSpeech == 'VERB':
+                    formString = formString [3:len(formString)]
+            if SPECIAL_HANDLING_OF_ISV_ADJECTIVES_WITH_ADVERBS is True:
+                if len(reducedForms) > 0:
+                    if ('o ' + formString) in reducedForms[0]:
+                        rememberBadAdjectiveAdverbCombination = reducedForms[0]
+                        splitWords = reducedForms[0].split()
+                        if len(splitWords) == 2:
+                            additionalDictionaryEntries.append(splitWords[0])
+                            reducedForms[0] = splitWords [1]
+                    if formString == rememberBadAdjectiveAdverbCombination:
+                        formString = ''
             if reducedForms.count(formString) == 0 and not formString == '':
                 reducedForms.append(formString)  # only add forms that haven't been added before
         baseForm = ''
@@ -102,7 +117,7 @@ else:
         if len(reducedForms) > 1:  # if more than 1 form
             for index, formString in enumerate(reducedForms):
                 if not index == 0:
-                    if not formString[0] == baseForm[0]:
+                    if not formString[0] == baseForm[0] and not partOfSpeech == 'ADJF' and not partOfSpeech == 'VERB':
                         additionalDictionaryEntries.append(formString)
                     elif formString in baseForm and not formString == baseForm:
                         suffixInstruction = {'delete': baseForm[len(formString):len(baseForm)], 'add': '0', 'condition': '.'}
@@ -143,17 +158,7 @@ else:
                 suffixSchemeLibrary.append(suffixScheme)
             if suffixScheme in suffixSchemeLibrary:
                 dictionaryEntry['flags'].append(suffixSchemeLibrary.index(suffixScheme))
-            if len(additionalDictionaryEntries) > 0:  # not suffixable -> create separate dictionary entries (on -> jego etc.)
-                if ('o ' + additionalDictionaryEntries[0]) in dictionaryEntry['word']:
-                    splitWords = dictionaryEntry['word'].split()
-                    additionalDictionaryEntries.append(splitWords[0])
-                    dictionaryEntry['word'] = splitWords[1]
-                    try:
-                        additionalDictionaryEntries.remove(dictionaryEntry['word'])
-                    except ValueError:
-                        pass
-                if 'ne ' in dictionaryEntry['word']:
-                    additionalDictionaryEntries = []
+            #if len(additionalDictionaryEntries) > 0:  # not suffixable -> create separate dictionary entries (on -> jego etc.)
             dictionary.append(dictionaryEntry)
             for additionalEntry in additionalDictionaryEntries:
                 dictionary.append({'word': additionalEntry, 'flags': []})
