@@ -10,6 +10,7 @@ MODIFY_SUFFIXES = True
 ADDITIONAL_ISV_FORMS_FILE_NAME = 'isv_lat_additional'
 AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 AFFIX_FILE_HEADER_NAME = 'affix_file_header.txt'
+SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS = True
 
 addSuffixTableList = []
 addSuffixTableVerb = {'partOfSpeech': 'VERB', 'list': []}
@@ -75,6 +76,7 @@ else:
     counter = 0
     for lemma in lemmata:
         partOfSpeech = ''
+        # part of speech attributes are capitalised in OpenCorporaXML format, no others are
         for baseFormAttribContainer in lemma[0]:
             partOfSpeech = baseFormAttribContainer.attrib['v']
             if partOfSpeech.isupper():
@@ -85,6 +87,10 @@ else:
         suffixScheme = []
         for form in lemma:
             formString = form.attrib['t']  # read form
+            if SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS is True:
+                if formString[len(formString)-3:len(formString)] == ' se':
+                    formString = formString[0:len(formString)-3]
+                    print(formString)
             formString = ''.join(
                 char for char in formString if char in ACCEPTABLE_WORD_CHARS)
             if reducedForms.count(formString) == 0 and not formString == '':
