@@ -1,1 +1,123 @@
-[{"baseWordEnding": "ti", "list": [{"baseSuffix": "nje", "addSuffixes": ["nja", "nju", "njem", "nij", "njam", "njami", "njah"]}, {"baseSuffix": "uči", "addSuffixes": ["učego", "učemu", "učim", "učem", "učih", "učimi"]}, {"baseSuffix": "uča", "addSuffixes": ["uču", "učej", "učeju"]}, {"baseSuffix": "my", "addSuffixes": ["mogo", "momu", "mym", "mom", "mo"]}, {"baseSuffix": "ma", "addSuffixes": ["mu", "moj", "moju", "mi", "me", "myh", "mym", "mymi"]}, {"baseSuffix": "vši", "addSuffixes": ["všego", "všemu", "všim", "všem", "vših", "všimi"]}, {"baseSuffix": "vša", "addSuffixes": ["všu", "všej", "všeju"]}, {"baseSuffix": "ny", "addSuffixes": ["nogo", "nomu", "nym", "nom", "ni", "ne", "nyh", "nymi"]}, {"baseSuffix": "na", "addSuffixes": ["nu", "noj", "noju"]}]}]
+[
+ {
+  "partOfSpeech": "VERB",
+  "list": [
+   {
+    "baseSuffix": "nje",
+    "addSuffixes": [
+     "nja",
+     "nju",
+     "njem",
+     "nij",
+     "njam",
+     "njami",
+     "njah"
+    ]
+   },
+   {
+    "baseSuffix": "uči",
+    "addSuffixes": [
+     "učego",
+     "učemu",
+     "učim",
+     "učem",
+     "učih",
+     "učimi"
+    ]
+   },
+   {
+    "baseSuffix": "uča",
+    "addSuffixes": [
+     "uču",
+     "učej",
+     "učeju"
+    ]
+   },
+   {
+    "baseSuffix": "my",
+    "addSuffixes": [
+     "mogo",
+     "momu",
+     "mym",
+     "mom",
+     "mo"
+    ]
+   },
+   {
+    "baseSuffix": "ma",
+    "addSuffixes": [
+     "mu",
+     "moj",
+     "moju",
+     "mi",
+     "me",
+     "myh",
+     "mym",
+     "mymi"
+    ]
+   },
+   {
+    "baseSuffix": "vši",
+    "addSuffixes": [
+     "všego",
+     "všemu",
+     "všim",
+     "všem",
+     "vših",
+     "všimi"
+    ]
+   },
+   {
+    "baseSuffix": "vša",
+    "addSuffixes": [
+     "všu",
+     "všej",
+     "všeju"
+    ]
+   },
+   {
+    "baseSuffix": "ny",
+    "addSuffixes": [
+     "nogo",
+     "nomu",
+     "nym",
+     "nom",
+     "ni",
+     "ne",
+     "nyh",
+     "nymi"
+    ]
+   },
+   {
+    "baseSuffix": "na",
+    "addSuffixes": [
+     "nu",
+     "noj",
+     "noju"
+    ]
+   }
+  ]
+ },
+ {
+  "partOfSpeech": "ADJF",
+  "list": [
+   {
+    "baseSuffix": "ši",
+    "addSuffixes": [
+     "šego",
+     "šemu",
+     "šim",
+     "šem",
+     "še",
+     "ša",
+     "šu",
+     "šej",
+     "šeju",
+     "ših",
+     "šim",
+     "šimi"
+    ]
+   }
+  ]
+ }
+]

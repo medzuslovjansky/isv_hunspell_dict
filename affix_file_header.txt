@@ -19,3 +19,6 @@ REP l lj
 REP s ss
 REP ě e
 REP ljenje jenje
+
+PFX zz Y 1
+PFX zz 0 naj .

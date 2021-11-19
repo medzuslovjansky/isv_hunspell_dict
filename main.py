@@ -1,15 +1,18 @@
 import lxml.etree as ET
 import json
 
+# OPTIONS:
 OUTPUT_DICTIONARY_NAME = 'isv_lat_hunspell_dict'
-XML_FILE_NAME = 'out_isv_lat.xml'
+OPENCORPORAXML_FILE_NAME = 'out_isv_lat.xml'
 ACCEPTABLE_WORD_CHARS = '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz '
-GENERATE_ADDITIONAL_ISV_VERB_DERIVATIVE_WORD_FORMS = True
-ADDITIONAL_ISV_FORMS_FILE_NAME = 'isv_lat_additional_derivative_forms.json'
+GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS = True
+MODIFY_SUFFIXES = True
+ADDITIONAL_ISV_FORMS_FILE_NAME = 'isv_lat_additional'
 AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+AFFIX_FILE_HEADER_NAME = 'affix_file_header.txt'
 
 addSuffixTableList = []
-addSuffixTableVerb = {'baseWordEnding': 'ti', 'list': []}
+addSuffixTableVerb = {'partOfSpeech': 'VERB', 'list': []}
 addSuffixTableVerb['list'].append({'baseSuffix': 'nje', 'addSuffixes': ['nja', 'nju', 'njem', 'nij', 'njam', 'njami', 'njah']})
 addSuffixTableVerb['list'].append({'baseSuffix': 'uči',
                        'addSuffixes': ['učego', 'učemu', 'učim', 'učem', 'učih', 'učimi']})
@@ -29,13 +32,23 @@ addSuffixTableVerb['list'].append({'baseSuffix': 'na',
                        'addSuffixes': ['nu', 'noj', 'noju']})
 
 
-#addSuffixTableAdjective = {}
-
+addSuffixTableAdjective = {'partOfSpeech': 'ADJF', 'list': []}
+addSuffixTableAdjective['list'].append({'baseSuffix': 'ši',
+                       'addSuffixes': ['šego', 'šemu', 'šim', 'šem', 'še', 'ša', 'šu', 'šej', 'šeju', 'ših', 'šim', 'šimi']})
 
 addSuffixTableList.append(addSuffixTableVerb)
-with open(ADDITIONAL_ISV_FORMS_FILE_NAME, 'w', encoding='utf8') as f:
-    print(json.dumps(addSuffixTableList, ensure_ascii=False), file=f)
+addSuffixTableList.append(addSuffixTableAdjective)
 
+suffixModificationTable = []
+suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'ši', 'modifiedAddForm': 'ši/zz'})
+suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'je', 'modifiedAddForm': 'je/zz'})
+
+
+with open(ADDITIONAL_ISV_FORMS_FILE_NAME + '_derivative_forms.json', 'w', encoding='utf8') as f:
+    print(json.dumps(addSuffixTableList, indent=1, ensure_ascii=False), file=f)
+
+with open(ADDITIONAL_ISV_FORMS_FILE_NAME + '_modified_suffixes.json', 'w', encoding='utf8') as f:
+    print(json.dumps(suffixModificationTable, indent=1, ensure_ascii=False), file=f)
 
 def determine_long_flag(number):
     letterIndex1 = 0
@@ -50,7 +63,7 @@ def determine_long_flag(number):
     return AFFIX_FLAG_NAME_CHARACTERS[letterIndex1] + AFFIX_FLAG_NAME_CHARACTERS[letterIndex2]
 
 
-with open(XML_FILE_NAME, 'r') as xml_file:
+with open(OPENCORPORAXML_FILE_NAME, 'r') as xml_file:
     tree = ET.parse(xml_file)
 root = tree.getroot()
 lemmata = root[1]
@@ -61,6 +74,11 @@ if not lemmata.tag == 'lemmata':
 else:
     counter = 0
     for lemma in lemmata:
+        partOfSpeech = ''
+        for baseFormAttribContainer in lemma[0]:
+            partOfSpeech = baseFormAttribContainer.attrib['v']
+            if partOfSpeech.isupper():
+                break
         reducedForms = []
         dictionaryEntry = {'word': '', 'flags': []}
         additionalDictionaryEntries = []
@@ -101,11 +119,16 @@ else:
                             # in .aff format 'delete no characters' = delete 0
                             if suffixInstruction['delete'] == '':
                                 suffixInstruction['delete'] = '0'
+                            # !! suffix modifications happen before generation of additional forms
+                            if MODIFY_SUFFIXES is True:
+                                for sufMod in suffixModificationTable:
+                                    if partOfSpeech == sufMod['partOfSpeech'] and sufMod['addFormContains'] in suffixInstruction['add']:
+                                        suffixInstruction['add'] = suffixInstruction['add'].replace(sufMod['addFormContains'], sufMod['modifiedAddForm'])
                             suffixScheme.append(suffixInstruction)
-                            # add declination word forms for noun and participle forms of verbs
-                            if GENERATE_ADDITIONAL_ISV_VERB_DERIVATIVE_WORD_FORMS is True:
+                            # add declination word forms for noun and participle forms of verbs and comparative forms of adjectives and adverbs
+                            if GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS is True:
                                 for suffixTable in addSuffixTableList:
-                                    if baseForm[lengthBaseForm-2:lengthBaseForm] == suffixTable['baseWordEnding']:
+                                    if partOfSpeech == suffixTable['partOfSpeech']:
                                         for addSuffixRow in suffixTable['list']:
                                             if addSuffixRow['baseSuffix'] in suffixInstruction['add']:
                                                 for additionalSuffix in addSuffixRow['addSuffixes']:
@@ -147,7 +170,7 @@ else:
             print(entry['word'] + combinedFlags, file=f)
     # output to .aff file
     with open(OUTPUT_DICTIONARY_NAME + '.aff', 'w') as f:
-        with open('affix_file_header.txt', 'r') as header:
+        with open(AFFIX_FILE_HEADER_NAME, 'r') as header:
             print(header.read(), file=f)
             for index, schemeIterate in enumerate(suffixSchemeLibrary):
                 print('SFX ' + determine_long_flag(index) + ' Y ' + str(len(schemeIterate)), file=f)
