@@ -117,7 +117,7 @@ else:
         if len(reducedForms) > 1:  # if more than 1 form
             for index, formString in enumerate(reducedForms):
                 if not index == 0:
-                    if not formString[0] == baseForm[0] and not partOfSpeech == 'ADJF' and not partOfSpeech == 'VERB':
+                    if not formString[0] == baseForm[0] and not partOfSpeech == 'ADJF':
                         additionalDictionaryEntries.append(formString)
                     elif formString in baseForm and not formString == baseForm:
                         suffixInstruction = {'delete': baseForm[len(formString):len(baseForm)], 'add': '0', 'condition': '.'}
