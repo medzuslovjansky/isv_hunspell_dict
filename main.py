@@ -140,11 +140,13 @@ else:
                             # in .aff format 'delete no characters' = delete 0
                             if suffixInstruction['delete'] == '':
                                 suffixInstruction['delete'] = '0'
+                                delete = suffixInstruction['delete']
                             # !! suffix modifications happen before generation of additional forms
                             if MODIFY_SUFFIXES is True:
                                 for sufMod in suffixModificationTable:
                                     if partOfSpeech == sufMod['partOfSpeech'] and sufMod['addFormContains'] in suffixInstruction['add']:
                                         suffixInstruction['add'] = suffixInstruction['add'].replace(sufMod['addFormContains'], sufMod['modifiedAddForm'])
+                                        add = suffixInstruction['add']
                             suffixScheme.append(suffixInstruction)
                             # add declination word forms for noun and participle forms of verbs and comparative forms of adjectives and adverbs
                             if GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS is True:

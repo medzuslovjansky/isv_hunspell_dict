@@ -137,18 +137,18 @@ SFX AD y e .
 SFX AD 0 h .
 SFX AD 0 mi .
 SFX AD ky ši/zz .
-SFX AD ky šego .
-SFX AD ky šemu .
-SFX AD ky šim .
-SFX AD ky šem .
-SFX AD ky še .
-SFX AD ky ša .
-SFX AD ky šu .
-SFX AD ky šej .
-SFX AD ky šeju .
-SFX AD ky ših .
-SFX AD ky šim .
-SFX AD ky šimi .
+SFX AD ky šego/zz .
+SFX AD ky šemu/zz .
+SFX AD ky šim/zz .
+SFX AD ky šem/zz .
+SFX AD ky še/zz .
+SFX AD ky ša/zz .
+SFX AD ky šu/zz .
+SFX AD ky šej/zz .
+SFX AD ky šeju/zz .
+SFX AD ky ših/zz .
+SFX AD ky šim/zz .
+SFX AD ky šimi/zz .
 SFX AD ky je/zz .
 
 SFX AE Y 27
@@ -166,18 +166,18 @@ SFX AE y e .
 SFX AE 0 h .
 SFX AE 0 mi .
 SFX AE liky čši/zz .
-SFX AE liky čšego .
-SFX AE liky čšemu .
-SFX AE liky čšim .
-SFX AE liky čšem .
-SFX AE liky čše .
-SFX AE liky čša .
-SFX AE liky čšu .
-SFX AE liky čšej .
-SFX AE liky čšeju .
-SFX AE liky čših .
-SFX AE liky čšim .
-SFX AE liky čšimi .
+SFX AE liky čšego/zz .
+SFX AE liky čšemu/zz .
+SFX AE liky čšim/zz .
+SFX AE liky čšem/zz .
+SFX AE liky čše/zz .
+SFX AE liky čša/zz .
+SFX AE liky čšu/zz .
+SFX AE liky čšej/zz .
+SFX AE liky čšeju/zz .
+SFX AE liky čših/zz .
+SFX AE liky čšim/zz .
+SFX AE liky čšimi/zz .
 SFX AE liky če .
 
 SFX AF Y 99
@@ -555,18 +555,18 @@ SFX AO y e .
 SFX AO 0 h .
 SFX AO 0 mi .
 SFX AO y ějši/zz .
-SFX AO y ějšego .
-SFX AO y ějšemu .
-SFX AO y ějšim .
-SFX AO y ějšem .
-SFX AO y ějše .
-SFX AO y ějša .
-SFX AO y ějšu .
-SFX AO y ějšej .
-SFX AO y ějšeju .
-SFX AO y ějših .
-SFX AO y ějšim .
-SFX AO y ějšimi .
+SFX AO y ějšego/zz .
+SFX AO y ějšemu/zz .
+SFX AO y ějšim/zz .
+SFX AO y ějšem/zz .
+SFX AO y ějše/zz .
+SFX AO y ějša/zz .
+SFX AO y ějšu/zz .
+SFX AO y ějšej/zz .
+SFX AO y ějšeju/zz .
+SFX AO y ějših/zz .
+SFX AO y ějšim/zz .
+SFX AO y ějšimi/zz .
 SFX AO y ěje/zz .
 
 SFX AP Y 9
@@ -779,18 +779,18 @@ SFX AY y e .
 SFX AY 0 h .
 SFX AY 0 mi .
 SFX AY ky ši/zz .
-SFX AY ky šego .
-SFX AY ky šemu .
-SFX AY ky šim .
-SFX AY ky šem .
-SFX AY ky še .
-SFX AY ky ša .
-SFX AY ky šu .
-SFX AY ky šej .
-SFX AY ky šeju .
-SFX AY ky ših .
-SFX AY ky šim .
-SFX AY ky šimi .
+SFX AY ky šego/zz .
+SFX AY ky šemu/zz .
+SFX AY ky šim/zz .
+SFX AY ky šem/zz .
+SFX AY ky še/zz .
+SFX AY ky ša/zz .
+SFX AY ky šu/zz .
+SFX AY ky šej/zz .
+SFX AY ky šeju/zz .
+SFX AY ky ših/zz .
+SFX AY ky šim/zz .
+SFX AY ky šimi/zz .
 SFX AY zky že .
 
 SFX AZ Y 4
@@ -1233,18 +1233,18 @@ SFX At y e .
 SFX At 0 h .
 SFX At 0 mi .
 SFX At oky ši/zz .
-SFX At oky šego .
-SFX At oky šemu .
-SFX At oky šim .
-SFX At oky šem .
-SFX At oky še .
-SFX At oky ša .
-SFX At oky šu .
-SFX At oky šej .
-SFX At oky šeju .
-SFX At oky ših .
-SFX At oky šim .
-SFX At oky šimi .
+SFX At oky šego/zz .
+SFX At oky šemu/zz .
+SFX At oky šim/zz .
+SFX At oky šem/zz .
+SFX At oky še/zz .
+SFX At oky ša/zz .
+SFX At oky šu/zz .
+SFX At oky šej/zz .
+SFX At oky šeju/zz .
+SFX At oky ših/zz .
+SFX At oky šim/zz .
+SFX At oky šimi/zz .
 SFX At oky je/zz .
 
 SFX Au Y 8
@@ -1868,18 +1868,18 @@ SFX BQ i eju .
 SFX BQ 0 h .
 SFX BQ 0 mi .
 SFX BQ i ejši/zz .
-SFX BQ i ejšego .
-SFX BQ i ejšemu .
-SFX BQ i ejšim .
-SFX BQ i ejšem .
-SFX BQ i ejše .
-SFX BQ i ejša .
-SFX BQ i ejšu .
-SFX BQ i ejšej .
-SFX BQ i ejšeju .
-SFX BQ i ejših .
-SFX BQ i ejšim .
-SFX BQ i ejšimi .
+SFX BQ i ejšego/zz .
+SFX BQ i ejšemu/zz .
+SFX BQ i ejšim/zz .
+SFX BQ i ejšem/zz .
+SFX BQ i ejše/zz .
+SFX BQ i ejša/zz .
+SFX BQ i ejšu/zz .
+SFX BQ i ejšej/zz .
+SFX BQ i ejšeju/zz .
+SFX BQ i ejših/zz .
+SFX BQ i ejšim/zz .
+SFX BQ i ejšimi/zz .
 SFX BQ i eje/zz .
 
 SFX BR Y 68
@@ -1978,18 +1978,18 @@ SFX BT y e .
 SFX BT 0 h .
 SFX BT 0 mi .
 SFX BT oky ši/zz .
-SFX BT oky šego .
-SFX BT oky šemu .
-SFX BT oky šim .
-SFX BT oky šem .
-SFX BT oky še .
-SFX BT oky ša .
-SFX BT oky šu .
-SFX BT oky šej .
-SFX BT oky šeju .
-SFX BT oky ših .
-SFX BT oky šim .
-SFX BT oky šimi .
+SFX BT oky šego/zz .
+SFX BT oky šemu/zz .
+SFX BT oky šim/zz .
+SFX BT oky šem/zz .
+SFX BT oky še/zz .
+SFX BT oky ša/zz .
+SFX BT oky šu/zz .
+SFX BT oky šej/zz .
+SFX BT oky šeju/zz .
+SFX BT oky ših/zz .
+SFX BT oky šim/zz .
+SFX BT oky šimi/zz .
 SFX BT soky še .
 
 SFX BU Y 80
@@ -2171,18 +2171,18 @@ SFX BW y e .
 SFX BW 0 h .
 SFX BW 0 mi .
 SFX BW gy žějši/zz .
-SFX BW gy žějšego .
-SFX BW gy žějšemu .
-SFX BW gy žějšim .
-SFX BW gy žějšem .
-SFX BW gy žějše .
-SFX BW gy žějša .
-SFX BW gy žějšu .
-SFX BW gy žějšej .
-SFX BW gy žějšeju .
-SFX BW gy žějših .
-SFX BW gy žějšim .
-SFX BW gy žějšimi .
+SFX BW gy žějšego/zz .
+SFX BW gy žějšemu/zz .
+SFX BW gy žějšim/zz .
+SFX BW gy žějšem/zz .
+SFX BW gy žějše/zz .
+SFX BW gy žějša/zz .
+SFX BW gy žějšu/zz .
+SFX BW gy žějšej/zz .
+SFX BW gy žějšeju/zz .
+SFX BW gy žějših/zz .
+SFX BW gy žějšim/zz .
+SFX BW gy žějšimi/zz .
 SFX BW gy žeje/zz .
 
 SFX BX Y 9
@@ -2306,18 +2306,18 @@ SFX Ba y e .
 SFX Ba 0 h .
 SFX Ba 0 mi .
 SFX Ba ky ši/zz .
-SFX Ba ky šego .
-SFX Ba ky šemu .
-SFX Ba ky šim .
-SFX Ba ky šem .
-SFX Ba ky še .
-SFX Ba ky ša .
-SFX Ba ky šu .
-SFX Ba ky šej .
-SFX Ba ky šeju .
-SFX Ba ky ših .
-SFX Ba ky šim .
-SFX Ba ky šimi .
+SFX Ba ky šego/zz .
+SFX Ba ky šemu/zz .
+SFX Ba ky šim/zz .
+SFX Ba ky šem/zz .
+SFX Ba ky še/zz .
+SFX Ba ky ša/zz .
+SFX Ba ky šu/zz .
+SFX Ba ky šej/zz .
+SFX Ba ky šeju/zz .
+SFX Ba ky ših/zz .
+SFX Ba ky šim/zz .
+SFX Ba ky šimi/zz .
 SFX Ba ky že .
 
 SFX Bb Y 4
@@ -2533,18 +2533,18 @@ SFX Bj y e .
 SFX Bj 0 h .
 SFX Bj 0 mi .
 SFX Bj ky ši/zz .
-SFX Bj ky šego .
-SFX Bj ky šemu .
-SFX Bj ky šim .
-SFX Bj ky šem .
-SFX Bj ky še .
-SFX Bj ky ša .
-SFX Bj ky šu .
-SFX Bj ky šej .
-SFX Bj ky šeju .
-SFX Bj ky ših .
-SFX Bj ky šim .
-SFX Bj ky šimi .
+SFX Bj ky šego/zz .
+SFX Bj ky šemu/zz .
+SFX Bj ky šim/zz .
+SFX Bj ky šem/zz .
+SFX Bj ky še/zz .
+SFX Bj ky ša/zz .
+SFX Bj ky šu/zz .
+SFX Bj ky šej/zz .
+SFX Bj ky šeju/zz .
+SFX Bj ky ših/zz .
+SFX Bj ky šim/zz .
+SFX Bj ky šimi/zz .
 SFX Bj ky še .
 
 SFX Bk Y 68
@@ -3066,18 +3066,18 @@ SFX Bu y e .
 SFX Bu 0 h .
 SFX Bu 0 mi .
 SFX Bu eky ši/zz .
-SFX Bu eky šego .
-SFX Bu eky šemu .
-SFX Bu eky šim .
-SFX Bu eky šem .
-SFX Bu eky še .
-SFX Bu eky ša .
-SFX Bu eky šu .
-SFX Bu eky šej .
-SFX Bu eky šeju .
-SFX Bu eky ših .
-SFX Bu eky šim .
-SFX Bu eky šimi .
+SFX Bu eky šego/zz .
+SFX Bu eky šemu/zz .
+SFX Bu eky šim/zz .
+SFX Bu eky šem/zz .
+SFX Bu eky še/zz .
+SFX Bu eky ša/zz .
+SFX Bu eky šu/zz .
+SFX Bu eky šej/zz .
+SFX Bu eky šeju/zz .
+SFX Bu eky ših/zz .
+SFX Bu eky šim/zz .
+SFX Bu eky šimi/zz .
 SFX Bu eky je/zz .
 
 SFX Bv Y 59
@@ -3228,18 +3228,18 @@ SFX By yše veliky elike .
 SFX By yše veliky elikyh .
 SFX By yše veliky elikymi .
 SFX By yše veliky ečši/zz .
-SFX By yše veliky ečšego .
-SFX By yše veliky ečšemu .
-SFX By yše veliky ečšim .
-SFX By yše veliky ečšem .
-SFX By yše veliky ečše .
-SFX By yše veliky ečša .
-SFX By yše veliky ečšu .
-SFX By yše veliky ečšej .
-SFX By yše veliky ečšeju .
-SFX By yše veliky ečših .
-SFX By yše veliky ečšim .
-SFX By yše veliky ečšimi .
+SFX By yše veliky ečšego/zz .
+SFX By yše veliky ečšemu/zz .
+SFX By yše veliky ečšim/zz .
+SFX By yše veliky ečšem/zz .
+SFX By yše veliky ečše/zz .
+SFX By yše veliky ečša/zz .
+SFX By yše veliky ečšu/zz .
+SFX By yše veliky ečšej/zz .
+SFX By yše veliky ečšeju/zz .
+SFX By yše veliky ečših/zz .
+SFX By yše veliky ečšim/zz .
+SFX By yše veliky ečšimi/zz .
 SFX By yše veliky eče .
 
 SFX Bz Y 71
@@ -3716,18 +3716,18 @@ SFX CN y e .
 SFX CN 0 h .
 SFX CN 0 mi .
 SFX CN ky čějši/zz .
-SFX CN ky čějšego .
-SFX CN ky čějšemu .
-SFX CN ky čějšim .
-SFX CN ky čějšem .
-SFX CN ky čějše .
-SFX CN ky čějša .
-SFX CN ky čějšu .
-SFX CN ky čějšej .
-SFX CN ky čějšeju .
-SFX CN ky čějših .
-SFX CN ky čějšim .
-SFX CN ky čějšimi .
+SFX CN ky čějšego/zz .
+SFX CN ky čějšemu/zz .
+SFX CN ky čějšim/zz .
+SFX CN ky čějšem/zz .
+SFX CN ky čějše/zz .
+SFX CN ky čějša/zz .
+SFX CN ky čějšu/zz .
+SFX CN ky čějšej/zz .
+SFX CN ky čějšeju/zz .
+SFX CN ky čějših/zz .
+SFX CN ky čějšim/zz .
+SFX CN ky čějšimi/zz .
 SFX CN ky čeje/zz .
 
 SFX CO Y 80
@@ -4033,18 +4033,18 @@ SFX CX y e .
 SFX CX 0 h .
 SFX CX 0 mi .
 SFX CX hy šějši/zz .
-SFX CX hy šějšego .
-SFX CX hy šějšemu .
-SFX CX hy šějšim .
-SFX CX hy šějšem .
-SFX CX hy šějše .
-SFX CX hy šějša .
-SFX CX hy šějšu .
-SFX CX hy šějšej .
-SFX CX hy šějšeju .
-SFX CX hy šějših .
-SFX CX hy šějšim .
-SFX CX hy šějšimi .
+SFX CX hy šějšego/zz .
+SFX CX hy šějšemu/zz .
+SFX CX hy šějšim/zz .
+SFX CX hy šějšem/zz .
+SFX CX hy šějše/zz .
+SFX CX hy šějša/zz .
+SFX CX hy šějšu/zz .
+SFX CX hy šějšej/zz .
+SFX CX hy šějšeju/zz .
+SFX CX hy šějših/zz .
+SFX CX hy šějšim/zz .
+SFX CX hy šějšimi/zz .
 SFX CX hy šeje/zz .
 
 SFX CY Y 80
@@ -5803,18 +5803,18 @@ SFX Da y e .
 SFX Da 0 h .
 SFX Da 0 mi .
 SFX Da ky ši/zz .
-SFX Da ky šego .
-SFX Da ky šemu .
-SFX Da ky šim .
-SFX Da ky šem .
-SFX Da ky še .
-SFX Da ky ša .
-SFX Da ky šu .
-SFX Da ky šej .
-SFX Da ky šeju .
-SFX Da ky ših .
-SFX Da ky šim .
-SFX Da ky šimi .
+SFX Da ky šego/zz .
+SFX Da ky šemu/zz .
+SFX Da ky šim/zz .
+SFX Da ky šem/zz .
+SFX Da ky še/zz .
+SFX Da ky ša/zz .
+SFX Da ky šu/zz .
+SFX Da ky šej/zz .
+SFX Da ky šeju/zz .
+SFX Da ky ših/zz .
+SFX Da ky šim/zz .
+SFX Da ky šimi/zz .
 SFX Da tky če .
 
 SFX Db Y 9
@@ -5925,18 +5925,18 @@ SFX Dd y e .
 SFX Dd 0 h .
 SFX Dd 0 mi .
 SFX Dd aly enši/zz .
-SFX Dd aly enšego .
-SFX Dd aly enšemu .
-SFX Dd aly enšim .
-SFX Dd aly enšem .
-SFX Dd aly enše .
-SFX Dd aly enša .
-SFX Dd aly enšu .
-SFX Dd aly enšej .
-SFX Dd aly enšeju .
-SFX Dd aly enših .
-SFX Dd aly enšim .
-SFX Dd aly enšimi .
+SFX Dd aly enšego/zz .
+SFX Dd aly enšemu/zz .
+SFX Dd aly enšim/zz .
+SFX Dd aly enšem/zz .
+SFX Dd aly enše/zz .
+SFX Dd aly enša/zz .
+SFX Dd aly enšu/zz .
+SFX Dd aly enšej/zz .
+SFX Dd aly enšeju/zz .
+SFX Dd aly enših/zz .
+SFX Dd aly enšim/zz .
+SFX Dd aly enšimi/zz .
 SFX Dd aly enje/zz .
 
 SFX De Y 13
@@ -6247,18 +6247,18 @@ SFX Dl y e .
 SFX Dl 0 h .
 SFX Dl 0 mi .
 SFX Dl zly gorši/zz .
-SFX Dl zly goršego .
-SFX Dl zly goršemu .
-SFX Dl zly goršim .
-SFX Dl zly goršem .
-SFX Dl zly gorše .
-SFX Dl zly gorša .
-SFX Dl zly goršu .
-SFX Dl zly goršej .
-SFX Dl zly goršeju .
-SFX Dl zly gorših .
-SFX Dl zly goršim .
-SFX Dl zly goršimi .
+SFX Dl zly goršego/zz .
+SFX Dl zly goršemu/zz .
+SFX Dl zly goršim/zz .
+SFX Dl zly goršem/zz .
+SFX Dl zly gorše/zz .
+SFX Dl zly gorša/zz .
+SFX Dl zly goršu/zz .
+SFX Dl zly goršej/zz .
+SFX Dl zly goršeju/zz .
+SFX Dl zly gorših/zz .
+SFX Dl zly goršim/zz .
+SFX Dl zly goršimi/zz .
 SFX Dl zly gorje/zz .
 
 SFX Dm Y 81
@@ -7005,18 +7005,18 @@ SFX EG en ne .
 SFX EG en nyh .
 SFX EG en nymi .
 SFX EG en nějši/zz .
-SFX EG en nějšego .
-SFX EG en nějšemu .
-SFX EG en nějšim .
-SFX EG en nějšem .
-SFX EG en nějše .
-SFX EG en nějša .
-SFX EG en nějšu .
-SFX EG en nějšej .
-SFX EG en nějšeju .
-SFX EG en nějših .
-SFX EG en nějšim .
-SFX EG en nějšimi .
+SFX EG en nějšego/zz .
+SFX EG en nějšemu/zz .
+SFX EG en nějšim/zz .
+SFX EG en nějšem/zz .
+SFX EG en nějše/zz .
+SFX EG en nějša/zz .
+SFX EG en nějšu/zz .
+SFX EG en nějšej/zz .
+SFX EG en nějšeju/zz .
+SFX EG en nějših/zz .
+SFX EG en nějšim/zz .
+SFX EG en nějšimi/zz .
 SFX EG en něje/zz .
 
 SFX EH Y 13
@@ -7092,18 +7092,18 @@ SFX EN y od e .
 SFX EN  od h .
 SFX EN  od mi .
 SFX EN y od ějši/zz .
-SFX EN y od ějšego .
-SFX EN y od ějšemu .
-SFX EN y od ějšim .
-SFX EN y od ějšem .
-SFX EN y od ějše .
-SFX EN y od ějša .
-SFX EN y od ějšu .
-SFX EN y od ějšej .
-SFX EN y od ějšeju .
-SFX EN y od ějših .
-SFX EN y od ějšim .
-SFX EN y od ějšimi .
+SFX EN y od ějšego/zz .
+SFX EN y od ějšemu/zz .
+SFX EN y od ějšim/zz .
+SFX EN y od ějšem/zz .
+SFX EN y od ějše/zz .
+SFX EN y od ějša/zz .
+SFX EN y od ějšu/zz .
+SFX EN y od ějšej/zz .
+SFX EN y od ějšeju/zz .
+SFX EN y od ějših/zz .
+SFX EN y od ějšim/zz .
+SFX EN y od ějšimi/zz .
 SFX EN y od ěje/zz .
 
 SFX EO Y 7
@@ -7559,18 +7559,18 @@ SFX Ee y e .
 SFX Ee 0 h .
 SFX Ee 0 mi .
 SFX Ee mnogy bolši/zz .
-SFX Ee mnogy bolšego .
-SFX Ee mnogy bolšemu .
-SFX Ee mnogy bolšim .
-SFX Ee mnogy bolšem .
-SFX Ee mnogy bolše .
-SFX Ee mnogy bolša .
-SFX Ee mnogy bolšu .
-SFX Ee mnogy bolšej .
-SFX Ee mnogy bolšeju .
-SFX Ee mnogy bolših .
-SFX Ee mnogy bolšim .
-SFX Ee mnogy bolšimi .
+SFX Ee mnogy bolšego/zz .
+SFX Ee mnogy bolšemu/zz .
+SFX Ee mnogy bolšim/zz .
+SFX Ee mnogy bolšem/zz .
+SFX Ee mnogy bolše/zz .
+SFX Ee mnogy bolša/zz .
+SFX Ee mnogy bolšu/zz .
+SFX Ee mnogy bolšej/zz .
+SFX Ee mnogy bolšeju/zz .
+SFX Ee mnogy bolših/zz .
+SFX Ee mnogy bolšim/zz .
+SFX Ee mnogy bolšimi/zz .
 SFX Ee mnogy bolje/zz .
 
 SFX Ef Y 7
@@ -7598,18 +7598,18 @@ SFX Eg y na e .
 SFX Eg  na h .
 SFX Eg  na mi .
 SFX Eg y na ějši/zz .
-SFX Eg y na ějšego .
-SFX Eg y na ějšemu .
-SFX Eg y na ějšim .
-SFX Eg y na ějšem .
-SFX Eg y na ějše .
-SFX Eg y na ějša .
-SFX Eg y na ějšu .
-SFX Eg y na ějšej .
-SFX Eg y na ějšeju .
-SFX Eg y na ějših .
-SFX Eg y na ějšim .
-SFX Eg y na ějšimi .
+SFX Eg y na ějšego/zz .
+SFX Eg y na ějšemu/zz .
+SFX Eg y na ějšim/zz .
+SFX Eg y na ějšem/zz .
+SFX Eg y na ějše/zz .
+SFX Eg y na ějša/zz .
+SFX Eg y na ějšu/zz .
+SFX Eg y na ějšej/zz .
+SFX Eg y na ějšeju/zz .
+SFX Eg y na ějših/zz .
+SFX Eg y na ějšim/zz .
+SFX Eg y na ějšimi/zz .
 SFX Eg y na ěje/zz .
 
 SFX Eh Y 28
@@ -7628,18 +7628,18 @@ SFX Eh y za e .
 SFX Eh  za h .
 SFX Eh  za mi .
 SFX Eh y za ějši/zz .
-SFX Eh y za ějšego .
-SFX Eh y za ějšemu .
-SFX Eh y za ějšim .
-SFX Eh y za ějšem .
-SFX Eh y za ějše .
-SFX Eh y za ějša .
-SFX Eh y za ějšu .
-SFX Eh y za ějšej .
-SFX Eh y za ějšeju .
-SFX Eh y za ějših .
-SFX Eh y za ějšim .
-SFX Eh y za ějšimi .
+SFX Eh y za ějšego/zz .
+SFX Eh y za ějšemu/zz .
+SFX Eh y za ějšim/zz .
+SFX Eh y za ějšem/zz .
+SFX Eh y za ějše/zz .
+SFX Eh y za ějša/zz .
+SFX Eh y za ějšu/zz .
+SFX Eh y za ějšej/zz .
+SFX Eh y za ějšeju/zz .
+SFX Eh y za ějših/zz .
+SFX Eh y za ějšim/zz .
+SFX Eh y za ějšimi/zz .
 SFX Eh y za ěje/zz .
 
 SFX Ei Y 27
@@ -7657,18 +7657,18 @@ SFX Ei y e .
 SFX Ei 0 h .
 SFX Ei 0 mi .
 SFX Ei gky žši/zz .
-SFX Ei gky žšego .
-SFX Ei gky žšemu .
-SFX Ei gky žšim .
-SFX Ei gky žšem .
-SFX Ei gky žše .
-SFX Ei gky žša .
-SFX Ei gky žšu .
-SFX Ei gky žšej .
-SFX Ei gky žšeju .
-SFX Ei gky žših .
-SFX Ei gky žšim .
-SFX Ei gky žšimi .
+SFX Ei gky žšego/zz .
+SFX Ei gky žšemu/zz .
+SFX Ei gky žšim/zz .
+SFX Ei gky žšem/zz .
+SFX Ei gky žše/zz .
+SFX Ei gky žša/zz .
+SFX Ei gky žšu/zz .
+SFX Ei gky žšej/zz .
+SFX Ei gky žšeju/zz .
+SFX Ei gky žših/zz .
+SFX Ei gky žšim/zz .
+SFX Ei gky žšimi/zz .
 SFX Ei ky še .
 
 SFX Ej Y 71
@@ -8132,18 +8132,18 @@ SFX FC 0 e .
 SFX FC 0 yh .
 SFX FC 0 ymi .
 SFX FC 0 ějši/zz .
-SFX FC  ějšego .
-SFX FC  ějšemu .
-SFX FC  ějšim .
-SFX FC  ějšem .
-SFX FC  ějše .
-SFX FC  ějša .
-SFX FC  ějšu .
-SFX FC  ějšej .
-SFX FC  ějšeju .
-SFX FC  ějših .
-SFX FC  ějšim .
-SFX FC  ějšimi .
+SFX FC 0 ějšego/zz .
+SFX FC 0 ějšemu/zz .
+SFX FC 0 ějšim/zz .
+SFX FC 0 ějšem/zz .
+SFX FC 0 ějše/zz .
+SFX FC 0 ějša/zz .
+SFX FC 0 ějšu/zz .
+SFX FC 0 ějšej/zz .
+SFX FC 0 ějšeju/zz .
+SFX FC 0 ějših/zz .
+SFX FC 0 ějšim/zz .
+SFX FC 0 ějšimi/zz .
 SFX FC 0 ěje/zz .
 
 SFX FD Y 9
@@ -9261,18 +9261,18 @@ SFX Ff y e .
 SFX Ff 0 h .
 SFX Ff 0 mi .
 SFX Ff oky ši/zz .
-SFX Ff oky šego .
-SFX Ff oky šemu .
-SFX Ff oky šim .
-SFX Ff oky šem .
-SFX Ff oky še .
-SFX Ff oky ša .
-SFX Ff oky šu .
-SFX Ff oky šej .
-SFX Ff oky šeju .
-SFX Ff oky ših .
-SFX Ff oky šim .
-SFX Ff oky šimi .
+SFX Ff oky šego/zz .
+SFX Ff oky šemu/zz .
+SFX Ff oky šim/zz .
+SFX Ff oky šem/zz .
+SFX Ff oky še/zz .
+SFX Ff oky ša/zz .
+SFX Ff oky šu/zz .
+SFX Ff oky šej/zz .
+SFX Ff oky šeju/zz .
+SFX Ff oky ših/zz .
+SFX Ff oky šim/zz .
+SFX Ff oky šimi/zz .
 SFX Ff stoky šče .
 
 SFX Fg Y 28
@@ -9291,18 +9291,18 @@ SFX Fg  svatbě povezany vezane .
 SFX Fg  svatbě povezany vezanyh .
 SFX Fg  svatbě povezany vezanymi .
 SFX Fg  svatbě povezany vezanějši/zz .
-SFX Fg  svatbě povezany vezanějšego .
-SFX Fg  svatbě povezany vezanějšemu .
-SFX Fg  svatbě povezany vezanějšim .
-SFX Fg  svatbě povezany vezanějšem .
-SFX Fg  svatbě povezany vezanějše .
-SFX Fg  svatbě povezany vezanějša .
-SFX Fg  svatbě povezany vezanějšu .
-SFX Fg  svatbě povezany vezanějšej .
-SFX Fg  svatbě povezany vezanějšeju .
-SFX Fg  svatbě povezany vezanějših .
-SFX Fg  svatbě povezany vezanějšim .
-SFX Fg  svatbě povezany vezanějšimi .
+SFX Fg  svatbě povezany vezanějšego/zz .
+SFX Fg  svatbě povezany vezanějšemu/zz .
+SFX Fg  svatbě povezany vezanějšim/zz .
+SFX Fg  svatbě povezany vezanějšem/zz .
+SFX Fg  svatbě povezany vezanějše/zz .
+SFX Fg  svatbě povezany vezanějša/zz .
+SFX Fg  svatbě povezany vezanějšu/zz .
+SFX Fg  svatbě povezany vezanějšej/zz .
+SFX Fg  svatbě povezany vezanějšeju/zz .
+SFX Fg  svatbě povezany vezanějših/zz .
+SFX Fg  svatbě povezany vezanějšim/zz .
+SFX Fg  svatbě povezany vezanějšimi/zz .
 SFX Fg  svatbě povezany vezaněje/zz .
 
 SFX Fh Y 63
@@ -9468,17 +9468,17 @@ SFX Fj y naděje e .
 SFX Fj  naděje h .
 SFX Fj  naděje mi .
 SFX Fj y naděje ějši/zz .
-SFX Fj y naděje ějšego .
-SFX Fj y naděje ějšemu .
-SFX Fj y naděje ějšim .
-SFX Fj y naděje ějšem .
-SFX Fj y naděje ějše .
-SFX Fj y naděje ějša .
-SFX Fj y naděje ějšu .
-SFX Fj y naděje ějšej .
-SFX Fj y naděje ějšeju .
-SFX Fj y naděje ějših .
-SFX Fj y naděje ějšim .
-SFX Fj y naděje ějšimi .
+SFX Fj y naděje ějšego/zz .
+SFX Fj y naděje ějšemu/zz .
+SFX Fj y naděje ějšim/zz .
+SFX Fj y naděje ějšem/zz .
+SFX Fj y naděje ějše/zz .
+SFX Fj y naděje ějša/zz .
+SFX Fj y naděje ějšu/zz .
+SFX Fj y naděje ějšej/zz .
+SFX Fj y naděje ějšeju/zz .
+SFX Fj y naděje ějših/zz .
+SFX Fj y naděje ějšim/zz .
+SFX Fj y naděje ějšimi/zz .
 SFX Fj y naděje ěje/zz .
 
