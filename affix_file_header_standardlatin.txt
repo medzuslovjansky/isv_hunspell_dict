@@ -1,0 +1,35 @@
+SET UTF-8
+
+TRY -ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz
+
+BREAK 1
+BREAK =
+
+FLAG long
+
+COMPOUNDBEGIN xB
+COMPOUNDEND xE
+COMPOUNDPERMITFLAG xP
+ONLYINCOMPOUND xO
+
+REP 17
+REP e y
+REP e ě
+REP i y
+REP y i
+REP y e
+REP l lj
+REP s ss
+REP ě e
+REP ljenje jenje
+REP tuty tutoj
+REP j ju
+REP og ogo
+REP v u
+REP ě je
+REP je ě
+REP y j
+REP jedny jedin
+
+PFX zz Y 1
+PFX zz 0 naj .
