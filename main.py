@@ -1,18 +1,32 @@
 import lxml.etree as ET
 import json
 
-# OPTIONS:
+# --OPTIONS--
+# MAIN
 OUTPUT_DICTIONARY_NAME = 'isv_lat_hunspell_dict'
 OPENCORPORAXML_FILE_NAME = 'out_isv_lat.xml'
 ACCEPTABLE_WORD_CHARS = '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz '
+AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+AFFIX_FILE_HEADER_NAME = 'affix_file_header_standardlatin.txt'
+# WORD FORM GENERATION
 GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS = True
 MODIFY_SUFFIXES = True
 ADDITIONAL_ISV_FORMS_FILE_NAMES = 'isv_lat_additional'
-AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-AFFIX_FILE_HEADER_NAME = 'affix_file_header.txt'
+# EXCEPTIONS
 SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS = True
 SPECIAL_HANDLING_OF_ISV_NEGATIVE_VERBS = True
 SPECIAL_HANDLING_OF_ISV_ADJECTIVES_WITH_ADVERBS = True
+# COMPOUNDING
+SPECIAL_ISV_ALLOW_ADJECTIVES_AT_END_OF_COMPOUNDS = True  # napr. hladnokrovny
+SPECIAL_ISV_ALLOW_ADJECTIVES_AT_START_OF_COMPOUNDS = True
+ISV_COMPARATIVE_ADJF_SUFFIX = 'ši'
+ISV_COMPARATIVE_ADVB_SUFFIX = 'je'
+SPECIAL_ISV_ALLOW_NOUNS_AT_START_OF_COMPOUNDS = True
+SPECIAL_ISV_ALLOW_NOUNS_AT_END_OF_COMPOUNDS = True
+ISV_NOUN_CONNECTING_CHARACTER_HARD = 'o'
+ISV_NOUN_CONNECTING_CHARACTER_SOFT = 'e'
+ISV_SOFT_CONSONANTS = 'šžčcj'
+ISV_VOWELS = 'aeiouyě'
 
 addSuffixTableList = []
 addSuffixTableVerb = {'partOfSpeech': 'VERB', 'list': []}
@@ -116,7 +130,7 @@ else:
             dictionaryEntry['word'] += baseForm
         if len(reducedForms) > 1:  # if more than 1 form
             for index, formString in enumerate(reducedForms):
-                if not index == 0:
+                if not index == 0:  # if not base form -> try to generate suffix
                     if not formString[0] == baseForm[0] and not partOfSpeech == 'ADJF':
                         additionalDictionaryEntries.append(formString)
                     elif formString in baseForm and not formString == baseForm:
@@ -142,6 +156,30 @@ else:
                                 suffixInstruction['delete'] = '0'
                                 delete = suffixInstruction['delete']
                             # !! suffix modifications happen before generation of additional forms
+                            if SPECIAL_ISV_ALLOW_ADJECTIVES_AT_START_OF_COMPOUNDS:
+                                if partOfSpeech == 'ADJF':
+                                    if ISV_COMPARATIVE_ADVB_SUFFIX not in suffixInstruction['add'] and ISV_COMPARATIVE_ADJF_SUFFIX not in suffixInstruction['add']:
+                                        if suffixInstruction['add'][len(suffixInstruction['add']) - 1] == 'o' and 'ogo' not in suffixInstruction['add']:
+                                            if '/' not in suffixInstruction['add']:
+                                                suffixInstruction['add'] = suffixInstruction['add'] + '/xB'
+                                            else:
+                                                suffixInstruction['add'] = suffixInstruction['add'] + 'xB'
+                                add = suffixInstruction['add']
+                            if SPECIAL_ISV_ALLOW_ADJECTIVES_AT_END_OF_COMPOUNDS:
+                                if partOfSpeech == 'ADJF':
+                                    if ISV_COMPARATIVE_ADVB_SUFFIX not in suffixInstruction['add'] and ISV_COMPARATIVE_ADJF_SUFFIX not in suffixInstruction['add']:
+                                        if '/' not in suffixInstruction['add']:
+                                            suffixInstruction['add'] = suffixInstruction['add'] + '/xPxE'
+                                        else:
+                                            suffixInstruction['add'] = suffixInstruction['add'] + 'xPxE'
+                                add = suffixInstruction['add']
+                            if SPECIAL_ISV_ALLOW_NOUNS_AT_END_OF_COMPOUNDS:
+                                if partOfSpeech == 'NOUN':
+                                    if '/' not in suffixInstruction['add']:
+                                        suffixInstruction['add'] = suffixInstruction['add'] + '/xPxE'
+                                    else:
+                                        suffixInstruction['add'] = suffixInstruction['add'] + 'xPxE'
+                                add = suffixInstruction['add']
                             if MODIFY_SUFFIXES is True:
                                 for sufMod in suffixModificationTable:
                                     if partOfSpeech == sufMod['partOfSpeech'] and sufMod['addFormContains'] in suffixInstruction['add']:
@@ -156,6 +194,28 @@ else:
                                             if addSuffixRow['baseSuffix'] in suffixInstruction['add']:
                                                 for additionalSuffix in addSuffixRow['addSuffixes']:
                                                     suffixScheme.append({'delete': delete, 'add': add.replace(addSuffixRow['baseSuffix'], additionalSuffix), 'condition': '.'})
+                else:
+                    if SPECIAL_ISV_ALLOW_ADJECTIVES_AT_END_OF_COMPOUNDS and partOfSpeech == 'ADJF':
+                        suffixInstruction = {'delete': '0', 'add': '0/xPxE', 'condition': '.'}
+                        suffixScheme.append(suffixInstruction)
+                    if SPECIAL_ISV_ALLOW_NOUNS_AT_END_OF_COMPOUNDS and partOfSpeech == 'NOUN':
+                        suffixInstruction = {'delete': '0', 'add': '0/xPxE', 'condition': '.'}
+                        suffixScheme.append(suffixInstruction)
+                    if SPECIAL_ISV_ALLOW_NOUNS_AT_START_OF_COMPOUNDS and partOfSpeech == 'NOUN':
+                        if formString[len(formString)-1] not in ISV_SOFT_CONSONANTS and formString[len(formString)-1] not in ISV_VOWELS:
+                            suffixInstruction = {'delete': '0', 'add': 'o/xPxBxO', 'condition': '.'}
+                            suffixScheme.append(suffixInstruction)
+                        if formString[len(formString) - 1] in ISV_SOFT_CONSONANTS and formString[len(formString) - 1] not in ISV_VOWELS:
+                            suffixInstruction = {'delete': '0', 'add': 'e/xPxBxO', 'condition': '.'}
+                            suffixScheme.append(suffixInstruction)
+                        if formString[len(formString) - 1] in ISV_VOWELS:
+                            lastChar = formString[len(formString) - 1]
+                            if formString[len(formString) - 2] not in ISV_SOFT_CONSONANTS and formString[len(formString) - 2] not in ISV_VOWELS:
+                                suffixInstruction = {'delete': lastChar, 'add': 'o/xPxBxO', 'condition': '.'}
+                                suffixScheme.append(suffixInstruction)
+                            if formString[len(formString) - 2] in ISV_SOFT_CONSONANTS and formString[len(formString) - 2] not in ISV_VOWELS:
+                                suffixInstruction = {'delete': lastChar, 'add': 'e/xPxBxO', 'condition': '.'}
+                                suffixScheme.append(suffixInstruction)
             if suffixScheme not in suffixSchemeLibrary and not suffixScheme == []:
                 suffixSchemeLibrary.append(suffixScheme)
             if suffixScheme in suffixSchemeLibrary:
