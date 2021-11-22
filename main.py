@@ -18,6 +18,7 @@ SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS = True
 SPECIAL_HANDLING_OF_ISV_NEGATIVE_VERBS = True
 SPECIAL_HANDLING_OF_ISV_ADJECTIVES_WITH_ADVERBS = True
 CORRECT_INDIVIDUAL_ERROR_WORDS = True
+SPLIT_MISC_SPACED_WORDS = True
 # COMPOUNDING
 SPECIAL_ISV_ALLOW_ADJECTIVES_AT_END_OF_COMPOUNDS = True  # napr. hladnokrovny
 SPECIAL_ISV_ALLOW_ADJECTIVES_AT_START_OF_COMPOUNDS = True
@@ -94,13 +95,20 @@ def determine_long_flag(number):
     return AFFIX_FLAG_NAME_CHARACTERS[letterIndex1] + AFFIX_FLAG_NAME_CHARACTERS[letterIndex2]
 
 
+dictionary = []
+suffixSchemeLibrary = []
+lemmasMovedToEnd = []
+
+with open('isv_lat_add_words.txt', 'r') as f:
+    lines = f.readlines()
+    lines = [line.rstrip() for line in lines]
+    for line in lines:
+        dictionary.append({'word': line, 'flags': []})
+
 with open(OPENCORPORAXML_FILE_NAME, 'r') as xml_file:
     tree = ET.parse(xml_file)
 root = tree.getroot()
 lemmata = root[1]
-dictionary = []
-suffixSchemeLibrary = []
-lemmasMovedToEnd = []
 if not lemmata.tag == 'lemmata':
     print('XML Structure error')
 else:
@@ -149,7 +157,7 @@ else:
         if len(reducedForms) > 0:  # if any form exists
             baseForm = reducedForms[0]  # baseForm will be the word form in the dictionary .dic file
             dictionaryEntry['word'] += baseForm
-            if ' ' in baseForm:
+            if SPLIT_MISC_SPACED_WORDS is True and ' ' in baseForm:
                 if lemma not in lemmasMovedToEnd:
                     lemmata.append(lemma)
                     lemmasMovedToEnd.append(lemma)
@@ -167,6 +175,7 @@ else:
                         for index, individualWord in enumerate(splitBaseForm):
                             if foundForms[index] == False:
                                 dictionary.append({'word': individualWord, 'flags': []})
+                        continue
         if len(reducedForms) > 1:  # if more than 1 form
             for index, formString in enumerate(reducedForms):
                 if not index == 0:  # if not base form -> try to generate suffix

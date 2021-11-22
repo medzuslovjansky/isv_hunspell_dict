@@ -16,11 +16,12 @@ COMPOUNDEND xE
 COMPOUNDPERMITFLAG xP
 ONLYINCOMPOUND xO
 
-REP 17
+REP 20
 REP e y
 REP e ě
 REP i y
 REP y i
+REP e je
 REP y e
 REP l lj
 REP s ss
@@ -34,6 +35,8 @@ REP ě je
 REP je ě
 REP y j
 REP jedny jedin
+REP oro ra
+REP olo la
 
 PFX zz Y 1
 PFX zz 0 naj .
@@ -9987,159 +9990,4 @@ SFX GQ ti nij/xPxE .
 SFX GQ ti njam/xPxE .
 SFX GQ ti njami/xPxE .
 SFX GQ ti njah/xPxE .
-
-SFX GR Y 29
-SFX GR 0 0/xPxE .
-SFX GR  od 0 .
-SFX GR y od o/xBxPxE .
-SFX GR y od a/xPxE .
-SFX GR y od ogo/xPxE .
-SFX GR y od u/xPxE .
-SFX GR y od oj/xPxE .
-SFX GR y od om/xPxE .
-SFX GR y od omu/xPxE .
-SFX GR  od m/xPxE .
-SFX GR y od oju/xPxE .
-SFX GR y od i/xPxE .
-SFX GR y od e/xPxE .
-SFX GR  od h/xPxE .
-SFX GR  od mi/xPxE .
-SFX GR y od ějši/zz .
-SFX GR y od ějšego/zz .
-SFX GR y od ějšemu/zz .
-SFX GR y od ějšim/zz .
-SFX GR y od ějšem/zz .
-SFX GR y od ějše/zz .
-SFX GR y od ějša/zz .
-SFX GR y od ějšu/zz .
-SFX GR y od ějšej/zz .
-SFX GR y od ějšeju/zz .
-SFX GR y od ějših/zz .
-SFX GR y od ějšim/zz .
-SFX GR y od ějšimi/zz .
-SFX GR y od ěje/zz .
-
-SFX GS Y 29
-SFX GS 0 0/xPxE .
-SFX GS  na 0 .
-SFX GS y na o/xBxPxE .
-SFX GS y na a/xPxE .
-SFX GS y na ogo/xPxE .
-SFX GS y na u/xPxE .
-SFX GS y na oj/xPxE .
-SFX GS y na om/xPxE .
-SFX GS y na omu/xPxE .
-SFX GS  na m/xPxE .
-SFX GS y na oju/xPxE .
-SFX GS y na i/xPxE .
-SFX GS y na e/xPxE .
-SFX GS  na h/xPxE .
-SFX GS  na mi/xPxE .
-SFX GS y na ějši/zz .
-SFX GS y na ějšego/zz .
-SFX GS y na ějšemu/zz .
-SFX GS y na ějšim/zz .
-SFX GS y na ějšem/zz .
-SFX GS y na ějše/zz .
-SFX GS y na ějša/zz .
-SFX GS y na ějšu/zz .
-SFX GS y na ějšej/zz .
-SFX GS y na ějšeju/zz .
-SFX GS y na ějših/zz .
-SFX GS y na ějšim/zz .
-SFX GS y na ějšimi/zz .
-SFX GS y na ěje/zz .
-
-SFX GT Y 29
-SFX GT 0 0/xPxE .
-SFX GT  za 0 .
-SFX GT y za o/xBxPxE .
-SFX GT y za a/xPxE .
-SFX GT y za ogo/xPxE .
-SFX GT y za u/xPxE .
-SFX GT y za oj/xPxE .
-SFX GT y za om/xPxE .
-SFX GT y za omu/xPxE .
-SFX GT  za m/xPxE .
-SFX GT y za oju/xPxE .
-SFX GT y za i/xPxE .
-SFX GT y za e/xPxE .
-SFX GT  za h/xPxE .
-SFX GT  za mi/xPxE .
-SFX GT y za ějši/zz .
-SFX GT y za ějšego/zz .
-SFX GT y za ějšemu/zz .
-SFX GT y za ějšim/zz .
-SFX GT y za ějšem/zz .
-SFX GT y za ějše/zz .
-SFX GT y za ějša/zz .
-SFX GT y za ějšu/zz .
-SFX GT y za ějšej/zz .
-SFX GT y za ějšeju/zz .
-SFX GT y za ějših/zz .
-SFX GT y za ějšim/zz .
-SFX GT y za ějšimi/zz .
-SFX GT y za ěje/zz .
-
-SFX GU Y 29
-SFX GU 0 0/xPxE .
-SFX GU ě povezany 0 .
-SFX GU  svatbě povezany vezano/xBxPxE .
-SFX GU  svatbě povezany vezana/xPxE .
-SFX GU  svatbě povezany vezanogo/xPxE .
-SFX GU  svatbě povezany vezanu/xPxE .
-SFX GU  svatbě povezany vezanoj/xPxE .
-SFX GU  svatbě povezany vezanom/xPxE .
-SFX GU  svatbě povezany vezanomu/xPxE .
-SFX GU  svatbě povezany vezanym/xPxE .
-SFX GU  svatbě povezany vezanoju/xPxE .
-SFX GU  svatbě povezany vezani/xPxE .
-SFX GU  svatbě povezany vezane/xPxE .
-SFX GU  svatbě povezany vezanyh/xPxE .
-SFX GU  svatbě povezany vezanymi/xPxE .
-SFX GU  svatbě povezany vezanějši/zz .
-SFX GU  svatbě povezany vezanějšego/zz .
-SFX GU  svatbě povezany vezanějšemu/zz .
-SFX GU  svatbě povezany vezanějšim/zz .
-SFX GU  svatbě povezany vezanějšem/zz .
-SFX GU  svatbě povezany vezanějše/zz .
-SFX GU  svatbě povezany vezanějša/zz .
-SFX GU  svatbě povezany vezanějšu/zz .
-SFX GU  svatbě povezany vezanějšej/zz .
-SFX GU  svatbě povezany vezanějšeju/zz .
-SFX GU  svatbě povezany vezanějših/zz .
-SFX GU  svatbě povezany vezanějšim/zz .
-SFX GU  svatbě povezany vezanějšimi/zz .
-SFX GU  svatbě povezany vezaněje/zz .
-
-SFX GV Y 29
-SFX GV 0 0/xPxE .
-SFX GV  naděje 0 .
-SFX GV y naděje o/xBxPxE .
-SFX GV y naděje a/xPxE .
-SFX GV y naděje ogo/xPxE .
-SFX GV y naděje u/xPxE .
-SFX GV y naděje oj/xPxE .
-SFX GV y naděje om/xPxE .
-SFX GV y naděje omu/xPxE .
-SFX GV  naděje m/xPxE .
-SFX GV y naděje oju/xPxE .
-SFX GV y naděje i/xPxE .
-SFX GV y naděje e/xPxE .
-SFX GV  naděje h/xPxE .
-SFX GV  naděje mi/xPxE .
-SFX GV y naděje ějši/zz .
-SFX GV y naděje ějšego/zz .
-SFX GV y naděje ějšemu/zz .
-SFX GV y naděje ějšim/zz .
-SFX GV y naděje ějšem/zz .
-SFX GV y naděje ějše/zz .
-SFX GV y naděje ějša/zz .
-SFX GV y naděje ějšu/zz .
-SFX GV y naděje ějšej/zz .
-SFX GV y naděje ějšeju/zz .
-SFX GV y naděje ějših/zz .
-SFX GV y naděje ějšim/zz .
-SFX GV y naděje ějšimi/zz .
-SFX GV y naděje ěje/zz .
 

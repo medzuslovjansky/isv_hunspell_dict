@@ -16,11 +16,12 @@ COMPOUNDEND xE
 COMPOUNDPERMITFLAG xP
 ONLYINCOMPOUND xO
 
-REP 17
+REP 20
 REP e y
 REP e ě
 REP i y
 REP y i
+REP e je
 REP y e
 REP l lj
 REP s ss
@@ -34,6 +35,8 @@ REP ě je
 REP je ě
 REP y j
 REP jedny jedin
+REP oro ra
+REP olo la
 
 PFX zz Y 1
 PFX zz 0 naj .
