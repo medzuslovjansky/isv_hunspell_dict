@@ -13,9 +13,11 @@ GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS = True
 MODIFY_SUFFIXES = True
 ADDITIONAL_ISV_FORMS_FILE_NAMES = 'isv_lat_additional'
 # EXCEPTIONS
+REMOVE_FINAL_SPACES_IN_WORDS = True
 SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS = True
 SPECIAL_HANDLING_OF_ISV_NEGATIVE_VERBS = True
 SPECIAL_HANDLING_OF_ISV_ADJECTIVES_WITH_ADVERBS = True
+CORRECT_INDIVIDUAL_ERROR_WORDS = True
 # COMPOUNDING
 SPECIAL_ISV_ALLOW_ADJECTIVES_AT_END_OF_COMPOUNDS = True  # napr. hladnokrovny
 SPECIAL_ISV_ALLOW_ADJECTIVES_AT_START_OF_COMPOUNDS = True
@@ -60,12 +62,24 @@ suffixModificationTable = []
 suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'ši', 'modifiedAddForm': 'ši/zz'})
 suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'je', 'modifiedAddForm': 'je/zz'})
 
+suffixCompoundModificationTable = []
+suffixCompoundModificationTable.append({'partOfSpeech': 'VERB', 'addFormContains': 'nje', 'modifiedAddForm': 'nje/xPxE'})
+
+individualWordCorrectionTable = []
+individualWordCorrectionTable.append({'word': 'hektar ha', 'correctWord': 'hektar'})
+
 
 with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_derivative_forms.json', 'w', encoding='utf8') as f:
     print(json.dumps(addSuffixTableList, indent=1, ensure_ascii=False), file=f)
 
 with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes.json', 'w', encoding='utf8') as f:
     print(json.dumps(suffixModificationTable, indent=1, ensure_ascii=False), file=f)
+
+with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes_compound.json', 'w', encoding='utf8') as f:
+    print(json.dumps(suffixCompoundModificationTable, indent=1, ensure_ascii=False), file=f)
+
+with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_word_corrections.json', 'w', encoding='utf8') as f:
+    print(json.dumps(individualWordCorrectionTable, indent=1, ensure_ascii=False), file=f)
 
 def determine_long_flag(number):
     letterIndex1 = 0
@@ -86,10 +100,10 @@ root = tree.getroot()
 lemmata = root[1]
 dictionary = []
 suffixSchemeLibrary = []
+lemmasMovedToEnd = []
 if not lemmata.tag == 'lemmata':
     print('XML Structure error')
 else:
-    counter = 0
     for lemma in lemmata:
         partOfSpeech = ''
         # part of speech attributes are capitalised in OpenCorporaXML format, no others are
@@ -106,6 +120,13 @@ else:
             formString = form.attrib['t']  # read form
             formString = ''.join(
                 char for char in formString if char in ACCEPTABLE_WORD_CHARS)
+            if REMOVE_FINAL_SPACES_IN_WORDS is True and not formString == '':
+                while formString[len(formString)-1] == ' ':
+                    formString = formString[0:len(formString)-1]
+            if CORRECT_INDIVIDUAL_ERROR_WORDS is True:
+                for errorWord in individualWordCorrectionTable:
+                    if formString == errorWord['word']:
+                        formString = errorWord['correctWord']
             if SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS is True:
                 if formString[len(formString)-3:len(formString)] == ' se' and partOfSpeech == 'VERB':
                     formString = formString[0:len(formString)-3]
@@ -128,6 +149,24 @@ else:
         if len(reducedForms) > 0:  # if any form exists
             baseForm = reducedForms[0]  # baseForm will be the word form in the dictionary .dic file
             dictionaryEntry['word'] += baseForm
+            if ' ' in baseForm:
+                if lemma not in lemmasMovedToEnd:
+                    lemmata.append(lemma)
+                    lemmasMovedToEnd.append(lemma)
+                    continue
+                if lemma in lemmasMovedToEnd:
+                    splitBaseForm = baseForm.split()
+                    foundForms = [False] * len(splitBaseForm)
+                    for index, individualWord in enumerate(splitBaseForm):
+                        for iterateDictionaryEntry in dictionary:
+                            if individualWord == iterateDictionaryEntry['word']:
+                                foundForms[index] = True
+                    if foundForms == [True] * len(splitBaseForm):
+                        continue
+                    else:
+                        for index, individualWord in enumerate(splitBaseForm):
+                            if foundForms[index] == False:
+                                dictionary.append({'word': individualWord, 'flags': []})
         if len(reducedForms) > 1:  # if more than 1 form
             for index, formString in enumerate(reducedForms):
                 if not index == 0:  # if not base form -> try to generate suffix
@@ -164,6 +203,12 @@ else:
                                                 suffixInstruction['add'] = suffixInstruction['add'] + '/xB'
                                             else:
                                                 suffixInstruction['add'] = suffixInstruction['add'] + 'xB'
+                                        #if suffixInstruction['add'][len(suffixInstruction['add']) - 1] == 'e':
+                                            #checkFor = baseForm[0:lengthBaseForm-len(suffixInstruction['delete'])]
+                                            #modifiedCheckForSuffix = add[0:len(add)-1] + 'o'
+                                            #checkFor = checkFor + modifiedCheckForSuffix
+                                            #if checkFor not in reducedForms:
+                                                #print(formString)
                                 add = suffixInstruction['add']
                             if SPECIAL_ISV_ALLOW_ADJECTIVES_AT_END_OF_COMPOUNDS:
                                 if partOfSpeech == 'ADJF':
@@ -185,6 +230,11 @@ else:
                                     if partOfSpeech == sufMod['partOfSpeech'] and sufMod['addFormContains'] in suffixInstruction['add']:
                                         suffixInstruction['add'] = suffixInstruction['add'].replace(sufMod['addFormContains'], sufMod['modifiedAddForm'])
                                         add = suffixInstruction['add']
+                                if SPECIAL_ISV_ALLOW_NOUNS_AT_END_OF_COMPOUNDS:
+                                    for sufMod in suffixCompoundModificationTable:
+                                        if partOfSpeech == sufMod['partOfSpeech'] and sufMod['addFormContains'] in suffixInstruction['add']:
+                                            suffixInstruction['add'] = suffixInstruction['add'].replace(sufMod['addFormContains'], sufMod['modifiedAddForm'])
+                                            add = suffixInstruction['add']
                             suffixScheme.append(suffixInstruction)
                             # add declination word forms for noun and participle forms of verbs and comparative forms of adjectives and adverbs
                             if GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS is True:
