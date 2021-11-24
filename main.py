@@ -114,11 +114,14 @@ if not lemmata.tag == 'lemmata':
 else:
     for lemma in lemmata:
         partOfSpeech = ''
+        numeralIsOrd = False
         # part of speech attributes are capitalised in OpenCorporaXML format, no others are
         for baseFormAttribContainer in lemma[0]:
-            partOfSpeech = baseFormAttribContainer.attrib['v']
-            if partOfSpeech.isupper():
-                break
+            attribute = baseFormAttribContainer.attrib['v']
+            if attribute.isupper():
+                partOfSpeech = attribute
+            if attribute == 'ord':
+                numeralIsOrd = True
         reducedForms = []
         dictionaryEntry = {'word': '', 'flags': []}
         additionalDictionaryEntries = []
@@ -205,7 +208,7 @@ else:
                                 delete = suffixInstruction['delete']
                             # !! suffix modifications happen before generation of additional forms
                             if SPECIAL_ISV_ALLOW_ADJECTIVES_AT_START_OF_COMPOUNDS:
-                                if partOfSpeech == 'ADJF':
+                                if partOfSpeech == 'ADJF' or (partOfSpeech == 'NUMR' and numeralIsOrd is True):
                                     if ISV_COMPARATIVE_ADVB_SUFFIX not in suffixInstruction['add'] and ISV_COMPARATIVE_ADJF_SUFFIX not in suffixInstruction['add']:
                                         if suffixInstruction['add'][len(suffixInstruction['add']) - 1] == 'o' and 'ogo' not in suffixInstruction['add']:
                                             if '/' not in suffixInstruction['add']:
@@ -220,7 +223,7 @@ else:
                                                 #print(formString)
                                 add = suffixInstruction['add']
                             if SPECIAL_ISV_ALLOW_ADJECTIVES_AT_END_OF_COMPOUNDS:
-                                if partOfSpeech == 'ADJF':
+                                if partOfSpeech == 'ADJF' or (partOfSpeech == 'NUMR' and numeralIsOrd is True):
                                     if ISV_COMPARATIVE_ADVB_SUFFIX not in suffixInstruction['add'] and ISV_COMPARATIVE_ADJF_SUFFIX not in suffixInstruction['add']:
                                         if '/' not in suffixInstruction['add']:
                                             suffixInstruction['add'] = suffixInstruction['add'] + '/xPxE'
