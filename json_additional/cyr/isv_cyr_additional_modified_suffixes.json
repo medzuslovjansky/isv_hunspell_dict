@@ -1,0 +1,12 @@
+[
+ {
+  "partOfSpeech": "ADJF",
+  "addFormContains": "ши",
+  "modifiedAddForm": "ши/zz"
+ },
+ {
+  "partOfSpeech": "ADJF",
+  "addFormContains": "је",
+  "modifiedAddForm": "је/zz"
+ }
+]

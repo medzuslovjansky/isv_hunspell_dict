@@ -1,24 +1,31 @@
 import lxml.etree as ET
 import json
+from pathlib import Path
+import os
 
-# --OPTIONS--
+# --OPTIONS-- (DEFAULT VALUES)
 # MAIN
-OUTPUT_DICTIONARY_NAME = 'isv_lat_hunspell_dict'
-OPENCORPORAXML_FILE_NAME = 'out_isv_lat.xml'
+OUTPUT_DICTIONARY_NAME = 'dictionaries/isv_default_hunspell_dict'
+OPENCORPORAXML_FILE_NAME = 'input/opencorporaxml/out_isv_lat.xml'
 ACCEPTABLE_WORD_CHARS = '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz '
 AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-AFFIX_FILE_HEADER_NAME = 'affix_file_header_standardlatin.txt'
+AFFIX_FILE_HEADER_NAME = 'input/affixheaders/affix_file_header_standardlatin.txt'
 # WORD FORM GENERATION
 GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS = True
 MODIFY_SUFFIXES = True
-ADDITIONAL_ISV_FORMS_FILE_NAMES = 'isv_lat_additional'
+ADDITIONAL_ISV_FORMS_FILE_NAMES = 'json_additional/default/isv_lat_additional'
 # EXCEPTIONS
 REMOVE_FINAL_SPACES_IN_WORDS = True
 SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS = True
+REFLEXIVE_PARTICLE = ' se'
 SPECIAL_HANDLING_OF_ISV_NEGATIVE_VERBS = True
+NEGATIVE_PARTICLE = 'ne '
 SPECIAL_HANDLING_OF_ISV_ADJECTIVES_WITH_ADVERBS = True
+ADVERB_ENDING = 'o '
 CORRECT_INDIVIDUAL_ERROR_WORDS = True
 SPLIT_MISC_SPACED_WORDS = True
+ADD_WORDS_FROM_FILE = True
+ADD_WORDS_FILE_NAME = 'input/addwordlists/isv_lat_add_words.txt'
 # COMPOUNDING
 SPECIAL_ISV_ALLOW_ADJECTIVES_AT_END_OF_COMPOUNDS = True  # napr. hladnokrovny
 SPECIAL_ISV_ALLOW_ADJECTIVES_AT_START_OF_COMPOUNDS = True
@@ -26,10 +33,12 @@ ISV_COMPARATIVE_ADJF_SUFFIX = 'ši'
 ISV_COMPARATIVE_ADVB_SUFFIX = 'je'
 SPECIAL_ISV_ALLOW_NOUNS_AT_START_OF_COMPOUNDS = True
 SPECIAL_ISV_ALLOW_NOUNS_AT_END_OF_COMPOUNDS = True
-ISV_NOUN_CONNECTING_CHARACTER_HARD = 'o'
-ISV_NOUN_CONNECTING_CHARACTER_SOFT = 'e'
+ISV_COMPOUND_CHARACTER_HARD = 'o'
+ISV_COMPOUND_CHARACTER_SOFT = 'e'
 ISV_SOFT_CONSONANTS = 'šžčcj'
 ISV_VOWELS = 'aeiouyě'
+ISV_ADJECTIVE_FALSE_COMPOUND_SUFFIX = 'ogo'
+
 
 addSuffixTableList = []
 addSuffixTableVerb = {'partOfSpeech': 'VERB', 'list': []}
@@ -69,18 +78,8 @@ suffixCompoundModificationTable.append({'partOfSpeech': 'VERB', 'addFormContains
 individualWordCorrectionTable = []
 individualWordCorrectionTable.append({'word': 'hektar ha', 'correctWord': 'hektar'})
 
-
-with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_derivative_forms.json', 'w', encoding='utf8') as f:
-    print(json.dumps(addSuffixTableList, indent=1, ensure_ascii=False), file=f)
-
-with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes.json', 'w', encoding='utf8') as f:
-    print(json.dumps(suffixModificationTable, indent=1, ensure_ascii=False), file=f)
-
-with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes_compound.json', 'w', encoding='utf8') as f:
-    print(json.dumps(suffixCompoundModificationTable, indent=1, ensure_ascii=False), file=f)
-
-with open(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_word_corrections.json', 'w', encoding='utf8') as f:
-    print(json.dumps(individualWordCorrectionTable, indent=1, ensure_ascii=False), file=f)
+# NEXT LINE WILL BE REPLACED WITH CONTENTS OF ARGUMENT FILE IF RUN THROUGH RUN_DICT_GENERATOR.PY
+#!!!
 
 def determine_long_flag(number):
     letterIndex1 = 0
@@ -95,17 +94,49 @@ def determine_long_flag(number):
     return AFFIX_FLAG_NAME_CHARACTERS[letterIndex1] + AFFIX_FLAG_NAME_CHARACTERS[letterIndex2]
 
 
+def open_with_dir_create(path, mode, encoding_arg=None):
+    splitpath = path.split('/')
+    if len(splitpath) == 1:
+        if encoding_arg is None:
+            return open(path, mode)
+        else:
+            return open(path, mode, encoding=encoding_arg)
+    if len(splitpath) > 1:
+        dicpath = ''
+        for path_element in splitpath[0:len(splitpath)-1]:
+            if path_element != '':
+                dicpath += ('/' + path_element)
+        Path(os.getcwd()+dicpath).mkdir(parents=True, exist_ok=True)
+        if encoding_arg is None:
+            return open(path, mode)
+        else:
+            return open(path, mode, encoding=encoding_arg)
+
+
+with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_derivative_forms.json', 'w', encoding_arg='utf8') as f:
+    print(json.dumps(addSuffixTableList, indent=1, ensure_ascii=False), file=f)
+
+with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes.json', 'w', encoding_arg='utf8') as f:
+    print(json.dumps(suffixModificationTable, indent=1, ensure_ascii=False), file=f)
+
+with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes_compound.json', 'w', encoding_arg='utf8') as f:
+    print(json.dumps(suffixCompoundModificationTable, indent=1, ensure_ascii=False), file=f)
+
+with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_word_corrections.json', 'w', encoding_arg='utf8') as f:
+    print(json.dumps(individualWordCorrectionTable, indent=1, ensure_ascii=False), file=f)
+
+
 dictionary = []
 suffixSchemeLibrary = []
 lemmasMovedToEnd = []
 
-with open('isv_lat_add_words.txt', 'r') as f:
+with open_with_dir_create(ADD_WORDS_FILE_NAME, 'r') as f:
     lines = f.readlines()
     lines = [line.rstrip() for line in lines]
     for line in lines:
         dictionary.append({'word': line, 'flags': []})
 
-with open(OPENCORPORAXML_FILE_NAME, 'r') as xml_file:
+with open_with_dir_create(OPENCORPORAXML_FILE_NAME, 'r') as xml_file:
     tree = ET.parse(xml_file)
 root = tree.getroot()
 lemmata = root[1]
@@ -139,14 +170,14 @@ else:
                     if formString == errorWord['word']:
                         formString = errorWord['correctWord']
             if SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS is True:
-                if formString[len(formString)-3:len(formString)] == ' se' and partOfSpeech == 'VERB':
+                if formString[len(formString)-3:len(formString)] == REFLEXIVE_PARTICLE and partOfSpeech == 'VERB':
                     formString = formString[0:len(formString)-3]
             if SPECIAL_HANDLING_OF_ISV_NEGATIVE_VERBS is True:
-                if 'ne ' == formString[0:3] and partOfSpeech == 'VERB':
+                if NEGATIVE_PARTICLE == formString[0:3] and partOfSpeech == 'VERB':
                     formString = formString [3:len(formString)]
             if SPECIAL_HANDLING_OF_ISV_ADJECTIVES_WITH_ADVERBS is True:
                 if len(reducedForms) > 0:
-                    if ('o ' + formString) in reducedForms[0]:
+                    if (ADVERB_ENDING + formString) in reducedForms[0]:
                         rememberBadAdjectiveAdverbCombination = reducedForms[0]
                         splitWords = reducedForms[0].split()
                         if len(splitWords) == 2:
@@ -176,7 +207,7 @@ else:
                         continue
                     else:
                         for index, individualWord in enumerate(splitBaseForm):
-                            if foundForms[index] == False:
+                            if foundForms[index] is False:
                                 dictionary.append({'word': individualWord, 'flags': []})
                         continue
         if len(reducedForms) > 1:  # if more than 1 form
@@ -210,7 +241,7 @@ else:
                             if SPECIAL_ISV_ALLOW_ADJECTIVES_AT_START_OF_COMPOUNDS:
                                 if partOfSpeech == 'ADJF' or (partOfSpeech == 'NUMR' and numeralIsOrd is True):
                                     if ISV_COMPARATIVE_ADVB_SUFFIX not in suffixInstruction['add'] and ISV_COMPARATIVE_ADJF_SUFFIX not in suffixInstruction['add']:
-                                        if suffixInstruction['add'][len(suffixInstruction['add']) - 1] == 'o' and 'ogo' not in suffixInstruction['add']:
+                                        if suffixInstruction['add'][len(suffixInstruction['add']) - 1] == ISV_COMPOUND_CHARACTER_HARD and ISV_ADJECTIVE_FALSE_COMPOUND_SUFFIX not in suffixInstruction['add']:
                                             if '/' not in suffixInstruction['add']:
                                                 suffixInstruction['add'] = suffixInstruction['add'] + '/xB'
                                             else:
@@ -265,18 +296,18 @@ else:
                         suffixScheme.append(suffixInstruction)
                     if SPECIAL_ISV_ALLOW_NOUNS_AT_START_OF_COMPOUNDS and partOfSpeech == 'NOUN':
                         if formString[len(formString)-1] not in ISV_SOFT_CONSONANTS and formString[len(formString)-1] not in ISV_VOWELS:
-                            suffixInstruction = {'delete': '0', 'add': 'o/xPxBxO', 'condition': '.'}
+                            suffixInstruction = {'delete': '0', 'add': ISV_COMPOUND_CHARACTER_HARD + '/xPxBxO', 'condition': '.'}
                             suffixScheme.append(suffixInstruction)
                         if formString[len(formString) - 1] in ISV_SOFT_CONSONANTS and formString[len(formString) - 1] not in ISV_VOWELS:
-                            suffixInstruction = {'delete': '0', 'add': 'e/xPxBxO', 'condition': '.'}
+                            suffixInstruction = {'delete': '0', 'add': ISV_COMPOUND_CHARACTER_SOFT + '/xPxBxO', 'condition': '.'}
                             suffixScheme.append(suffixInstruction)
                         if formString[len(formString) - 1] in ISV_VOWELS:
                             lastChar = formString[len(formString) - 1]
                             if formString[len(formString) - 2] not in ISV_SOFT_CONSONANTS and formString[len(formString) - 2] not in ISV_VOWELS:
-                                suffixInstruction = {'delete': lastChar, 'add': 'o/xPxBxO', 'condition': '.'}
+                                suffixInstruction = {'delete': lastChar, 'add': ISV_COMPOUND_CHARACTER_HARD + '/xPxBxO', 'condition': '.'}
                                 suffixScheme.append(suffixInstruction)
                             if formString[len(formString) - 2] in ISV_SOFT_CONSONANTS and formString[len(formString) - 2] not in ISV_VOWELS:
-                                suffixInstruction = {'delete': lastChar, 'add': 'e/xPxBxO', 'condition': '.'}
+                                suffixInstruction = {'delete': lastChar, 'add': ISV_COMPOUND_CHARACTER_SOFT + '/xPxBxO', 'condition': '.'}
                                 suffixScheme.append(suffixInstruction)
             if suffixScheme not in suffixSchemeLibrary and not suffixScheme == []:
                 suffixSchemeLibrary.append(suffixScheme)
@@ -291,7 +322,7 @@ else:
     print(str(len(suffixSchemeLibrary)) + ' suffix schemes')
     print(str(len(dictionary)) + ' dictionary entries')
     # output do .dic file
-    with open(OUTPUT_DICTIONARY_NAME + '.dic', 'w') as f:
+    with open_with_dir_create(OUTPUT_DICTIONARY_NAME + '.dic', 'w') as f:
         print(str(len(dictionary)), file=f)
         for x in range(len(dictionary)):
             entry = dictionary[x]
@@ -304,7 +335,7 @@ else:
                 combinedFlags = '/' + combinedFlags
             print(entry['word'] + combinedFlags, file=f)
     # output to .aff file
-    with open(OUTPUT_DICTIONARY_NAME + '.aff', 'w') as f:
+    with open_with_dir_create(OUTPUT_DICTIONARY_NAME + '.aff', 'w') as f:
         with open(AFFIX_FILE_HEADER_NAME, 'r') as header:
             print(header.read(), file=f)
             for index, schemeIterate in enumerate(suffixSchemeLibrary):

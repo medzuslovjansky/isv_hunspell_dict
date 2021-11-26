@@ -1,0 +1,78 @@
+SET UTF-8
+
+TRY -ЈјЦцУуКкЕеНнГгШшЗзХхФфЫыВвАаПпРрОоЛлДдЖжЄєЧчСсМмИиТтЬьБбЊњЉљ
+
+BREAK 1
+BREAK =
+
+NOSPLITSUGS
+
+WORDCHARS -
+
+FLAG long
+
+COMPOUNDBEGIN xB
+COMPOUNDEND xE
+COMPOUNDPERMITFLAG xP
+ONLYINCOMPOUND xO
+
+ICONV 4
+ICONV њ нј
+ICONV љ лј
+ICONV нь нј
+ICONV ль лј
+
+MAP 10
+MAP иі
+MAP ђ(дж)
+MAP ћ(ч)
+MAP јй
+MAP я(ја)
+MAP ю(ју)
+MAP ї(ји)
+MAP эе
+MAP ј'ъ
+MAP ъа
+
+REP 38
+REP е є
+REP е ы
+REP и ы
+REP ы и
+REP е је
+REP ы е
+REP л лј
+REP с сс
+REP є е
+REP лјенје јенје
+REP туты тутој
+REP ј ју
+REP ог ого
+REP в у
+REP є је
+REP је є
+REP ы ј
+REP једны једин
+REP оро ра
+REP оло ла
+REP системом системоју
+REP гледа гледє
+REP гледа гледи
+REP кров крв
+REP ческы чскы
+REP где кде
+REP немеческ нємечск
+REP дабы да_бы
+REP леј љев
+REP са _се
+REP сја _се
+REP недолго не_долго
+REP ии ији
+REP софии зофији
+REP свјат свет
+REP ого ојего
+REP стч шч
+REP шт шч
+
+PFX zz Y 1
+PFX zz 0 нај .

@@ -1,0 +1,75 @@
+SET UTF-8
+
+TRY -ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz
+
+BREAK 1
+BREAK =
+
+NOSPLITSUGS
+
+WORDCHARS -
+
+FLAG long
+
+COMPOUNDBEGIN xB
+COMPOUNDEND xE
+COMPOUNDPERMITFLAG xP
+ONLYINCOMPOUND xO
+
+MAP 13
+MAP ćčc
+MAP ęeěėèé
+MAP ųu
+MAP åa
+MAP oȯòó
+MAP đ(dž)
+MAP ľlłĺ
+MAP nňń
+MAP rŕř
+MAP tť
+MAP dď
+MAP sś
+MAP źz
+
+REP 38
+REP e ě
+REP e y
+REP i y
+REP y i
+REP e je
+REP y e
+REP l lj
+REP s ss
+REP ě e
+REP ljenje jenje
+REP tuty tutoj
+REP j ju
+REP og ogo
+REP v u
+REP ě je
+REP je ě
+REP y j
+REP jedny jedin
+REP oro ra
+REP olo la
+REP sistemom sistemoju
+REP gleda gledě
+REP gleda gledi
+REP krov krv
+REP česky čsky
+REP gde kde
+REP nemečesk němečsk
+REP daby da_by
+REP lej ljev
+REP sa _se
+REP sja _se
+REP nedolgo ne_dolgo
+REP ii iji
+REP sofii zofiji
+REP svjat svet
+REP ogo ojego
+REP stč šč
+REP št šč
+
+PFX zz Y 1
+PFX zz 0 naj .
