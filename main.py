@@ -78,51 +78,38 @@ suffixCompoundModificationTable.append({'partOfSpeech': 'VERB', 'addFormContains
 individualWordCorrectionTable = []
 individualWordCorrectionTable.append({'word': 'hektar ha', 'correctWord': 'hektar'})
 
-# NEXT LINE WILL BE REPLACED WITH CONTENTS OF ARGUMENT FILE IF RUN THROUGH RUN_DICT_GENERATOR.PY
+# NEXT LINE WILL BE REPLACED WITH CONTENTS OF SETTINGS FILE IF RUN THROUGH RUN_DICT_GENERATOR.PY
 #!!!
 
+
 def determine_long_flag(number):
-    letterIndex1 = 0
-    letterIndex2 = 0
-    while (letterIndex1 * len(AFFIX_FLAG_NAME_CHARACTERS) + letterIndex2) < number:
-        letterIndex2 += 1
-        if letterIndex2 >= len(AFFIX_FLAG_NAME_CHARACTERS):
-            letterIndex1 += 1
-            letterIndex2 = 0
-        if letterIndex1 >= len(AFFIX_FLAG_NAME_CHARACTERS):
-            raise RuntimeError('Ran out of flags')
+    letterIndex1 = number // len(AFFIX_FLAG_NAME_CHARACTERS)
+    letterIndex2 = number % len(AFFIX_FLAG_NAME_CHARACTERS)
+    if letterIndex1 >= len(AFFIX_FLAG_NAME_CHARACTERS):
+        raise RuntimeError('Ran out of flags')
     return AFFIX_FLAG_NAME_CHARACTERS[letterIndex1] + AFFIX_FLAG_NAME_CHARACTERS[letterIndex2]
 
 
-def open_with_dir_create(path, mode, encoding_arg=None):
-    splitpath = path.split('/')
-    if len(splitpath) == 1:
-        if encoding_arg is None:
-            return open(path, mode)
-        else:
-            return open(path, mode, encoding=encoding_arg)
-    if len(splitpath) > 1:
-        dicpath = ''
-        for path_element in splitpath[0:len(splitpath)-1]:
-            if path_element != '':
-                dicpath += ('/' + path_element)
-        Path(os.getcwd()+dicpath).mkdir(parents=True, exist_ok=True)
-        if encoding_arg is None:
-            return open(path, mode)
-        else:
-            return open(path, mode, encoding=encoding_arg)
+def open_with_dir_create(path, mode, encoding=None):
+    *directories, fileName = path.split('/')
+    if not directories:
+        return open(path, mode, encoding=encoding)
+    if directories:
+        dirpath = ''.join(['/' + directory for directory in directories if directory])
+        Path(os.getcwd()+dirpath).mkdir(parents=True, exist_ok=True)
+        return open(path, mode, encoding=encoding)
 
 
-with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_derivative_forms.json', 'w', encoding_arg='utf8') as f:
+with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_derivative_forms.json', 'w', encoding='utf8') as f:
     print(json.dumps(addSuffixTableList, indent=1, ensure_ascii=False), file=f)
 
-with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes.json', 'w', encoding_arg='utf8') as f:
+with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes.json', 'w', encoding='utf8') as f:
     print(json.dumps(suffixModificationTable, indent=1, ensure_ascii=False), file=f)
 
-with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes_compound.json', 'w', encoding_arg='utf8') as f:
+with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_modified_suffixes_compound.json', 'w', encoding='utf8') as f:
     print(json.dumps(suffixCompoundModificationTable, indent=1, ensure_ascii=False), file=f)
 
-with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_word_corrections.json', 'w', encoding_arg='utf8') as f:
+with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_word_corrections.json', 'w', encoding='utf8') as f:
     print(json.dumps(individualWordCorrectionTable, indent=1, ensure_ascii=False), file=f)
 
 
@@ -313,7 +300,6 @@ else:
                 suffixSchemeLibrary.append(suffixScheme)
             if suffixScheme in suffixSchemeLibrary:
                 dictionaryEntry['flags'].append(suffixSchemeLibrary.index(suffixScheme))
-            #if len(additionalDictionaryEntries) > 0:  # not suffixable -> create separate dictionary entries (on -> jego etc.)
             dictionary.append(dictionaryEntry)
             for additionalEntry in additionalDictionaryEntries:
                 dictionary.append({'word': additionalEntry, 'flags': []})
@@ -321,17 +307,12 @@ else:
             dictionary.append(dictionaryEntry)
     print(str(len(suffixSchemeLibrary)) + ' suffix schemes')
     print(str(len(dictionary)) + ' dictionary entries')
-    # output do .dic file
+    # output to .dic file
     with open_with_dir_create(OUTPUT_DICTIONARY_NAME + '.dic', 'w') as f:
         print(str(len(dictionary)), file=f)
-        for x in range(len(dictionary)):
-            entry = dictionary[x]
-            combinedFlags = ''
-            flags = entry['flags']
-            for y in range(len(flags)):
-                flagNum = flags[y]
-                combinedFlags += determine_long_flag(flagNum)
-            if not combinedFlags == '':
+        for entry in dictionary:
+            combinedFlags = ''.join([determine_long_flag(flagNum) for flagNum in entry['flags']])
+            if combinedFlags:
                 combinedFlags = '/' + combinedFlags
             print(entry['word'] + combinedFlags, file=f)
     # output to .aff file
