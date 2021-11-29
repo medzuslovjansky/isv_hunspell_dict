@@ -15,6 +15,7 @@ GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS = True
 MODIFY_SUFFIXES = True
 ADDITIONAL_ISV_FORMS_FILE_NAMES = 'json_additional/default/isv_lat_additional'
 # EXCEPTIONS
+REPLACE_CHARACTERS_IN_WORDS = False
 REMOVE_FINAL_SPACES_IN_WORDS = True
 SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS = True
 REFLEXIVE_PARTICLE = ' se'
@@ -78,6 +79,9 @@ suffixCompoundModificationTable.append({'partOfSpeech': 'VERB', 'addFormContains
 individualWordCorrectionTable = []
 individualWordCorrectionTable.append({'word': 'hektar ha', 'correctWord': 'hektar'})
 
+replaceCharacterTable = []
+replaceCharacterTable.append({'oldCharacter': 'dʒ', 'newCharacter': 'đ'})
+
 # NEXT LINE WILL BE REPLACED WITH CONTENTS OF SETTINGS FILE IF RUN THROUGH RUN_DICT_GENERATOR.PY
 #!!!
 
@@ -86,16 +90,17 @@ def determine_long_flag(number):
     letterIndex1 = number // len(AFFIX_FLAG_NAME_CHARACTERS)
     letterIndex2 = number % len(AFFIX_FLAG_NAME_CHARACTERS)
     if letterIndex1 >= len(AFFIX_FLAG_NAME_CHARACTERS):
-        raise RuntimeError('Ran out of flags')
+        raise RuntimeError('Ran out of possible affix flags')
     return AFFIX_FLAG_NAME_CHARACTERS[letterIndex1] + AFFIX_FLAG_NAME_CHARACTERS[letterIndex2]
 
 
 def open_with_dir_create(path, mode, encoding=None):
-    *directories, fileName = path.split('/')
+    path = path.replace('/', os.path.sep)
+    *directories, fileName = path.split(os.path.sep)
     if not directories:
         return open(path, mode, encoding=encoding)
     if directories:
-        dirpath = ''.join(['/' + directory for directory in directories if directory])
+        dirpath = ''.join([os.path.sep + directory for directory in directories if directory])
         Path(os.getcwd()+dirpath).mkdir(parents=True, exist_ok=True)
         return open(path, mode, encoding=encoding)
 
@@ -147,6 +152,10 @@ else:
         rememberBadAdjectiveAdverbCombination = ''
         for form in lemma:
             formString = form.attrib['t']  # read form
+            if REPLACE_CHARACTERS_IN_WORDS is True:
+                for rep in replaceCharacterTable:
+                    if rep['oldCharacter'] in formString:
+                        formString = formString.replace(rep['oldCharacter'], rep['newCharacter'])
             formString = ''.join(
                 char for char in formString if char in ACCEPTABLE_WORD_CHARS)
             if REMOVE_FINAL_SPACES_IN_WORDS is True and not formString == '':
@@ -161,7 +170,7 @@ else:
                     formString = formString[0:len(formString)-3]
             if SPECIAL_HANDLING_OF_ISV_NEGATIVE_VERBS is True:
                 if NEGATIVE_PARTICLE == formString[0:3] and partOfSpeech == 'VERB':
-                    formString = formString [3:len(formString)]
+                    formString = formString[3:len(formString)]
             if SPECIAL_HANDLING_OF_ISV_ADJECTIVES_WITH_ADVERBS is True:
                 if len(reducedForms) > 0:
                     if (ADVERB_ENDING + formString) in reducedForms[0]:
@@ -169,7 +178,7 @@ else:
                         splitWords = reducedForms[0].split()
                         if len(splitWords) == 2:
                             additionalDictionaryEntries.append(splitWords[0])
-                            reducedForms[0] = splitWords [1]
+                            reducedForms[0] = splitWords[1]
                     if formString == rememberBadAdjectiveAdverbCombination:
                         formString = ''
             if reducedForms.count(formString) == 0 and not formString == '':
@@ -233,12 +242,12 @@ else:
                                                 suffixInstruction['add'] = suffixInstruction['add'] + '/xB'
                                             else:
                                                 suffixInstruction['add'] = suffixInstruction['add'] + 'xB'
-                                        #if suffixInstruction['add'][len(suffixInstruction['add']) - 1] == 'e':
-                                            #checkFor = baseForm[0:lengthBaseForm-len(suffixInstruction['delete'])]
-                                            #modifiedCheckForSuffix = add[0:len(add)-1] + 'o'
-                                            #checkFor = checkFor + modifiedCheckForSuffix
-                                            #if checkFor not in reducedForms:
-                                                #print(formString)
+                                        # if suffixInstruction['add'][len(suffixInstruction['add']) - 1] == 'e':
+                                            # checkFor = baseForm[0:lengthBaseForm-len(suffixInstruction['delete'])]
+                                            # modifiedCheckForSuffix = add[0:len(add)-1] + 'o'
+                                            # checkFor = checkFor + modifiedCheckForSuffix
+                                            # if checkFor not in reducedForms:
+                                                # print(formString)
                                 add = suffixInstruction['add']
                             if SPECIAL_ISV_ALLOW_ADJECTIVES_AT_END_OF_COMPOUNDS:
                                 if partOfSpeech == 'ADJF' or (partOfSpeech == 'NUMR' and numeralIsOrd is True):

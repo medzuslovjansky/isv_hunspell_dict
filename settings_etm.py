@@ -5,13 +5,13 @@ OUTPUT_DICTIONARY_NAME = 'dictionaries/isv_etm_hunspell_dict'
 OPENCORPORAXML_FILE_NAME = 'input/opencorporaxml/out_isv_etm.xml'
 ACCEPTABLE_WORD_CHARS = '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyzđĐśŚęĘŕŔřŘťŤųŲåÅďĎľĽźŹćĆńŃȯȮėĖòÒèÈ '
 AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-AFFIX_FILE_HEADER_NAME = 'input/affixheaders/affix_file_header_etymologicallatin.txt'
+AFFIX_FILE_HEADER_NAME = 'input/affixheaders/affix_file_header_etymologicallatin_test.txt'
 # WORD FORM GENERATION
 GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS = True
 MODIFY_SUFFIXES = True
 ADDITIONAL_ISV_FORMS_FILE_NAMES = 'json_additional/etm/isv_etm_additional'
 # EXCEPTIONS
-REMOVE_FINAL_SPACES_IN_WORDS = True
+REPLACE_CHARACTERS_IN_WORDS = True
 SPECIAL_HANDLING_OF_ISV_REFLEXIVE_VERBS = True
 REFLEXIVE_PARTICLE = ' sę'
 SPECIAL_HANDLING_OF_ISV_NEGATIVE_VERBS = True
@@ -73,3 +73,5 @@ suffixCompoundModificationTable.append({'partOfSpeech': 'VERB', 'addFormContains
 individualWordCorrectionTable = []
 individualWordCorrectionTable.append({'word': 'hektar ha', 'correctWord': 'hektar'})
 
+replaceCharacterTable = []
+replaceCharacterTable.append({'oldCharacter': 'dʒ', 'newCharacter': 'đ'})

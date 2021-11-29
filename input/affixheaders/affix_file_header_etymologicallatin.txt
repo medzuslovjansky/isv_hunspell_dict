@@ -31,7 +31,11 @@ MAP dď
 MAP sś
 MAP źz
 
-REP 38
+REP 51
+REP e ę
+REP ų u
+REP t ť
+REP č ć
 REP e ě
 REP e y
 REP i y
@@ -42,6 +46,8 @@ REP l lj
 REP s ss
 REP ě e
 REP ljenje jeńje
+REP ln ľn
+REP nje ńje
 REP tuty tutoj
 REP j jų
 REP og ogo
@@ -52,6 +58,7 @@ REP y j
 REP jedny jedin
 REP oro rå
 REP olo lå
+REP nj nij
 REP sistemom sistemojų
 REP gleda ględě
 REP gleda ględi
@@ -70,6 +77,12 @@ REP svjat svęt
 REP ogo ojego
 REP stč šč
 REP št šč
+REP lj lej
+REP sl sel
+REP rel ŕl
+REP rj ŕ
+REP ŕ rj
+REP r ŕ
 
 PFX zz Y 1
 PFX zz 0 naj .
