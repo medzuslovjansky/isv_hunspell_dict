@@ -35,6 +35,8 @@ ISV_COMPOUND_CHARACTER_SOFT = 'е'
 ISV_SOFT_CONSONANTS = 'шжчцјьњљ'
 ISV_VOWELS = 'аеиоуыє'
 ISV_ADJECTIVE_FALSE_COMPOUND_SUFFIX = 'ого'
+# DICTIONARY COMBINING
+PICKLE_DIC_AND_AFF_FOR_COMBINING = True
 
 addSuffixTableList = []
 addSuffixTableVerb = {'partOfSpeech': 'VERB', 'list': []}
@@ -65,8 +67,8 @@ addSuffixTableList.append(addSuffixTableVerb)
 addSuffixTableList.append(addSuffixTableAdjective)
 
 suffixModificationTable = []
-suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'ши', 'modifiedAddForm': 'ши/zz'})
-suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'је', 'modifiedAddForm': 'је/zz'})
+suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'ши', 'modifiedAddForm': 'ши/zx'})
+suffixModificationTable.append({'partOfSpeech': 'ADJF', 'addFormContains': 'је', 'modifiedAddForm': 'је/zx'})
 
 suffixCompoundModificationTable = []
 suffixCompoundModificationTable.append({'partOfSpeech': 'VERB', 'addFormContains': 'нје', 'modifiedAddForm': 'нје/xPxE'})

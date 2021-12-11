@@ -2,6 +2,7 @@ import lxml.etree as ET
 import json
 from pathlib import Path
 import os
+import pickle
 
 # --OPTIONS-- (DEFAULT VALUES)
 # MAIN
@@ -39,6 +40,8 @@ ISV_COMPOUND_CHARACTER_SOFT = 'e'
 ISV_SOFT_CONSONANTS = 'šžčcj'
 ISV_VOWELS = 'aeiouyě'
 ISV_ADJECTIVE_FALSE_COMPOUND_SUFFIX = 'ogo'
+# DICTIONARY COMBINING
+PICKLE_DIC_AND_AFF_FOR_COMBINING = True
 
 
 addSuffixTableList = []
@@ -334,3 +337,8 @@ else:
                     print('SFX ' + determine_long_flag(index) + ' ' + instructionIterate['delete'] + ' ' +
                           instructionIterate['add'] + ' ' + instructionIterate['condition'], file=f)
                 print('', file=f)
+    if PICKLE_DIC_AND_AFF_FOR_COMBINING is True:
+        with open_with_dir_create('pickling/' + OUTPUT_DICTIONARY_NAME + '_dic.pic', 'wb') as f:
+            pickle.dump(dictionary, f)
+        with open_with_dir_create('pickling/' + OUTPUT_DICTIONARY_NAME + '_aff.pic', 'wb') as f:
+            pickle.dump(suffixSchemeLibrary, f)

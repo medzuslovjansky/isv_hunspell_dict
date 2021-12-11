@@ -22,7 +22,7 @@ ICONV љ лј
 ICONV нь нј
 ICONV ль лј
 
-MAP 10
+MAP 11
 MAP иі
 MAP ђ(дж)
 MAP ћ(ч)
@@ -33,8 +33,9 @@ MAP ї(ји)
 MAP эе
 MAP ј'ъ
 MAP ъа
+MAP ъо
 
-REP 38
+REP 39
 REP е є
 REP е ы
 REP и ы
@@ -73,9 +74,10 @@ REP свјат свет
 REP ого ојего
 REP стч шч
 REP шт шч
+REP аја ајучи
 
-PFX zz Y 1
-PFX zz 0 нај .
+PFX zx Y 1
+PFX zx 0 нај .
 
 SFX AA Y 18
 SFX AA 0 0/xPxE .
@@ -213,20 +215,20 @@ SFX AE ы и/xPxE .
 SFX AE ы е/xPxE .
 SFX AE 0 х/xPxE .
 SFX AE 0 ми/xPxE .
-SFX AE кы ши/zz .
-SFX AE кы шего/zz .
-SFX AE кы шему/zz .
-SFX AE кы шим/zz .
-SFX AE кы шем/zz .
-SFX AE кы ше/zz .
-SFX AE кы ша/zz .
-SFX AE кы шу/zz .
-SFX AE кы шеј/zz .
-SFX AE кы шеју/zz .
-SFX AE кы ших/zz .
-SFX AE кы шим/zz .
-SFX AE кы шими/zz .
-SFX AE кы је/zz .
+SFX AE кы ши/zx .
+SFX AE кы шего/zx .
+SFX AE кы шему/zx .
+SFX AE кы шим/zx .
+SFX AE кы шем/zx .
+SFX AE кы ше/zx .
+SFX AE кы ша/zx .
+SFX AE кы шу/zx .
+SFX AE кы шеј/zx .
+SFX AE кы шеју/zx .
+SFX AE кы ших/zx .
+SFX AE кы шим/zx .
+SFX AE кы шими/zx .
+SFX AE кы је/zx .
 
 SFX AF Y 28
 SFX AF 0 0/xPxE .
@@ -243,19 +245,19 @@ SFX AF ы и/xPxE .
 SFX AF ы е/xPxE .
 SFX AF 0 х/xPxE .
 SFX AF 0 ми/xPxE .
-SFX AF ликы чши/zz .
-SFX AF ликы чшего/zz .
-SFX AF ликы чшему/zz .
-SFX AF ликы чшим/zz .
-SFX AF ликы чшем/zz .
-SFX AF ликы чше/zz .
-SFX AF ликы чша/zz .
-SFX AF ликы чшу/zz .
-SFX AF ликы чшеј/zz .
-SFX AF ликы чшеју/zz .
-SFX AF ликы чших/zz .
-SFX AF ликы чшим/zz .
-SFX AF ликы чшими/zz .
+SFX AF ликы чши/zx .
+SFX AF ликы чшего/zx .
+SFX AF ликы чшему/zx .
+SFX AF ликы чшим/zx .
+SFX AF ликы чшем/zx .
+SFX AF ликы чше/zx .
+SFX AF ликы чша/zx .
+SFX AF ликы чшу/zx .
+SFX AF ликы чшеј/zx .
+SFX AF ликы чшеју/zx .
+SFX AF ликы чших/zx .
+SFX AF ликы чшим/zx .
+SFX AF ликы чшими/zx .
 SFX AF ликы че/xPxE .
 
 SFX AG Y 99
@@ -643,20 +645,20 @@ SFX AP ы и/xPxE .
 SFX AP ы е/xPxE .
 SFX AP 0 х/xPxE .
 SFX AP 0 ми/xPxE .
-SFX AP ы єјши/zz .
-SFX AP ы єјшего/zz .
-SFX AP ы єјшему/zz .
-SFX AP ы єјшим/zz .
-SFX AP ы єјшем/zz .
-SFX AP ы єјше/zz .
-SFX AP ы єјша/zz .
-SFX AP ы єјшу/zz .
-SFX AP ы єјшеј/zz .
-SFX AP ы єјшеју/zz .
-SFX AP ы єјших/zz .
-SFX AP ы єјшим/zz .
-SFX AP ы єјшими/zz .
-SFX AP ы єје/zz .
+SFX AP ы єјши/zx .
+SFX AP ы єјшего/zx .
+SFX AP ы єјшему/zx .
+SFX AP ы єјшим/zx .
+SFX AP ы єјшем/zx .
+SFX AP ы єјше/zx .
+SFX AP ы єјша/zx .
+SFX AP ы єјшу/zx .
+SFX AP ы єјшеј/zx .
+SFX AP ы єјшеју/zx .
+SFX AP ы єјших/zx .
+SFX AP ы єјшим/zx .
+SFX AP ы єјшими/zx .
+SFX AP ы єје/zx .
 
 SFX AQ Y 11
 SFX AQ 0 0/xPxE .
@@ -896,19 +898,19 @@ SFX Aa ы и/xPxE .
 SFX Aa ы е/xPxE .
 SFX Aa 0 х/xPxE .
 SFX Aa 0 ми/xPxE .
-SFX Aa кы ши/zz .
-SFX Aa кы шего/zz .
-SFX Aa кы шему/zz .
-SFX Aa кы шим/zz .
-SFX Aa кы шем/zz .
-SFX Aa кы ше/zz .
-SFX Aa кы ша/zz .
-SFX Aa кы шу/zz .
-SFX Aa кы шеј/zz .
-SFX Aa кы шеју/zz .
-SFX Aa кы ших/zz .
-SFX Aa кы шим/zz .
-SFX Aa кы шими/zz .
+SFX Aa кы ши/zx .
+SFX Aa кы шего/zx .
+SFX Aa кы шему/zx .
+SFX Aa кы шим/zx .
+SFX Aa кы шем/zx .
+SFX Aa кы ше/zx .
+SFX Aa кы ша/zx .
+SFX Aa кы шу/zx .
+SFX Aa кы шеј/zx .
+SFX Aa кы шеју/zx .
+SFX Aa кы ших/zx .
+SFX Aa кы шим/zx .
+SFX Aa кы шими/zx .
 SFX Aa зкы же/xPxE .
 
 SFX Ab Y 4
@@ -1399,20 +1401,20 @@ SFX Ay ы и/xPxE .
 SFX Ay ы е/xPxE .
 SFX Ay 0 х/xPxE .
 SFX Ay 0 ми/xPxE .
-SFX Ay окы ши/zz .
-SFX Ay окы шего/zz .
-SFX Ay окы шему/zz .
-SFX Ay окы шим/zz .
-SFX Ay окы шем/zz .
-SFX Ay окы ше/zz .
-SFX Ay окы ша/zz .
-SFX Ay окы шу/zz .
-SFX Ay окы шеј/zz .
-SFX Ay окы шеју/zz .
-SFX Ay окы ших/zz .
-SFX Ay окы шим/zz .
-SFX Ay окы шими/zz .
-SFX Ay окы је/zz .
+SFX Ay окы ши/zx .
+SFX Ay окы шего/zx .
+SFX Ay окы шему/zx .
+SFX Ay окы шим/zx .
+SFX Ay окы шем/zx .
+SFX Ay окы ше/zx .
+SFX Ay окы ша/zx .
+SFX Ay окы шу/zx .
+SFX Ay окы шеј/zx .
+SFX Ay окы шеју/zx .
+SFX Ay окы ших/zx .
+SFX Ay окы шим/zx .
+SFX Ay окы шими/zx .
+SFX Ay окы је/zx .
 
 SFX Az Y 10
 SFX Az 0 0/xPxE .
@@ -2067,20 +2069,20 @@ SFX BW 0 м/xPxE .
 SFX BW и еју/xPxE .
 SFX BW 0 х/xPxE .
 SFX BW 0 ми/xPxE .
-SFX BW и ејши/zz .
-SFX BW и ејшего/zz .
-SFX BW и ејшему/zz .
-SFX BW и ејшим/zz .
-SFX BW и ејшем/zz .
-SFX BW и ејше/zz .
-SFX BW и ејша/zz .
-SFX BW и ејшу/zz .
-SFX BW и ејшеј/zz .
-SFX BW и ејшеју/zz .
-SFX BW и ејших/zz .
-SFX BW и ејшим/zz .
-SFX BW и ејшими/zz .
-SFX BW и еје/zz .
+SFX BW и ејши/zx .
+SFX BW и ејшего/zx .
+SFX BW и ејшему/zx .
+SFX BW и ејшим/zx .
+SFX BW и ејшем/zx .
+SFX BW и ејше/zx .
+SFX BW и ејша/zx .
+SFX BW и ејшу/zx .
+SFX BW и ејшеј/zx .
+SFX BW и ејшеју/zx .
+SFX BW и ејших/zx .
+SFX BW и ејшим/zx .
+SFX BW и ејшими/zx .
+SFX BW и еје/zx .
 
 SFX BX Y 68
 SFX BX ти л .
@@ -2180,19 +2182,19 @@ SFX BZ ы и/xPxE .
 SFX BZ ы е/xPxE .
 SFX BZ 0 х/xPxE .
 SFX BZ 0 ми/xPxE .
-SFX BZ окы ши/zz .
-SFX BZ окы шего/zz .
-SFX BZ окы шему/zz .
-SFX BZ окы шим/zz .
-SFX BZ окы шем/zz .
-SFX BZ окы ше/zz .
-SFX BZ окы ша/zz .
-SFX BZ окы шу/zz .
-SFX BZ окы шеј/zz .
-SFX BZ окы шеју/zz .
-SFX BZ окы ших/zz .
-SFX BZ окы шим/zz .
-SFX BZ окы шими/zz .
+SFX BZ окы ши/zx .
+SFX BZ окы шего/zx .
+SFX BZ окы шему/zx .
+SFX BZ окы шим/zx .
+SFX BZ окы шем/zx .
+SFX BZ окы ше/zx .
+SFX BZ окы ша/zx .
+SFX BZ окы шу/zx .
+SFX BZ окы шеј/zx .
+SFX BZ окы шеју/zx .
+SFX BZ окы ших/zx .
+SFX BZ окы шим/zx .
+SFX BZ окы шими/zx .
 SFX BZ сокы ше/xPxE .
 
 SFX Ba Y 31
@@ -2276,20 +2278,20 @@ SFX Bc ы и/xPxE .
 SFX Bc ы е/xPxE .
 SFX Bc 0 х/xPxE .
 SFX Bc 0 ми/xPxE .
-SFX Bc гы жєјши/zz .
-SFX Bc гы жєјшего/zz .
-SFX Bc гы жєјшему/zz .
-SFX Bc гы жєјшим/zz .
-SFX Bc гы жєјшем/zz .
-SFX Bc гы жєјше/zz .
-SFX Bc гы жєјша/zz .
-SFX Bc гы жєјшу/zz .
-SFX Bc гы жєјшеј/zz .
-SFX Bc гы жєјшеју/zz .
-SFX Bc гы жєјших/zz .
-SFX Bc гы жєјшим/zz .
-SFX Bc гы жєјшими/zz .
-SFX Bc гы жеје/zz .
+SFX Bc гы жєјши/zx .
+SFX Bc гы жєјшего/zx .
+SFX Bc гы жєјшему/zx .
+SFX Bc гы жєјшим/zx .
+SFX Bc гы жєјшем/zx .
+SFX Bc гы жєјше/zx .
+SFX Bc гы жєјша/zx .
+SFX Bc гы жєјшу/zx .
+SFX Bc гы жєјшеј/zx .
+SFX Bc гы жєјшеју/zx .
+SFX Bc гы жєјших/zx .
+SFX Bc гы жєјшим/zx .
+SFX Bc гы жєјшими/zx .
+SFX Bc гы жеје/zx .
 
 SFX Bd Y 11
 SFX Bd 0 0/xPxE .
@@ -2414,19 +2416,19 @@ SFX Bg ы и/xPxE .
 SFX Bg ы е/xPxE .
 SFX Bg 0 х/xPxE .
 SFX Bg 0 ми/xPxE .
-SFX Bg кы ши/zz .
-SFX Bg кы шего/zz .
-SFX Bg кы шему/zz .
-SFX Bg кы шим/zz .
-SFX Bg кы шем/zz .
-SFX Bg кы ше/zz .
-SFX Bg кы ша/zz .
-SFX Bg кы шу/zz .
-SFX Bg кы шеј/zz .
-SFX Bg кы шеју/zz .
-SFX Bg кы ших/zz .
-SFX Bg кы шим/zz .
-SFX Bg кы шими/zz .
+SFX Bg кы ши/zx .
+SFX Bg кы шего/zx .
+SFX Bg кы шему/zx .
+SFX Bg кы шим/zx .
+SFX Bg кы шем/zx .
+SFX Bg кы ше/zx .
+SFX Bg кы ша/zx .
+SFX Bg кы шу/zx .
+SFX Bg кы шеј/zx .
+SFX Bg кы шеју/zx .
+SFX Bg кы ших/zx .
+SFX Bg кы шим/zx .
+SFX Bg кы шими/zx .
 SFX Bg кы же/xPxE .
 
 SFX Bh Y 4
@@ -2660,19 +2662,19 @@ SFX Bq ы и/xPxE .
 SFX Bq ы е/xPxE .
 SFX Bq 0 х/xPxE .
 SFX Bq 0 ми/xPxE .
-SFX Bq кы ши/zz .
-SFX Bq кы шего/zz .
-SFX Bq кы шему/zz .
-SFX Bq кы шим/zz .
-SFX Bq кы шем/zz .
-SFX Bq кы ше/zz .
-SFX Bq кы ша/zz .
-SFX Bq кы шу/zz .
-SFX Bq кы шеј/zz .
-SFX Bq кы шеју/zz .
-SFX Bq кы ших/zz .
-SFX Bq кы шим/zz .
-SFX Bq кы шими/zz .
+SFX Bq кы ши/zx .
+SFX Bq кы шего/zx .
+SFX Bq кы шему/zx .
+SFX Bq кы шим/zx .
+SFX Bq кы шем/zx .
+SFX Bq кы ше/zx .
+SFX Bq кы ша/zx .
+SFX Bq кы шу/zx .
+SFX Bq кы шеј/zx .
+SFX Bq кы шеју/zx .
+SFX Bq кы ших/zx .
+SFX Bq кы шим/zx .
+SFX Bq кы шими/zx .
 SFX Bq кы ше/xPxE .
 
 SFX Br Y 68
@@ -3237,20 +3239,20 @@ SFX CC ы и/xPxE .
 SFX CC ы е/xPxE .
 SFX CC 0 х/xPxE .
 SFX CC 0 ми/xPxE .
-SFX CC екы ши/zz .
-SFX CC екы шего/zz .
-SFX CC екы шему/zz .
-SFX CC екы шим/zz .
-SFX CC екы шем/zz .
-SFX CC екы ше/zz .
-SFX CC екы ша/zz .
-SFX CC екы шу/zz .
-SFX CC екы шеј/zz .
-SFX CC екы шеју/zz .
-SFX CC екы ших/zz .
-SFX CC екы шим/zz .
-SFX CC екы шими/zz .
-SFX CC екы је/zz .
+SFX CC екы ши/zx .
+SFX CC екы шего/zx .
+SFX CC екы шему/zx .
+SFX CC екы шим/zx .
+SFX CC екы шем/zx .
+SFX CC екы ше/zx .
+SFX CC екы ша/zx .
+SFX CC екы шу/zx .
+SFX CC екы шеј/zx .
+SFX CC екы шеју/zx .
+SFX CC екы ших/zx .
+SFX CC екы шим/zx .
+SFX CC екы шими/zx .
+SFX CC екы је/zx .
 
 SFX CD Y 59
 SFX CD ти л .
@@ -3885,20 +3887,20 @@ SFX CV ы и/xPxE .
 SFX CV ы е/xPxE .
 SFX CV 0 х/xPxE .
 SFX CV 0 ми/xPxE .
-SFX CV кы чєјши/zz .
-SFX CV кы чєјшего/zz .
-SFX CV кы чєјшему/zz .
-SFX CV кы чєјшим/zz .
-SFX CV кы чєјшем/zz .
-SFX CV кы чєјше/zz .
-SFX CV кы чєјша/zz .
-SFX CV кы чєјшу/zz .
-SFX CV кы чєјшеј/zz .
-SFX CV кы чєјшеју/zz .
-SFX CV кы чєјших/zz .
-SFX CV кы чєјшим/zz .
-SFX CV кы чєјшими/zz .
-SFX CV кы чеје/zz .
+SFX CV кы чєјши/zx .
+SFX CV кы чєјшего/zx .
+SFX CV кы чєјшему/zx .
+SFX CV кы чєјшим/zx .
+SFX CV кы чєјшем/zx .
+SFX CV кы чєјше/zx .
+SFX CV кы чєјша/zx .
+SFX CV кы чєјшу/zx .
+SFX CV кы чєјшеј/zx .
+SFX CV кы чєјшеју/zx .
+SFX CV кы чєјших/zx .
+SFX CV кы чєјшим/zx .
+SFX CV кы чєјшими/zx .
+SFX CV кы чеје/zx .
 
 SFX CW Y 80
 SFX CW ти л .
@@ -4213,20 +4215,20 @@ SFX Cf ы и/xPxE .
 SFX Cf ы е/xPxE .
 SFX Cf 0 х/xPxE .
 SFX Cf 0 ми/xPxE .
-SFX Cf хы шєјши/zz .
-SFX Cf хы шєјшего/zz .
-SFX Cf хы шєјшему/zz .
-SFX Cf хы шєјшим/zz .
-SFX Cf хы шєјшем/zz .
-SFX Cf хы шєјше/zz .
-SFX Cf хы шєјша/zz .
-SFX Cf хы шєјшу/zz .
-SFX Cf хы шєјшеј/zz .
-SFX Cf хы шєјшеју/zz .
-SFX Cf хы шєјших/zz .
-SFX Cf хы шєјшим/zz .
-SFX Cf хы шєјшими/zz .
-SFX Cf хы шеје/zz .
+SFX Cf хы шєјши/zx .
+SFX Cf хы шєјшего/zx .
+SFX Cf хы шєјшему/zx .
+SFX Cf хы шєјшим/zx .
+SFX Cf хы шєјшем/zx .
+SFX Cf хы шєјше/zx .
+SFX Cf хы шєјша/zx .
+SFX Cf хы шєјшу/zx .
+SFX Cf хы шєјшеј/zx .
+SFX Cf хы шєјшеју/zx .
+SFX Cf хы шєјших/zx .
+SFX Cf хы шєјшим/zx .
+SFX Cf хы шєјшими/zx .
+SFX Cf хы шеје/zx .
 
 SFX Cg Y 80
 SFX Cg ти л .
@@ -6161,19 +6163,19 @@ SFX Dn ы и/xPxE .
 SFX Dn ы е/xPxE .
 SFX Dn 0 х/xPxE .
 SFX Dn 0 ми/xPxE .
-SFX Dn кы ши/zz .
-SFX Dn кы шего/zz .
-SFX Dn кы шему/zz .
-SFX Dn кы шим/zz .
-SFX Dn кы шем/zz .
-SFX Dn кы ше/zz .
-SFX Dn кы ша/zz .
-SFX Dn кы шу/zz .
-SFX Dn кы шеј/zz .
-SFX Dn кы шеју/zz .
-SFX Dn кы ших/zz .
-SFX Dn кы шим/zz .
-SFX Dn кы шими/zz .
+SFX Dn кы ши/zx .
+SFX Dn кы шего/zx .
+SFX Dn кы шему/zx .
+SFX Dn кы шим/zx .
+SFX Dn кы шем/zx .
+SFX Dn кы ше/zx .
+SFX Dn кы ша/zx .
+SFX Dn кы шу/zx .
+SFX Dn кы шеј/zx .
+SFX Dn кы шеју/zx .
+SFX Dn кы ших/zx .
+SFX Dn кы шим/zx .
+SFX Dn кы шими/zx .
 SFX Dn ткы че/xPxE .
 
 SFX Do Y 11
@@ -6286,20 +6288,20 @@ SFX Dq ы и/xPxE .
 SFX Dq ы е/xPxE .
 SFX Dq 0 х/xPxE .
 SFX Dq 0 ми/xPxE .
-SFX Dq алы енши/zz .
-SFX Dq алы еншего/zz .
-SFX Dq алы еншему/zz .
-SFX Dq алы еншим/zz .
-SFX Dq алы еншем/zz .
-SFX Dq алы енше/zz .
-SFX Dq алы енша/zz .
-SFX Dq алы еншу/zz .
-SFX Dq алы еншеј/zz .
-SFX Dq алы еншеју/zz .
-SFX Dq алы енших/zz .
-SFX Dq алы еншим/zz .
-SFX Dq алы еншими/zz .
-SFX Dq алы енје/zz .
+SFX Dq алы енши/zx .
+SFX Dq алы еншего/zx .
+SFX Dq алы еншему/zx .
+SFX Dq алы еншим/zx .
+SFX Dq алы еншем/zx .
+SFX Dq алы енше/zx .
+SFX Dq алы енша/zx .
+SFX Dq алы еншу/zx .
+SFX Dq алы еншеј/zx .
+SFX Dq алы еншеју/zx .
+SFX Dq алы енших/zx .
+SFX Dq алы еншим/zx .
+SFX Dq алы еншими/zx .
+SFX Dq алы енје/zx .
 
 SFX Dr Y 13
 SFX Dr ынебуд онебуд .
@@ -6615,20 +6617,20 @@ SFX Dy ы и/xPxE .
 SFX Dy ы е/xPxE .
 SFX Dy 0 х/xPxE .
 SFX Dy 0 ми/xPxE .
-SFX Dy злы горши/zz .
-SFX Dy злы горшего/zz .
-SFX Dy злы горшему/zz .
-SFX Dy злы горшим/zz .
-SFX Dy злы горшем/zz .
-SFX Dy злы горше/zz .
-SFX Dy злы горша/zz .
-SFX Dy злы горшу/zz .
-SFX Dy злы горшеј/zz .
-SFX Dy злы горшеју/zz .
-SFX Dy злы горших/zz .
-SFX Dy злы горшим/zz .
-SFX Dy злы горшими/zz .
-SFX Dy злы горје/zz .
+SFX Dy злы горши/zx .
+SFX Dy злы горшего/zx .
+SFX Dy злы горшему/zx .
+SFX Dy злы горшим/zx .
+SFX Dy злы горшем/zx .
+SFX Dy злы горше/zx .
+SFX Dy злы горша/zx .
+SFX Dy злы горшу/zx .
+SFX Dy злы горшеј/zx .
+SFX Dy злы горшеју/zx .
+SFX Dy злы горших/zx .
+SFX Dy злы горшим/zx .
+SFX Dy злы горшими/zx .
+SFX Dy злы горје/zx .
 
 SFX Dz Y 81
 SFX Dz ојдти шел .
@@ -7459,20 +7461,20 @@ SFX EY ен ни/xPxE .
 SFX EY ен не/xPxE .
 SFX EY ен ных/xPxE .
 SFX EY ен ными/xPxE .
-SFX EY ен нєјши/zz .
-SFX EY ен нєјшего/zz .
-SFX EY ен нєјшему/zz .
-SFX EY ен нєјшим/zz .
-SFX EY ен нєјшем/zz .
-SFX EY ен нєјше/zz .
-SFX EY ен нєјша/zz .
-SFX EY ен нєјшу/zz .
-SFX EY ен нєјшеј/zz .
-SFX EY ен нєјшеју/zz .
-SFX EY ен нєјших/zz .
-SFX EY ен нєјшим/zz .
-SFX EY ен нєјшими/zz .
-SFX EY ен нєје/zz .
+SFX EY ен нєјши/zx .
+SFX EY ен нєјшего/zx .
+SFX EY ен нєјшему/zx .
+SFX EY ен нєјшим/zx .
+SFX EY ен нєјшем/zx .
+SFX EY ен нєјше/zx .
+SFX EY ен нєјша/zx .
+SFX EY ен нєјшу/zx .
+SFX EY ен нєјшеј/zx .
+SFX EY ен нєјшеју/zx .
+SFX EY ен нєјших/zx .
+SFX EY ен нєјшим/zx .
+SFX EY ен нєјшими/zx .
+SFX EY ен нєје/zx .
 
 SFX EZ Y 13
 SFX EZ 0 о .
@@ -8066,20 +8068,20 @@ SFX Ez ы и/xPxE .
 SFX Ez ы е/xPxE .
 SFX Ez 0 х/xPxE .
 SFX Ez 0 ми/xPxE .
-SFX Ez многы болши/zz .
-SFX Ez многы болшего/zz .
-SFX Ez многы болшему/zz .
-SFX Ez многы болшим/zz .
-SFX Ez многы болшем/zz .
-SFX Ez многы болше/zz .
-SFX Ez многы болша/zz .
-SFX Ez многы болшу/zz .
-SFX Ez многы болшеј/zz .
-SFX Ez многы болшеју/zz .
-SFX Ez многы болших/zz .
-SFX Ez многы болшим/zz .
-SFX Ez многы болшими/zz .
-SFX Ez многы болје/zz .
+SFX Ez многы болши/zx .
+SFX Ez многы болшего/zx .
+SFX Ez многы болшему/zx .
+SFX Ez многы болшим/zx .
+SFX Ez многы болшем/zx .
+SFX Ez многы болше/zx .
+SFX Ez многы болша/zx .
+SFX Ez многы болшу/zx .
+SFX Ez многы болшеј/zx .
+SFX Ez многы болшеју/zx .
+SFX Ez многы болших/zx .
+SFX Ez многы болшим/zx .
+SFX Ez многы болшими/zx .
+SFX Ez многы болје/zx .
 
 SFX FA Y 9
 SFX FA 0 0/xPxE .
@@ -8107,19 +8109,19 @@ SFX FB ы и/xPxE .
 SFX FB ы е/xPxE .
 SFX FB 0 х/xPxE .
 SFX FB 0 ми/xPxE .
-SFX FB гкы жши/zz .
-SFX FB гкы жшего/zz .
-SFX FB гкы жшему/zz .
-SFX FB гкы жшим/zz .
-SFX FB гкы жшем/zz .
-SFX FB гкы жше/zz .
-SFX FB гкы жша/zz .
-SFX FB гкы жшу/zz .
-SFX FB гкы жшеј/zz .
-SFX FB гкы жшеју/zz .
-SFX FB гкы жших/zz .
-SFX FB гкы жшим/zz .
-SFX FB гкы жшими/zz .
+SFX FB гкы жши/zx .
+SFX FB гкы жшего/zx .
+SFX FB гкы жшему/zx .
+SFX FB гкы жшим/zx .
+SFX FB гкы жшем/zx .
+SFX FB гкы жше/zx .
+SFX FB гкы жша/zx .
+SFX FB гкы жшу/zx .
+SFX FB гкы жшеј/zx .
+SFX FB гкы жшеју/zx .
+SFX FB гкы жших/zx .
+SFX FB гкы жшим/zx .
+SFX FB гкы жшими/zx .
 SFX FB кы ше/xPxE .
 
 SFX FC Y 71
@@ -8614,20 +8616,20 @@ SFX FZ 0 и/xPxE .
 SFX FZ 0 е/xPxE .
 SFX FZ 0 ых/xPxE .
 SFX FZ 0 ыми/xPxE .
-SFX FZ 0 єјши/zz .
-SFX FZ 0 єјшего/zz .
-SFX FZ 0 єјшему/zz .
-SFX FZ 0 єјшим/zz .
-SFX FZ 0 єјшем/zz .
-SFX FZ 0 єјше/zz .
-SFX FZ 0 єјша/zz .
-SFX FZ 0 єјшу/zz .
-SFX FZ 0 єјшеј/zz .
-SFX FZ 0 єјшеју/zz .
-SFX FZ 0 єјших/zz .
-SFX FZ 0 єјшим/zz .
-SFX FZ 0 єјшими/zz .
-SFX FZ 0 єје/zz .
+SFX FZ 0 єјши/zx .
+SFX FZ 0 єјшего/zx .
+SFX FZ 0 єјшему/zx .
+SFX FZ 0 єјшим/zx .
+SFX FZ 0 єјшем/zx .
+SFX FZ 0 єјше/zx .
+SFX FZ 0 єјша/zx .
+SFX FZ 0 єјшу/zx .
+SFX FZ 0 єјшеј/zx .
+SFX FZ 0 єјшеју/zx .
+SFX FZ 0 єјших/zx .
+SFX FZ 0 єјшим/zx .
+SFX FZ 0 єјшими/zx .
+SFX FZ 0 єје/zx .
 
 SFX Fa Y 11
 SFX Fa 0 0/xPxE .
@@ -9741,19 +9743,19 @@ SFX GA ы и/xPxE .
 SFX GA ы е/xPxE .
 SFX GA 0 х/xPxE .
 SFX GA 0 ми/xPxE .
-SFX GA окы ши/zz .
-SFX GA окы шего/zz .
-SFX GA окы шему/zz .
-SFX GA окы шим/zz .
-SFX GA окы шем/zz .
-SFX GA окы ше/zz .
-SFX GA окы ша/zz .
-SFX GA окы шу/zz .
-SFX GA окы шеј/zz .
-SFX GA окы шеју/zz .
-SFX GA окы ших/zz .
-SFX GA окы шим/zz .
-SFX GA окы шими/zz .
+SFX GA окы ши/zx .
+SFX GA окы шего/zx .
+SFX GA окы шему/zx .
+SFX GA окы шим/zx .
+SFX GA окы шем/zx .
+SFX GA окы ше/zx .
+SFX GA окы ша/zx .
+SFX GA окы шу/zx .
+SFX GA окы шеј/zx .
+SFX GA окы шеју/zx .
+SFX GA окы ших/zx .
+SFX GA окы шим/zx .
+SFX GA окы шими/zx .
 SFX GA стокы шче/xPxE .
 
 SFX GB Y 63

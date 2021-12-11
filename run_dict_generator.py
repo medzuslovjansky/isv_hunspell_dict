@@ -1,5 +1,4 @@
 from argparse import ArgumentParser
-import string
 
 parser = ArgumentParser()
 parser.add_argument('settingfile', metavar='settings_lat.py', type=ascii, help='Settings file.')

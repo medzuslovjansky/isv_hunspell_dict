@@ -5,7 +5,7 @@ OUTPUT_DICTIONARY_NAME = 'dictionaries/isv_etm_hunspell_dict'
 OPENCORPORAXML_FILE_NAME = 'input/opencorporaxml/out_isv_etm.xml'
 ACCEPTABLE_WORD_CHARS = '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyzđĐśŚęĘŕŔřŘťŤųŲåÅďĎľĽźŹćĆńŃȯȮėĖòÒèÈ '
 AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-AFFIX_FILE_HEADER_NAME = 'input/affixheaders/affix_file_header_etymologicallatin_test.txt'
+AFFIX_FILE_HEADER_NAME = 'input/affixheaders/affix_file_header_etymologicallatin.txt'
 # WORD FORM GENERATION
 GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS = True
 MODIFY_SUFFIXES = True
@@ -34,6 +34,8 @@ ISV_COMPOUND_CHARACTER_SOFT = 'e'
 ISV_SOFT_CONSONANTS = 'šžčcjćđ'
 ISV_VOWELS = 'aeiouyěęųȯėåòè'
 ISV_ADJECTIVE_FALSE_COMPOUND_SUFFIX = 'ogo'
+# DICTIONARY COMBINING
+PICKLE_DIC_AND_AFF_FOR_COMBINING = True
 
 addSuffixTableList = []
 addSuffixTableVerb = {'partOfSpeech': 'VERB', 'list': []}

@@ -32,8 +32,8 @@ MAP sś
 MAP źz
 
 REP 51
+REP tuty tutoj
 REP e ę
-REP ų u
 REP t ť
 REP č ć
 REP e ě
@@ -48,7 +48,6 @@ REP ě e
 REP ljenje jeńje
 REP ln ľn
 REP nje ńje
-REP tuty tutoj
 REP j jų
 REP og ogo
 REP v u
@@ -83,6 +82,7 @@ REP rel ŕl
 REP rj ŕ
 REP ŕ rj
 REP r ŕ
+REP u ų
 
 PFX zz Y 1
 PFX zz 0 naj .

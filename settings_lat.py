@@ -35,6 +35,8 @@ ISV_COMPOUND_CHARACTER_SOFT = 'e'
 ISV_SOFT_CONSONANTS = 'šžčcj'
 ISV_VOWELS = 'aeiouyě'
 ISV_ADJECTIVE_FALSE_COMPOUND_SUFFIX = 'ogo'
+# DICTIONARY COMBINING
+PICKLE_DIC_AND_AFF_FOR_COMBINING = True
 
 addSuffixTableList = []
 addSuffixTableVerb = {'partOfSpeech': 'VERB', 'list': []}
