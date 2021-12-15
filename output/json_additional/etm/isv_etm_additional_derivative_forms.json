@@ -1,0 +1,123 @@
+[
+ {
+  "partOfSpeech": "VERB",
+  "list": [
+   {
+    "baseSuffix": "ńje",
+    "addSuffixes": [
+     "ńja",
+     "ńju",
+     "ńjem",
+     "nij",
+     "ńjam",
+     "ńjami",
+     "ńjah"
+    ]
+   },
+   {
+    "baseSuffix": "ųći",
+    "addSuffixes": [
+     "ųćego",
+     "ųćemu",
+     "ųćim",
+     "ųćem",
+     "ųćih",
+     "ųćimi"
+    ]
+   },
+   {
+    "baseSuffix": "ųča",
+    "addSuffixes": [
+     "ųčų",
+     "ųčej",
+     "ųčejų"
+    ]
+   },
+   {
+    "baseSuffix": "my",
+    "addSuffixes": [
+     "mogo",
+     "momu",
+     "mym",
+     "mom",
+     "mo"
+    ]
+   },
+   {
+    "baseSuffix": "ma",
+    "addSuffixes": [
+     "mų",
+     "moj",
+     "mojų",
+     "mi",
+     "me",
+     "myh",
+     "mym",
+     "mymi"
+    ]
+   },
+   {
+    "baseSuffix": "vši",
+    "addSuffixes": [
+     "všego",
+     "všemu",
+     "všim",
+     "všem",
+     "vših",
+     "všimi"
+    ]
+   },
+   {
+    "baseSuffix": "vša",
+    "addSuffixes": [
+     "všų",
+     "všej",
+     "všejų"
+    ]
+   },
+   {
+    "baseSuffix": "ny",
+    "addSuffixes": [
+     "nogo",
+     "nomu",
+     "nym",
+     "nom",
+     "ni",
+     "ne",
+     "nyh",
+     "nymi"
+    ]
+   },
+   {
+    "baseSuffix": "na",
+    "addSuffixes": [
+     "nų",
+     "noj",
+     "nojų"
+    ]
+   }
+  ]
+ },
+ {
+  "partOfSpeech": "ADJF",
+  "list": [
+   {
+    "baseSuffix": "ši",
+    "addSuffixes": [
+     "šego",
+     "šemu",
+     "šim",
+     "šem",
+     "še",
+     "ša",
+     "šų",
+     "šej",
+     "šejų",
+     "ših",
+     "šim",
+     "šimi"
+    ]
+   }
+  ]
+ }
+]

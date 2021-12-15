@@ -1,12 +1,15 @@
 import lxml.etree as ET
 import json
-from pathlib import Path
-import os
+from utilities import determine_long_flag
+from utilities import open_with_dir_create
+from utilities import  printProgressBar
 import pickle
+import time
 
+start_time = time.time()
 # --OPTIONS-- (DEFAULT VALUES)
 # MAIN
-OUTPUT_DICTIONARY_NAME = 'dictionaries/isv_default_hunspell_dict'
+OUTPUT_DICTIONARY_NAME = 'output/dictionaries/isv_default_hunspell_dict'
 OPENCORPORAXML_FILE_NAME = 'input/opencorporaxml/out_isv_lat.xml'
 ACCEPTABLE_WORD_CHARS = '-ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz '
 AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
@@ -14,7 +17,7 @@ AFFIX_FILE_HEADER_NAME = 'input/affixheaders/affix_file_header_standardlatin.txt
 # WORD FORM GENERATION
 GENERATE_ADDITIONAL_ISV_DERIVATIVE_WORD_FORMS = True
 MODIFY_SUFFIXES = True
-ADDITIONAL_ISV_FORMS_FILE_NAMES = 'json_additional/default/isv_lat_additional'
+ADDITIONAL_ISV_FORMS_FILE_NAMES = 'output/json_additional/default/isv_lat_additional'
 # EXCEPTIONS
 REPLACE_CHARACTERS_IN_WORDS = False
 REMOVE_FINAL_SPACES_IN_WORDS = True
@@ -42,6 +45,7 @@ ISV_VOWELS = 'aeiouyě'
 ISV_ADJECTIVE_FALSE_COMPOUND_SUFFIX = 'ogo'
 # DICTIONARY COMBINING
 PICKLE_DIC_AND_AFF_FOR_COMBINING = True
+PICKLE_FOLDER = 'cache/pickling/'
 
 
 addSuffixTableList = []
@@ -85,27 +89,8 @@ individualWordCorrectionTable.append({'word': 'hektar ha', 'correctWord': 'hekta
 replaceCharacterTable = []
 replaceCharacterTable.append({'oldCharacter': 'dʒ', 'newCharacter': 'đ'})
 
-# NEXT LINE WILL BE REPLACED WITH CONTENTS OF SETTINGS FILE IF RUN THROUGH RUN_DICT_GENERATOR.PY
+# NEXT LINE WILL BE REPLACED WITH CONTENTS OF SETTINGS FILE IF RUN THROUGH RUN_INSTRUMENT.PY
 #!!!
-
-
-def determine_long_flag(number):
-    letterIndex1 = number // len(AFFIX_FLAG_NAME_CHARACTERS)
-    letterIndex2 = number % len(AFFIX_FLAG_NAME_CHARACTERS)
-    if letterIndex1 >= len(AFFIX_FLAG_NAME_CHARACTERS):
-        raise RuntimeError('Ran out of possible affix flags')
-    return AFFIX_FLAG_NAME_CHARACTERS[letterIndex1] + AFFIX_FLAG_NAME_CHARACTERS[letterIndex2]
-
-
-def open_with_dir_create(path, mode, encoding=None):
-    path = path.replace('/', os.path.sep)
-    *directories, fileName = path.split(os.path.sep)
-    if not directories:
-        return open(path, mode, encoding=encoding)
-    if directories:
-        dirpath = ''.join([os.path.sep + directory for directory in directories if directory])
-        Path(os.getcwd()+dirpath).mkdir(parents=True, exist_ok=True)
-        return open(path, mode, encoding=encoding)
 
 
 with open_with_dir_create(ADDITIONAL_ISV_FORMS_FILE_NAMES + '_derivative_forms.json', 'w', encoding='utf8') as f:
@@ -135,10 +120,14 @@ with open_with_dir_create(OPENCORPORAXML_FILE_NAME, 'r') as xml_file:
     tree = ET.parse(xml_file)
 root = tree.getroot()
 lemmata = root[1]
+lemmata_len = len(lemmata)
 if not lemmata.tag == 'lemmata':
-    print('XML Structure error')
+    raise IOError('XML Structure error')
 else:
-    for lemma in lemmata:
+    print('\nGenerating dictionary ' + OUTPUT_DICTIONARY_NAME)
+    print('Processing OpenCorporaXML file...')
+    for lemma_index, lemma in enumerate(lemmata):
+        printProgressBar(lemma_index+1, lemmata_len, prefix='Progress:', length=40)
         partOfSpeech = ''
         numeralIsOrd = False
         # part of speech attributes are capitalised in OpenCorporaXML format, no others are
@@ -317,9 +306,7 @@ else:
                 dictionary.append({'word': additionalEntry, 'flags': []})
         else:
             dictionary.append(dictionaryEntry)
-    print(str(len(suffixSchemeLibrary)) + ' suffix schemes')
-    print(str(len(dictionary)) + ' dictionary entries')
-    # output to .dic file
+    print('Done, ' + str(len(suffixSchemeLibrary)) + ' suffix schemes, ' + str(len(dictionary)) + ' dictionary entries')
     with open_with_dir_create(OUTPUT_DICTIONARY_NAME + '.dic', 'w') as f:
         print(str(len(dictionary)), file=f)
         for entry in dictionary:
@@ -338,7 +325,8 @@ else:
                           instructionIterate['add'] + ' ' + instructionIterate['condition'], file=f)
                 print('', file=f)
     if PICKLE_DIC_AND_AFF_FOR_COMBINING is True:
-        with open_with_dir_create('pickling/' + OUTPUT_DICTIONARY_NAME + '_dic.pic', 'wb') as f:
+        with open_with_dir_create(PICKLE_FOLDER + OUTPUT_DICTIONARY_NAME + '_dic.pic', 'wb') as f:
             pickle.dump(dictionary, f)
-        with open_with_dir_create('pickling/' + OUTPUT_DICTIONARY_NAME + '_aff.pic', 'wb') as f:
+        with open_with_dir_create(PICKLE_FOLDER + OUTPUT_DICTIONARY_NAME + '_aff.pic', 'wb') as f:
             pickle.dump(suffixSchemeLibrary, f)
+    print('Writing to output file...Done, finished in %.2f seconds' % (time.time()-start_time))
