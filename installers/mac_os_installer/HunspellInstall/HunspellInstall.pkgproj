@@ -437,7 +437,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>dictionaries/Medzuslovjansky_Kirilica.aff</string>
+											<string>output/dictionaries/Medzuslovjansky_Kirilica.aff</string>
 											<key>PATH_TYPE</key>
 											<integer>3</integer>
 											<key>PERMISSIONS</key>
@@ -453,7 +453,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>dictionaries/Medzuslovjansky_Kirilica.dic</string>
+											<string>output/dictionaries/Medzuslovjansky_Kirilica.dic</string>
 											<key>PATH_TYPE</key>
 											<integer>3</integer>
 											<key>PERMISSIONS</key>
@@ -469,7 +469,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>dictionaries/Medzuslovjansky_KomboLatinicaKirilica.aff</string>
+											<string>output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.aff</string>
 											<key>PATH_TYPE</key>
 											<integer>3</integer>
 											<key>PERMISSIONS</key>
@@ -485,7 +485,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>dictionaries/Medzuslovjansky_KomboLatinicaKirilica.dic</string>
+											<string>output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.dic</string>
 											<key>PATH_TYPE</key>
 											<integer>3</integer>
 											<key>PERMISSIONS</key>
@@ -501,7 +501,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>dictionaries/Medzuslovjansky_LatinicaEtimologicna.aff</string>
+											<string>output/dictionaries/Medzuslovjansky_LatinicaEtimologicna.aff</string>
 											<key>PATH_TYPE</key>
 											<integer>3</integer>
 											<key>PERMISSIONS</key>
@@ -517,7 +517,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>dictionaries/Medzuslovjansky_LatinicaEtimologicna.dic</string>
+											<string>output/dictionaries/Medzuslovjansky_LatinicaEtimologicna.dic</string>
 											<key>PATH_TYPE</key>
 											<integer>3</integer>
 											<key>PERMISSIONS</key>
@@ -533,7 +533,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>dictionaries/Medzuslovjansky_LatinicaStandard.aff</string>
+											<string>output/dictionaries/Medzuslovjansky_LatinicaStandard.aff</string>
 											<key>PATH_TYPE</key>
 											<integer>3</integer>
 											<key>PERMISSIONS</key>
@@ -549,7 +549,7 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>dictionaries/Medzuslovjansky_LatinicaStandard.dic</string>
+											<string>output/dictionaries/Medzuslovjansky_LatinicaStandard.dic</string>
 											<key>PATH_TYPE</key>
 											<integer>3</integer>
 											<key>PERMISSIONS</key>

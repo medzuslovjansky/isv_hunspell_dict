@@ -2,7 +2,7 @@ from argparse import ArgumentParser
 from utilities import open_with_dir_create
 
 parser = ArgumentParser()
-parser.add_argument('scriptfile', metavar='main.py', type=ascii, help='Script to run.')
+parser.add_argument('scriptfile', metavar='hunspell_dict_from_OCXML.py', type=ascii, help='Script to run.')
 parser.add_argument('settingfile', metavar='settings_lat.py', type=ascii, help='Settings file.')
 
 args = parser.parse_args()

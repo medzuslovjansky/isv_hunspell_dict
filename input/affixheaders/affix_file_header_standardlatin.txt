@@ -2,9 +2,6 @@ SET UTF-8
 
 TRY -ABCDEFGHIJKLMNOPQRSTUVWXYZčČžŽěĚšŠabcdefghijklmnopqrstuvwxyz
 
-BREAK 1
-BREAK =
-
 NOSPLITSUGS
 
 WORDCHARS -

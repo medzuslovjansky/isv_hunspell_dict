@@ -130,3 +130,100 @@ PFX zz 0 naj .
 
 PFX zx Y 1
 PFX zx 0 нај .
+
+SFX AA Y 4
+SFX AA y ies [^aeiou]y
+SFX AA 0 s [aeiou]y
+SFX AA 0 es [sxzh]
+SFX AA 0 s [^sxzhy]
+
+SFX AB Y 1
+SFX AB 0 's .
+
+SFX AC Y 3
+SFX AC e ion e
+SFX AC y ication y
+SFX AC 0 en [^ey]
+
+SFX AD Y 4
+SFX AD 0 r e
+SFX AD y ier [^aeiou]y
+SFX AD 0 er [aeiou]y
+SFX AD 0 er [^ey]
+
+SFX AE Y 2
+SFX AE e ing e
+SFX AE 0 ing [^e]
+
+SFX AF Y 4
+SFX AF 0 d e
+SFX AF y ied [^aeiou]y
+SFX AF 0 ed [^ey]
+SFX AF 0 ed [aeiou]y
+
+SFX AG Y 4
+SFX AG 0 st e
+SFX AG y iest [^aeiou]y
+SFX AG 0 est [aeiou]y
+SFX AG 0 est [^ey]
+
+SFX AH Y 2
+SFX AH y ieth y
+SFX AH 0 th [^y]
+
+SFX AI Y 4
+SFX AI 0 rs e
+SFX AI y iers [^aeiou]y
+SFX AI 0 ers [aeiou]y
+SFX AI 0 ers [^ey]
+
+SFX AJ Y 2
+SFX AJ e ings e
+SFX AJ 0 ings [^e]
+
+SFX AK Y 1
+SFX AK 0 ly .
+
+SFX AL Y 2
+SFX AL e ive e
+SFX AL 0 ive [^e]
+
+SFX AM Y 3
+SFX AM e ions e
+SFX AM y ications y
+SFX AM 0 ens [^ey]
+
+SFX AN Y 3
+SFX AN 0 able [^aeiou]
+SFX AN 0 able ee
+SFX AN e able [^aeiou]e
+
+SFX AO Y 3
+SFX AO y iness [^aeiou]y
+SFX AO 0 ness [aeiou]y
+SFX AO 0 ness [^y]
+
+SFX AP Y 1
+SFX AP 0 ment .
+
+PFX AQ Y 1
+PFX AQ 0 un .
+
+PFX AR Y 1
+PFX AR 0 in .
+
+PFX AS Y 1
+PFX AS 0 dis .
+
+PFX AT Y 1
+PFX AT 0 re .
+
+PFX AU Y 1
+PFX AU 0 de .
+
+PFX AV Y 1
+PFX AV 0 pro .
+
+PFX AW Y 1
+PFX AW 0 con .
+

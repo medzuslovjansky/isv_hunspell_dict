@@ -1,8 +1,6 @@
 import lxml.etree as ET
 import json
-from utilities import determine_long_flag
-from utilities import open_with_dir_create
-from utilities import  printProgressBar
+from utilities import *
 import pickle
 import time
 
@@ -127,7 +125,7 @@ else:
     print('\nGenerating dictionary ' + OUTPUT_DICTIONARY_NAME)
     print('Processing OpenCorporaXML file...')
     for lemma_index, lemma in enumerate(lemmata):
-        printProgressBar(lemma_index+1, lemmata_len, prefix='Progress:', length=40)
+        print_progress_bar(lemma_index + 1, lemmata_len, prefix='Progress:', length=40)
         partOfSpeech = ''
         numeralIsOrd = False
         # part of speech attributes are capitalised in OpenCorporaXML format, no others are
@@ -307,23 +305,11 @@ else:
         else:
             dictionary.append(dictionaryEntry)
     print('Done, ' + str(len(suffixSchemeLibrary)) + ' suffix schemes, ' + str(len(dictionary)) + ' dictionary entries')
-    with open_with_dir_create(OUTPUT_DICTIONARY_NAME + '.dic', 'w') as f:
-        print(str(len(dictionary)), file=f)
-        for entry in dictionary:
-            combinedFlags = ''.join([determine_long_flag(flagNum) for flagNum in entry['flags']])
-            if combinedFlags:
-                combinedFlags = '/' + combinedFlags
-            print(entry['word'] + combinedFlags, file=f)
-    # output to .aff file
-    with open_with_dir_create(OUTPUT_DICTIONARY_NAME + '.aff', 'w') as f:
-        with open(AFFIX_FILE_HEADER_NAME, 'r') as header:
-            print(header.read(), file=f)
-            for index, schemeIterate in enumerate(suffixSchemeLibrary):
-                print('SFX ' + determine_long_flag(index) + ' Y ' + str(len(schemeIterate)), file=f)
-                for instructionIterate in schemeIterate:
-                    print('SFX ' + determine_long_flag(index) + ' ' + instructionIterate['delete'] + ' ' +
-                          instructionIterate['add'] + ' ' + instructionIterate['condition'], file=f)
-                print('', file=f)
+    # output .dic and .aff files
+    affixSchemeLibrary = [{'type': 'SFX', 'scheme': sc} for sc in suffixSchemeLibrary]
+    write_dic_file(dictionary_list=dictionary, out_file=OUTPUT_DICTIONARY_NAME)
+    write_aff_file(afx_scheme_list=affixSchemeLibrary, out_file=OUTPUT_DICTIONARY_NAME,
+                   header_file=AFFIX_FILE_HEADER_NAME)
     if PICKLE_DIC_AND_AFF_FOR_COMBINING is True:
         with open_with_dir_create(PICKLE_FOLDER + OUTPUT_DICTIONARY_NAME + '_dic.pic', 'wb') as f:
             pickle.dump(dictionary, f)
