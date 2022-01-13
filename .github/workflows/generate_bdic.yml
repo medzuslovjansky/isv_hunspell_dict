@@ -12,10 +12,9 @@ jobs:
         run: cd $GITHUB_WORKSPACE && bdic_convert/convert_dict output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica && echo "Successfully generated .bdic file."
       - name: Move to destination
         run: cd $GITHUB_WORKSPACE && mv -f output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.bdic platforms/chrome/src/ && echo "File moved successfully."
-      - name: Push changes
+      - name: Detect and push changes
         run: |
-          git config --global user.name 'orlean-git'
-          git config --global user.email 'orlean-git@users.noreply.github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add platforms/chrome/src/Medzuslovjansky_KomboLatinicaKirilica.bdic
-          git commit -am "Automatically generated .bdic file"
-          git push
+          git diff-index --quiet HEAD && echo "No changes." || ( git commit -am "[bot] Automatically generated .bdic file" && git push )
