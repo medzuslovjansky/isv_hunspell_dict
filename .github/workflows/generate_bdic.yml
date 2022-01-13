@@ -11,11 +11,11 @@ jobs:
       - name: Run convert_dict
         run: cd $GITHUB_WORKSPACE && bdic_convert/convert_dict output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica && echo "Successfully generated .bdic file."
       - name: Move to destination
-        run: cd $GITHUB_WORKSPACE && mv output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.bdic platforms/chrome/src/ && echo "File moved successfully."
-      - name: Commit bdic
+        run: cd $GITHUB_WORKSPACE && mv -f output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.bdic platforms/chrome/src/ && echo "File moved successfully."
+      - name: Push changes
         run: |
           git config --global user.name 'orlean-git'
           git config --global user.email 'orlean-git@users.noreply.github.com'
-          git add --all
+          git add platforms/chrome/src/Medzuslovjansky_KomboLatinicaKirilica.bdic
           git commit -am "Automatically generated .bdic file"
           git push
