@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: Run convert_dict
         run: cd $GITHUB_WORKSPACE && bdic_convert/convert_dict output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica && echo "Successfully generated .bdic file."
       - name: Move to destination
