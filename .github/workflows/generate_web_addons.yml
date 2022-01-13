@@ -14,8 +14,8 @@ jobs:
         run: cd $GITHUB_WORKSPACE && mv -f output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.bdic platforms/chrome/src/ && echo ".bdic file moved successfully."
       - name: Move firefox files to destination
         run: |
-          cd $GITHUB_WORKSPACE && mv -f output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.aff platforms/firefox/src/dictionaries/ && "Firefox .aff file moved."
-          cd $GITHUB_WORKSPACE && mv -f output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.dic platforms/firefox/src/dictionaries/ && "Firefox .dic file moved."
+          cd $GITHUB_WORKSPACE && mv -f output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.aff platforms/firefox/src/dictionaries/ && echo "Firefox .aff file moved."
+          cd $GITHUB_WORKSPACE && mv -f output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.dic platforms/firefox/src/dictionaries/ && echo "Firefox .dic file moved."
       - name: Detect and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
