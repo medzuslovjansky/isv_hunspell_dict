@@ -31,8 +31,8 @@ MAP nňń
 MAP rŕř
 MAP tť
 MAP dď
-MAP sś
-MAP źz
+MAP sśš
+MAP źzž
 MAP иі
 MAP ђ(дж)
 MAP ћ(ч)
@@ -45,7 +45,7 @@ MAP ј'ъ
 MAP ъа
 MAP ъо
 
-REP 78
+REP 82
 REP e ě
 REP e y
 REP i y
@@ -85,6 +85,10 @@ REP ogo ojego
 REP stč šč
 REP št šč
 REP aja ajuči
+REP zs ž
+REP zh ž
+REP sz š
+REP cz č
 REP е є
 REP е ы
 REP и ы

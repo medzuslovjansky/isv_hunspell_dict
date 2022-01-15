@@ -1,7 +1,7 @@
-name: Generate dictionary files for web addons
+name: Generate and distribute dictionaries
 on: [push]
 jobs:
-  Run_generate_web_addons:
+  Generate_dictionaries:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -16,7 +16,7 @@ jobs:
         run: pip3 install lxml
       - name: Generate new hunspell dictionaries
         run: cd $GITHUB_WORKSPACE && ./generate.sh
-      - name: Run convert_dict and copy bdic file
+      - name: Run convert_dict and copy bdic file to chrome directory
         run: |
           cd $GITHUB_WORKSPACE && bdic_convert/convert_dict output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica && echo "Successfully generated .bdic file."
           cd $GITHUB_WORKSPACE && mv -f output/dictionaries/Medzuslovjansky_KomboLatinicaKirilica.bdic platforms/chrome/src/ && echo ".bdic file moved successfully."

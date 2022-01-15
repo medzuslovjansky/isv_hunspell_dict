@@ -25,10 +25,10 @@ MAP nňń
 MAP rŕř
 MAP tť
 MAP dď
-MAP sś
-MAP źz
+MAP sśš
+MAP źzž
 
-REP 39
+REP 43
 REP e ě
 REP e y
 REP i y
@@ -68,6 +68,10 @@ REP ogo ojego
 REP stč šč
 REP št šč
 REP aja ajuči
+REP zs ž
+REP zh ž
+REP sz š
+REP cz č
 
 PFX zz Y 1
 PFX zz 0 naj .
