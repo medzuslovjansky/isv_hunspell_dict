@@ -12,6 +12,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+      - name: Install LXML
+        run: pip3 install lxml
       - name: Generate new hunspell dictionaries
         run: cd $GITHUB_WORKSPACE && ./generate.sh
       - name: Run convert_dict and copy bdic file
