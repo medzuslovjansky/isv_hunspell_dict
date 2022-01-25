@@ -40,6 +40,7 @@ function run_benchmark() {
   done
 }
 
+mkdir -p out
 run_benchmark > out/bench.dat
 cat out/bench.dat
 printf '\n'

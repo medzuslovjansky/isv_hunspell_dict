@@ -11,7 +11,7 @@ function exportLoader(lang) {
     one('dic');
 
     function one(name) {
-      read(join(__dirname, '..', lang + '.' + name), function (err, doc) {
+      read(join(__dirname, '..', 'dict', lang + '.' + name), function (err, doc) {
         pos++;
         exception = exception || err;
         result[name] = doc;

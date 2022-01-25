@@ -23,7 +23,12 @@ describe('@interslavic/dictionary', () => {
     ['art-Latn-x-interslv-etymolog'],
     ['art-Cyrl-x-interslv'],
   ])('should have DIC and AFF for "%s" BCP 47 code', (lang) => {
-    expect(fs.existsSync(`${lang}.dic`)).toBe(true);
-    expect(fs.existsSync(`${lang}.aff`)).toBe(true);
+    expect(fs.existsSync(`dict/${lang}.dic`)).toBe(true);
+    expect(fs.existsSync(`dict/${lang}.aff`)).toBe(true);
+  });
+
+  test('should have a fallback /index export of DIC and AFF', () => {
+    expect(fs.existsSync(`index.dic`)).toBe(true);
+    expect(fs.existsSync(`index.aff`)).toBe(true);
   });
 });
