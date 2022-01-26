@@ -23,6 +23,8 @@ The package exports multiple dictionaries:
 both in Latin and Cyrillic scripts:
     ```js
     var dictionary = require('@interslavic/dictionary');
+    // or the aliased version:
+    var dictionary = require('@interslavic/dictionary/combined');
     ```
 * **etymological**, not recommended for daily use, but useful for flavorizing
 texts to specific Slavic target languages and also for dictionary development:
@@ -58,29 +60,29 @@ Also, you can directly load the files, using the respective IETF BCP 47 language
 
 ```js
 var path = require('path')
-var base = require.resolve('@interslavic/dictionary')
+var base = path.dirname(require.resolve('@interslavic/dictionary'));
 
 // combined:
-fs.readFileSync(path.join(base, 'art-x-interslv.dic'), 'utf-8')
-fs.readFileSync(path.join(base, 'art-x-interslv.aff'), 'utf-8')
+fs.readFileSync(path.join(base, 'dict/art-x-interslv.dic'), 'utf-8')
+fs.readFileSync(path.join(base, 'dict/art-x-interslv.aff'), 'utf-8')
 
 // etymological:
-fs.readFileSync(path.join(base, 'art-Latn-x-interslv-etymolog.dic'), 'utf-8')
-fs.readFileSync(path.join(base, 'art-Latn-x-interslv-etymolog.aff'), 'utf-8')
+fs.readFileSync(path.join(base, 'dict/art-Latn-x-interslv-etymolog.dic'), 'utf-8')
+fs.readFileSync(path.join(base, 'dict/art-Latn-x-interslv-etymolog.aff'), 'utf-8')
 
 // Latin:
-fs.readFileSync(path.join(base, 'art-Latn-x-interslv.dic'), 'utf-8')
-fs.readFileSync(path.join(base, 'art-Latn-x-interslv.aff'), 'utf-8')
+fs.readFileSync(path.join(base, 'dict/art-Latn-x-interslv.dic'), 'utf-8')
+fs.readFileSync(path.join(base, 'dict/art-Latn-x-interslv.aff'), 'utf-8')
 
 // Cyrillic:
-fs.readFileSync(path.join(base, 'art-Cyrl-x-interslv.dic'), 'utf-8')
-fs.readFileSync(path.join(base, 'art-Cyrl-x-interslv.aff'), 'utf-8')
+fs.readFileSync(path.join(base, 'dict/art-Cyrl-x-interslv.dic'), 'utf-8')
+fs.readFileSync(path.join(base, 'dict/art-Cyrl-x-interslv.aff'), 'utf-8')
 ```
 
 ## License
 
-* Dictionary and affix files - [MIT License](../hunspell/LICENSE), [@orlean-git](https://github.com/orlean-git).
-* NPM package: [MIT License](LICENSE), [@noomorph](https://github.com/noomorph).
+* Dictionary and affix files - [MIT License](../hunspell/LICENSE) ([@orlean-git](https://github.com/orlean-git)).
+* NPM package: [MIT License](LICENSE) ([@noomorph](https://github.com/noomorph)).
 
 ## Acknowledgements
 
