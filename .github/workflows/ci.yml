@@ -27,4 +27,4 @@ jobs:
         with:
           useLockFile: false
       - name: Test the packages
-        run: npx lerna --no-install run test
+        run: npx --no-install lerna run test
