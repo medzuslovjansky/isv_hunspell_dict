@@ -22,7 +22,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "prepare": "husky install && lerna bootstrap"
+    "prepare": "husky install && lerna bootstrap --no-ci"
   },
   "config": {
     "commitizen": {
