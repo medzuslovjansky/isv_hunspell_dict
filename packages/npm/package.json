@@ -44,6 +44,7 @@
   },
   "homepage": "https://github.com/medzuslovjansky/isv_hunspell_dict#readme",
   "devDependencies": {
+    "@interslavic/isv_hunspell_dict": "^1.0.0",
     "csv-parse": "^5.0.4",
     "dictionary-cs": "^2.0.3",
     "dictionary-fr": "^2.6.0",
