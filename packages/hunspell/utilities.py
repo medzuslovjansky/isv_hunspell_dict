@@ -3,7 +3,7 @@ from pathlib import Path
 import re
 
 AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-
+BUILD_VERSION=os.environ['BUILD_VERSION'] if 'BUILD_VERSION' in os.environ else '1.0.0-dev'
 
 def clean_str(s):
     return ''.join(c for c in s if c.isprintable())
@@ -71,7 +71,11 @@ def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, lengt
 
 def write_dic_file(dictionary_list, out_file, flag_type='LONG'):
     with open_with_dir_create(out_file + '.dic', 'w') as f:
-        print(str(len(dictionary_list)), file=f)
+        print('{len} # {name}@{version}'.format(
+            len=len(dictionary_list),
+            name=Path(out_file).stem,
+            version=BUILD_VERSION
+        ), file=f)
         for entry in dictionary_list:
             combinedFlags = ''.join([determine_flag(flagNum, flag_type=flag_type) for flagNum in entry['flags']])
             if combinedFlags:
@@ -81,6 +85,10 @@ def write_dic_file(dictionary_list, out_file, flag_type='LONG'):
 
 def write_aff_file(afx_scheme_list, out_file, header_file=None, flag_type='LONG'):
     with open_with_dir_create(out_file + '.aff', 'w') as f:
+        print('# {name}@{version}'.format(
+            name=Path(out_file).stem,
+            version=BUILD_VERSION
+        ), file=f)
         if header_file is not None:
             with open(header_file, 'r') as header:
                 print(header.read(), file=f)
