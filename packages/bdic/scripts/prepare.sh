@@ -20,10 +20,19 @@ if [ "$machine" = "Linux" ]; then
   fi
 
   DICT_FOLDER=../hunspell/output/dictionaries
+
   bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_Kirilica"
+  touch "$DICT_FOLDER/Medzuslovjansky_Kirilica.dic_delta"
+
   bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_KomboLatinicaKirilica"
+  touch "$DICT_FOLDER/Medzuslovjansky_KomboLatinicaKirilica.dic_delta"
+
   bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_LatinicaEtimologicna"
+  touch "$DICT_FOLDER/Medzuslovjansky_LatinicaEtimologicna.dic_delta"
+
   bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_LatinicaStandard"
+  touch "$DICT_FOLDER/Medzuslovjansky_LatinicaStandard.dic_delta"
+
   echo "Successfully generated .bdic file."
 
   mkdir -p output
