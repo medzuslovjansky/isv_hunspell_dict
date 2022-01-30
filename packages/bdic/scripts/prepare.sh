@@ -21,17 +21,17 @@ if [ "$machine" = "Linux" ]; then
 
   DICT_FOLDER=../hunspell/output/dictionaries
 
-  bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_Kirilica"
   touch "$DICT_FOLDER/Medzuslovjansky_Kirilica.dic_delta"
+  bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_Kirilica"
 
-  bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_KomboLatinicaKirilica"
   touch "$DICT_FOLDER/Medzuslovjansky_KomboLatinicaKirilica.dic_delta"
+  bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_KomboLatinicaKirilica"
 
-  bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_LatinicaEtimologicna"
   touch "$DICT_FOLDER/Medzuslovjansky_LatinicaEtimologicna.dic_delta"
+  bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_LatinicaEtimologicna"
 
-  bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_LatinicaStandard"
   touch "$DICT_FOLDER/Medzuslovjansky_LatinicaStandard.dic_delta"
+  bdic_convert/convert_dict "$DICT_FOLDER/Medzuslovjansky_LatinicaStandard"
 
   echo "Successfully generated .bdic file."
 
