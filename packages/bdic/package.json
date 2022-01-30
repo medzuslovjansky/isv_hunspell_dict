@@ -4,5 +4,8 @@
   "private": true,
   "scripts": {
     "prepare": "bash scripts/prepare.sh"
+  },
+  "devDependencies": {
+    "@interslavic/isv_hunspell_dict": "^1.0.0"
   }
 }
