@@ -8,9 +8,11 @@ import { recreateDirectory, copyFile } from './utils/fs.mjs';
 import { zipFolder } from './utils/zip.mjs';
 
 const buildVersion = process.env.BUILD_VERSION || '0.0.0';
-const templateFiles = await globby(['template/**'])
 const presets = [
   {
+    id: 'libreoffice',
+    template: 'libreoffice',
+    artifactName: `interslavic-libreoffice-${buildVersion}.oxt`,
     isEtymological: false,
     includeDicts: [
       'Medzuslovjansky_Kirilica',
@@ -18,26 +20,44 @@ const presets = [
     ],
   },
   {
-    name: 'etymological',
+    id: 'libreoffice-etymological',
+    template: 'libreoffice',
+    artifactName: `interslavic-libreoffice-etymological-${buildVersion}.oxt`,
     isEtymological: true,
     includeDicts: [
       'Medzuslovjansky_Kirilica',
       'Medzuslovjansky_LatinicaEtimologicna',
     ],
   },
+  {
+    id: 'chrome',
+    template: 'chrome',
+    artifactName: `interslavic-chrome-${buildVersion}.crx`,
+    isEtymological: false,
+    includeDicts: ['Medzuslovjansky_KomboLatinicaKirilica'],
+  },
+  {
+    id: 'firefox',
+    template: 'firefox',
+    artifactName: `interslavic-firefox-${buildVersion}.webext`,
+    isEtymological: false,
+    includeDicts: ['Medzuslovjansky_KomboLatinicaKirilica'],
+  },
 ];
 
-console.log(chalk.bold`LibreOffice extension builder`);
 for (const p of presets) {
   console.log(`\
 -----------------------------
-Creating ${chalk.green(p.name)} dictionary:
+Creating ${chalk.green(p.id)} extension:
 -----------------------------`);
 
-  const outDir = `.temp/${p.name || 'default'}`;
+  const outDir = `.temp/${p.id}`;
   await recreateDirectory(outDir)
+
+  const templateDir = path.join('templates', p.template);
+  const templateFiles = await globby('**', { cwd: templateDir });
   for (const f of templateFiles) {
-    await render(outDir, f, {
+    await render(templateDir, outDir, f, {
       BUILD_VERSION: buildVersion,
       IS_ETYMOLOGICAL: p.isEtymological,
     });
@@ -53,6 +73,5 @@ Creating ${chalk.green(p.name)} dictionary:
     }
   }
   
-  const extensionName = ['interslavic', 'spell', 'checker', p.name].filter(Boolean).join('-');
-  await zipFolder(outDir, `dist/${extensionName}-${buildVersion}.oxt`);
+  await zipFolder(outDir, path.join('dist', p.artifactName));
 }

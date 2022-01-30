@@ -9,13 +9,14 @@ function isBinary(filename) {
   return BINARY_EXTS.includes(path.extname(filename));
 }
 
-export default async function render(outDir, srcFile, opts) {
-  const outPath = path.join(outDir, ...srcFile.split(path.sep).slice(1));
-  await fs.ensureDir(path.dirname(outPath));
+export default async function render(rootDir, outDir, filename, opts) {
+  const srcPath = path.join(rootDir, filename);
+  const outPath = path.join(outDir, filename);
 
-  const content = isBinary(srcFile)
-    ? await fs.readFile(srcFile)
-    : await ejs.renderFile(srcFile, opts, {
+  await fs.ensureDir(path.dirname(outPath));
+  const content = isBinary(srcPath)
+    ? await fs.readFile(srcPath)
+    : await ejs.renderFile(srcPath, opts, {
         legacyInclude: false,
       });
 
