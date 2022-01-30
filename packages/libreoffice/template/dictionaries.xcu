@@ -2,9 +2,10 @@
 <oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Linguistic" oor:package="org.openoffice.Office">
   <node oor:name="ServiceManager">
      <node oor:name="Dictionaries">
-         <node oor:name="HunSpellDic_interslavic_latin_standard" oor:op="fuse">
+         <% if (IS_ETYMOLOGICAL) { %>
+         <node oor:name="HunSpellDic_interslavic_latin_etymological" oor:op="fuse">
              <prop oor:name="Locations" oor:type="oor:string-list">
-                 <value>%origin%/art-Latn-x-interslv.aff %origin%/art-Latn-x-interslv.dic</value>
+                 <value>%origin%/Medzuslovjansky_LatinicaEtimologicna.aff %origin%/Medzuslovjansky_LatinicaEtimologicna.dic</value>
              </prop>
              <prop oor:name="Format" oor:type="xs:string">
                  <value>DICT_SPELL</value>
@@ -13,9 +14,22 @@
                  <value>art-Latn-x-interslv</value>
              </prop>
          </node>
+         <% } else { %>
+         <node oor:name="HunSpellDic_interslavic_latin_standard" oor:op="fuse">
+             <prop oor:name="Locations" oor:type="oor:string-list">
+                 <value>%origin%/Medzuslovjansky_LatinicaStandard.aff %origin%/Medzuslovjansky_LatinicaStandard.dic</value>
+             </prop>
+             <prop oor:name="Format" oor:type="xs:string">
+                 <value>DICT_SPELL</value>
+             </prop>
+             <prop oor:name="Locales" oor:type="oor:string-list">
+                 <value>art-Latn-x-interslv</value>
+             </prop>
+         </node>
+         <% } %>
          <node oor:name="HunSpellDic_interslavic_cyrillic_standard" oor:op="fuse">
              <prop oor:name="Locations" oor:type="oor:string-list">
-                 <value>%origin%/art-Cyrl-x-interslv.aff %origin%/art-Cyrl-x-interslv.dic</value>
+                 <value>%origin%/Medzuslovjansky_Kirilica.aff %origin%/Medzuslovjansky_Kirilica.dic</value>
              </prop>
              <prop oor:name="Format" oor:type="xs:string">
                  <value>DICT_SPELL</value>

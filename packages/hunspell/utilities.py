@@ -3,7 +3,7 @@ from pathlib import Path
 import re
 
 AFFIX_FLAG_NAME_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-BUILD_VERSION=os.environ['BUILD_VERSION'] if 'BUILD_VERSION' in os.environ else '1.0.0-dev'
+BUILD_VERSION=os.environ['BUILD_VERSION'] if 'BUILD_VERSION' in os.environ else '0.0.0'
 
 def clean_str(s):
     return ''.join(c for c in s if c.isprintable())

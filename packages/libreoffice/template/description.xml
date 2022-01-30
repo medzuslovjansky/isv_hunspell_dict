@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:d="http://openoffice.org/extensions/description/2006"  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <% var WARN = IS_ETYMOLOGICAL ? '⚠ ' : ''; %>
+    <identifier value="org.openoffice.interslavic.dictionaries.interslavic" />
+    <version value="<%- BUILD_VERSION %>" />
+    <icon>
+        <default xlink:href="icon.png" />
+    </icon>
+    <display-name>
+        <name lang="en"><%=WARN%>Spell checker for Interslavic language</name>
+        <name lang="de"><%=WARN%>Rechtschreibprüfung für interslawische Sprache</name>
+        <name lang="es"><%=WARN%>Corrector ortográfico para lengua inter-eslava</name>
+        <name lang="fr"><%=WARN%>Correcteur orthographique pour la langue interslave</name>
+        <name lang="it"><%=WARN%>Correttore ortografico per la lingua inter-slava</name>
+        <name lang="pt"><%=WARN%>Verificador ortográfico para idioma intereslavo</name>
+        <name lang="ru"><%=WARN%>Проверка правописания для межславянского языка</name>
+        <name lang="be"><%=WARN%>Праверка правапісу для міжславянскай мовы</name>
+        <name lang="uk"><%=WARN%>Перевірка правопису для міжслов'янської мови</name>
+        <name lang="pl"><%=WARN%>Sprawdzanie pisowni dla języka międzysłowiańskiego</name>
+        <name lang="sk"><%=WARN%>Kontrola pravopisu pre medzislovanský jazyk</name>
+        <name lang="cs"><%=WARN%>Kontrola pravopisu pro mezislovanský jazyk</name>
+        <name lang="sl"><%=WARN%>Črkovalnik za medslovanski jezik</name>
+        <name lang="hr"><%=WARN%>Provjera pravopisa za međuslavenski jezik</name>
+        <name lang="sr"><%=WARN%>Провера правописа за међусловенски језик</name>
+        <name lang="mk"><%=WARN%>Проверка на правопис за меѓусловенски јазик</name>
+        <name lang="bg"><%=WARN%>Проверка на правописа за междуславянски език</name>
+    </display-name>
+    <publisher>
+      <name xlink:href="https://github.com/medzuslovjansky">Interslavic OSS organization</name>
+    </publisher>
+    <platform value="all" />
+    <dependencies>
+        <OpenOffice.org-minimal-version value="3.0" d:name="Required version of OpenOffice.org 3.0."/>
+    </dependencies>
+    <registration>
+        <simple-license accept-by="user" default-license-id="eula" suppress-on-update="true">
+            <license-text xlink:href="README.en.txt" lang="en" license-id="eula" />
+        </simple-license>
+    </registration>
+</description>
