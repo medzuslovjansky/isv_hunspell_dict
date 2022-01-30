@@ -36,7 +36,7 @@ if [ "$machine" = "Linux" ]; then
   echo "Successfully generated .bdic file."
 
   mkdir -p output
-  mv $DICT_FOLDER/dictionaries/*.bdic output
+  mv $DICT_FOLDER/*.bdic output
   echo "Successfully moved .bdic file." 
 else
   echo "Skipping bdic_convert because this machine is running $machine, not Linux..."
