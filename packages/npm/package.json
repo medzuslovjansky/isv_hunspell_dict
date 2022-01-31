@@ -1,15 +1,10 @@
 {
-  "name": "@interslavic/dictionary",
+  "name": "@interslavic/hunspell-dictionary",
   "version": "1.0.0",
   "description": "Interslavic spelling dictionary in UTF-8",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "files": [
-    "*.aff",
-    "*.dic",
-    "**/*.js",
+    "**/*.{aff,dic,js}",
     "!__tests__",
     "LICENSE"
   ],
