@@ -8,40 +8,61 @@ import { recreateDirectory, copyFile } from './utils/fs.mjs';
 import { zipFolder } from './utils/zip.mjs';
 
 const buildVersion = process.env.BUILD_VERSION || '0.0.0';
+
+const hunspellRoot = path.join(process.cwd(), '../hunspell/output/dictionaries');
+const bdicRoot = path.join(process.cwd(), '../bdic/output');
+
 const presets = [
   {
     id: 'libreoffice',
     template: 'libreoffice',
-    artifactName: `interslavic-libreoffice-${buildVersion}.oxt`,
     isEtymological: false,
-    includeDicts: [
-      'Medzuslovjansky_Kirilica',
-      'Medzuslovjansky_LatinicaStandard',
+    include: [
+      { to: '.', from: path.join(hunspellRoot, 'Medzuslovjansky_Kirilica.{aff,dic}') },
+      { to: '.', from: path.join(hunspellRoot, 'Medzuslovjansky_LatinicaStandard.{aff,dic}') },
     ],
+    postProcess: ({ workingDir }) =>
+      zipFolder(workingDir, path.join('dist',  `interslavic-dict-libreoffice-${buildVersion}.oxt`)),
   },
   {
     id: 'libreoffice-etymological',
     template: 'libreoffice',
-    artifactName: `interslavic-libreoffice-etymological-${buildVersion}.oxt`,
     isEtymological: true,
-    includeDicts: [
-      'Medzuslovjansky_Kirilica',
-      'Medzuslovjansky_LatinicaEtimologicna',
+    include: [
+      { to: '.', from: path.join(hunspellRoot, 'Medzuslovjansky_Kirilica.{aff,dic}') },
+      { to: '.', from: path.join(hunspellRoot, 'Medzuslovjansky_LatinicaStandard.{aff,dic}') },
     ],
+    postProcess: ({ workingDir }) =>
+      zipFolder(workingDir, path.join('dist',  `interslavic-dict-libreoffice-etymological-${buildVersion}.oxt`)),
   },
   {
     id: 'chrome',
     template: 'chrome',
-    artifactName: `interslavic-chrome-${buildVersion}.crx`,
+    artifactName: `interslavic-dict-chrome-${buildVersion}.crx`,
     isEtymological: false,
-    includeDicts: ['Medzuslovjansky_KomboLatinicaKirilica'],
+    include: [
+      { to: '.', from: path.join(bdicRoot, 'Medzuslovjansky_KomboLatinicaKirilica.bdic') },
+    ],
+    postProcess: () => {},
   },
   {
     id: 'firefox',
     template: 'firefox',
-    artifactName: `interslavic-firefox-${buildVersion}.webext`,
     isEtymological: false,
-    includeDicts: ['Medzuslovjansky_KomboLatinicaKirilica'],
+    include: [
+      { to: 'dictionaries', from: path.join(hunspellRoot, 'Medzuslovjansky_KomboLatinicaKirilica.{aff,dic}') },
+    ],
+    postProcess: ({ workingDir }) =>
+      $`npx web-ext sign --api-key "$MOZILLA_API_KEY" --api-secret "$MOZILLA_API_SECRET" -s "${workingDir}" -a dist`,
+  },
+  {
+    id: 'macos',
+    template: 'macos',
+    include: [
+      { to: 'root/Spelling', from: path.join(hunspellRoot, '*.{aff,dic}') },
+    ],
+    postProcess: ({ workingDir }) =>
+      zipFolder(workingDir, path.join('dist',  `InterslavicSpellingDictionaries-${buildVersion}.pkg`)),
   },
 ];
 
@@ -60,18 +81,19 @@ Creating ${chalk.green(p.id)} extension:
     await render(templateDir, outDir, f, {
       BUILD_VERSION: buildVersion,
       IS_ETYMOLOGICAL: p.isEtymological,
+      buildVersion,
+      installKBytes: 999,
+      numberOfFiles: 10,
     });
   }
 
-  for (const dict of p.includeDicts) {
-    for (const ext of ['aff', 'dic']) {
-      const dictFile = `${dict}.${ext}`;
-      await copyFile(
-        path.join('../hunspell/output/dictionaries', dictFile),
-        path.join(outDir, dictFile)
-      );
+  for (const inc of p.include) {
+    const files = await globby(inc.from);
+    for (const f of files) {
+      const filename = path.basename(f);
+      await copyFile(f, path.join(outDir, inc.to, filename));
     }
   }
   
-  await zipFolder(outDir, path.join('dist', p.artifactName));
+  await p.postProcess({ workingDir: outDir });
 }

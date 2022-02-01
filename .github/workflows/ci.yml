@@ -8,23 +8,37 @@ jobs:
   Generate_dictionaries:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          submodules: recursive
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
           node-version-file: '.nvmrc'
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+
+      - name: Install Pandoc
+        run: apt install -y pandoc
+
       - name: Install LXML
         run: pip3 install lxml
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Set build version
+        run: scripts/set_build_version
+
       - name: Prepare the packages
         uses: bahmutov/npm-install@v1
         with:
           useLockFile: false
+
       - name: Test the packages
         run: npx --no-install lerna run test

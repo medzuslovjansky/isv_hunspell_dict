@@ -1,2 +1,4 @@
 /.temp
 /dist
+*.aff
+*.dic

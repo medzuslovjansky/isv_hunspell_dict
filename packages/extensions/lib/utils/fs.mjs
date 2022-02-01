@@ -10,6 +10,7 @@ export async function recreateDirectory(dirName) {
 }
 
 export async function copyFile(src, dest) {
+  await fs.ensureDir(path.dirname(path.resolve(dest)));
   await fs.copyFile(path.resolve(src), path.resolve(dest));
   console.log('Copied:', chalk.yellow(dest));
 }

@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
   "dictionaries": {
-    "interslv-Std": "dictionaries/Medzuslovjansky_KomboLatinicaKirilica.dic"
+    "art-x-interslv": "dictionaries/Medzuslovjansky_KomboLatinicaKirilica.dic"
   },
-  "version": "0.1webext",
+  "version": "<%= BUILD_VERSION %>",
   "browser_specific_settings": {
     "gecko": {
-      "id": "interslavicstd@dictionaries.addons.mozilla.org"
+      "id": "interslavic-spelling-dictionary@dictionaries.addons.mozilla.org"
     }
   },
   "name": "Interslavic Spellcheck Dictionary"
