@@ -8,6 +8,14 @@ jobs:
   Generate_dictionaries:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Set build version
+        run: scripts/set_build_version
+
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
@@ -26,14 +34,6 @@ jobs:
 
       - name: Install LXML
         run: pip3 install lxml
-
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          submodules: recursive
-
-      - name: Set build version
-        run: scripts/set_build_version
 
       - name: Prepare the packages
         uses: bahmutov/npm-install@v1
