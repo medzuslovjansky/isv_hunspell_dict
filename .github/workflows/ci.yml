@@ -30,7 +30,7 @@ jobs:
         uses: browser-actions/setup-chrome@latest
 
       - name: Install Pandoc
-        run: apt install -y pandoc
+        run: sudo apt install -y pandoc
 
       - name: Install LXML
         run: pip3 install lxml
