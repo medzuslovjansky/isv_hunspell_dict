@@ -19,25 +19,31 @@ jobs:
         run: scripts/set_build_version
 
       - name: Setup Node
+        if: ${{ false }}
         uses: actions/setup-node@v2
         with:
           node-version-file: '.nvmrc'
 
       - name: Setup Python
+        if: ${{ false }}
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
       - name: Setup Chrome
+        if: ${{ false }}
         uses: browser-actions/setup-chrome@latest
 
       - name: Install Pandoc
+        if: ${{ false }}
         run: sudo apt install -y pandoc
 
       - name: Install LXML
+        if: ${{ false }}
         run: pip3 install lxml
 
       - name: Prepare the packages
+        if: ${{ false }}
         uses: bahmutov/npm-install@v1
         with:
           useLockFile: false
@@ -46,6 +52,7 @@ jobs:
         run: npx --no-install lerna run test
 
       - name: Build the packages
+        if: ${{ false }}
         run: npx --no-install lerna run build
         env:
           MOZILLA_API_KEY: ${{ secrets.MOZILLA_API_KEY }}
