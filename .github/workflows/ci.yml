@@ -42,3 +42,9 @@ jobs:
 
       - name: Test the packages
         run: npx --no-install lerna run test
+
+      - name: Build the packages
+        run: npx --no-install lerna run build
+        env:
+          MOZILLA_API_KEY: ${{ secrets.MOZILLA_API_KEY }}
+          MOZILLA_API_SECRET: ${{ secrets.MOZILLA_API_SECRET }}

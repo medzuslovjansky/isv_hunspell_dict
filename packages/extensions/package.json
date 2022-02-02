@@ -12,6 +12,6 @@
     "zx": "^4.3.0"
   },
   "scripts": {
-    "prepare": "zx lib/build.mjs"
+    "build": "zx lib/build.mjs"
   }
 }
