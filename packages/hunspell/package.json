@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "prepare": "bash generate.sh"
+    "prepare": "LAZY=1 bash generate.sh"
   }
 }

@@ -11,7 +11,12 @@ case "${unameOut}" in
     *)          machine="UNKNOWN:${unameOut}"
 esac
 
-if [ "$machine" = "Linux" ]; then
+if [ "$machine" != "Linux" ]; then
+  echo "Skipping bdic_convert because this machine is running $machine, not Linux..."
+  exit 0
+fi
+
+if [[ -z "$LAZY" ]] ||  [[ ! -d "output" ]]; then
   if [ -d "bdic_convert" ]; then
     echo "Updating bdic_convert..."
     cd bdic_convert && git pull && cd -
@@ -39,5 +44,5 @@ if [ "$machine" = "Linux" ]; then
   mv $DICT_FOLDER/*.bdic output
   echo "Successfully moved .bdic file." 
 else
-  echo "Skipping bdic_convert because this machine is running $machine, not Linux..."
+  echo "Skipping generation (lazy mode)..."
 fi

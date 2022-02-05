@@ -1,10 +1,10 @@
 {
-  "name": "@interslavic/libreoffice-spellchecker",
+  "name": "@interslavic/hunspell-extensions-builder",
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
     "@interslavic/isv_hunspell_dict": "^1.0.0",
-    "@interslavic/spelling-bdict": "^1.0.0",
+    "@interslavic/spelling-bdic": "^1.0.0",
     "archiver": "^5.3.0",
     "ejs": "^3.1.6",
     "lodash": "^4.17.21",
