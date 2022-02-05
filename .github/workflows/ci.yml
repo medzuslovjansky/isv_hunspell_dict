@@ -1,11 +1,16 @@
 name: Build
 on:
   push:
-    branches: [ master ]
+    branches: [ master, next ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
+    inputs:
+      buildVersion:
+        description: 'Build version'
+        required: true
 env:
-  BUILD_VERSION: 1.0.0-dev.${{ github.run_number }}
+  BUILD_VERSION: 0.0.${{ github.event.inputs.buildVersion || github.run_number }}
 jobs:
   Generate_dictionaries:
     runs-on: ubuntu-latest
