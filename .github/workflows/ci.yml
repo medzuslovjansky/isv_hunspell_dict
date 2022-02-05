@@ -49,6 +49,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries
 
       - name: Build the dictionaries
         working-directory: packages/bdic
@@ -79,11 +80,13 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries
 
       - name: Download BDIC dictionaries
         uses: actions/download-artifact@v2
         with:
           name: bdic_dictionaries
+          path: packages/bdic/output
 
       - name: Prepare the extension builder
         run: npx lerna bootstrap --no-ci --include-dependents --include-dependencies --scope "@interslavic/hunspell-extensions-builder"
@@ -114,11 +117,13 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries
 
       - name: Download BDIC dictionaries
         uses: actions/download-artifact@v2
         with:
           name: bdic_dictionaries
+          path: packages/bdic/output
 
       - name: Prepare the extension builder
         run: npx lerna bootstrap --no-ci --include-dependents --include-dependencies --scope "@interslavic/hunspell-extensions-builder"
@@ -152,11 +157,13 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries
 
       - name: Download BDIC dictionaries
         uses: actions/download-artifact@v2
         with:
           name: bdic_dictionaries
+          path: packages/bdic/output
 
       - name: Prepare the extension builder
         run: npx lerna bootstrap --no-ci --include-dependents --include-dependencies --scope "@interslavic/hunspell-extensions-builder"
@@ -187,6 +194,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries
 
       - name: Prepare the extension builder
         run: npx lerna bootstrap --no-ci --include-dependents --include-dependencies --scope "@interslavic/hunspell-dictionary"
