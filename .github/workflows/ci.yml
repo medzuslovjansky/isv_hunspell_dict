@@ -39,6 +39,7 @@ jobs:
           path: packages/hunspell/output/dictionaries/
 
   bdic_dictionaries:
+    needs: hunspell_dictionaries
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -55,7 +56,7 @@ jobs:
           path: packages/bdic/output/
 
   chrome_extension:
-    needs: hunspell_dictionaries
+    needs: bdic_dictionaries
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -93,7 +94,7 @@ jobs:
           path: packages/extensions/dist/
 
   firefox_extension:
-    needs: hunspell_dictionaries
+    needs: bdic_dictionaries
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -131,7 +132,7 @@ jobs:
           path: packages/extensions/dist/
 
   libreoffice_extension:
-    needs: hunspell_dictionaries
+    needs: bdic_dictionaries
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
