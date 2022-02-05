@@ -45,6 +45,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Download Hunspell dictionaries
+        uses: actions/download-artifact@v2
+        with:
+          name: hunspell_dictionaries
+
       - name: Build the dictionaries
         working-directory: packages/bdic
         run: scripts/prepare.sh
