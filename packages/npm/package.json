@@ -1,6 +1,6 @@
 {
   "name": "@interslavic/hunspell-dictionary",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Interslavic spelling dictionary in UTF-8",
   "main": "index.js",
   "files": [
@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/medzuslovjansky/isv_hunspell_dict#readme",
   "devDependencies": {
-    "@interslavic/isv_hunspell_dict": "^1.0.0",
+    "@interslavic/isv_hunspell_dict": "^0.0.0",
     "csv-parse": "^5.0.4",
     "dictionary-cs": "^2.0.3",
     "dictionary-fr": "^2.6.0",

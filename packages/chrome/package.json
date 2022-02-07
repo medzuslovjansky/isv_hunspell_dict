@@ -1,0 +1,14 @@
+{
+  "name": "@interslavic/hunspell-chrome-extension",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "@interslavic/isv_hunspell_dict": "^0.0.0",
+    "@interslavic/hunspell-extension-builder": "^0.0.0",
+    "zx": "^4.3.0"
+  },
+  "scripts": {
+    "bdic": "bash scripts/generate_bdic.sh",
+    "build": "zx lib/build.mjs"
+  }
+}

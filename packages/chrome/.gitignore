@@ -1,0 +1,5 @@
+/.temp
+/dist
+/bdic_convert
+*.aff
+*.dic

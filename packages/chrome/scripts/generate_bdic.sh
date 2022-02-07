@@ -12,11 +12,11 @@ case "${unameOut}" in
 esac
 
 if [ "$machine" != "Linux" ]; then
-  echo "Skipping bdic_convert because this machine is running $machine, not Linux..."
-  exit 0
+  echo "Aborting BDIC generation because this machine is running $machine, not Linux..."
+  exit 1
 fi
 
-if [[ -z "$LAZY" ]] ||  [[ ! -d "output" ]]; then
+if [[ -z "$LAZY" ]] ||  [[ ! -d ".temp/bdic" ]]; then
   if [ -d "bdic_convert" ]; then
     echo "Updating bdic_convert..."
     cd bdic_convert && git pull && cd -
@@ -40,9 +40,9 @@ if [[ -z "$LAZY" ]] ||  [[ ! -d "output" ]]; then
 
   echo "Successfully generated .bdic file."
 
-  mkdir -p output
-  mv $DICT_FOLDER/*.bdic output
-  echo "Successfully moved .bdic file." 
+  mkdir -p .temp/bdic
+  mv $DICT_FOLDER/*.bdic .temp/bdic
+  echo "Successfully moved *.bdic files."
 else
   echo "Skipping generation (lazy mode)..."
 fi

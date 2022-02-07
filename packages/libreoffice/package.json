@@ -1,0 +1,14 @@
+{
+  "name": "@interslavic/hunspell-libreoffice-extension",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "@interslavic/hunspell-extension-builder": "^0.0.0",
+    "@interslavic/isv_hunspell_dict": "^0.0.0",
+    "archiver": "^5.3.0",
+    "zx": "^4.3.0"
+  },
+  "scripts": {
+    "build": "zx lib/build.mjs"
+  }
+}

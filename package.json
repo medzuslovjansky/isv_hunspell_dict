@@ -1,8 +1,8 @@
 {
   "name": "@interslavic/monorepo-hunspell",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
-  "description": "Monorepo for handling simulatenous Hunspell dictionary releases",
+  "description": "Monorepo to manage simultaneous Interslavic spelling dictionary releases",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/medzuslovjansky/isv_hunspell_dict.git"
@@ -22,7 +22,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "prepare": "husky install && lerna bootstrap --no-ci"
+    "prepare": "husky install && bash scripts/bootstrap.sh"
   },
   "config": {
     "commitizen": {

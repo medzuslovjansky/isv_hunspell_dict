@@ -38,31 +38,8 @@ jobs:
           name: hunspell_dictionaries
           path: packages/hunspell/output/dictionaries/
 
-  bdic_dictionaries:
-    needs: hunspell_dictionaries
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Download Hunspell dictionaries
-        uses: actions/download-artifact@v2
-        with:
-          name: hunspell_dictionaries
-          path: packages/hunspell/output/dictionaries
-
-      - name: Build the dictionaries
-        working-directory: packages/bdic
-        run: scripts/prepare.sh
-
-      - name: Upload the artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: bdic_dictionaries
-          path: packages/bdic/output/
-
   chrome_extension:
-    needs: bdic_dictionaries
+    needs: hunspell_dictionaries
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -82,18 +59,14 @@ jobs:
           name: hunspell_dictionaries
           path: packages/hunspell/output/dictionaries
 
-      - name: Download BDIC dictionaries
-        uses: actions/download-artifact@v2
-        with:
-          name: bdic_dictionaries
-          path: packages/bdic/output
+      - name: Prepare the package
+        run: npm install
+        env:
+          PACKAGE_NAME: chrome
 
-      - name: Prepare the extension builder
-        run: npx lerna bootstrap --no-ci --include-dependents --include-dependencies --scope "@interslavic/hunspell-extensions-builder"
-
-      - name: Build the packages
-        run: npm run build:chrome
-        working-directory: packages/extensions
+      - name: Build the extension
+        run: npm run build
+        working-directory: packages/chrome
 
       - name: Upload the artifacts
         uses: actions/upload-artifact@v2
@@ -102,7 +75,7 @@ jobs:
           path: packages/extensions/dist/
 
   firefox_extension:
-    needs: bdic_dictionaries
+    needs: hunspell_dictionaries
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -119,18 +92,14 @@ jobs:
           name: hunspell_dictionaries
           path: packages/hunspell/output/dictionaries
 
-      - name: Download BDIC dictionaries
-        uses: actions/download-artifact@v2
-        with:
-          name: bdic_dictionaries
-          path: packages/bdic/output
+      - name: Prepare the package
+        run: npm install
+        env:
+          PACKAGE_NAME: firefox
 
-      - name: Prepare the extension builder
-        run: npx lerna bootstrap --no-ci --include-dependents --include-dependencies --scope "@interslavic/hunspell-extensions-builder"
-
-      - name: Build the packages
-        run: npm run build:firefox
-        working-directory: packages/extensions
+      - name: Build the extension
+        run: npm run build
+        working-directory: packages/firefox
         env:
           MOZILLA_API_KEY: ${{ secrets.MOZILLA_API_KEY }}
           MOZILLA_API_SECRET: ${{ secrets.MOZILLA_API_SECRET }}
@@ -142,7 +111,7 @@ jobs:
           path: packages/extensions/dist/
 
   libreoffice_extension:
-    needs: bdic_dictionaries
+    needs: hunspell_dictionaries
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -159,18 +128,14 @@ jobs:
           name: hunspell_dictionaries
           path: packages/hunspell/output/dictionaries
 
-      - name: Download BDIC dictionaries
-        uses: actions/download-artifact@v2
-        with:
-          name: bdic_dictionaries
-          path: packages/bdic/output
+      - name: Prepare the package
+        run: npm install
+        env:
+          PACKAGE_NAME: libreoffice
 
-      - name: Prepare the extension builder
-        run: npx lerna bootstrap --no-ci --include-dependents --include-dependencies --scope "@interslavic/hunspell-extensions-builder"
-
-      - name: Build the packages
-        run: npm run build:libreoffice
-        working-directory: packages/extensions
+      - name: Build the extension
+        run: npm run build
+        working-directory: packages/libreoffice
 
       - name: Upload the artifacts
         uses: actions/upload-artifact@v2
@@ -196,8 +161,10 @@ jobs:
           name: hunspell_dictionaries
           path: packages/hunspell/output/dictionaries
 
-      - name: Prepare the extension builder
-        run: npx lerna bootstrap --no-ci --include-dependents --include-dependencies --scope "@interslavic/hunspell-dictionary"
+      - name: Prepare the package
+        run: npm install
+        env:
+          PACKAGE_NAME: npm
 
       - name: Test the package
         run: npm test

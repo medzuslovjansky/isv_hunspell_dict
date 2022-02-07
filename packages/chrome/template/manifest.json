@@ -1,0 +1,20 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Interslavic Spellcheck Dictionary",
+  "description": "Spellcheck dictionary for Chrome of the Interslavic zonal constructed language, using the Standard Latin and Cyrillic spelling schemes.",
+  "version": "<%- BUILD_VERSION %>",
+  "manifest_version": 2,
+
+  "icons" : {
+    "48": "icons/interslavic_icon_48.png",
+    "512": "icons/interslavic_icon_512.png"
+  },
+
+  "spellcheck": {
+    "dictionary_language": "Interslavic",
+    "dictionary_locale": "interslv",
+    "dictionary_format": "hunspell",
+    "dictionary_path": "Medzuslovjansky_KomboLatinicaKirilica.bdic"
+  }
+}
