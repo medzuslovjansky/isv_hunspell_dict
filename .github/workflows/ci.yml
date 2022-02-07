@@ -62,7 +62,7 @@ jobs:
       - name: Prepare the package
         run: npm install
         env:
-          PACKAGE_NAME: chrome
+          PACKAGE_NAME: '@interslavic/hunspell-chrome-extension'
 
       - name: Build the extension
         run: npm run build
@@ -72,7 +72,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: chrome_extension
-          path: packages/extensions/dist/
+          path: packages/chrome/dist/
 
   firefox_extension:
     needs: hunspell_dictionaries
@@ -95,7 +95,7 @@ jobs:
       - name: Prepare the package
         run: npm install
         env:
-          PACKAGE_NAME: firefox
+          PACKAGE_NAME: '@interslavic/hunspell-firefox-extension'
 
       - name: Build the extension
         run: npm run build
@@ -108,7 +108,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: firefox_extension
-          path: packages/extensions/dist/
+          path: packages/firefox/dist/
 
   libreoffice_extension:
     needs: hunspell_dictionaries
@@ -131,7 +131,7 @@ jobs:
       - name: Prepare the package
         run: npm install
         env:
-          PACKAGE_NAME: libreoffice
+          PACKAGE_NAME: '@interslavic/hunspell-libreoffice-extension'
 
       - name: Build the extension
         run: npm run build
@@ -141,7 +141,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: libreoffice_extension
-          path: packages/extensions/dist/
+          path: packages/libreoffice/dist/
 
   npm_package:
     needs: hunspell_dictionaries
@@ -164,7 +164,7 @@ jobs:
       - name: Prepare the package
         run: npm install
         env:
-          PACKAGE_NAME: npm
+          PACKAGE_NAME: '@interslavic/hunspell-dictionary'
 
       - name: Test the package
         run: npm test
