@@ -50,7 +50,7 @@ await build({
   outDir: '.temp/libreoffice-etymological',
   payload: {
     ...commonPayload,
-    IS_ETYMOLOGICAL: false,
+    IS_ETYMOLOGICAL: true,
   },
   include: [
     ...commonIncludes,
