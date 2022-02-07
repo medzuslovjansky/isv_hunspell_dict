@@ -23,5 +23,8 @@ await build({
     BUILD_VERSION: buildVersion,
   },
   preProcess: async () => $`LAZY=1 scripts/generate_bdic.sh`,
-  postProcess: () => { console.log('\nTODO\n'); },
+  postProcess: async ({ outDir }) => {
+    await fs.ensureDir('dist');
+    await utils.zipFolder(outDir, path.join('dist',  `interslavic-dict-chrome-${buildVersion}.crx`));
+  },
 });
