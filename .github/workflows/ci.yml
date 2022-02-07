@@ -98,7 +98,7 @@ jobs:
           PACKAGE_NAME: '@interslavic/hunspell-firefox-extension'
 
       - name: Build the extension
-        if: {{github.event.inputs.buildVersion}}
+        if: {{github.event.inputs.buildVersion != null}}
         run: npm run build
         working-directory: packages/firefox
         env:
@@ -106,7 +106,7 @@ jobs:
           MOZILLA_API_SECRET: ${{ secrets.MOZILLA_API_SECRET }}
 
       - name: Upload the artifacts
-        if: {{github.event.inputs.buildVersion}}
+        if: {{github.event.inputs.buildVersion != null}}
         uses: actions/upload-artifact@v2
         with:
           name: firefox_extension
@@ -200,7 +200,7 @@ jobs:
         with:
           name: chrome_extension
       - name: Download Firefox extension
-        if: {{github.event.inputs.buildVersion}}
+        if: {{github.event.inputs.buildVersion != null}}
         uses: actions/download-artifact@v2
         with:
           name: firefox_extension
