@@ -171,7 +171,7 @@ jobs:
         working-directory: packages/npm
 
       - name: Pack the package
-        run: npm pack
+        run: 'npm version "$BUILD_VERSION" && npm pack'
         working-directory: packages/npm
 
       - name: Upload the artifacts
