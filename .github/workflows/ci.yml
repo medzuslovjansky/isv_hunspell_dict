@@ -240,6 +240,11 @@ jobs:
         run: ls -R
         working-directory: .temp
 
+      - name: Create a tag
+        run: |
+          git tag ${{ env.BUILD_VERSION }}
+          git push origin {{ env.BUILD_VERSION }}
+
       - name: Publish a release
         uses: softprops/action-gh-release@v1
         with:
