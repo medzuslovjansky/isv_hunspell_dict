@@ -1,0 +1,8 @@
+{
+  "name": "@interslavic/isv_hunspell_dict",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prepare": "LAZY=1 bash generate.sh"
+  }
+}

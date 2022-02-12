@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Linguistic" oor:package="org.openoffice.Office">
+  <node oor:name="ServiceManager">
+     <node oor:name="Dictionaries">
+         <% if (IS_ETYMOLOGICAL) { %>
+         <node oor:name="HunSpellDic_interslavic_latin_etymological" oor:op="fuse">
+             <prop oor:name="Locations" oor:type="oor:string-list">
+                 <value>%origin%/Medzuslovjansky_LatinicaEtimologicna.aff %origin%/Medzuslovjansky_LatinicaEtimologicna.dic</value>
+             </prop>
+             <prop oor:name="Format" oor:type="xs:string">
+                 <value>DICT_SPELL</value>
+             </prop>
+             <prop oor:name="Locales" oor:type="oor:string-list">
+                 <value>art-Latn-x-interslv</value>
+             </prop>
+         </node>
+         <% } else { %>
+         <node oor:name="HunSpellDic_interslavic_latin_standard" oor:op="fuse">
+             <prop oor:name="Locations" oor:type="oor:string-list">
+                 <value>%origin%/Medzuslovjansky_LatinicaStandard.aff %origin%/Medzuslovjansky_LatinicaStandard.dic</value>
+             </prop>
+             <prop oor:name="Format" oor:type="xs:string">
+                 <value>DICT_SPELL</value>
+             </prop>
+             <prop oor:name="Locales" oor:type="oor:string-list">
+                 <value>art-Latn-x-interslv</value>
+             </prop>
+         </node>
+         <% } %>
+         <node oor:name="HunSpellDic_interslavic_cyrillic_standard" oor:op="fuse">
+             <prop oor:name="Locations" oor:type="oor:string-list">
+                 <value>%origin%/Medzuslovjansky_Kirilica.aff %origin%/Medzuslovjansky_Kirilica.dic</value>
+             </prop>
+             <prop oor:name="Format" oor:type="xs:string">
+                 <value>DICT_SPELL</value>
+             </prop>
+             <prop oor:name="Locales" oor:type="oor:string-list">
+                 <value>art-Cyrl-x-interslv</value>
+             </prop>
+         </node>
+     </node>
+  </node>
+</oor:component-data>

@@ -1,0 +1,6 @@
+<pkg-info format-version="2" identifier="com.medzuslovjansky.dictionary.base.pkg" version="<%- buildVersion %>" install-location="/" auth="root">
+  <payload installKBytes="<%- installKBytes %>" numberOfFiles="<%- numberOfFiles %>"/>
+  <scripts>
+    <postinstall file="./postinstall" />
+  </scripts>
+</pkg-info>

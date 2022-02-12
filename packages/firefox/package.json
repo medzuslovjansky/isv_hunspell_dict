@@ -1,0 +1,22 @@
+{
+  "name": "@interslavic/hunspell-firefox-extension",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@interslavic/isv_hunspell_dict": "^0.0.0",
+    "@interslavic/hunspell-extension-builder": "^0.0.0",
+    "web-ext": "^6.6.0",
+    "zx": "^4.3.0"
+  },
+  "scripts": {
+    "build": "IS_RELEASE=0 zx lib/build.mjs",
+    "sign": "IS_RELEASE=1 zx lib/build.mjs"
+  },
+  "webExt": {
+    "sourceDir": ".temp",
+    "artifactsDir": "dist",
+    "build": {
+      "overwriteDest": true
+    }
+  }
+}

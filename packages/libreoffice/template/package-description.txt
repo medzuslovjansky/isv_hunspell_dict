@@ -1,0 +1,3 @@
+Adds spelling dictionaries for Interslavic language in Latin and Cyrillical scripts.
+Dodava ortografične slovniky za medžuslovjansky jezyk v latinici i kirilici.
+Додава ортографичне словникы за меджусловјанскы језык в латиници и кирилици.

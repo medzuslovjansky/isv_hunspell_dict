@@ -1,3 +1,0 @@
-[submodule "bdic_convert"]
-	path = bdic_convert
-	url = https://github.com/medzuslovjansky/convert-dict-tool-from-chromium

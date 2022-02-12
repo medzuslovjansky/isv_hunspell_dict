@@ -1,0 +1,260 @@
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+"
+      - "!*.*.*-*"
+      - "!v*.*.*"
+  pull_request:
+    branches: [ master ]
+
+env:
+  BUILD_VERSION: ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || format('0.0.{0}', github.run_number) }}
+  IS_RELEASE: ${{ startsWith(github.ref, 'refs/tags/') && '1' || '0' }}
+
+jobs:
+  prebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Validate version
+        run: scripts/validate_version
+
+  hunspell_dictionaries:
+    needs: prebuild
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install LXML
+        run: pip3 install lxml
+
+      - name: Build the dictionaries
+        working-directory: packages/hunspell
+        run: ./generate.sh
+
+      - name: Upload the artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries/
+
+  chrome_extension:
+    if: ${{ false }}
+    needs: hunspell_dictionaries
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+
+      - name: Download Hunspell dictionaries
+        uses: actions/download-artifact@v2
+        with:
+          name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries
+
+      - name: Prepare the package
+        run: npm install
+        env:
+          PACKAGE_NAME: '@interslavic/hunspell-chrome-extension'
+
+      - name: Build the extension
+        run: npm run build
+        working-directory: packages/chrome
+
+      - name: Upload the artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: chrome_extension
+          path: packages/chrome/dist/
+
+  firefox_extension:
+    needs: hunspell_dictionaries
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Download Hunspell dictionaries
+        uses: actions/download-artifact@v2
+        with:
+          name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries
+
+      - name: Prepare the package
+        run: npm install
+        env:
+          PACKAGE_NAME: '@interslavic/hunspell-firefox-extension'
+
+      - name: Build an unsigned extension
+        if: ${{ env.IS_RELEASE == '0' }}
+        run: npm run build
+        working-directory: packages/firefox
+
+      - name: Build a signed extension
+        if: ${{ env.IS_RELEASE == '1' }}
+        run: npm run sign
+        working-directory: packages/firefox
+        env:
+          MOZILLA_API_KEY: ${{ secrets.MOZILLA_API_KEY }}
+          MOZILLA_API_SECRET: ${{ secrets.MOZILLA_API_SECRET }}
+
+      - name: Upload the artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: firefox_extension
+          path: packages/firefox/dist/
+
+  libreoffice_extension:
+    needs: hunspell_dictionaries
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Download Hunspell dictionaries
+        uses: actions/download-artifact@v2
+        with:
+          name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries
+
+      - name: Prepare the package
+        run: npm install
+        env:
+          PACKAGE_NAME: '@interslavic/hunspell-libreoffice-extension'
+
+      - name: Build the extension
+        run: npm run build
+        working-directory: packages/libreoffice
+
+      - name: Upload the artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: libreoffice_extension
+          path: packages/libreoffice/dist/
+
+  npm_package:
+    needs: hunspell_dictionaries
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Download Hunspell dictionaries
+        uses: actions/download-artifact@v2
+        with:
+          name: hunspell_dictionaries
+          path: packages/hunspell/output/dictionaries
+
+      - name: Prepare the package
+        run: npm install
+        env:
+          PACKAGE_NAME: '@interslavic/hunspell-dictionary'
+
+      - name: Test the package
+        run: npm test
+        working-directory: packages/npm
+
+      - name: Pack the package
+        run: 'npm version "$BUILD_VERSION" && npm pack'
+        working-directory: packages/npm
+
+      - name: Rename TGZ file
+        run: npm run rename
+        working-directory: packages/npm
+
+      - name: Upload the artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: npm_package
+          path: 'packages/npm/*.tgz'
+
+  publish:
+    if: ${{ startsWith(github.ref, 'refs/tags/') }}
+    needs:
+      - hunspell_dictionaries
+      - firefox_extension
+      - libreoffice_extension
+      - npm_package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v2
+
+      - name: Download the dictionaries
+        uses: actions/download-artifact@v2
+        with:
+          name: hunspell_dictionaries
+          path: .temp
+
+      - name: Download Chrome extension
+        if: ${{ false }}
+        uses: actions/download-artifact@v2
+        with:
+          name: chrome_extension
+          path: .temp
+
+      - name: Download Firefox extension
+        uses: actions/download-artifact@v2
+        with:
+          name: firefox_extension
+          path: .temp
+
+      - name: Download Libreoffice extension
+        uses: actions/download-artifact@v2
+        with:
+          name: libreoffice_extension
+          path: .temp
+
+      - name: Download NPM package
+        uses: actions/download-artifact@v2
+        with:
+          name: npm_package
+          path: .temp
+
+      - name: List the artifacts
+        run: ls -R
+        working-directory: .temp
+
+      - name: Publish a release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          files: '.temp/*'
+          generate_release_notes: true
+
+      - name: Publish to NPM
+        run: npm publish .temp/*-npm-*.tgz

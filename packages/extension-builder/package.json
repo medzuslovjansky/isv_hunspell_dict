@@ -1,0 +1,14 @@
+{
+  "name": "@interslavic/hunspell-extension-builder",
+  "version": "0.0.0",
+  "private": true,
+  "main": "lib/build.mjs",
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "ejs": "^3.1.6",
+    "fs-extra": "^9.0.0",
+    "lodash": "^4.17.21",
+    "web-ext": "^6.6.0",
+    "zx": "^4.3.0"
+  }
+}

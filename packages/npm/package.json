@@ -1,0 +1,56 @@
+{
+  "name": "@interslavic/hunspell-dictionary",
+  "version": "0.0.0",
+  "description": "Interslavic spelling dictionary in UTF-8",
+  "main": "index.js",
+  "files": [
+    "**/*.{aff,dic,js}",
+    "!__tests__",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prepare": "zx scripts/prepare.mjs",
+    "plot": "zx benchmark/plot.mjs -i benchmark/out/bench.dat -o benchmark/out/bench.png",
+    "benchmark": "zx benchmark/benchmark.mjs",
+    "rename": "zx scripts/rename.mjs",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medzuslovjansky/isv_hunspell_dict.git"
+  },
+  "keywords": [
+    "interslavic",
+    "hunspell",
+    "spelling",
+    "myspell",
+    "dictionary"
+  ],
+  "exports": {
+    "./index": "./index.js",
+    "./combined": "./combined.js",
+    "./cyrillic": "./cyrillic.js",
+    "./etymological": "./etymological.js",
+    "./latin": "./latin.js"
+  },
+  "author": "Yaroslav Serhieiev <noomorph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medzuslovjansky/isv_hunspell_dict/issues"
+  },
+  "homepage": "https://github.com/medzuslovjansky/isv_hunspell_dict#readme",
+  "devDependencies": {
+    "@interslavic/isv_hunspell_dict": "^0.0.0",
+    "csv-parse": "^5.0.4",
+    "dictionary-cs": "^2.0.3",
+    "dictionary-fr": "^2.6.0",
+    "dictionary-pl": "^1.2.4",
+    "dictionary-ru": "^2.0.2",
+    "ervy": "^1.0.7",
+    "jest": "^27.4.7",
+    "lodash": "^4.17.21",
+    "nodehun": "^3.0.2",
+    "which": "^2.0.2",
+    "zx": "^4.3.0"
+  }
+}
