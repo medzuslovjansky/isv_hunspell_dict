@@ -202,6 +202,7 @@ jobs:
           path: 'packages/npm/*.tgz'
 
   publish:
+    if: ${{ env.IS_RELEASE == '1' }}
     needs:
       - hunspell_dictionaries
       - chrome_extension
@@ -243,11 +244,6 @@ jobs:
       - name: List the artifacts
         run: ls -R
         working-directory: .temp
-
-      - name: Create a tag
-        run: |
-          git tag ${{ env.BUILD_VERSION }}
-          git push origin {{ env.BUILD_VERSION }}
 
       - name: Publish a release
         uses: softprops/action-gh-release@v1

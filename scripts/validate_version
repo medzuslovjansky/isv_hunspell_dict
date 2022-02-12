@@ -7,7 +7,11 @@ fi
 
 echo "Build version: $BUILD_VERSION"
 
-if [ $(git tag -l "$BUILD_VERSION") ]; then
-    echo "Error: the repository already contains a tag: $BUILD_VERSION"
+if [ "$IS_RELEASE" == "1" ]; then
+  if [ $(git tag -l "$BUILD_VERSION") ]; then
+    echo "Release mode is enabled."
+  else
+    echo "Error: the repository does not have this tag, hence GitHub release action will fail"
     exit 1
+  fi
 fi
