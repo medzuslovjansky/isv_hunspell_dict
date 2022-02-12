@@ -184,7 +184,7 @@ jobs:
       - name: Prepare the package
         run: npm install
         env:
-          PACKAGE_NAME: '@interslavic/hunspell-dictionary'
+          PACKAGE_NAME: 'dictionary-isv'
 
       - name: Test the package
         run: npm test
