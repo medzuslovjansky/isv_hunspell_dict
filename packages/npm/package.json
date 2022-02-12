@@ -1,5 +1,5 @@
 {
-  "name": "@interslavic/hunspell-dictionary",
+  "name": "dictionary-isv",
   "version": "0.0.0",
   "description": "Interslavic spelling dictionary in UTF-8",
   "main": "index.js",
