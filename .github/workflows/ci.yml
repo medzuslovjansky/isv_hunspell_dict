@@ -202,7 +202,7 @@ jobs:
           path: 'packages/npm/*.tgz'
 
   publish:
-    if: ${{ env.IS_RELEASE == '1' }}
+    if: ${{ startsWith(github.ref, 'refs/tags/') }}
     needs:
       - hunspell_dictionaries
       - chrome_extension
