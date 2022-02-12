@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-if [[ -z "${BUILD_VERSION}" ]]; then
-  GIT_SHORT_REV=`git rev-parse --short HEAD`
-  export BUILD_VERSION="0.0.0-dev.$GIT_SHORT_REV"
-fi
-
-echo "Build version: $BUILD_VERSION"

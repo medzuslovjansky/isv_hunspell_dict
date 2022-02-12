@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+if [ -z "$BUILD_VERSION" ]; then
+  echo 'Error: $BUILD_VERSION is not defined'
+  exit 1
+fi
+
+echo "Build version: $BUILD_VERSION"
+
+if [ $(git tag -l "$BUILD_VERSION") ]; then
+    echo "Error: the repository already contains a tag: $BUILD_VERSION"
+    exit 1
+fi

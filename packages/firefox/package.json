@@ -9,6 +9,14 @@
     "zx": "^4.3.0"
   },
   "scripts": {
-    "build": "zx lib/build.mjs"
+    "build": "IS_RELEASE=0 zx lib/build.mjs",
+    "sign": "IS_RELEASE=1 zx lib/build.mjs"
+  },
+  "webExt": {
+    "sourceDir": ".temp",
+    "artifactsDir": "dist",
+    "build": {
+      "overwriteDest": true
+    }
   }
 }

@@ -25,18 +25,25 @@ await build({
     buildVersion,
     BUILD_VERSION: buildVersion,
   },
-  postProcess: async ({outDir}) => {
-    if (!process.env.MOZILLA_API_KEY || !process.env.MOZILLA_API_SECRET) {
-      console.warn(chalk.yellow`Cannot sign the extension without the secrets.`);
-      return;
-    }
-
-    if (buildVersion === '0.0.0') {
-      console.warn(chalk.yellow`Please set BUILD_VERSION to sign the extension.`);
-      return;
-    }
-
-    await fs.ensureDir('dist');
-    await $`npx web-ext sign --api-key "$MOZILLA_API_KEY" --api-secret "$MOZILLA_API_SECRET" -s "${outDir}" -a dist`;
-  },
+  postProcess: process.env.IS_RELEASE === '1' ? sign : compress,
 });
+
+async function sign({ outDir }) {
+  if (!process.env.MOZILLA_API_KEY || !process.env.MOZILLA_API_SECRET) {
+    console.warn(chalk.yellow`Cannot sign the extension without the secrets.`);
+    process.exit(1);
+  }
+
+  if (buildVersion === '0.0.0') {
+    console.warn(chalk.yellow`Please set BUILD_VERSION to sign the extension.`);
+    process.exit(1);
+  }
+
+  await fs.ensureDir('dist');
+  await $`npx web-ext sign --api-key "$MOZILLA_API_KEY" --api-secret "$MOZILLA_API_SECRET"`;
+}
+
+async function compress({ outDir }) {
+  await fs.ensureDir('dist');
+  await $`npx web-ext build`;
+}

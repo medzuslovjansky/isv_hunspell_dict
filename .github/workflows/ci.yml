@@ -2,19 +2,31 @@ name: Build
 
 on:
   push:
-    branches: [ master, next ]
+    branches: [ master ]
   pull_request:
     branches: [ master ]
-  workflow_dispatch:
-    inputs:
-      buildVersion:
-        description: 'Build version'
-        required: true
+  push:
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+"
+      - "!*.*.*-*"
+      - "!v*.*.*"
+
 env:
-  BUILD_VERSION: 0.0.${{ github.event.inputs.buildVersion || github.run_number }}
+  BUILD_VERSION: ${{ startsWith(github.ref, 'refs/tags/') ? github.ref_name : format('0.0.{0}', github.run_number) }}
+  IS_RELEASE: ${{ startsWith(github.ref, 'refs/tags/') ? '1' : '0' }}
 
 jobs:
+  prebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Validate version
+        run: scripts/validate_version
+
   hunspell_dictionaries:
+    needs: prebuild
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -97,16 +109,20 @@ jobs:
         env:
           PACKAGE_NAME: '@interslavic/hunspell-firefox-extension'
 
-      - name: Build the extension
-        if: ${{github.event.inputs.buildVersion != null}}
+      - name: Build an unsigned extension
+        if: ${{ env.IS_RELEASE == '0' }}
         run: npm run build
+        working-directory: packages/firefox
+
+      - name: Build a signed extension
+        if: ${{ env.IS_RELEASE == '1' }}
+        run: npm run sign
         working-directory: packages/firefox
         env:
           MOZILLA_API_KEY: ${{ secrets.MOZILLA_API_KEY }}
           MOZILLA_API_SECRET: ${{ secrets.MOZILLA_API_SECRET }}
 
       - name: Upload the artifacts
-        if: ${{github.event.inputs.buildVersion != null}}
         uses: actions/upload-artifact@v2
         with:
           name: firefox_extension
@@ -195,22 +211,39 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: hunspell_dictionaries
+          path: .temp
+
       - name: Download Chrome extension
         uses: actions/download-artifact@v2
         with:
           name: chrome_extension
+          path: .temp
+
       - name: Download Firefox extension
-        if: ${{github.event.inputs.buildVersion != null}}
         uses: actions/download-artifact@v2
         with:
           name: firefox_extension
+          path: .temp
+
       - name: Download Libreoffice extension
         uses: actions/download-artifact@v2
         with:
           name: libreoffice_extension
+          path: .temp
+
       - name: Download NPM package
         uses: actions/download-artifact@v2
         with:
           name: npm_package
+          path: .temp
+
+      - name: List the artifacts
+        run: ls -R
+        working-directory: .temp
+
       - name: Publish a release
-        run: echo TODO
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          files: '.temp/*'
+          generate_release_notes: true
