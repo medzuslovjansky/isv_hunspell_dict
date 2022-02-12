@@ -24,7 +24,30 @@ await build({
   },
   preProcess: async () => $`LAZY=1 scripts/generate_bdic.sh`,
   postProcess: async ({ outDir }) => {
-    await fs.ensureDir('dist');
-    await utils.zipFolder(outDir, path.join('dist',  `interslavic-dict-chrome-${buildVersion}.crx`));
+    let alias = 'chrome';
+
+    try {
+      await $`which google-chrome`;
+      alias = 'google-chrome';
+    } catch {}
+
+    await $`rm .temp/extension.*`;
+    await $`${alias} --pack-extension=".temp/extension"`;
+
+    const basename = `interslavic-dict-chrome-${buildVersion}`;
+
+    await utils.copyFile({
+      sourceFile: '.temp/extension.crx',
+      outFile: `dist/${basename}.crx`
+    });
+
+    console.log('Generated:', `dist/${basename}.crx`);
+
+    await utils.copyFile({
+      sourceFile: '.temp/extension.pem',
+      outFile: `dist/${basename}.pem`
+    });
+
+    console.log('Generated:', `dist/${basename}.pem`);
   },
 });
