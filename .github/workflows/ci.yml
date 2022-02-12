@@ -87,6 +87,7 @@ jobs:
           path: packages/chrome/dist/
 
   firefox_extension:
+    if: ${{ false }}
     needs: hunspell_dictionaries
     runs-on: ubuntu-latest
     steps:
@@ -129,6 +130,7 @@ jobs:
           path: packages/firefox/dist/
 
   libreoffice_extension:
+    if: ${{ false }}  
     needs: hunspell_dictionaries
     runs-on: ubuntu-latest
     steps:
@@ -203,11 +205,8 @@ jobs:
           path: 'packages/npm/*.tgz'
 
   publish:
-    if: ${{ startsWith(github.ref, 'refs/tags/') }}
     needs:
       - hunspell_dictionaries
-      - firefox_extension
-      - libreoffice_extension
       - npm_package
     runs-on: ubuntu-latest
     steps:
@@ -228,12 +227,14 @@ jobs:
           path: .temp
 
       - name: Download Firefox extension
+        if: ${{ false }}
         uses: actions/download-artifact@v2
         with:
           name: firefox_extension
           path: .temp
 
       - name: Download Libreoffice extension
+        if: ${{ false }}
         uses: actions/download-artifact@v2
         with:
           name: libreoffice_extension
@@ -257,6 +258,6 @@ jobs:
           generate_release_notes: true
 
       - name: Publish to NPM
-        run: npm publish .temp/*-npm-*.tgz
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          echo>.npmrc "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}"
+          npm publish .temp/*-npm-*.tgz
