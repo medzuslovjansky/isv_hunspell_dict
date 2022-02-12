@@ -12,6 +12,7 @@
     "prepare": "zx scripts/prepare.mjs",
     "plot": "zx benchmark/plot.mjs -i benchmark/out/bench.dat -o benchmark/out/bench.png",
     "benchmark": "zx benchmark/benchmark.mjs",
+    "rename": "zx scripts/rename.mjs",
     "test": "jest"
   },
   "repository": {
