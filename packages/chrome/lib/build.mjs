@@ -31,7 +31,7 @@ await build({
       alias = 'google-chrome';
     } catch {}
 
-    await $`rm .temp/extension.*`;
+    await $`rm -f .temp/extension.*`;
     await $`${alias} --pack-extension=".temp/extension"`;
 
     const basename = `interslavic-dict-chrome-${buildVersion}`;
