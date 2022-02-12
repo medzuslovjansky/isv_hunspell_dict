@@ -41,9 +41,21 @@ async function sign({ outDir }) {
 
   await fs.ensureDir('dist');
   await $`npx web-ext sign --api-key "$MOZILLA_API_KEY" --api-secret "$MOZILLA_API_SECRET"`;
+  await enforceNaming();
 }
 
 async function compress({ outDir }) {
   await fs.ensureDir('dist');
   await $`npx web-ext build`;
+  await enforceNaming();
+}
+
+async function enforceNaming() {
+  for (const f of await globby('dist/*')) {
+    const altName = f.replace('interslavic_spellcheck_dictionary', 'interslavic-dict-firefox');
+    if (altName !== f) {
+      await fs.move(f, altName);
+      console.log('Renamed:', f, '->', altName);
+    }
+  }
 }
