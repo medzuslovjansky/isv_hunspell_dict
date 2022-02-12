@@ -258,3 +258,5 @@ jobs:
 
       - name: Publish to NPM
         run: npm publish .temp/*-npm-*.tgz
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
