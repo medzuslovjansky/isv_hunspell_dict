@@ -12,3 +12,9 @@ Stvorjaje Hunspell slovnik iz slovnika OpenCorporaXML. Vse fajly tutčas potrěb
 
     > Čitajte [pouky tut](docs/CONTRIBUTING.md).
 
+## Versije na drugyh sajtah
+
+Tutoj produkt je takože dostupny na:
+
+* [Firefox Browser Add-ons](https://addons.mozilla.org/en-US/firefox/addon/interslavic-spellcheck/)
+* [LibreOffice Extensions](https://extensions.libreoffice.org/en/extensions/show/15995)
